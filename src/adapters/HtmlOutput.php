@@ -49,9 +49,32 @@ class HtmlOutput
         return $html . "\n";
     }
 
+    public static function coinEmperorReferences2($collection, $sources, $lexicon): string
+    {
+        $title = self::sectionTitle($lexicon['private_collections']);
+        $html = $title . "\n\t\t\t" . '<table width="100%" border="1" cellpadding="2" cellspacing="1">';
+        $html .= "\n\t\t\t\t" . '<tbody>';
+        foreach ($collection as $item) {
+            $thisYear =  date('Y');
+            $source = $sources[$item['collection_id']];
+            $year = 0 < strlen($source['year']) ? $source['year'] : $thisYear;
+            $year = preg_replace('|9999|', $thisYear, $year);
+            $html .= "\n\t\t\t\t\t" . '<tr>';
+            $html .= "\n\t\t\t\t\t\t" . '<td>' . $year . '</td>';
+            $html .= "\n\t\t\t\t\t\t" . '<td>' . $source['acronym'] . '</td>';
+            $html .= "\n\t\t\t\t\t\t" . '<td>' . $item['identifier'] . '</td>';
+            $html .= "\n\t\t\t\t\t\t" . '<td align="left">' . $source['title'] . '</td>';
+            $html .= "\n\t\t\t\t\t\t" . '<td>' . $item['page'] . '</td>';
+            $html .= "\n\t\t\t\t\t" . '</tr>';
+        }
+        $html .= "\n\t\t\t\t" . '</tbody>';
+        $html .= "\n\t\t\t" . '</table>';
+        return $html;
+    }
+
     public static function coinEmperorReferences($coinEmperor, $references, $lexicon): string
     {
-        $title = '<br/><h2>' . $lexicon['references'] . '</h2>';
+        $title = self::sectionTitle($lexicon['references']);
         $html = $title . "\n\t\t\t" . '<table width="100%" border="1" cellpadding="2" cellspacing="1">';
         $html .= "\n\t\t\t\t" . '<tbody>';
         foreach ($coinEmperor['references'] as $coinEmperorReference) {
@@ -100,7 +123,7 @@ class HtmlOutput
         return $html;
     }
 
-    public static function gallery($images, $maxCells, $title): string
+    public static function gallery($images, $maxCells, $title, $lexicon): string
     {
         $imagePreviewSize = '256';
         $baseUrl = 'http://img1.tienmyhieu.com/';
@@ -108,7 +131,7 @@ class HtmlOutput
         $html .= "\n\t\t\t\t" . '<tr>';
         $i = 0;
         foreach ($images as $image) {
-            $imageTitle = self::linkTitle($image['href']);
+            $imageTitle = self::linkTitle($title . '_' . $image['href']);
             $src =  $baseUrl . $imagePreviewSize . '/' . $image['src'];
             $imageHref = $baseUrl . '1024/' . $image['src'];
             if ($i == $maxCells) {
@@ -119,6 +142,16 @@ class HtmlOutput
             $html .= "\n\t\t\t\t\t" . '<td>';
             $html .= '<a href="' . $imageHref . '" title="' . $imageTitle . '">';
             $html .= '<img src="' . $src . '" alt="' . $imageTitle . '" /></a>';
+            if (!in_array('weight', array_keys($image))) {
+                echo '<pre>';
+                echo $image['image_id'] . PHP_EOL;
+                print_r(array_keys($image));
+                echo '</pre>';
+            }
+            if (in_array('weight', array_keys($image)) && 0 < strlen($image['weight'])) {
+                $html .= '<br/>' . $image['diameter'] . 'mm - ' . $image['weight'] . $lexicon['grams'] ;
+            }
+
             $html .= '</td>';
             $i++;
         }
@@ -165,6 +198,11 @@ class HtmlOutput
             '<thead>' .  self::emperorHeaderRow($emperors, 4) . "\t" . '</thead>' . "\n\t" .
             '<tbody>' .  self::referenceEmperorRows($referenceEmperors, $emperors) . "\t" . '</tbody>' . "\n\t"
             . '</table>' . "\n";
+    }
+
+    public static function sectionTitle($title)
+    {
+       return '<br/><h2>' . $title . '</h2>';
     }
 
     public static function twoCellEnd(): string

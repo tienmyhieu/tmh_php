@@ -5,6 +5,7 @@ class Marshal
 {
     protected $coinEmperors;
     protected $coins;
+    protected $collections;
     protected $emperors;
     protected $inscriptions;
     protected $lexicon;
@@ -26,7 +27,8 @@ class Marshal
     public function coinEmperor($coinEmperorId)
     {
         $coinEmperor = $this->json->loadSubData('coin_emperors', $coinEmperorId);
-        //$coinEmperor['images'] = $this->json->setCollectionKeys($coinEmperor, 'image', false);
+        $coinEmperor['images'] = $this->json->setCollectionKeys($coinEmperor['images'], 'image', false);
+        $coinEmperor['other_images'] = $this->json->setCollectionKeys($coinEmperor['other_images'], 'image', false);
         return $coinEmperor;
     }
 
@@ -37,6 +39,13 @@ class Marshal
         $coinEmperors = $this->json->loadData('coin_emperors');
         $this->coinEmperors = $this->json->setCollectionKeys($coinEmperors, 'coin_emperor', false);
         return $this->json->loadData('coin_emperors');
+    }
+
+    public function collections()
+    {
+        $collections = $this->json->loadData('collections');
+        $this->collections = $this->json->setCollectionKeys($collections, 'collection', false);
+        return $this->collections;
     }
 
     public function emperors(): array

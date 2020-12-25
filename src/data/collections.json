@@ -1,0 +1,6 @@
+[
+  { "collection_id": "1", "acronym": "HUA", "language": "cn", "title": "Huayicang Auctions", "year": "2011-9999", "visible": "1" },
+  { "collection_id": "2", "acronym": "BMTW", "language": "en", "title": "Baldwin - Ma Tak Wo Auctions", "year": "2013-2016", "visible": "1" },
+  { "collection_id": "3", "acronym": "MA", "language": "fr", "title": "Monnaie d'Antan Auctions", "year": "2013-2016", "visible": "1" },
+  { "collection_id": "4", "acronym": "IKARU", "language": "ja", "title": "Ikaruganigatu", "year": "2016-2016", "visible": "1" }
+]

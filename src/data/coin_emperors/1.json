@@ -33,22 +33,47 @@
     { "image_id": "30", "src": "8f90e586361345369d436dab090cbefb-2.png", "href": "BTTPHCM MM1", "copyright": "0", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "NA 426", "images": ["1"] },
-    { "code": "AEN 129", "images": ["2"] },
-    { "code": "MEO2 V70", "images": ["3", "4"] },
-    { "code": "MEO2 V71", "images": ["5", "6"] },
-    { "code": "MEO2 V72", "images": ["7", "8"] },
-    { "code": "CMV 1528", "images": ["9", "10"] },
-    { "code": "HCCV 140", "images": ["25", "26", "27", "28", "11", "12", "13", "14"] },
-    { "code": "ANZDQ 2", "images": ["15", "16"] },
-    { "code": "ANZDQ 3", "images": ["17", "18"] },
-    { "code": "AMDK 19", "images": ["19", "20"] },
-    { "code": "STTMM 1", "images": ["21", "22", "23", "24"] },
-    { "code": "BTTPHCM MM1", "images": ["29", "30"] }
+    { "code": "NA 426", "images": ["1"], "diameter": "", "weight": "" },
+    { "code": "AEN 129", "images": ["2"], "diameter": "", "weight": "" },
+    { "code": "MEO2 V70", "images": ["3", "4"], "diameter": "52.00", "weight": "26.50" },
+    { "code": "MEO2 V71", "images": ["5", "6"], "diameter": "50.80", "weight": "28.51" },
+    { "code": "MEO2 V72", "images": ["7", "8"], "diameter": "50.00", "weight": "25.05" },
+    { "code": "CMV 1528", "images": ["9", "10"], "diameter": "51.00", "weight": "27.93" },
+    { "code": "HCCV 140", "images": ["25", "26", "27", "28", "11", "12", "13", "14"], "diameter": "50.77", "weight": "30.15" },
+    { "code": "ANZDQ 2", "images": ["15", "16"], "diameter": "", "weight": "" },
+    { "code": "ANZDQ 3", "images": ["17", "18"], "diameter": "", "weight": "" },
+    { "code": "AMDK 19", "images": ["19", "20"], "diameter": "", "weight": "" },
+    { "code": "STTMM 1", "images": ["21", "22", "23", "24", "29", "30"], "diameter": "51.00", "weight": "28.60" }
   ],
   "references": [
     { "reference_id": "1", "page": "卷六七", "plate": "", "identifier": "" },
     { "reference_id": "7", "page": "180", "plate": "30", "identifier": "426" },
     { "reference_id": "8", "page": "430", "plate": "58", "identifier": "129" }
+  ],
+  "other_specimens": [
+    { "code": "HUA MM1", "images": ["31", "32", "33", "34"], "diameter": "", "weight": "" },
+    { "code": "MA MM1", "images": ["35", "36", "37", "38"], "diameter": "51.00", "weight": "28.88" },
+    { "code": "BMT55 MM1", "images": ["39", "40"], "diameter": "", "weight": "" },
+    { "code": "IKARU MM1", "images": ["41", "42"], "diameter": "", "weight": "" }
+  ],
+  "other_images": [
+    { "image_id": "31", "src": "a13d02cc282d42e4a8f9024fae13ba30-1.png", "href": "HUA MM1", "copyright": "0", "country": "cn", "year": "2011", "color": "0", "visible": "1" },
+    { "image_id": "32", "src": "a13d02cc282d42e4a8f9024fae13ba30-2.png", "href": "HUA MM1", "copyright": "0", "country": "cn", "year": "2011", "color": "0", "visible": "1" },
+    { "image_id": "33", "src": "a2fc4e973a964faca9691c9ee1f09bf3-1.png", "href": "HUA MM1", "copyright": "0", "country": "cn", "year": "2011", "color": "1", "visible": "0" },
+    { "image_id": "34", "src": "a2fc4e973a964faca9691c9ee1f09bf3-2.png", "href": "HUA MM1", "copyright": "0", "country": "cn", "year": "2011", "color": "1", "visible": "0" },
+    { "image_id": "35", "src": "273da92c5d4e4aeeb71ac2acc9e0cc8e-1.png", "href": "MA MM1", "copyright": "0", "country": "fr", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "36", "src": "273da92c5d4e4aeeb71ac2acc9e0cc8e-2.png", "href": "MA MM1", "copyright": "0", "country": "fr", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "37", "src": "b6efe63cc67d444e9e4aed85c5ceb69d-1.png", "href": "MA MM1", "copyright": "0", "country": "fr", "year": "2013", "color": "1", "visible": "0" },
+    { "image_id": "38", "src": "b6efe63cc67d444e9e4aed85c5ceb69d-2.png", "href": "MA MM1", "copyright": "0", "country": "fr", "year": "2013", "color": "1", "visible": "0" },
+    { "image_id": "39", "src": "dff71b190ed74170af8beb1599f45521-2.png", "href": "BMT55 MM1", "copyright": "0", "country": "hk", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "40", "src": "8adddf5a3c3d4148a21794c1384a17dc-2.png", "href": "BMT55 MM1", "copyright": "0", "country": "hk", "year": "2013", "color": "1", "visible": "0" },
+    { "image_id": "41", "src": "14350b3c7fff424eb4f2bc66ae34d2c0-2.png", "href": "IKARU MM1", "copyright": "0", "country": "ja", "year": "2016", "color": "0", "visible": "1" },
+    { "image_id": "42", "src": "4c8e0cbc25314429b9929c6b985423e8-2.png", "href": "IKARU MM1", "copyright": "0", "country": "ja", "year": "2016", "color": "1", "visible": "0" }
+  ],
+  "collections": [
+    { "collection_id": "1", "page": "", "plate": "", "identifier": "" },
+    { "collection_id": "2", "page": "", "plate": "", "identifier": "" },
+    { "collection_id": "3", "page": "", "plate": "", "identifier": "" },
+    { "collection_id": "4", "page": "", "plate": "", "identifier": "" }
   ]
 }

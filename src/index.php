@@ -25,8 +25,9 @@ switch ($template) {
         $identifier = $meta->identifier();
         $emperor = $coinEmperors->getEmperorByCoinEmperorId($meta->identifier());
         $entities = [
-            'coinEmperor' => $coinEmperor->get($identifier, 'vn'),
+            'coinEmperor' => $coinEmperor->get($identifier, 'ca'),
             'coins' => $coinEmperors->getEmperorList($emperor['emperor_id']),
+            'collections' => $coinEmperors->collections(),
             'emperor' => $emperor,
             'lexicon' => $referenceEmperors->lexicon(),
             'referenceEmperors' => $referenceEmperors->get(),

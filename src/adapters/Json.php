@@ -30,13 +30,7 @@ class Json
         $records = $useKey ? $collection[$key] : $collection;
         $keyedCollection = [];
 
-        if ($key == 'image') {
-            print_r($collection);
-        }
         foreach ($records as $item) {
-            if ($key == 'image') {
-                print_r(array_keys($item));
-            }
             $keyedCollection[$item[$key . '_id']] = $item;
         }
         return $keyedCollection;

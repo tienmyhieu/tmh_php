@@ -30,17 +30,22 @@ class Output
 
     private function coinEmperor()
     {
-        $output = HtmlOutput::twoCellStart();
-        $output .= HtmlOutput::emperorListTable(
-            $this->getEntity('emperor'),
-            $this->getEntity('coins'),
-            $this->getEntity('lexicon')
-        );
         $coinEmperor = $this->getEntity('coinEmperor');
+        $coins = $this->getEntity('coins');
+        $collections = $this->getEntity('collections');
+        $emperor = $this->getEntity('emperor');
+        $lexicon = $this->getEntity('lexicon');
         $references = $this->getEntity('referenceEmperors');
+        $title = $this->getEntity('title');
+
+        $output = HtmlOutput::twoCellStart();
+        $output .= HtmlOutput::emperorListTable($emperor, $coins, $lexicon);
         $output .= HtmlOutput::twoCellMiddle();
-        $output .= HtmlOutput::gallery($coinEmperor['images'], 4, $this->getEntity('title'));
-        $output .= HtmlOutput::coinEmperorReferences($coinEmperor, $references, $this->getEntity('lexicon'));
+        $output .= HtmlOutput::gallery($coinEmperor['images'], 4, $title, $lexicon);
+        $output .= HtmlOutput::coinEmperorReferences($coinEmperor, $references, $lexicon);
+        $output .= HtmlOutput::sectionTitle($lexicon['private_collection_images']);
+        $output .= HtmlOutput::gallery($coinEmperor['other_images'], 4, $title, $lexicon);
+        $output .= HtmlOutput::coinEmperorReferences2($coinEmperor['collections'], $collections, $lexicon);
         $output .= HtmlOutput::twoCellEnd();
         return $output;
     }

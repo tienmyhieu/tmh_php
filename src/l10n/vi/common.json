@@ -66,7 +66,12 @@
     { "metal_id":  "2", "name": "kẽm", "href": "kẽm", "visible": "1" }
   ],
   "lexicon" : {
+    "diameter": "Đường kình",
+    "grams": "gam",
+    "private_collections": "Bộ sưu tập tư nhân",
+    "private_collection_images": "Tiền xu từ các bộ sưu tập tư nhân",
     "references" : "Tham khảo",
-    "reverse": "Lưng tiền"
+    "reverse": "Lưng tiền",
+    "weight": "Trọng lượng"
   }
 }
