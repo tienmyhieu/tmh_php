@@ -55,16 +55,21 @@ class HtmlOutput
         $html = $title . "\n\t\t\t" . '<table width="100%" border="1" cellpadding="2" cellspacing="1">';
         $html .= "\n\t\t\t\t" . '<tbody>';
         foreach ($collection as $item) {
+            $hasObverse = 0 < strlen($item['url_obverse']);
+            $hasReverse = 0 < strlen($item['url_reverse']);
+            $obvUrl = $hasObverse ? '<a href="' . $item['url_obverse'] . '" target="_blank">' . $lexicon['obverse'] . '</a>' : '';
+            $revUrl = $hasReverse ? '<a href="' . $item['url_reverse'] . '" target="_blank">' . $lexicon['reverse'] . '</a>' : '';
             $thisYear =  date('Y');
             $source = $sources[$item['collection_id']];
             $year = 0 < strlen($source['year']) ? $source['year'] : $thisYear;
             $year = preg_replace('|9999|', $thisYear, $year);
             $html .= "\n\t\t\t\t\t" . '<tr>';
-            $html .= "\n\t\t\t\t\t\t" . '<td>' . $year . '</td>';
+            $html .= "\n\t\t\t\t\t\t" . '<td>' . $item['date'] . '</td>';
             $html .= "\n\t\t\t\t\t\t" . '<td>' . $source['acronym'] . '</td>';
-            $html .= "\n\t\t\t\t\t\t" . '<td>' . $item['identifier'] . '</td>';
+            $html .= "\n\t\t\t\t\t\t" . '<td>' . $item['lot_number'] . '</td>';
             $html .= "\n\t\t\t\t\t\t" . '<td align="left">' . $source['title'] . '</td>';
-            $html .= "\n\t\t\t\t\t\t" . '<td>' . $item['page'] . '</td>';
+            $html .= "\n\t\t\t\t\t\t" . '<td>' . $obvUrl . '</td>';
+            $html .= "\n\t\t\t\t\t\t" . '<td>' . $revUrl . '</td>';
             $html .= "\n\t\t\t\t\t" . '</tr>';
         }
         $html .= "\n\t\t\t\t" . '</tbody>';
