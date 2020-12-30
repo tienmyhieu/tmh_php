@@ -62,6 +62,8 @@ class Marshal
     {
         $references = $this->json->loadData('references');
         $this->references = $this->json->setCollectionKeys($references, 'reference', false);
-        return $this->json->loadData('reference_emperors');
+        $referenceEmperors = $this->json->loadData('reference_emperors');
+        //$referenceEmperors['images'] = $this->json->setCollectionKeys($referenceEmperors['images'], 'image', false);
+        return $referenceEmperors;
     }
 }

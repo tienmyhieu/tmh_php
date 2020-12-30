@@ -130,9 +130,51 @@ class HtmlOutput
         return $html;
     }
 
+    public static function coinEmperorReferencesList($references, $images, $lexicon): string
+    {
+        $imagePreviewSize = '128';
+        $baseUrl = 'http://img1.tienmyhieu.com/';
+        $html = "\n\t\t\t" . '<table width="100%" border="1" cellpadding="2" cellspacing="1">';
+        $i = 1;
+        foreach ($references as $reference) {
+            $hasPage = 0 < strlen($reference['page']);
+            $hasPlate = 0 < strlen($reference['plate']);
+            $hasMeasurements = 0 < strlen($reference['diameter']) || 0 < strlen($reference['weight']);
+            $html .= "\n\t\t\t\t" . '<tr>';
+            $html .= "\n\t\t\t\t\t" . '<td valign="top">';
+            $html .= $i . '. ' . $reference['code'] . '<br/>';
+            //$html .= $lexicon['year'] . ': ' . $image['year'] . '<br/>';
+            if ($hasPage) {
+                $html .= $lexicon['page'] . ': ' . $reference['page'] . '<br/>';
+            }
+            if ($hasPlate) {
+                $html .= $lexicon['plate'] . ': ' . $reference['plate'] . '<br/>';
+            }
+            if ($hasMeasurements) {
+                $html .= $lexicon['diameter'] . ': ' . $reference['diameter'] . '<br/>';
+                $html .= $lexicon['weight'] . ': ' . $reference['weight'] . '<br/>';
+            }
+            $html .= '</td>';
+            $html .= "\n\t\t\t\t\t" . '<td>';
+            $imageTitle = $reference['code'];
+            foreach ($reference['images'] as $imageUuid) {
+                $image = $images[$imageUuid];
+                $src =  $baseUrl . $imagePreviewSize . '/' . $image['src'];
+                $imageHref = $baseUrl . '1024/' . $image['src'];
+                $html .= '<a href="' . $imageHref . '" title="' . $imageTitle . '">';
+                $html .= '<img src="' . $src . '" alt="' . $imageTitle . '" /></a>';
+            }
+            $html .= "\n\t\t\t\t\t" . '</td>';
+            $html .= "\n\t\t\t\t" . '</tr>';
+            $i++;
+        }
+        $html .= "\n\t\t\t" . '</table>';
+        return $html;
+    }
+
     public static function gallery($images, $maxCells, $title, $lexicon): string
     {
-        $imagePreviewSize = '256';
+        $imagePreviewSize = '128';
         $baseUrl = 'http://img1.tienmyhieu.com/';
         $html = "\n\t\t\t" . '<table width="100%" border="1" cellpadding="2" cellspacing="1">';
         $html .= "\n\t\t\t\t" . '<tr>';
@@ -155,9 +197,9 @@ class HtmlOutput
 //                print_r(array_keys($image));
 //                echo '</pre>';
 //            }
-            if (in_array('weight', array_keys($image)) && 0 < strlen($image['weight'])) {
-                $html .= '<br/>' . $image['diameter'] . 'mm - ' . $image['weight'] . $lexicon['grams'] ;
-            }
+//            if (in_array('weight', array_keys($image)) && 0 < strlen($image['weight'])) {
+//                $html .= '<br/>' . $image['diameter'] . 'mm - ' . $image['weight'] . $lexicon['grams'] ;
+//            }
 
             $html .= '</td>';
             $i++;

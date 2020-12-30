@@ -33,17 +33,14 @@
     { "image_id": "30", "uuid": "w5ylx4dz", "src": "8f90e586361345369d436dab090cbefb-2.png", "href": "BTTPHCM MM1", "copyright": "0", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "NA 426", "images": ["wvsw25u6"], "diameter": "", "weight": "" },
-    { "code": "AEN 129", "images": ["18khuav7"], "diameter": "", "weight": "" },
-    { "code": "MEO2 V70", "images": ["n1mt8rgg", "jevjk78f"], "diameter": "52.00", "weight": "26.50" },
-    { "code": "MEO2 V71", "images": ["uj3ob06h", "esqa804h"], "diameter": "50.80", "weight": "28.51" },
-    { "code": "MEO2 V72", "images": ["5xc0fryp", "dwegn9fr"], "diameter": "50.00", "weight": "25.05" },
-    { "code": "CMV 1528", "images": ["1lex9z38", "nxlaks2g"], "diameter": "51.00", "weight": "27.93" },
-    { "code": "HCCV 140", "images": ["c2mxrjgi", "q28mqjtx", "4b0khoc2", "c8bomhc6", "8ruzzx7f", "ityqev3h", "728nliia", "wafxuj86"], "diameter": "50.77", "weight": "30.15" },
-    { "code": "ANZDQ 2", "images": ["kitqwtav", "njr8hdzo"], "diameter": "", "weight": "" },
-    { "code": "ANZDQ 3", "images": ["066f0y5i", "dbkmr4r2"], "diameter": "", "weight": "" },
-    { "code": "AMDK 19", "images": ["ovkttu1m", "euehrb0h"], "diameter": "", "weight": "" },
-    { "code": "STTMM 1", "images": ["lzk8a7rs", "d4swmy3o", "0j75su9f", "r60u8qm2", "bx3rhhqu", "w5ylx4dz"], "diameter": "51.00", "weight": "28.60" }
+    { "code": "Lacroix 426", "images": ["wvsw25u6"], "diameter": "", "weight": "", "page": "180", "plate": "30" },
+    { "code": "Schroeder 129", "images": ["18khuav7"], "diameter": "", "weight": "", "page": "430", "plate": "58" },
+    { "code": "Thierry V71", "images": ["uj3ob06h", "esqa804h"], "diameter": "50.80", "weight": "28.51", "page": "", "plate": "" },
+    { "code": "Thierry 1528", "images": ["1lex9z38", "nxlaks2g"], "diameter": "51.00", "weight": "27.93", "page": "", "plate": "" },
+    { "code": "Barker 140", "images": ["c2mxrjgi", "q28mqjtx"], "diameter": "50.77", "weight": "30.15", "page": "", "plate": "" },
+    { "code": "大庫 3", "images": ["066f0y5i", "dbkmr4r2"], "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "泉堂 19", "images": ["ovkttu1m", "euehrb0h"], "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "STTMM 1", "images": ["lzk8a7rs", "d4swmy3o"], "diameter": "51.00", "weight": "28.60", "page": "", "plate": "" }
   ],
   "references": [
     { "reference_uuid": "59out4lc", "page": "卷六七", "plate": "", "identifier": "" },

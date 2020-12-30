@@ -69,10 +69,13 @@
     "diameter": "Đường kình",
     "grams": "gam",
     "obverse": "Mặt tiền",
+    "page": "Trang",
+    "plate": "Phụ lục ảnh",
     "private_collections": "Bộ sưu tập tư nhân",
     "private_collection_images": "Tiền xu từ các bộ sưu tập tư nhân",
     "references" : "Tham khảo",
     "reverse": "Lưng tiền",
-    "weight": "Trọng lượng"
+    "weight": "Trọng lượng",
+    "year": "Năm"
   }
 }

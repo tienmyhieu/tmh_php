@@ -33,6 +33,11 @@ class Json
         foreach ($records as $item) {
             $keyedCollection[$item['uuid']] = $item;
         }
+//        if ($key == 'image') {
+//            echo '<pre>';
+//            print_r($keyedCollection);
+//            echo '</pre>';
+//        }
         return $keyedCollection;
     }
 }
