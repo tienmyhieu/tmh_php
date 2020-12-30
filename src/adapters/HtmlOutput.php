@@ -23,8 +23,9 @@ class HtmlOutput
     {
         $html = '';
         $previousCoin = '';
+        $i = 1;
         foreach ($coinEmperors as $coinId => $coinInscription) {
-            $html .= "\n\t" . '<tr>' . "\n\t\t" . '<td>' .  $coinId . '</td>';
+            $html .= "\n\t" . '<tr>' . "\n\t\t" . '<td>' .  $i . '</td>';
             foreach ($coinInscription as $inscriptionId => $inscription) {
                 $currentCoin = $inscription['coin'];
                 if ($currentCoin != $previousCoin) {
@@ -45,6 +46,7 @@ class HtmlOutput
                 }
             }
             $html .= "\n\t" . '</tr>';
+            $i++;
         }
         return $html . "\n";
     }
@@ -147,12 +149,12 @@ class HtmlOutput
             $html .= "\n\t\t\t\t\t" . '<td>';
             $html .= '<a href="' . $imageHref . '" title="' . $imageTitle . '">';
             $html .= '<img src="' . $src . '" alt="' . $imageTitle . '" /></a>';
-            if (!in_array('weight', array_keys($image))) {
-                echo '<pre>';
-                echo $image['image_id'] . PHP_EOL;
-                print_r(array_keys($image));
-                echo '</pre>';
-            }
+//            if (!in_array('weight', array_keys($image))) {
+//                echo '<pre>';
+//                echo $image['image_id'] . PHP_EOL;
+//                print_r(array_keys($image));
+//                echo '</pre>';
+//            }
             if (in_array('weight', array_keys($image)) && 0 < strlen($image['weight'])) {
                 $html .= '<br/>' . $image['diameter'] . 'mm - ' . $image['weight'] . $lexicon['grams'] ;
             }
@@ -174,9 +176,10 @@ class HtmlOutput
     public static function referenceEmperorRows($referenceEmperors, $emperors): string
     {
         $html = '';
+        $i = 1;
         foreach ($referenceEmperors as $referenceId => $reference) {
             $html .= "\n\t" . '<tr>' . "\n\t\t" .
-                '<td>' .  $referenceId . '</td>' .
+                '<td>' .  $i . '</td>' .
                 '<td>' .  $reference['year'] . '</td>' .
                 '<td>' .  $reference['acronym'] . '</td>';
 
@@ -192,6 +195,7 @@ class HtmlOutput
                 $html .= '</td>';
             }
             $html .= "\n\t" . '</tr>';
+            $i++;
         }
         return $html;
     }

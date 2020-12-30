@@ -18,16 +18,16 @@ class CoinEmperors extends Marshal
         $previousInscription = 0;
         foreach ($this->coinEmperors() as $coinEmperor) {
             $inscription = $this->getInscription($coinEmperor);
-            $currentInscription = (int)$coinEmperor['inscription_id'];
+            $currentInscription = $coinEmperor['inscription_uuid'];
             if ($currentInscription != $previousInscription) {
                 $emperors = [];
             }
-            $emperors[$coinEmperor['emperor_id']] = $this->emperors[$coinEmperor['emperor_id']];
-            $emperors[$coinEmperor['emperor_id']]['count'] = $coinEmperor['count'];
-            $emperors[$coinEmperor['emperor_id']]['href'] .= '_'. $this->coins[$coinEmperor['coin_id']]['href'];
-            $coinEmperors[$coinEmperor['coin_id']][$coinEmperor['inscription_id']] = [
-                'coin' => $this->coins[$coinEmperor['coin_id']]['name'],
-                'coin_href' => $this->coins[$coinEmperor['coin_id']]['href'],
+            $emperors[$coinEmperor['emperor_uuid']] = $this->emperors[$coinEmperor['emperor_uuid']];
+            $emperors[$coinEmperor['emperor_uuid']]['count'] = $coinEmperor['count'];
+            $emperors[$coinEmperor['emperor_uuid']]['href'] .= '_'. $this->coins[$coinEmperor['coin_uuid']]['href'];
+            $coinEmperors[$coinEmperor['coin_uuid']][$coinEmperor['inscription_uuid']] = [
+                'coin' => $this->coins[$coinEmperor['coin_uuid']]['name'],
+                'coin_href' => $this->coins[$coinEmperor['coin_uuid']]['href'],
                 'inscription' => $inscription,
                 'emperors' => $emperors
             ];
@@ -41,8 +41,8 @@ class CoinEmperors extends Marshal
         $coinEmperors = $this->coinEmperors();
         $emperors = $this->emperors();
         foreach ($coinEmperors as $coinEmperor) {
-            if ($coinEmperor['coin_emperor_id'] == $coinEmperorId) {
-                return $emperors[$coinEmperor['emperor_id']];
+            if ($coinEmperor['uuid'] == $coinEmperorId) {
+                return $emperors[$coinEmperor['emperor_uuid']];
             }
         }
     }
@@ -65,10 +65,10 @@ class CoinEmperors extends Marshal
         $emperor = $this->emperors[$emperorId];
         foreach ($this->coinEmperors() as $coinEmperor) {
             $inscription = $this->getInscription($coinEmperor);
-            if ($coinEmperor['emperor_id'] == $emperorId && $coinEmperor['count'] > 0) {
+            if ($coinEmperor['emperor_uuid'] == $emperorId && $coinEmperor['count'] > 0) {
                 $list[] = [
-                    'coin' => $this->coins[$coinEmperor['coin_id']]['name'],
-                    'href' => $emperor['href'] . '_' .  $this->coins[$coinEmperor['coin_id']]['href'] ,
+                    'coin' => $this->coins[$coinEmperor['coin_uuid']]['name'],
+                    'href' => $emperor['href'] . '_' .  $this->coins[$coinEmperor['coin_uuid']]['href'] ,
                     'count' => $coinEmperor['count'],
                     'inscription' => $inscription,
                 ];
@@ -79,7 +79,7 @@ class CoinEmperors extends Marshal
 
     private function getInscription($coinEmperor): string
     {
-        $hasInscription = in_array($coinEmperor['inscription_id'], array_keys($this->inscriptions));
-        return $hasInscription ? $this->inscriptions[$coinEmperor['inscription_id']]['inscription'] : '';
+        $hasInscription = in_array($coinEmperor['inscription_uuid'], array_keys($this->inscriptions));
+        return $hasInscription ? $this->inscriptions[$coinEmperor['inscription_uuid']]['inscription'] : '';
     }
 }

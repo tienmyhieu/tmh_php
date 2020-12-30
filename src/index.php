@@ -26,7 +26,7 @@ switch ($template) {
         $emperor = $coinEmperors->getEmperorByCoinEmperorId($meta->identifier());
         $entities = [
             'coinEmperor' => $coinEmperor->get($identifier, 'ca'),
-            'coins' => $coinEmperors->getEmperorList($emperor['emperor_id']),
+            'coins' => $coinEmperors->getEmperorList($emperor['uuid']),
             'collections' => $coinEmperors->collections(),
             'emperor' => $emperor,
             'lexicon' => $referenceEmperors->lexicon(),
@@ -38,13 +38,17 @@ switch ($template) {
     case 'emperor':
         $emperor = $coinEmperors->getEmperorByName($meta->title());
         $entities = [
-            'coins' => $coinEmperors->getEmperorList($emperor['emperor_id']),
+            'coins' => $coinEmperors->getEmperorList($emperor['uuid']),
             'emperor' => $emperor,
             'lexicon' => $referenceEmperors->lexicon()
         ];
         $output->setEntities($entities);
         break;
     case 'home':
+        //$coinEmperors = $coinEmperors->get();
+//        echo '<pre>';
+//        print_r($coinEmperors);
+//        echo '</pre>';
         $entities = [
             'coinEmperors' => $coinEmperors->get(),
             'emperors' => $coinEmperors->emperors(),

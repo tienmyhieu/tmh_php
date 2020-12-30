@@ -31,7 +31,7 @@ class Json
         $keyedCollection = [];
 
         foreach ($records as $item) {
-            $keyedCollection[$item[$key . '_id']] = $item;
+            $keyedCollection[$item['uuid']] = $item;
         }
         return $keyedCollection;
     }
