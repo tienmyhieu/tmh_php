@@ -29,7 +29,7 @@ class CoinEmperor extends Marshal
             $diameter = $specimen['diameter'];
             $weight = $specimen['weight'];
             foreach ($specimen['images'] as $image) {
-                $image = $specimenImages[(int)$image];
+                $image = $specimenImages[$image];
                 $image['hasMore'] = (string)$hasMore;
                 $image['diameter'] = $diameter;
                 $image['weight'] = $weight;

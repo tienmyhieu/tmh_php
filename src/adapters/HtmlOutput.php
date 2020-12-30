@@ -62,7 +62,7 @@ class HtmlOutput
             $obvUrl = $hasObverse ? '<a href="' . $item['url_obverse'] . '" target="_blank">' . $lexicon['obverse'] . '</a>' : '';
             $revUrl = $hasReverse ? '<a href="' . $item['url_reverse'] . '" target="_blank">' . $lexicon['reverse'] . '</a>' : '';
             $thisYear =  date('Y');
-            $source = $sources[$item['collection_id']];
+            $source = $sources[$item['collection_uuid']];
             $year = 0 < strlen($source['year']) ? $source['year'] : $thisYear;
             $year = preg_replace('|9999|', $thisYear, $year);
             $html .= "\n\t\t\t\t\t" . '<tr>';
@@ -85,7 +85,7 @@ class HtmlOutput
         $html = $title . "\n\t\t\t" . '<table width="100%" border="1" cellpadding="2" cellspacing="1">';
         $html .= "\n\t\t\t\t" . '<tbody>';
         foreach ($coinEmperor['references'] as $coinEmperorReference) {
-            $reference = $references[$coinEmperorReference['reference_id']];
+            $reference = $references[$coinEmperorReference['reference_uuid']];
             $year = 0 < strlen($reference['year']) ? $reference['year'] : date('Y');
             $html .= "\n\t\t\t\t\t" . '<tr>';
             $html .= "\n\t\t\t\t\t\t" . '<td>' . $year . '</td>';
