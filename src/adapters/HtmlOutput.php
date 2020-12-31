@@ -83,17 +83,34 @@ class HtmlOutput
     {
         $title = self::sectionTitle($lexicon['references']);
         $html = $title . "\n\t\t\t" . '<table width="100%" border="1" cellpadding="2" cellspacing="1">';
+        $html .= "\n\t\t\t\t" . '<thead>';
+        $html .= "\n\t\t\t\t\t" . '<tr>';
+        $html .= "\n\t\t\t\t\t\t" . '<th></th>';
+        $html .= "\n\t\t\t\t\t\t" . '<th>' . $lexicon['year'] . '</th>';
+        $html .= "\n\t\t\t\t\t\t" . '<th align="left">' . $lexicon['author'] . '</th>';
+        $html .= "\n\t\t\t\t\t\t" . '<th>' . $lexicon['number_abbrev'] . '</th>';
+        $html .= "\n\t\t\t\t\t\t" . '<th align="left">' . $lexicon['title'] . '</th>';
+        $html .= "\n\t\t\t\t\t\t" . '<th>' . $lexicon['page'] . '</th>';
+        $html .= "\n\t\t\t\t\t" . '</tr>';
+        $html .= "\n\t\t\t\t" . '</thead>';
         $html .= "\n\t\t\t\t" . '<tbody>';
+        $i = 1;
         foreach ($coinEmperor['references'] as $coinEmperorReference) {
             $reference = $references[$coinEmperorReference['reference_uuid']];
             $year = 0 < strlen($reference['year']) ? $reference['year'] : date('Y');
             $html .= "\n\t\t\t\t\t" . '<tr>';
-            $html .= "\n\t\t\t\t\t\t" . '<td>' . $year . '</td>';
-            $html .= "\n\t\t\t\t\t\t" . '<td>' . $reference['acronym'] . '</td>';
-            $html .= "\n\t\t\t\t\t\t" . '<td>' . $coinEmperorReference['identifier'] . '</td>';
-            $html .= "\n\t\t\t\t\t\t" . '<td align="left">' . $reference['title'] . '</td>';
-            $html .= "\n\t\t\t\t\t\t" . '<td>' . $coinEmperorReference['page'] . '</td>';
+            $html .= "\n\t\t\t\t\t\t" . '<td valign="top">' . $i . '</td>';
+            $html .= "\n\t\t\t\t\t\t" . '<td valign="top">' . $year . '</td>';
+            $html .= "\n\t\t\t\t\t\t" . '<td valign="top">' . $reference['author'] . '</td>';
+            $html .= "\n\t\t\t\t\t\t" . '<td valign="top">' . $coinEmperorReference['identifier'] . '</td>';
+            $html .= "\n\t\t\t\t\t\t" . '<td align="left" valign="top">' . $reference['title'];
+            if (0 < strlen($coinEmperorReference['notes'])) {
+                $html .= '<br>' . "&nbsp;&nbsp;-&nbsp;" . '<small>' . $lexicon[$coinEmperorReference['notes']] . '</small>';
+            }
+            $html .= '</td>';
+            $html .= "\n\t\t\t\t\t\t" . '<td valign="top">' . $coinEmperorReference['page'] . '</td>';
             $html .= "\n\t\t\t\t\t" . '</tr>';
+            $i++;
         }
         $html .= "\n\t\t\t\t" . '</tbody>';
         $html .= "\n\t\t\t" . '</table>';
@@ -143,7 +160,6 @@ class HtmlOutput
             $html .= "\n\t\t\t\t" . '<tr>';
             $html .= "\n\t\t\t\t\t" . '<td valign="top">';
             $html .= $i . '. ' . $reference['code'] . '<br/>';
-            //$html .= $lexicon['year'] . ': ' . $image['year'] . '<br/>';
             if ($hasPage) {
                 $html .= $lexicon['page'] . ': ' . $reference['page'] . '<br/>';
             }
@@ -222,10 +238,10 @@ class HtmlOutput
         foreach ($referenceEmperors as $referenceId => $reference) {
             $html .= "\n\t" . '<tr>' . "\n\t\t" .
                 '<td>' .  $i . '</td>' .
-                '<td>' .  $reference['year'] . '</td>' .
-                '<td>' .  $reference['acronym'] . '</td>';
+                '<td>' .  $reference['year'] . '</td>';
+//                '<td>' .  $reference['acronym'] . '</td>';
 
-            $html .= "\n\t\t" . '<td><a href="' . $reference['href'] . '" title="' . $reference['title'] . '">' .
+            $html .= "\n\t\t" . '<td><a href="' . $reference['href'] . '" title="' . $reference['title'] . 'zzzz">' .
                 self::truncatedTitle($reference['title']) . '</a></td>';
             foreach($reference['emperors'] as $emperorId => $emperor) {
                 $emperorTitle = self::linkTitle($emperor['href']);

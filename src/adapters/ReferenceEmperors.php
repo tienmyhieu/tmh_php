@@ -30,7 +30,9 @@ class ReferenceEmperors extends Marshal
                 'href' => $this->references[$referenceEmperor['reference_uuid']]['acronym'],
                 'year' => $year,
                 'title' => $this->references[$referenceEmperor['reference_uuid']]['title'],
-                'emperors' => $emperors
+                'emperors' => $emperors,
+                'author' => $this->references[$referenceEmperor['reference_uuid']]['author'],
+                'url' => $this->references[$referenceEmperor['reference_uuid']]['url']
             ];
             $previousReferenceId = $currentReferenceId;
         }

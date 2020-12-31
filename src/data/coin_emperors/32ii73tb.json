@@ -43,9 +43,28 @@
     { "code": "STTMM 1", "images": ["lzk8a7rs", "d4swmy3o"], "diameter": "51.00", "weight": "28.60", "page": "", "plate": "" }
   ],
   "references": [
-    { "reference_uuid": "59out4lc", "page": "卷六七", "plate": "", "identifier": "" },
-    { "reference_uuid": "egjosprx", "page": "180", "plate": "30", "identifier": "426" },
-    { "reference_uuid": "3wpxtg83", "page": "430", "plate": "58", "identifier": "129" }
+    { "reference_uuid": "59out4lc", "page": "35", "plate": "", "identifier": "", "notes": "", "url": "" },
+    { "reference_uuid": "egjosprx", "page": "180", "plate": "30", "identifier": "426", "notes": "", "url": "" },
+    { "reference_uuid": "3wpxtg83", "page": "430", "plate": "58", "identifier": "129", "notes": "" , "url": ""},
+    { "reference_uuid": "o16jso3o", "page": "57", "plate": "", "identifier": "", "notes": "aen_partial_copy", "url": "" },
+    { "reference_uuid": "e4m6tdqj", "page": "12", "plate": "13", "identifier": "129", "notes": "aen_partial_copy", "url": "" },
+    { "reference_uuid": "8eszq2lc", "page": "47", "plate": "", "identifier": "6", "notes": "", "url": "" },
+    { "reference_uuid": "epbbj5hx", "page": "49", "plate": "9", "identifier": "V71", "notes": "", "url": "" },
+    { "reference_uuid": "uh1x8rgi", "page": "85", "plate": "21", "identifier": "1528", "notes": "", "url": "" },
+    { "reference_uuid": "rybfmx61", "page": "60", "plate": "", "identifier": "2", "notes": "", "url": "" },
+    { "reference_uuid": "57qxr0k8", "page": "167", "plate": "", "identifier": "162", "notes": "", "url": "" },
+    { "reference_uuid": "77qpk8fb", "page": "204", "plate": "", "identifier": "435", "notes": "meo2_partial_copy", "url": "" },
+    { "reference_uuid": "5ekjpp24", "page": "270", "plate": "", "identifier": "140", "notes": "", "url": "" },
+    { "reference_uuid": "drq2opmz", "page": "69", "plate": "", "identifier": "", "notes": "", "url": "" },
+    { "reference_uuid": "vt6sjmp6", "page": "119", "plate": "", "identifier": "", "notes": "", "url": "" },
+    { "reference_uuid": "pe4aw1hq", "page": "38", "plate": "", "identifier": "3", "notes": "" , "url": ""},
+    { "reference_uuid": "ybfi7983", "page": "384", "plate": "", "identifier": "26", "notes": "" , "url": ""},
+    { "reference_uuid": "aslzlpzl", "page": "27", "plate": "", "identifier": "10", "notes": "", "url": "" },
+    { "reference_uuid": "cxqs7bca", "page": "19", "plate": "", "identifier": "19", "notes": "", "url": "" },
+    { "reference_uuid": "u3yk53j3", "page": "75", "plate": "", "identifier": "1", "notes": "", "url": "" },
+    { "reference_uuid": "0qynj8k8", "page": "11", "plate": "", "identifier": "VN29-4", "notes": "", "url": "" },
+    { "reference_uuid": "jybo2v6v", "page": "201", "plate": "", "identifier": "26", "notes": "cmv_partial_copy" , "url": ""},
+    { "reference_uuid": "08w1apoy", "page": "", "plate": "", "identifier": "1983,0619.249", "notes": "", "url": "" }
   ],
   "other_specimens": [
     { "code": "HUA MM1", "images": ["k316klpf", "7ob2xgwc", "ey8rcxo8", "9q69t0ls"], "diameter": "", "weight": "" },

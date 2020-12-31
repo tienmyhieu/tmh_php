@@ -66,15 +66,21 @@
     { "metal_id":  "2", "uuid": "ia5zffme", "name": "kẽm", "href": "kẽm", "visible": "1" }
   ],
   "lexicon" : {
+    "author": "Tác giả",
     "diameter": "Đường kình",
     "grams": "gam",
+    "number_abbrev": "TTS",
     "obverse": "Mặt tiền",
     "page": "Trang",
+    "aen_partial_copy": "là bản sao một phần của 'Annam. Études Numismatiques'",
+    "cmv_partial_copy": "là bản sao một phần của 'Catalogue des Monnaies Vietnamiennes'",
+    "meo2_partial_copy": "là bản sao một phần của 'Monnaies d’Extrême-Orient, II Vietnam Japon'",
     "plate": "Phụ lục ảnh",
     "private_collections": "Bộ sưu tập tư nhân",
     "private_collection_images": "Tiền xu từ các bộ sưu tập tư nhân",
     "references" : "Tham khảo",
     "reverse": "Lưng tiền",
+    "title": "Tiêu đề",
     "weight": "Trọng lượng",
     "year": "Năm"
   }
