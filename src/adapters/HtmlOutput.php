@@ -68,7 +68,6 @@ class HtmlOutput
             $html .= "\n\t\t\t\t\t" . '<tr>';
             $html .= "\n\t\t\t\t\t\t" . '<td>' . $item['date'] . '</td>';
             $html .= "\n\t\t\t\t\t\t" . '<td>' . $source['acronym'] . '</td>';
-            $html .= "\n\t\t\t\t\t\t" . '<td>' . $item['lot_number'] . '</td>';
             $html .= "\n\t\t\t\t\t\t" . '<td align="left">' . $source['title'] . '</td>';
             $html .= "\n\t\t\t\t\t\t" . '<td>' . $obvUrl . '</td>';
             $html .= "\n\t\t\t\t\t\t" . '<td>' . $revUrl . '</td>';
@@ -151,7 +150,7 @@ class HtmlOutput
     {
         $imagePreviewSize = '128';
         $baseUrl = 'http://img1.tienmyhieu.com/';
-        $html = "\n\t\t\t" . '<table width="100%" border="1" cellpadding="2" cellspacing="1">';
+        $html = "\n\t\t\t" . '<table border="1" cellpadding="2" cellspacing="1">';
         $i = 1;
         foreach ($references as $reference) {
             $hasPage = 0 < strlen($reference['page']);

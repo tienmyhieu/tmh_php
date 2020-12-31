@@ -1,7 +1,7 @@
 [
   { "reference_id": "1", "uuid": "59out4lc", "acronym": "DNTLCB3", "author": "QSQT Nguyễn", "language": "vi", "title": "大南寔錄正編 第二紀 卷六七", "year": "1830", "visible": "1" },
   { "reference_id": "2", "uuid": "vziiztcd", "acronym": "DNHD53", "author": "QSQT Nguyễn", "language": "vi", "title": "欽定大南會典事例卷五十三", "year": "1837", "visible": "1" },
-  { "reference_id": "3", "uuid": "x0lizhj8", "acronym": "DNTLCB6", "author": "QSQT Nguyễn", "language": "vi", "title": "大南寔錄正編卷五十", "year": "1846", "visible": "1" },
+  { "reference_id": "3", "uuid": "x0lizhj8", "acronym": "DNTLCB6", "author": "QSQT Nguyễn", "language": "vi", "title": "大南寔錄正編 第三紀 卷五十五", "year": "1846", "visible": "1" },
   { "reference_id": "4", "uuid": "og0l2xmu", "acronym": "AMC", "author": "Toda", "language": "en", "title": "Annam and it's Minor Currency", "year": "1882", "visible": "1" },
   { "reference_id": "5", "uuid": "1e7z5uyq", "acronym": "NMMA", "author": "Silvestre", "language": "fr", "title": "Notes pour servir à la recherche et au classement des monnaies et médailles de l’Annam et de la Cochinchine française", "year": "1883", "visible": "1" },
   { "reference_id": "6", "uuid": "aedgta41", "acronym": "CFE", "author": "Lockhart", "language": "en", "title": "The Currency of the Farther East", "year": "1895", "visible": "1" },

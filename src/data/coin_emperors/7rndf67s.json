@@ -1,0 +1,31 @@
+{
+  "page_image": "ea54b2430fef4e73b85eaa04bf3685ac-2",
+  "images": [
+    { "image_id": "1", "uuid": "44ix1iqp", "src": "8975349106604a46ae2d387f4176c18e-1.png", "href": "CMVS_428", "copyright": "1", "country": "fr", "year": "2002", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "iklvoi08", "src": "8975349106604a46ae2d387f4176c18e-2.png", "href": "CMVS_428", "copyright": "1", "country": "fr", "year": "2002", "color": "0", "visible": "1" }
+  ],
+  "reference_specimens": [
+    { "code": "Thierry 428", "images": ["44ix1iqp", "iklvoi08"], "diameter": "54.30", "weight": "45.29", "page": "76", "plate": "" }
+  ],
+  "references": [
+    { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "" },
+    { "reference_uuid": "x2hkl3yi", "page": "47", "plate": "", "identifier": "15", "notes": "" },
+    { "reference_uuid": "57qxr0k8", "page": "201", "plate": "", "identifier": "255", "notes": "" },
+    { "reference_uuid": "2ltjrjbl", "page": "76", "plate": "", "identifier": "428", "notes": "", "url": "" },
+    { "reference_uuid": "5ekjpp24", "page": "268", "plate": "", "identifier": "", "notes": "known_to_exist" },
+    { "reference_uuid": "5h4ycj4i", "page": "839", "plate": "", "identifier": "", "notes": "" },
+    { "reference_uuid": "vt6sjmp6", "page": "124", "plate": "", "identifier": "", "notes": "" },
+    { "reference_uuid": "ybfi7983", "page": "384", "plate": "", "identifier": "26", "notes": "" },
+    { "reference_uuid": "jybo2v6v", "page": "201", "plate": "", "identifier": "26", "notes": "cmvs_partial_copy" }
+  ],
+  "other_specimens": [
+    { "code": "IKAR TT1", "images": ["tf0dtcs9"], "diameter": "", "weight": "", "page": "", "plate": "" }
+  ],
+  "other_images": [
+    { "image_id": "1", "uuid": "tf0dtcs9", "src": "ea54b2430fef4e73b85eaa04bf3685ac-2.png", "href": "IKARU TT1", "copyright": "0", "country": "ja", "year": "2016", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "pltvpqg6", "src": "fb1abe2a3163413b8fb5e4aae49fcd4b-2.png", "href": "IKARU TT1", "copyright": "0", "country": "ja", "year": "2016", "color": "1", "visible": "0" }
+  ],
+  "collections": [
+    { "collection_uuid": "i91nbvi5", "date": "2016-11-11", "pdf_url": "", "url_obverse": "", "url_reverse": "http://blogimg.goo.ne.jp/user_image/05/07/5de63720a13dcca16757a4860230a07f.jpg", "identifier": "", "lot_number": "" }
+  ]
+}

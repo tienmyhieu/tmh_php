@@ -43,6 +43,11 @@ class Output
             $tmpImages[$image['uuid']] = $image;
         }
 
+        $tmpImages2 = [];
+        foreach ($coinEmperor['other_images'] as $image) {
+            $tmpImages2[$image['uuid']] = $image;
+        }
+
         $output = HtmlOutput::twoCellStart();
         $output .= HtmlOutput::emperorListTable($emperor, $coins, $lexicon);
         $output .= HtmlOutput::twoCellMiddle();
@@ -50,7 +55,8 @@ class Output
         //$output .= HtmlOutput::gallery($coinEmperor['images'], 4, $title, $lexicon);
         $output .= HtmlOutput::coinEmperorReferences($coinEmperor, $references, $lexicon);
         $output .= HtmlOutput::sectionTitle($lexicon['private_collection_images']);
-        $output .= HtmlOutput::gallery($coinEmperor['other_images'], 4, $title, $lexicon);
+        $output .= HtmlOutput::coinEmperorReferencesList($coinEmperor['other_specimens'], $tmpImages2, $lexicon);
+        //$output .= HtmlOutput::gallery($coinEmperor['other_images'], 4, $title, $lexicon);
         $output .= HtmlOutput::coinEmperorReferences2($coinEmperor['collections'], $collections, $lexicon);
         $output .= HtmlOutput::twoCellEnd();
         return $output;
