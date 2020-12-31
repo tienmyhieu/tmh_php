@@ -1,0 +1,29 @@
+{
+  "page_image": "97ecfa2e35b844f5905335d33f04e15b-2",
+  "images": [
+    { "image_id": "1", "uuid": "o1jwi3lh", "src": "97ecfa2e35b844f5905335d33f04e15b-1.png", "href": "CMV_1792", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "v0ygnjch", "src": "97ecfa2e35b844f5905335d33f04e15b-2.png", "href": "CMV_1792", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" }
+
+  ],
+  "reference_specimens": [
+    { "code": "Thierry 1792", "images": ["o1jwi3lh", "v0ygnjch"], "diameter": "50.00", "weight": "36.71", "page": "97", "plate": "31" }
+  ],
+  "references": [
+    { "reference_uuid": "uh1x8rgi", "page": "97", "plate": "31", "identifier": "1792", "notes": "" },
+    { "reference_uuid": "5ekjpp24", "page": "268", "plate": "", "identifier": "", "notes": "known_to_exist" },
+    { "reference_uuid": "ybfi7983", "page": "384", "plate": "", "identifier": "26", "notes": "" },
+    { "reference_uuid": "jybo2v6v", "page": "201", "plate": "", "identifier": "26", "notes": "cmv_partial_copy" }
+  ],
+  "other_images": [
+    { "image_id": "31", "uuid": "7jr6t776", "src": "545baa27de5f4fd8b89cd7c0dab85cc4-1.png", "href": "HUA TD1", "copyright": "0", "country": "cn", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "32", "uuid": "i7bytbvu", "src": "545baa27de5f4fd8b89cd7c0dab85cc4-2.png", "href": "HUA TD1", "copyright": "0", "country": "cn", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "33", "uuid": "9clj2ckn", "src": "0e717f84cf4c43bcb95f2b32fd34743f-1.png", "href": "HUA TD1", "copyright": "0", "country": "cn", "year": "2013", "color": "1", "visible": "0" },
+    { "image_id": "34", "uuid": "ejbwyb1u", "src": "0e717f84cf4c43bcb95f2b32fd34743f-2.png", "href": "HUA TD1", "copyright": "0", "country": "cn", "year": "2013", "color": "1", "visible": "0" }
+  ],
+  "other_specimens": [
+    { "code": "HUAY TD1", "images": ["7jr6t776", "i7bytbvu"], "diameter": "", "weight": "", "page": "", "plate": "" }
+  ],
+  "collections": [
+    { "collection_uuid": "0i5gqe5p", "date": "2013-05-30", "pdf_url": "", "url_obverse": "http://imgali.hxgqw.com/pic/2013/0530/2013053014093727560837.jpg", "url_reverse": "http://imgali.hxgqw.com/pic/2013/0530/2013053014094001967184.jpg", "identifier": "", "lot_number": "" }
+  ]
+}

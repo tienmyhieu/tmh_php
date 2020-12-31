@@ -54,65 +54,71 @@ class HtmlOutput
     public static function coinEmperorReferences2($collection, $sources, $lexicon): string
     {
         $title = self::sectionTitle($lexicon['private_collections']);
-        $html = $title . "\n\t\t\t" . '<table width="100%" border="1" cellpadding="2" cellspacing="1">';
-        $html .= "\n\t\t\t\t" . '<tbody>';
-        foreach ($collection as $item) {
-            $hasObverse = 0 < strlen($item['url_obverse']);
-            $hasReverse = 0 < strlen($item['url_reverse']);
-            $obvUrl = $hasObverse ? '<a href="' . $item['url_obverse'] . '" target="_blank">' . $lexicon['obverse'] . '</a>' : '';
-            $revUrl = $hasReverse ? '<a href="' . $item['url_reverse'] . '" target="_blank">' . $lexicon['reverse'] . '</a>' : '';
-            $thisYear =  date('Y');
-            $source = $sources[$item['collection_uuid']];
-            $year = 0 < strlen($source['year']) ? $source['year'] : $thisYear;
-            $year = preg_replace('|9999|', $thisYear, $year);
-            $html .= "\n\t\t\t\t\t" . '<tr>';
-            $html .= "\n\t\t\t\t\t\t" . '<td>' . $item['date'] . '</td>';
-            $html .= "\n\t\t\t\t\t\t" . '<td>' . $source['acronym'] . '</td>';
-            $html .= "\n\t\t\t\t\t\t" . '<td align="left">' . $source['title'] . '</td>';
-            $html .= "\n\t\t\t\t\t\t" . '<td>' . $obvUrl . '</td>';
-            $html .= "\n\t\t\t\t\t\t" . '<td>' . $revUrl . '</td>';
-            $html .= "\n\t\t\t\t\t" . '</tr>';
+        $html = $title;
+        if (0 < count($collection)) {
+            $html .= "\n\t\t\t" . '<table width="100%" border="1" cellpadding="2" cellspacing="1">';
+            $html .= "\n\t\t\t\t" . '<tbody>';
+            foreach ($collection as $item) {
+                $hasObverse = 0 < strlen($item['url_obverse']);
+                $hasReverse = 0 < strlen($item['url_reverse']);
+                $obvUrl = $hasObverse ? '<a href="' . $item['url_obverse'] . '" target="_blank">' . $lexicon['obverse'] . '</a>' : '';
+                $revUrl = $hasReverse ? '<a href="' . $item['url_reverse'] . '" target="_blank">' . $lexicon['reverse'] . '</a>' : '';
+                $thisYear =  date('Y');
+                $source = $sources[$item['collection_uuid']];
+                $year = 0 < strlen($source['year']) ? $source['year'] : $thisYear;
+                $year = preg_replace('|9999|', $thisYear, $year);
+                $html .= "\n\t\t\t\t\t" . '<tr>';
+                $html .= "\n\t\t\t\t\t\t" . '<td>' . $item['date'] . '</td>';
+                $html .= "\n\t\t\t\t\t\t" . '<td>' . $source['acronym'] . '</td>';
+                $html .= "\n\t\t\t\t\t\t" . '<td align="left">' . $source['title'] . '</td>';
+                $html .= "\n\t\t\t\t\t\t" . '<td>' . $obvUrl . '</td>';
+                $html .= "\n\t\t\t\t\t\t" . '<td>' . $revUrl . '</td>';
+                $html .= "\n\t\t\t\t\t" . '</tr>';
+            }
+            $html .= "\n\t\t\t\t" . '</tbody>';
+            $html .= "\n\t\t\t" . '</table>';
         }
-        $html .= "\n\t\t\t\t" . '</tbody>';
-        $html .= "\n\t\t\t" . '</table>';
         return $html;
     }
 
     public static function coinEmperorReferences($coinEmperor, $references, $lexicon): string
     {
         $title = self::sectionTitle($lexicon['references']);
-        $html = $title . "\n\t\t\t" . '<table width="100%" border="1" cellpadding="2" cellspacing="1">';
-        $html .= "\n\t\t\t\t" . '<thead>';
-        $html .= "\n\t\t\t\t\t" . '<tr>';
-        $html .= "\n\t\t\t\t\t\t" . '<th></th>';
-        $html .= "\n\t\t\t\t\t\t" . '<th>' . $lexicon['year'] . '</th>';
-        $html .= "\n\t\t\t\t\t\t" . '<th align="left">' . $lexicon['author'] . '</th>';
-        $html .= "\n\t\t\t\t\t\t" . '<th>' . $lexicon['number_abbrev'] . '</th>';
-        $html .= "\n\t\t\t\t\t\t" . '<th align="left">' . $lexicon['title'] . '</th>';
-        $html .= "\n\t\t\t\t\t\t" . '<th>' . $lexicon['page'] . '</th>';
-        $html .= "\n\t\t\t\t\t" . '</tr>';
-        $html .= "\n\t\t\t\t" . '</thead>';
-        $html .= "\n\t\t\t\t" . '<tbody>';
-        $i = 1;
-        foreach ($coinEmperor['references'] as $coinEmperorReference) {
-            $reference = $references[$coinEmperorReference['reference_uuid']];
-            $year = 0 < strlen($reference['year']) ? $reference['year'] : date('Y');
+        $html = $title;
+        if (0 < count($coinEmperor['references'])) {
+            $html .= "\n\t\t\t" . '<table width="100%" border="1" cellpadding="2" cellspacing="1">';
+            $html .= "\n\t\t\t\t" . '<thead>';
             $html .= "\n\t\t\t\t\t" . '<tr>';
-            $html .= "\n\t\t\t\t\t\t" . '<td valign="top">' . $i . '</td>';
-            $html .= "\n\t\t\t\t\t\t" . '<td valign="top">' . $year . '</td>';
-            $html .= "\n\t\t\t\t\t\t" . '<td valign="top">' . $reference['author'] . '</td>';
-            $html .= "\n\t\t\t\t\t\t" . '<td valign="top">' . $coinEmperorReference['identifier'] . '</td>';
-            $html .= "\n\t\t\t\t\t\t" . '<td align="left" valign="top">' . $reference['title'];
-            if (0 < strlen($coinEmperorReference['notes'])) {
-                $html .= '<br>' . "&nbsp;&nbsp;-&nbsp;" . '<small>' . $lexicon[$coinEmperorReference['notes']] . '</small>';
-            }
-            $html .= '</td>';
-            $html .= "\n\t\t\t\t\t\t" . '<td valign="top">' . $coinEmperorReference['page'] . '</td>';
+            $html .= "\n\t\t\t\t\t\t" . '<th></th>';
+            $html .= "\n\t\t\t\t\t\t" . '<th>' . $lexicon['year'] . '</th>';
+            $html .= "\n\t\t\t\t\t\t" . '<th align="left">' . $lexicon['author'] . '</th>';
+            $html .= "\n\t\t\t\t\t\t" . '<th>' . $lexicon['number_abbrev'] . '</th>';
+            $html .= "\n\t\t\t\t\t\t" . '<th align="left">' . $lexicon['title'] . '</th>';
+            $html .= "\n\t\t\t\t\t\t" . '<th>' . $lexicon['page'] . '</th>';
             $html .= "\n\t\t\t\t\t" . '</tr>';
-            $i++;
+            $html .= "\n\t\t\t\t" . '</thead>';
+            $html .= "\n\t\t\t\t" . '<tbody>';
+            $i = 1;
+            foreach ($coinEmperor['references'] as $coinEmperorReference) {
+                $reference = $references[$coinEmperorReference['reference_uuid']];
+                $year = 0 < strlen($reference['year']) ? $reference['year'] : date('Y');
+                $html .= "\n\t\t\t\t\t" . '<tr>';
+                $html .= "\n\t\t\t\t\t\t" . '<td valign="top">' . $i . '</td>';
+                $html .= "\n\t\t\t\t\t\t" . '<td valign="top">' . $year . '</td>';
+                $html .= "\n\t\t\t\t\t\t" . '<td valign="top">' . $reference['author'] . '</td>';
+                $html .= "\n\t\t\t\t\t\t" . '<td valign="top">' . $coinEmperorReference['identifier'] . '</td>';
+                $html .= "\n\t\t\t\t\t\t" . '<td align="left" valign="top">' . $reference['title'];
+                if (0 < strlen($coinEmperorReference['notes'])) {
+                    $html .= '<br>' . "&nbsp;&nbsp;-&nbsp;" . '<small>' . $lexicon[$coinEmperorReference['notes']] . '</small>';
+                }
+                $html .= '</td>';
+                $html .= "\n\t\t\t\t\t\t" . '<td valign="top">' . $coinEmperorReference['page'] . '</td>';
+                $html .= "\n\t\t\t\t\t" . '</tr>';
+                $i++;
+            }
+            $html .= "\n\t\t\t\t" . '</tbody>';
+            $html .= "\n\t\t\t" . '</table>';
         }
-        $html .= "\n\t\t\t\t" . '</tbody>';
-        $html .= "\n\t\t\t" . '</table>';
         return $html;
     }
 
@@ -148,42 +154,45 @@ class HtmlOutput
 
     public static function coinEmperorReferencesList($references, $images, $lexicon): string
     {
-        $imagePreviewSize = '128';
-        $baseUrl = 'http://img1.tienmyhieu.com/';
-        $html = "\n\t\t\t" . '<table border="1" cellpadding="2" cellspacing="1">';
-        $i = 1;
-        foreach ($references as $reference) {
-            $hasPage = 0 < strlen($reference['page']);
-            $hasPlate = 0 < strlen($reference['plate']);
-            $hasMeasurements = 0 < strlen($reference['diameter']) || 0 < strlen($reference['weight']);
-            $html .= "\n\t\t\t\t" . '<tr>';
-            $html .= "\n\t\t\t\t\t" . '<td valign="top">';
-            $html .= $i . '. ' . $reference['code'] . '<br/>';
-            if ($hasPage) {
-                $html .= $lexicon['page'] . ': ' . $reference['page'] . '<br/>';
+        $html = '';
+        if (0 < count($images)) {
+            $imagePreviewSize = '128';
+            $baseUrl = 'http://img1.tienmyhieu.com/';
+            $html .= "\n\t\t\t" . '<table border="1" cellpadding="2" cellspacing="1">';
+            $i = 1;
+            foreach ($references as $reference) {
+                $hasPage = 0 < strlen($reference['page']);
+                $hasPlate = 0 < strlen($reference['plate']);
+                $hasMeasurements = 0 < strlen($reference['diameter']) || 0 < strlen($reference['weight']);
+                $html .= "\n\t\t\t\t" . '<tr>';
+                $html .= "\n\t\t\t\t\t" . '<td valign="top">';
+                $html .= $i . '. ' . $reference['code'] . '<br/>';
+                if ($hasPage) {
+                    $html .= '&nbsp;&nbsp;&nbsp;' . $lexicon['page'] . ': ' . $reference['page'] . '<br/>';
+                }
+                if ($hasPlate) {
+                    $html .= '&nbsp;&nbsp;&nbsp;' . $lexicon['plate'] . ': ' . $reference['plate'] . '<br/>';
+                }
+                if ($hasMeasurements) {
+                    $html .= '&nbsp;&nbsp;&nbsp;' . $lexicon['diameter'] . ': ' . $reference['diameter'] . '<br/>';
+                    $html .= '&nbsp;&nbsp;&nbsp;' . $lexicon['weight'] . ': ' . $reference['weight'] . '<br/>';
+                }
+                $html .= '</td>';
+                $html .= "\n\t\t\t\t\t" . '<td>';
+                $imageTitle = $reference['code'];
+                foreach ($reference['images'] as $imageUuid) {
+                    $image = $images[$imageUuid];
+                    $src =  $baseUrl . $imagePreviewSize . '/' . $image['src'];
+                    $imageHref = $baseUrl . '1024/' . $image['src'];
+                    $html .= '<a href="' . $imageHref . '" title="' . $imageTitle . '">';
+                    $html .= '<img src="' . $src . '" alt="' . $imageTitle . '" /></a>';
+                }
+                $html .= "\n\t\t\t\t\t" . '</td>';
+                $html .= "\n\t\t\t\t" . '</tr>';
+                $i++;
             }
-            if ($hasPlate) {
-                $html .= $lexicon['plate'] . ': ' . $reference['plate'] . '<br/>';
-            }
-            if ($hasMeasurements) {
-                $html .= $lexicon['diameter'] . ': ' . $reference['diameter'] . '<br/>';
-                $html .= $lexicon['weight'] . ': ' . $reference['weight'] . '<br/>';
-            }
-            $html .= '</td>';
-            $html .= "\n\t\t\t\t\t" . '<td>';
-            $imageTitle = $reference['code'];
-            foreach ($reference['images'] as $imageUuid) {
-                $image = $images[$imageUuid];
-                $src =  $baseUrl . $imagePreviewSize . '/' . $image['src'];
-                $imageHref = $baseUrl . '1024/' . $image['src'];
-                $html .= '<a href="' . $imageHref . '" title="' . $imageTitle . '">';
-                $html .= '<img src="' . $src . '" alt="' . $imageTitle . '" /></a>';
-            }
-            $html .= "\n\t\t\t\t\t" . '</td>';
-            $html .= "\n\t\t\t\t" . '</tr>';
-            $i++;
+            $html .= "\n\t\t\t" . '</table>';
         }
-        $html .= "\n\t\t\t" . '</table>';
         return $html;
     }
 
