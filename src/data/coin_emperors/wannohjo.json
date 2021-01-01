@@ -1,0 +1,43 @@
+{
+  "page_image": "9e7938e7d065468781b700b67fb4d193-2",
+  "images": [
+    { "image_id": "1", "uuid": "fzogmxor", "src": "fc9b51d8815244eb93bf5d24fa9b390e-1.png", "href": "CMV_1629", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "w3jz6ari", "src": "fc9b51d8815244eb93bf5d24fa9b390e-2.png", "href": "CMV_1629", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "52420iie", "src": "bb0df97dc7c246c69c351abb900d4e1d-1.png", "href": "CMV_1629", "copyright": "1", "country": "gb", "year": "1988", "color": "0", "visible": "0" },
+    { "image_id": "4", "uuid": "2u8lmf3d", "src": "bb0df97dc7c246c69c351abb900d4e1d-2.png", "href": "CMV_1629", "copyright": "1", "country": "gb", "year": "1988", "color": "0", "visible": "0" },
+    { "image_id": "5", "uuid": "5a8cr40c", "src": "c325753760e14d66bee0b3521397eb28-1.png", "href": "CMV_1629", "copyright": "0", "country": "ru", "year": "1988", "color": "1", "visible": "0" },
+    { "image_id": "6", "uuid": "qop410v7", "src": "c325753760e14d66bee0b3521397eb28-2.png", "href": "CMV_1629", "copyright": "0", "country": "ru", "year": "1988", "color": "1", "visible": "0" },
+    { "image_id": "7", "uuid": "tj8u5v13", "src": "9e7938e7d065468781b700b67fb4d193-1.png", "href": "BTTPHCM_15", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "8", "uuid": "yvh1i105", "src": "9e7938e7d065468781b700b67fb4d193-2.png", "href": "BTTPHCM_15", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "9", "uuid": "x9bu77br", "src": "edd99faef82846b2af4bed00f2c79f67-2.png", "href": "BTTPHCM_15", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "10", "uuid": "gq9v3qfv", "src": "b585b6d8275446a8bb1ab00d140d861d-1.png", "href": "BTTPHCM_15", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "11", "uuid": "0r3qt7pl", "src": "b585b6d8275446a8bb1ab00d140d861d-2.png", "href": "BTTPHCM_15", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "12", "uuid": "ax6ouveq", "src": "85f352f83f744683a2cab2365b5a4a25-2.png", "href": "BTTPHCM_15", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
+  ],
+  "reference_specimens": [
+    { "code": "Thierry 1629", "images": ["fzogmxor", "w3jz6ari"], "diameter": "51.30", "weight": "34.94", "page": "92", "plate": "27" },
+    { "code": "BTTPHCM 15", "images": ["tj8u5v13", "yvh1i105"], "diameter": "", "weight": "", "page": "", "plate": "" }
+  ],
+  "references": [
+    { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "" },
+    { "reference_uuid": "x2hkl3yi", "page": "47", "plate": "", "identifier": "11", "notes": "" },
+    { "reference_uuid": "uh1x8rgi", "page": "92", "plate": "27", "identifier": "1629", "notes": "" },
+    { "reference_uuid": "57qxr0k8", "page": "201", "plate": "", "identifier": "254", "notes": "" },
+    { "reference_uuid": "5ekjpp24", "page": "268", "plate": "", "identifier": "", "notes": "known_to_exist" },
+    { "reference_uuid": "5h4ycj4i", "page": "839", "plate": "", "identifier": "", "notes": "" },
+    { "reference_uuid": "vt6sjmp6", "page": "124", "plate": "", "identifier": "", "notes": "" },
+    { "reference_uuid": "ybfi7983", "page": "384", "plate": "", "identifier": "27", "notes": "" },
+    { "reference_uuid": "jybo2v6v", "page": "202", "plate": "", "identifier": "27", "notes": "cmv_partial_copy" },
+    { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "15", "notes": "bttphcm_tt" }
+  ],
+  "other_specimens": [
+    { "code": "IKAR TT2", "images": ["116qgxh6"], "diameter": "", "weight": "", "page": "", "plate": "" }
+  ],
+  "other_images": [
+    { "image_id": "1", "uuid": "116qgxh6", "src": "111b1b40fa3e42a3bf90c41efb239083-2.png", "href": "IKAR TT2", "copyright": "0", "country": "ja", "year": "2016", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "86kgct6m", "src": "0fd7d07f234c40d2a217e30fa6b98d5e-2.png", "href": "IKAR TT2", "copyright": "0", "country": "ja", "year": "2016", "color": "1", "visible": "0" }
+  ],
+  "collections": [
+    { "collection_uuid": "i91nbvi5", "date": "2016-11-11", "pdf_url": "", "url_obverse": "", "url_reverse": "http://blogimg.goo.ne.jp/user_image/05/07/5de63720a13dcca16757a4860230a07f.jpg", "identifier": "", "lot_number": "" }
+  ]
+}
