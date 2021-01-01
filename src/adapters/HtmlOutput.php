@@ -3,6 +3,107 @@ namespace adapters;
 
 class HtmlOutput
 {
+    const BASE_IMG_URL = 'http://img1.tienmyhieu.com/';
+    const PREVIEW_IM_SIZE = '128';
+    public static function article($article, $lexicon): string
+    {
+        $imagesBaseUrl =  HtmlOutput::BASE_IMG_URL;
+        $uploadsBaseUrl =  HtmlOutput::BASE_IMG_URL . 'uploads/';
+//        $imageHref = $baseUrl . '1024/' . $image['src'];
+//        $html .= '<a href="' . $imageHref . '" title="' . $imageTitle . '">';
+//        $html .= '<img src="' . $src . '" alt="' . $imageTitle . '" /></a>';
+        $titles = [];
+        foreach ($article['locales']['titles'] as $title) {
+            $titles[$title['uuid']] = $title;
+        }
+        $sentences = [];
+        foreach ($article['locales']['sentences'] as $sentence) {
+            $sentences[$sentence['uuid']] = $sentence;
+        }
+        $images = [];
+        foreach ($article['images'] as $image) {
+            $images[$image['uuid']] = $image;
+        }
+        $localizedImages = [];
+        foreach ($images as $image) {
+            $localizedImage = [
+                'href' => $uploadsBaseUrl . '256/' . $image['src'],
+                'src' => $uploadsBaseUrl . '256/' . $image['src'],
+                'title' => in_array($image['title_uuid'], array_keys($titles)) ? $titles[$image['title_uuid']] : ''
+            ];
+            $localizedImages[$image['uuid']] = $localizedImage;
+        }
+        $articleImage = [
+            'href' => $imagesBaseUrl . '1024/' . $article['page_image'],
+            'src' => $imagesBaseUrl . '256/' . $article['page_image'],
+            'title' => $article['page_image_title']
+        ];
+        $localizedSections = [];
+        foreach ($article['sections'] as $section) {
+            $sectionimages = [];
+            $sectionSentences = [];
+            foreach ($section['images'] as $image) {
+                $sectionimages[$image] = $localizedImages[$image];
+            }
+            foreach ($section['sentences'] as $sentence) {
+                $sectionSentences[$sentence] = $sentences[$sentence];
+            }
+            $localizedSections[$section['uuid']] = [
+                'type' => $section['type'],
+                'images' => $sectionimages,
+                'sentences' => $sectionSentences
+            ];
+        }
+//        echo '<pre>';
+//        print_r($localizedImages);
+//        print_r($localizedSections);
+//        print_r($sentences);
+//        print_r($titles);
+//        echo '</pre>';
+        $html = '';
+//        $html .= "\n\t\t\t" . '<table border="1" cellpadding="2" cellspacing="1">';
+//        $html .= "\n\t\t\t\t" . '<tbody>';
+//        $html .= "\n\t\t\t\t\t" . '<tr>';
+//        $html .= "\n\t\t\t\t\t\t" . '<td>' . $article['page_image'] . '</td>';
+//        $html .= "\n\t\t\t\t\t\t" . '<td>' . $article['page_image'] . '</td>';
+//        $html .= "\n\t\t\t\t\t" . '</tr>';
+//        $html .= "\n\t\t\t\t" . '</tbody>';
+//        $html .= "\n\t\t\t" . '</table>';
+        return $html;
+    }
+
+    public static function articleIntro($image, $sentences): string
+    {
+        $html = "\n\t\t\t\t\t\t" . '<td>' . $image['src'] . '</td>';
+        $html .= "\n\t\t\t\t\t\t" . '<td>';
+
+        $html .= "\n\t\t\t\t\t\t" . '</td>';
+        return $html;
+    }
+
+    public static function articlesTable($articles, $lexicon): string
+    {
+        $title = self::sectionTitle($lexicon['articles']);
+        $html = $title;
+        if (0 < count($articles)) {
+            $html .= "\n\t\t\t" . '<table border="1" cellpadding="2" cellspacing="1">';
+            $html .= "\n\t\t\t\t" . '<tbody>';
+            $i = 1;
+            foreach ($articles as $article) {
+                $html .= "\n\t\t\t\t\t" . '<tr>';
+                $html .= "\n\t\t\t\t\t\t" . '<td>' . $i . '</td>';
+                $html .= "\n\t\t\t\t\t\t" . '<td>' . $article['date'] . '</td>';
+                $html .= "\n\t\t\t\t\t\t" . '<td><a href="' . $article['href'] . '" title="' . $article['title'] . '">' .
+                    $article['title'] . '</a></td>';
+                $html .= "\n\t\t\t\t\t" . '</tr>';
+                $i++;
+            }
+            $html .= "\n\t\t\t\t" . '</tbody>';
+            $html .= "\n\t\t\t" . '</table>';
+        }
+        return $html;
+    }
+
     public static function emperorHeaderRow($emperors, $leadingCells): string
     {
         $html = '';
@@ -270,7 +371,7 @@ class HtmlOutput
     {
         $title = '<h2>' . $lexicon['references'] . '</h2>';
         return $title . '<table width="100%" border="1" cellpadding="2" cellspacing="1">' . "\n\t" .
-            '<thead>' .  self::emperorHeaderRow($emperors, 4) . "\t" . '</thead>' . "\n\t" .
+            '<thead>' .  self::emperorHeaderRow($emperors, 3) . "\t" . '</thead>' . "\n\t" .
             '<tbody>' .  self::referenceEmperorRows($referenceEmperors, $emperors) . "\t" . '</tbody>' . "\n\t"
             . '</table>' . "\n";
     }

@@ -10,6 +10,7 @@ require_once (__DIR__ . '/adapters/HtmlOutput.php');
 require_once (__DIR__ . '/core/Factory.php');
 
 $factory =  new Factory();
+$articles = $factory->articles();
 $coinEmperors = $factory->coinEmperors();
 $meta = $factory->meta();
 $referenceEmperors = $factory->referenceEmperors();
@@ -20,6 +21,18 @@ $output = $factory->output();
 // collection
 // plate
 switch ($template) {
+    case 'article':
+
+        $identifier = $meta->identifier();
+        $entities = [
+            'article' => $articles->getArticle($identifier, $meta->language()),
+            'lexicon' => $referenceEmperors->lexicon()
+        ];
+//        echo '<pre>';
+//        print_r($articles->getArticle($identifier, $meta->language()));
+//        echo '</pre>';
+        $output->setEntities($entities);
+        break;
     case 'coin_emperor':
         $coinEmperor = $factory->coinEmperor();
         $identifier = $meta->identifier();
@@ -45,11 +58,8 @@ switch ($template) {
         $output->setEntities($entities);
         break;
     case 'home':
-        //$coinEmperors = $coinEmperors->get();
-//        echo '<pre>';
-//        print_r($coinEmperors);
-//        echo '</pre>';
         $entities = [
+            'articles' => $articles->get(),
             'coinEmperors' => $coinEmperors->get(),
             'emperors' => $coinEmperors->emperors(),
             'lexicon' => $referenceEmperors->lexicon(),

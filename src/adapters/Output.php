@@ -10,6 +10,9 @@ class Output
     {
         $output = '';
         switch ($template) {
+            case 'article':
+                $output = $this->article();
+                break;
             case 'coin_emperor':
                 $output = $this->coinEmperor();
                 break;
@@ -23,9 +26,18 @@ class Output
         return $output;
     }
 
+
     public function setEntities($entities)
     {
         $this->entities = $entities;
+    }
+
+    private function article()
+    {
+        $article = $this->getEntity('article');
+        $lexicon = $this->getEntity('lexicon');
+        $output = HtmlOutput::article($article, $lexicon);
+        return $output;
     }
 
     private function coinEmperor(): string
@@ -88,15 +100,18 @@ class Output
 
     private function home(): string
     {
+        $emperors = $this->getEntity('emperors');
+        $lexicon = $this->getEntity('lexicon');
         $output = HtmlOutput::coinEmperorTable(
             $this->getEntity('coinEmperors'),
-            $this->getEntity('emperors')
+            $emperors
         );
         $output .= HtmlOutput::referenceEmperorTable(
             $this->getEntity('referenceEmperors'),
-            $this->getEntity('emperors'),
-            $this->getEntity('lexicon')
+            $emperors,
+            $lexicon
         );
+        $output .= HtmlOutput::articlesTable($this->getEntity('articles'), $lexicon);
         return $output;
     }
 

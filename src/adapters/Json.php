@@ -20,6 +20,11 @@ class Json
         return $this->load($this->basePath . '/l10n/' . $language, $file);
     }
 
+    public function loadLocalizedSubData($directory, $file, $language)
+    {
+        return $this->load($this->basePath . '/l10n/' . $language . '/' . $directory, $file);
+    }
+
     public function loadSubData($directory, $file)
     {
         return $this->load($this->basePath . 'data/' . $directory, $file);

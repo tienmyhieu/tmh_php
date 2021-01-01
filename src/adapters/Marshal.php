@@ -3,6 +3,7 @@ namespace adapters;
 
 class Marshal
 {
+    protected $articles;
     protected $coinEmperors;
     protected $coins;
     protected $collections;
@@ -18,10 +19,24 @@ class Marshal
     {
         $this->json = $json;
         $common = $json->loadLocalized($language, 'common');
+        $this->articles = $json->setCollectionKeys($common, 'article');
         $this->coins = $json->setCollectionKeys($common, 'coin');
         $this->emperors = $json->setCollectionKeys($common, 'emperor');
         $this->lexicon = $common['lexicon'];
         $this->metals = $json->setCollectionKeys($common, 'metal');
+    }
+
+    public function articles()
+    {
+        return $this->articles;
+    }
+
+    public function article($articleId, $language)
+    {
+        $locales = $this->json->loadLocalizedSubData('articles', $articleId, $language);
+        $article = $this->json->loadSubData('articles', $articleId);
+        $article['locales'] = $locales;
+        return $article;
     }
 
     public function coinEmperor($coinEmperorId)

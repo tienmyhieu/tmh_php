@@ -66,6 +66,7 @@
     { "metal_id":  "2", "uuid": "ia5zffme", "name": "kẽm", "href": "kẽm", "visible": "1" }
   ],
   "lexicon" : {
+    "articles": "Bài báo",
     "author": "Tác giả",
     "diameter": "Đường kình",
     "grams": "gam",
@@ -86,5 +87,8 @@
     "title": "Tiêu đề",
     "weight": "Trọng lượng",
     "year": "Năm"
-  }
+  },
+  "article": [
+    { "article_id":  "1", "uuid": "hjhgn9na", "date": "2021-01-01", "title": "Schroeder 130 là một đồng tiền của Tự Đức", "href": "Schroeder_130_là_một_đồng_tiền_của_Tự_Đức", "visible": "1" }
+  ]
 }
