@@ -3,6 +3,9 @@ namespace adapters;
 
 class Marshal
 {
+    const BASE_IMG_URL = 'http://img1.tienmyhieu.com/';
+    const BASE_UPLOADS_URL = Marshal::BASE_IMG_URL . 'uploads/';
+
     protected $articles;
     protected $coinEmperors;
     protected $coins;
@@ -35,8 +38,7 @@ class Marshal
     {
         $locales = $this->json->loadLocalizedSubData('articles', $articleId, $language);
         $article = $this->json->loadSubData('articles', $articleId);
-        $article['locales'] = $locales;
-        return $article;
+        return $this->transformArticle($article, $locales);
     }
 
     public function coinEmperor($coinEmperorId)
@@ -80,5 +82,55 @@ class Marshal
         $referenceEmperors = $this->json->loadData('reference_emperors');
         //$referenceEmperors['images'] = $this->json->setCollectionKeys($referenceEmperors['images'], 'image', false);
         return $referenceEmperors;
+    }
+
+    private function itemsKey($items, $key)
+    {
+        return in_array($key, array_keys($items)) ? $items[$key] : '';
+    }
+
+    private function setKeyedItems($items)
+    {
+        $keyedItems = [];
+        foreach ($items as $item) {
+            $keyedItems[$item['uuid']] = $item;
+        }
+        return $keyedItems;
+    }
+
+    private function transformArticle($article, $locales)
+    {
+        $transformed = [];
+        $images = $this->setKeyedItems($article['images']);
+        $sections = $this->setKeyedItems($article['sections']);
+        $sentences = $this->setKeyedItems($locales['sentences']);
+        $titles = $this->setKeyedItems($locales['titles']);
+        foreach ($images as $uuid => $image) {
+            $title = $this->itemsKey($image, 'title_uuid');
+            $transformed['images'][$uuid]['title'] = $title ? $titles[$title]['title'] : '';
+            $transformed['images'][$uuid]['src'] = $image['src'];
+        }
+        $transformed['intro']['image'] = $images[$article['intro']['image']]['src'];
+        $transformed['intro']['image_dir'] = $article['intro']['image_dir'];
+        $transformed['intro']['sentences'] = [];
+        $transformed['sections'] = [];
+        foreach ($article['intro']['sentences'] as $sentence) {
+            $transformed['intro']['sentences'][$sentence] = $sentences[$sentence]['sentence'];
+        }
+        foreach ($sections as $uuid => $section) {
+            $title = $this->itemsKey($section, 'title_uuid');
+            $transformed['sections'][$uuid]['title'] = $title ? $titles[$title]['title'] : '';
+            $transformed['sections'][$uuid]['images'] = [];
+            $transformed['sections'][$uuid]['sentences'] = [];
+            foreach ($section['sentences'] as $sentence) {
+                $transformed['sections'][$uuid]['sentences'][$sentence] = $sentences[$sentence]['sentence'];
+            }
+            foreach ($section['images'] as $image) {
+                $transformed['sections'][$uuid]['images'][$image]['src'] = $transformed['images'][$image]['src'];
+                $transformed['sections'][$uuid]['images'][$image]['title'] = $transformed['images'][$image]['title'];
+            }
+        }
+        unset($transformed['images']);
+        return $transformed;
     }
 }

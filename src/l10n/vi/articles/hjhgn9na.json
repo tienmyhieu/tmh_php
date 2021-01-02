@@ -1,12 +1,13 @@
 {
   "titles": [
-    { "title_id": "1", "uuid": "lrvidynz", "title": "Schroeder 130 là một đồng tiền của Tự Đức" },
-    { "title_id": "2", "uuid": "mam4ijwm", "title": "So sánh chữ cái 'Quốc' một: Schroeder 130 và Thierry 1533" },
-    { "title_id": "3", "uuid": "fygw7h1l", "title": "Schroeder 130 chữ 1" },
-    { "title_id": "4", "uuid": "1oo6rp4f", "title": "Thierry 1533 chữ 1" }
+    { "title_id": "1", "uuid": "07qezkhj", "title": "Schroeder 130" },
+    { "title_id": "2", "uuid": "lrvidynz", "title": "Schroeder 130 là một đồng tiền của Tự Đức" },
+    { "title_id": "3", "uuid": "mam4ijwm", "title": "So sánh chữ cái 'Quốc' một: Schroeder 130 và Thierry 1533" },
+    { "title_id": "4", "uuid": "fygw7h1l", "title": "Schroeder 130 chữ 1" },
+    { "title_id": "5", "uuid": "1oo6rp4f", "title": "Thierry 1533 chữ 1" }
   ],
   "sentences": [
-    { "sentence_id": "1", "uuid": "njb64u1t", "title_uuid": "", "sentence": "Schroder 130 is in the section of images for tiền của Minh Mệnh" },
+    { "sentence_id": "1", "uuid": "njb64u1t", "title_uuid": "", "sentence": "Schroder 130 này nằm trong các hình ảnh tiền của Minh Mệnh" },
     { "sentence_id": "2", "uuid": "hhu310xx", "title_uuid": "mam4ijwm", "sentence": "Thierry 1533 là một tiền của Minh Mệnh" },
     { "sentence_id": "3", "uuid": "uhbjp8no", "title_uuid": "", "sentence": "Các chữ 'Quốc' cái trông không giống nhau" }
   ]

@@ -1,11 +1,11 @@
 {
   "page_image": "f2e14dc86b8046dfab9a8d6b153bdc1c-2.png",
-  "page_image_title": "Schroeder 130",
   "images": [
+    { "image_id": "1", "uuid": "s3i4c4ws", "title_uuid": "07qezkhj", "src": "f2e14dc86b8046dfab9a8d6b153bdc1c-2.png", "href": "AEN_130", "copyright": "0", "country": "fr", "year": "1905", "color": "0", "visible": "1" },
     { "image_id": "1", "uuid": "u9zltn3t", "title_uuid": "fygw7h1l", "src": "e86f76deb57c45a991f3629310ec1e34.jpg", "href": "AEN_130_C1", "copyright": "0", "country": "fr", "year": "1900", "color": "0", "visible": "1" },
     { "image_id": "2", "uuid": "3bb0ihqf", "title_uuid": "1oo6rp4f", "src": "c7f17ae881b04ef4b9b16c67d46d8dc3.jpg", "href": "CMV_1533_C1", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" }
   ],
-  "intro_sentences": ["njb64u1t"],
+  "intro": { "image": "s3i4c4ws", "sentences": ["njb64u1t"], "image_dir": "" },
   "sections": [
     {"section_id": "2", "uuid": "nz0r3tcg", "type": "2it", "images": ["u9zltn3t", "3bb0ihqf"], "title_uuid": "", "sentences": ["hhu310xx", "uhbjp8no"] }
   ]
