@@ -1,9 +1,10 @@
 [
-  { "collection_id": "1", "uuid": "0i5gqe5p", "acronym": "HUAY", "language": "cn", "title": "Huayicang Auctions", "year": "2011-9999", "visible": "1" },
+  { "collection_id": "1", "uuid": "0i5gqe5p", "acronym": "HUAY", "language": "cn", "title": "华夏古泉 拍卖会", "year": "2011-9999", "visible": "1" },
   { "collection_id": "2", "uuid": "hzt9wxbt", "acronym": "BMTW", "language": "en", "title": "Baldwin - Ma Tak Wo Auctions", "year": "2013-2016", "visible": "1" },
-  { "collection_id": "3", "uuid": "qzi0xluv", "acronym": "MANT", "language": "fr", "title": "Monnaie d'Antan Auctions", "year": "2013-2016", "visible": "1" },
-  { "collection_id": "4", "uuid": "i91nbvi5", "acronym": "IKAR", "language": "ja", "title": "Ikaruganigatu", "year": "2016-2016", "visible": "1" },
-  { "collection_id": "5", "uuid": "5ih2j7u9", "acronym": "TGCT", "language": "vn", "title": "Thế Giới Cổ Tiền", "year": "2018-2020", "visible": "1" },
-  { "collection_id": "6", "uuid": "54982692", "acronym": "CHEN", "language": "vn", "title": "Chengxuan Auctions", "year": "2007-9999", "visible": "1" },
-  { "collection_id": "7", "uuid": "41281783", "acronym": "CHCO", "language": "vn", "title": "ChCoin Posts", "year": "2006-9999", "visible": "1" }
+  { "collection_id": "3", "uuid": "qzi0xluv", "acronym": "MANT", "language": "fr", "title": "Monnaie d'Antan enchères", "year": "2013-2016", "visible": "1" },
+  { "collection_id": "4", "uuid": "i91nbvi5", "acronym": "IKAR", "language": "ja", "title": "斑鳩にがつ コレクション", "year": "2016-2016", "visible": "1" },
+  { "collection_id": "5", "uuid": "5ih2j7u9", "acronym": "TGCT", "language": "vn", "title": "Thế Giới Cổ Tiền bộ sưu tập", "year": "2018-2020", "visible": "1" },
+  { "collection_id": "6", "uuid": "54982692", "acronym": "CHEN", "language": "cn", "title": "诚轩 拍卖会", "year": "2007-9999", "visible": "1" },
+  { "collection_id": "7", "uuid": "41281783", "acronym": "CHCO", "language": "cn", "title": "古泉园地 拍卖会", "year": "2006-9999", "visible": "1" },
+  { "collection_id": "7", "uuid": "p7wm00bk", "acronym": "WOYL", "language": "cn", "title": "我爱一两 采集", "year": "2020-9999", "visible": "1" }
 ]

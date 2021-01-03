@@ -53,7 +53,28 @@
     { "reference_uuid": "jybo2v6v", "page": "203", "plate": "", "identifier": "28", "notes": "cmv_partial_copy" },
     { "reference_uuid": "08w1apoy", "page": "", "plate": "", "identifier": "1984,0718.11", "notes": "" }
   ],
-  "other_specimens": [],
-  "other_images": [],
-  "collections": []
+  "other_specimens": [
+    { "code": "MANT vae14-1146", "images": ["fj6ha0qu", "3joxcgur"], "diameter": "51.00", "weight": "29.69", "page": "", "plate": "" },
+    { "code": "BMTW 56.779", "images": ["izl2egwh", "lahzfzat"], "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "WOYL MM1", "images": ["ao2h576m", "i58tqcbb"], "diameter": "", "weight": "", "page": "", "plate": "" }
+  ],
+  "other_images": [
+    { "image_id": "21", "uuid": "fj6ha0qu", "src": "dd12077718c549eba7da8bc5f42ee38a-1.png", "href": "MANT MM1", "copyright": "0", "country": "fr", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "22", "uuid": "3joxcgur", "src": "dd12077718c549eba7da8bc5f42ee38a-2.png", "href": "MANT MM1", "copyright": "0", "country": "fr", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "23", "uuid": "snj8l3n5", "src": "3a904564e1ca49ceb419d684b15e2ac9-1.png", "href": "MANT MM1", "copyright": "0", "country": "fr", "year": "2013", "color": "1", "visible": "0" },
+    { "image_id": "24", "uuid": "p7yc1e6k", "src": "3a904564e1ca49ceb419d684b15e2ac9-2.png", "href": "MANT MM1", "copyright": "0", "country": "fr", "year": "2013", "color": "1", "visible": "0" },
+    { "image_id": "25", "uuid": "izl2egwh", "src": "4228d8a6badf496c86f6297bbff8963f-1.png", "href": "BMT56 MM1", "copyright": "0", "country": "hk", "year": "2014", "color": "0", "visible": "1" },
+    { "image_id": "26", "uuid": "lahzfzat", "src": "4228d8a6badf496c86f6297bbff8963f-2.png", "href": "BMT56 MM1", "copyright": "0", "country": "hk", "year": "2014", "color": "0", "visible": "1" },
+    { "image_id": "27", "uuid": "umb8nvs8", "src": "7a21096d56204e1d9dc47793aa7f121f-1.png", "href": "BMT56 MM1", "copyright": "0", "country": "hk", "year": "2014", "color": "1", "visible": "0" },
+    { "image_id": "28", "uuid": "50ohr0tp", "src": "7a21096d56204e1d9dc47793aa7f121f-2.png", "href": "BMT56 MM1", "copyright": "0", "country": "hk", "year": "2014", "color": "1", "visible": "0" },
+    { "image_id": "29", "uuid": "ao2h576m", "src": "88466de145fb4063bd10bf910495e117-1.png", "href": "WOYL MM1", "copyright": "0", "country": "cn", "year": "2020", "color": "0", "visible": "1" },
+    { "image_id": "30", "uuid": "i58tqcbb", "src": "88466de145fb4063bd10bf910495e117-2.png", "href": "WOYL MM1", "copyright": "0", "country": "cn", "year": "2020", "color": "0", "visible": "1" },
+    { "image_id": "31", "uuid": "xvrv02tb", "src": "a7c39160ef5c41d2a4515f05af866b32-1.png", "href": "WOYL MM1", "copyright": "0", "country": "cn", "year": "2020", "color": "1", "visible": "0" },
+    { "image_id": "32", "uuid": "oqy38acl", "src": "a7c39160ef5c41d2a4515f05af866b32-2.png", "href": "WOYL MM1", "copyright": "0", "country": "cn", "year": "2020", "color": "1", "visible": "0" }
+  ],
+  "collections": [
+    { "collection_uuid": "qzi0xluv", "date": "2013-11-21", "pdf_url": "", "url_obverse": "http://www.monnaiesdantan.com/upload/140984.jpg", "url_reverse": "http://www.monnaiesdantan.com/upload/140984.jpg", "identifier": "", "lot_number": "" },
+    { "collection_uuid": "hzt9wxbt", "date": "2014-04-03", "pdf_url": "", "url_obverse": "https://www.numisbids.com/sales/hosted/baldwin/hk56/image00779.jpg", "url_reverse": "https://www.numisbids.com/sales/hosted/baldwin/hk56/image00779.jpg", "identifier": "", "lot_number": "" },
+    { "collection_uuid": "p7wm00bk", "date": "2020-04-06", "pdf_url": "", "url_obverse": "https://pic1.chcoin.com/M02/06/0F/wKgBWF6KviOIJ1_TAABPOSNAuQYAAEi7AAmqxUAAE9R207.jpg", "url_reverse": "https://pic1.chcoin.com/M02/06/0F/wKgBWF6KviOIaFGeAABQ9tqHR1wAAEi6wP_lGYAAFEO814.jpg", "identifier": "", "lot_number": "" }
+  ]
 }
