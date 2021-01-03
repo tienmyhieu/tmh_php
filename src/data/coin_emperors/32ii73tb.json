@@ -31,10 +31,10 @@
     { "image_id": "28", "uuid": "c8bomhc6", "src": "f7303b930297473695437822870ff197-2.png", "href": "HCCV_140", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" },
     { "image_id": "29", "uuid": "bx3rhhqu", "src": "1e8178a2b63646dfa69ea0037ab216af-2.png", "href": "BTTPHCM MM1", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
     { "image_id": "30", "uuid": "w5ylx4dz", "src": "8f90e586361345369d436dab090cbefb-2.png", "href": "BTTPHCM MM1", "copyright": "0", "country": "vn", "year": "", "color": "1", "visible": "0" },
-    { "image_id": "31", "uuid": "v6wz47pw", "src": "328dc386d4b047439e55b3a36d2c3bb1-1.png", "href": "VN4_VN29_4", "copyright": "1", "country": "vn", "year": "2018", "color": "0", "visible": "1" },
-    { "image_id": "32", "uuid": "l83de1ox", "src": "328dc386d4b047439e55b3a36d2c3bb1-2.png", "href": "VN4_VN29_4", "copyright": "1", "country": "vn", "year": "2018", "color": "0", "visible": "1" },
-    { "image_id": "33", "uuid": "k8p6ydbp", "src": "9e627d483e0244b6a6c07ecdd50a0d7a-1.png", "href": "VN4_VN29_4", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" },
-    { "image_id": "34", "uuid": "o7v6zgqt", "src": "9e627d483e0244b6a6c07ecdd50a0d7a-2.png", "href": "VN4_VN29_4", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" }
+    { "image_id": "31", "uuid": "v6wz47pw", "src": "74a59747ac8c4f958354a6c1ee380294-1.png", "href": "VN4_VN29_4", "copyright": "1", "country": "vn", "year": "2018", "color": "0", "visible": "1" },
+    { "image_id": "32", "uuid": "l83de1ox", "src": "74a59747ac8c4f958354a6c1ee380294-2.png", "href": "VN4_VN29_4", "copyright": "1", "country": "vn", "year": "2018", "color": "0", "visible": "1" },
+    { "image_id": "33", "uuid": "k8p6ydbp", "src": "59f393b763304834913ac85d6dee424a-1.png", "href": "VN4_VN29_4", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" },
+    { "image_id": "34", "uuid": "o7v6zgqt", "src": "59f393b763304834913ac85d6dee424a-2.png", "href": "VN4_VN29_4", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
     { "code": "Lacroix 426", "images": ["wvsw25u6"], "diameter": "", "weight": "", "page": "180", "plate": "30" },
@@ -52,7 +52,7 @@
     { "reference_uuid": "egjosprx", "page": "180", "plate": "30", "identifier": "426", "notes": "" },
     { "reference_uuid": "3wpxtg83", "page": "430", "plate": "58", "identifier": "129", "notes": ""},
     { "reference_uuid": "o16jso3o", "page": "57", "plate": "", "identifier": "", "notes": "aen_partial_copy" },
-    { "reference_uuid": "e4m6tdqj", "page": "12", "plate": "13", "identifier": "129", "notes": "aen_partial_copy" },
+    { "reference_uuid": "e4m6tdqj", "page": "10", "plate": "13", "identifier": "129", "notes": "aen_partial_copy" },
     { "reference_uuid": "8eszq2lc", "page": "47", "plate": "", "identifier": "6", "notes": "" },
     { "reference_uuid": "epbbj5hx", "page": "49", "plate": "9", "identifier": "V71", "notes": "" },
     { "reference_uuid": "uh1x8rgi", "page": "85", "plate": "21", "identifier": "1528", "notes": "" },
