@@ -3,28 +3,63 @@ namespace adapters;
 
 class HtmlOutput
 {
+    const BASE_IMG_URL = 'http://img1.tienmyhieu.com/';
+    const IMG_PREVIEW_SIZE = '256';
+
     public static function article($article, $lexicon): string
     {
 //        echo '<pre>';
 //        print_r($article);
 //        echo '</pre>';
         $html = '';
-//        $html .= "\n\t\t\t" . '<table border="1" cellpadding="2" cellspacing="1">';
-//        $html .= "\n\t\t\t\t" . '<tbody>';
-//        $html .= "\n\t\t\t\t\t" . '<tr>';
-//        $html .= "\n\t\t\t\t\t\t" . '<td>' . $article['page_image'] . '</td>';
-//        $html .= "\n\t\t\t\t\t\t" . '<td>' . $article['page_image'] . '</td>';
-//        $html .= "\n\t\t\t\t\t" . '</tr>';
-//        $html .= "\n\t\t\t\t" . '</tbody>';
-//        $html .= "\n\t\t\t" . '</table>';
+        $html .= "\n\t\t\t" . '<table border="1" cellpadding="5" cellspacing="1">';
+        $html .= "\n\t\t\t\t" . '<tbody>';
+        $html .= "\n\t\t\t\t\t" . '<tr>';
+        $html .= HtmlOutput::articleIntro($article['intro']);
+        $html .= "\n\t\t\t\t\t" . '</tr>';
+        foreach ($article['sections'] as $section) {
+            $html .= "\n\t\t\t\t\t" . '<tr>';
+            $html .= HtmlOutput::articleSection($section);
+            $html .= "\n\t\t\t\t\t" . '</tr>';
+        }
+        $html .= "\n\t\t\t\t" . '</tbody>';
+        $html .= "\n\t\t\t" . '</table>';
         return $html;
     }
 
-    public static function articleIntro($image, $sentences): string
+    public static function articleSection($section)
     {
-        $html = "\n\t\t\t\t\t\t" . '<td>' . $image['src'] . '</td>';
-        $html .= "\n\t\t\t\t\t\t" . '<td>';
+        $baseImageHref = HtmlOutput::BASE_IMG_URL . 'uploads/256/';
+        $html = "\n\t\t\t\t\t\t" . '<td>';
+        foreach ($section['images'] as $image) {
+            $imageHref = $baseImageHref . $image['src'];
+            $html .= '<a href="' . $imageHref . '" title="' . $image['title'] . '">';
+            $html .= '<img src="' . $imageHref . '" alt="' . $image['title'] . '" /></a>';
+        }
+        $html .= "\n\t\t\t\t\t\t" . '</td>';
+        $html .= "\n\t\t\t\t\t\t" . '<td valign="top">';
+        foreach ($section['sentences'] as $sentence) {
+            $html .= $sentence . '.<br />';
+        }
+        $html .= "\n\t\t\t\t\t\t" . '</td>';
+        return $html;
+    }
 
+    public static function articleIntro($intro): string
+    {
+        $isUpload = 0 < strlen($intro['image_dir']);
+        $targetImgSize = $isUpload ? '256' : '1024';
+        $imgSrc = HtmlOutput::BASE_IMG_URL . HtmlOutput::IMG_PREVIEW_SIZE . '/' . $intro['image'];
+        $imageHref = HtmlOutput::BASE_IMG_URL . $targetImgSize . '/' . $intro['image'];
+        $imageTitle = $intro['image_title'];
+        $html = "\n\t\t\t\t\t\t" . '<td>';
+        $html .= '<a href="' . $imageHref . '" title="' . $imageTitle . '">';
+        $html .= '<img src="' . $imgSrc . '" alt="' . $imageTitle . '" /></a>';
+        $html .= '</td>';
+        $html .= "\n\t\t\t\t\t\t" . '<td valign="top">';
+        foreach ($intro['sentences'] as $sentence) {
+            $html .= $sentence . '. ';
+        }
         $html .= "\n\t\t\t\t\t\t" . '</td>';
         return $html;
     }

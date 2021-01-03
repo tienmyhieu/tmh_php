@@ -3,12 +3,35 @@
     { "title_id": "1", "uuid": "07qezkhj", "title": "Schroeder 130" },
     { "title_id": "2", "uuid": "lrvidynz", "title": "Schroeder 130 là một đồng tiền của Tự Đức" },
     { "title_id": "3", "uuid": "mam4ijwm", "title": "So sánh chữ cái 'Quốc' một: Schroeder 130 và Thierry 1533" },
-    { "title_id": "4", "uuid": "fygw7h1l", "title": "Schroeder 130 chữ 1" },
-    { "title_id": "5", "uuid": "1oo6rp4f", "title": "Thierry 1533 chữ 1" }
+    { "title_id": "4", "uuid": "wdad8bd5", "title": "Schroeder 130 chữ 1" },
+    { "title_id": "5", "uuid": "l2hn403o", "title": "Thierry 1533 chữ 1" },
+    { "title_id": "6", "uuid": "q0lg8s85", "title": "Thierry 1629 chữ 1" },
+    { "title_id": "7", "uuid": "n2nsr5va", "title": "CHCO 2239218 chữ 1" },
+    { "title_id": "8", "uuid": "g3xdg11c", "title": "Schroeder 130 chữ 3" },
+    { "title_id": "9", "uuid": "ugp4ua9s", "title": "Thierry 1533 chữ 3" },
+    { "title_id": "10", "uuid": "c0t0jqoh", "title": "Thierry 1629 chữ 3" },
+    { "title_id": "11", "uuid": "zctl4vrz", "title": "CHCO 2239218 chữ 3" },
+    { "title_id": "12", "uuid": "46kejc1p", "title": "Schroeder 130 chữ 5" },
+    { "title_id": "13", "uuid": "hg07uni8", "title": "Thierry 1533 chữ 5" },
+    { "title_id": "14", "uuid": "ri268a2z", "title": "Thierry 1629 chữ 5" },
+    { "title_id": "15", "uuid": "e26rd5lw", "title": "CHCO 2239218 chữ 5" },
+    { "title_id": "16", "uuid": "xjncwnsj", "title": "Schroeder 130 chữ 7" },
+    { "title_id": "17", "uuid": "f9wa5b6f", "title": "Thierry 1533 chữ 7" },
+    { "title_id": "18", "uuid": "p9ls2kkj", "title": "Thierry 1629 chữ 7" },
+    { "title_id": "19", "uuid": "10841yk4", "title": "CHCO 2239218 chữ 7" }
   ],
   "sentences": [
-    { "sentence_id": "1", "uuid": "njb64u1t", "title_uuid": "", "sentence": "Schroder 130 này nằm trong các hình ảnh tiền của Minh Mệnh" },
-    { "sentence_id": "2", "uuid": "hhu310xx", "title_uuid": "mam4ijwm", "sentence": "Thierry 1533 là một tiền của Minh Mệnh" },
-    { "sentence_id": "3", "uuid": "uhbjp8no", "title_uuid": "", "sentence": "Các chữ 'Quốc' cái trông không giống nhau" }
+    { "sentence_id": "1", "uuid": "kamzbsst", "title_uuid": "", "sentence": "Schroder 130 này nằm trong các hình ảnh tiền của Minh Mệnh" },
+    { "sentence_id": "2", "uuid": "23wy55mu", "title_uuid": "", "sentence": "Thierry 1533 là một tiền của Minh Mệnh" },
+    { "sentence_id": "4", "uuid": "zds10rwc", "title_uuid": "", "sentence": "Thierry 1629 là một tiền của Thiệu Trị" },
+    { "sentence_id": "5", "uuid": "wu85qpww", "title_uuid": "", "sentence": "Ví dụ tiền của Tự Đức" },
+    { "sentence_id": "3", "uuid": "e8lgoj3c", "title_uuid": "", "sentence": "Các chữ 'Quốc' cái trông không giống nhau" },
+    { "sentence_id": "6", "uuid": "pfgd3h7f", "title_uuid": "", "sentence": "Các chữ 'Quốc' cái trông giống nhau" },
+    { "sentence_id": "7", "uuid": "2gqhf16k", "title_uuid": "", "sentence": "Các chữ 'Dân' cái trông không giống nhau" },
+    { "sentence_id": "8", "uuid": "5d4dpkt6", "title_uuid": "", "sentence": "Các chữ 'Dân' cái trông giống nhau" },
+    { "sentence_id": "9", "uuid": "7fs4c0g9", "title_uuid": "", "sentence": "Các chữ 'Phong' cái trông không giống nhau" },
+    { "sentence_id": "10", "uuid": "77oep3rj", "title_uuid": "", "sentence": "Các chữ 'Phong' cái trông giống nhau" },
+    { "sentence_id": "11", "uuid": "pkx4bkpr", "title_uuid": "", "sentence": "Các chữ 'Vũ' cái trông không giống nhau" },
+    { "sentence_id": "12", "uuid": "s9eyd24d", "title_uuid": "", "sentence": "Các chữ 'Vũ' cái trông giống nhau" }
   ]
 }

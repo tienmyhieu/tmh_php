@@ -3,9 +3,6 @@ namespace adapters;
 
 class Marshal
 {
-    const BASE_IMG_URL = 'http://img1.tienmyhieu.com/';
-    const BASE_UPLOADS_URL = Marshal::BASE_IMG_URL . 'uploads/';
-
     protected $articles;
     protected $coinEmperors;
     protected $coins;
@@ -111,6 +108,7 @@ class Marshal
             $transformed['images'][$uuid]['src'] = $image['src'];
         }
         $transformed['intro']['image'] = $images[$article['intro']['image']]['src'];
+        $transformed['intro']['image_title'] = $titles[$images[$article['intro']['image']]['title_uuid']]['title'];
         $transformed['intro']['image_dir'] = $article['intro']['image_dir'];
         $transformed['intro']['sentences'] = [];
         $transformed['sections'] = [];
@@ -119,6 +117,7 @@ class Marshal
         }
         foreach ($sections as $uuid => $section) {
             $title = $this->itemsKey($section, 'title_uuid');
+            echo $title;
             $transformed['sections'][$uuid]['title'] = $title ? $titles[$title]['title'] : '';
             $transformed['sections'][$uuid]['images'] = [];
             $transformed['sections'][$uuid]['sentences'] = [];
