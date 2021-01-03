@@ -6,5 +6,6 @@
   { "collection_id": "5", "uuid": "5ih2j7u9", "acronym": "TGCT", "language": "vn", "title": "Thế Giới Cổ Tiền bộ sưu tập", "year": "2018-2020", "visible": "1" },
   { "collection_id": "6", "uuid": "54982692", "acronym": "CHEN", "language": "cn", "title": "诚轩 拍卖会", "year": "2007-9999", "visible": "1" },
   { "collection_id": "7", "uuid": "41281783", "acronym": "CHCO", "language": "cn", "title": "古泉园地 拍卖会", "year": "2006-9999", "visible": "1" },
-  { "collection_id": "7", "uuid": "p7wm00bk", "acronym": "WOYL", "language": "cn", "title": "我爱一两 采集", "year": "2020-9999", "visible": "1" }
+  { "collection_id": "8", "uuid": "p7wm00bk", "acronym": "WOYL", "language": "cn", "title": "我爱一两 采集", "year": "2020-9999", "visible": "1" },
+  { "collection_id": "9", "uuid": "9o8x5glc", "acronym": "HEUR", "language": "en", "title": "Heritage Europe Auctions", "year": "2013-9999", "visible": "1" }
 ]
