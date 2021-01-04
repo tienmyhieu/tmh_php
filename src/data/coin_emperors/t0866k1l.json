@@ -1,9 +1,44 @@
 {
-  "page_image": "zzz-2",
-  "images": [],
-  "reference_specimens": [],
-  "references": [],
-  "other_specimens": [],
-  "other_images": [],
-  "collections": []
+  "page_image": "e9227b4c38124d9abff17d20fe7e00df-2.png",
+  "images": [
+    { "image_id": "1", "uuid": "v0wwcsh3", "src": "e9227b4c38124d9abff17d20fe7e00df-2.png", "href": "NA_477", "copyright": "0", "country": "fr", "year": "1900", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "94liz2oh", "src": "95567a9dadb9464db2317b3b4ecebf90-1.png", "href": "ANZDQ_90", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "gj9lm0kd", "src": "95567a9dadb9464db2317b3b4ecebf90-2.png", "href": "ANZDQ_90", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "i0xa4bs8", "src": "22c4d742db734ee0a8db8a8c6b522acf-1.png", "href": "AMDK_40", "copyright": "1", "country": "ja", "year": "2012", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "m9ppbdun", "src": "22c4d742db734ee0a8db8a8c6b522acf-2.png", "href": "AMDK_40", "copyright": "1", "country": "ja", "year": "2012", "color": "0", "visible": "1" }
+  ],
+  "reference_specimens": [
+    { "code": "Lacroix 477", "images": ["v0wwcsh3"], "diameter": "", "weight": "", "page": "191", "plate": "36" },
+    { "code": "大庫 90", "images": ["94liz2oh", "gj9lm0kd"], "diameter": "", "weight": "", "page": "72", "plate": "" },
+    { "code": "泉堂 40", "images": ["i0xa4bs8", "m9ppbdun"], "diameter": "", "weight": "", "page": "40", "plate": "" }
+  ],
+  "references": [
+    { "reference_uuid": "egjosprx", "page": "191", "plate": "36", "identifier": "477", "notes": "" },
+    { "reference_uuid": "pe4aw1hq", "page": "72", "plate": "", "identifier": "90", "notes": "" },
+    { "reference_uuid": "ybfi7983", "page": "387", "plate": "", "identifier": "29", "notes": "" },
+    { "reference_uuid": "cxqs7bca", "page": "40", "plate": "", "identifier": "40", "notes": "" },
+    { "reference_uuid": "jybo2v6v", "page": "204", "plate": "", "identifier": "29", "notes": "anzdq_partial_copy" }
+  ],
+  "other_specimens": [
+    { "code": "MANT vae14-1172", "images": ["0ugodq93", "0xgrw0pi"], "diameter": "51.00", "weight": "30.92", "page": "", "plate": "" },
+    { "code": "IKAR TD1", "images": ["7zomv94g"], "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "WOYL TD1", "images": ["2m1yo554", "nfx2p3ql"], "diameter": "", "weight": "", "page": "", "plate": "" }
+  ],
+  "other_images": [
+    { "image_id": "6", "uuid": "0ugodq93", "src": "e556b673c51d49fba69eb98a43b51ce1-1.png", "href": "MANT TD1", "copyright": "0", "country": "fr", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "7", "uuid": "0xgrw0pi", "src": "e556b673c51d49fba69eb98a43b51ce1-2.png", "href": "MANT TD1", "copyright": "0", "country": "fr", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "8", "uuid": "95incknb", "src": "1d7e55b072de4d6e8890454dd2414afd-1.png", "href": "MANT TD1", "copyright": "0", "country": "fr", "year": "2013", "color": "1", "visible": "0" },
+    { "image_id": "9", "uuid": "3ncxjjit", "src": "1d7e55b072de4d6e8890454dd2414afd-2.png", "href": "MANT TD1", "copyright": "0", "country": "fr", "year": "2013", "color": "1", "visible": "0" },
+    { "image_id": "10", "uuid": "7zomv94g", "src": "20cf40f7c1784d97b683b96435ec8512-2.png", "href": "IKARU TD1", "copyright": "0", "country": "ja", "year": "2016", "color": "0", "visible": "1" },
+    { "image_id": "11", "uuid": "w9howm3y", "src": "d40105c6a042437c852d8a50f66837f3-2.png", "href": "IKARU TD1", "copyright": "0", "country": "ja", "year": "2016", "color": "1", "visible": "0" },
+    { "image_id": "12", "uuid": "2m1yo554", "src": "c2f0f8c4f44a4cbba37e44cbb12e4a17-1.png", "href": "WOYL TD1", "copyright": "0", "country": "cn", "year": "2020", "color": "0", "visible": "1" },
+    { "image_id": "13", "uuid": "nfx2p3ql", "src": "c2f0f8c4f44a4cbba37e44cbb12e4a17-2.png", "href": "WOYL TD1", "copyright": "0", "country": "cn", "year": "2020", "color": "0", "visible": "1" },
+    { "image_id": "14", "uuid": "d4l32x5f", "src": "d69550d4ce944c5681d3b096ce6a062c-1.png", "href": "WOYL TD1", "copyright": "0", "country": "cn", "year": "2020", "color": "1", "visible": "0" },
+    { "image_id": "15", "uuid": "lli0k81z", "src": "d69550d4ce944c5681d3b096ce6a062c-2.png", "href": "WOYL TD1", "copyright": "0", "country": "cn", "year": "2020", "color": "1", "visible": "0" }
+  ],
+  "collections": [
+    { "collection_uuid": "qzi0xluv", "date": "2013-11-21", "pdf_url": "", "url_obverse": "http://www.monnaiesdantan.com/upload/140995.jpg", "url_reverse": "http://www.monnaiesdantan.com/upload/140995.jpg", "identifier": "", "lot_number": "" },
+    { "collection_uuid": "i91nbvi5", "date": "2016-11-11", "pdf_url": "", "url_obverse": "", "url_reverse": "http://blogimg.goo.ne.jp/user_image/7b/49/827f79494d70220d5895a92cd3e61f49.jpg", "identifier": "", "lot_number": "" },
+    { "collection_uuid": "p7wm00bk", "date": "2020-04-06", "pdf_url": "", "url_obverse": "https://pic1.chcoin.com/M02/06/0C/wKgBWF6FU12IHsH4AADaJDMsrnwAAEh6gD0qIIAANo8322.jpg", "url_reverse": "https://pic1.chcoin.com/M02/06/0C/wKgBWF6FU12IHsH4AADaJDMsrnwAAEh6gD0qIIAANo8322.jpg", "identifier": "", "lot_number": "" }
+  ]
 }
