@@ -40,5 +40,5 @@
   { "reference_id": "39", "uuid": "gvkepvmm", "acronym": "VN6", "author": "Nguyễn Đình Chiến<br/>Trương Văn Thắng", "language": "vn", "title": "Vietnam Numismatics, Tập 6", "year": "2019", "visible": "1" },
   { "reference_id": "40", "uuid": "jybo2v6v", "acronym": "ATMHR", "author": "齋藤昭維", "language": "ja", "title": "安南美號大銭の研究", "year": "2019", "visible": "1" },
   { "reference_id": "41", "uuid": "knsmgzuq", "acronym": "BTTPHCM", "author": "BTTPHCM", "language": "vi", "title": "Bảo Tàng Thành Phố Hố Chí Minh", "year": "", "visible": "1" },
-  { "reference_id": "42", "uuid": "08w1apoy", "acronym": "BM", "author": "BM", "language": "en", "title": "The British Museum", "year": "", "visible": "1" }
+  { "reference_id": "42", "uuid": "08w1apoy", "acronym": "BM", "author": "British Museum", "language": "en", "title": "The British Museum", "year": "", "visible": "1" }
 ]

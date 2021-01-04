@@ -262,7 +262,7 @@ class HtmlOutput
                     $html .= '&nbsp;&nbsp;&nbsp;' . $lexicon['weight'] . ': ' . $reference['weight'] . '<br/>';
                 }
                 $html .= '</td>';
-                $html .= "\n\t\t\t\t\t" . '<td>';
+                $html .= "\n\t\t\t\t\t" . '<td align="right">';
                 $imageTitle = $reference['code'];
                 foreach ($reference['images'] as $imageUuid) {
                     $image = $images[$imageUuid];
