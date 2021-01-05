@@ -27,7 +27,7 @@ class HtmlOutput
         return $html;
     }
 
-    public static function articleSection($section)
+    public static function articleSection($section): string
     {
         $baseImageHref = HtmlOutput::BASE_IMG_URL . 'uploads/256/';
         $html = "\n\t\t\t\t\t\t" . '<td>';
