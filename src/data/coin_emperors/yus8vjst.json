@@ -7,15 +7,15 @@
     { "image_id": "4", "uuid": "kbmohero", "src": "b1e4d6187ecc4be4b9127cdb5f1ce38f-2.png", "href": "ANZDQ_47", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" }
   ],
   "reference_specimens": [
-    { "code": "三浦清吾 21", "images": ["yq4w1mru", "9v2hs0ih"], "diameter": "", "weight": "", "page": "22", "plate": "" },
-    { "code": "大庫 73", "images": ["fkn8yw2b", "kbmohero"], "diameter": "", "weight": "", "page": "91", "plate": "" }
+    { "code": "三浦清吾 21", "images": ["yq4w1mru", "9v2hs0ih"], "diameter": "", "weight": "", "page": "22", "plate": "", "articles": [] },
+    { "code": "大庫 73", "images": ["fkn8yw2b", "kbmohero"], "diameter": "", "weight": "", "page": "91", "plate": "", "articles": [] }
   ],
   "references": [
-    { "reference_uuid": "nlyz7za5", "page": "22", "plate": "", "identifier": "", "notes": "" },
-    { "reference_uuid": "5ekjpp24", "page": "302", "plate": "", "identifier": "188", "notes": "as3_partial_copy" },
-    { "reference_uuid": "pe4aw1hq", "page": "91", "plate": "", "identifier": "73", "notes": "" },
-    { "reference_uuid": "ybfi7983", "page": "387", "plate": "", "identifier": "30", "notes": "" },
-    { "reference_uuid": "jybo2v6v", "page": "205", "plate": "", "identifier": "30", "notes": "anzdq_partial_copy" }
+    { "reference_uuid": "nlyz7za5", "page": "22", "plate": "", "identifier": "", "notes": "", "articles": [] },
+    { "reference_uuid": "5ekjpp24", "page": "302", "plate": "", "identifier": "188", "notes": "as3_partial_copy", "articles": [] },
+    { "reference_uuid": "pe4aw1hq", "page": "91", "plate": "", "identifier": "73", "notes": "", "articles": [] },
+    { "reference_uuid": "ybfi7983", "page": "387", "plate": "", "identifier": "30", "notes": "", "articles": [] },
+    { "reference_uuid": "jybo2v6v", "page": "205", "plate": "", "identifier": "30", "notes": "anzdq_partial_copy", "articles": [] }
   ],
   "other_specimens": [
     { "code": "SSSC TD1", "images": ["jyufp9t4", "kh3f2w9w"], "diameter": "", "weight": "", "page": "", "plate": "" },
