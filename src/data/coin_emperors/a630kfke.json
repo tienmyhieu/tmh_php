@@ -35,7 +35,7 @@
     { "code": "Barker 144", "images": ["os1tw85t", "pac1k1yz"], "diameter": "51.22", "weight": "27.55", "page": "273", "plate": "" },
     { "code": "TCVN2 MM1", "images": ["h59cbn4i", "uysvqf6h"], "diameter": "", "weight": "", "page": "120", "plate": "" },
     { "code": "大庫 15", "images": ["bvic4gcq", "hhv08ln7"], "diameter": "", "weight": "", "page": "47", "plate": "" },
-    { "code": "Joyaux 826", "images": ["uo3i0orb", "xra1fwb9"], "diameter": "51.20", "weight": "23.87", "page": "147", "plate": "" },
+    { "code": "Joyaux 826", "images": ["uo3i0orb", "xra1fwb9"], "diameter": "50.90", "weight": "25.64", "page": "147", "plate": "" },
     { "code": "泉堂 7", "images": ["hvzd77bo", "psclm26r"], "diameter": "", "weight": "", "page": "7", "plate": "" },
     { "code": "STTMM 5", "images": ["jphgo4j3", "ig8v4lew"], "diameter": "51.00", "weight": "26.00", "page": "79", "plate": "" }
   ],
@@ -44,7 +44,7 @@
     { "reference_uuid": "egjosprx", "page": "181", "plate": "30", "identifier": "429", "notes": "" },
     { "reference_uuid": "3wpxtg83", "page": "430", "plate": "59", "identifier": "133", "notes": ""},
     { "reference_uuid": "o16jso3o", "page": "57", "plate": "", "identifier": "", "notes": "aen_partial_copy" },
-    { "reference_uuid": "e4m6tdqj", "page": "10", "plate": "13", "identifier": "129", "notes": "aen_partial_copy" },
+    { "reference_uuid": "e4m6tdqj", "page": "10", "plate": "14", "identifier": "133", "notes": "aen_partial_copy" },
     { "reference_uuid": "8eszq2lc", "page": "48", "plate": "", "identifier": "10", "notes": "" },
     { "reference_uuid": "uh1x8rgi", "page": "87", "plate": "22", "identifier": "1540", "notes": "" },
     { "reference_uuid": "rybfmx61", "page": "61", "plate": "", "identifier": "6", "notes": "" },
