@@ -107,8 +107,11 @@ class Marshal
             $transformed['images'][$uuid]['title'] = $title ? $titles[$title]['title'] : '';
             $transformed['images'][$uuid]['src'] = $image['src'];
         }
-        $transformed['intro']['image'] = $images[$article['intro']['image']]['src'];
-        $transformed['intro']['image_title'] = $titles[$images[$article['intro']['image']]['title_uuid']]['title'];
+        $transformed['intro']['images'] = [];
+        foreach ($article['intro']['images'] as $introImage) {
+            $transformed['intro']['images'][$introImage]['src'] = $images[$introImage]['src'];
+            $transformed['intro']['images'][$introImage]['title'] = $titles[$images[$introImage]['title_uuid']]['title'];
+        }
         $transformed['intro']['image_dir'] = $article['intro']['image_dir'];
         $transformed['intro']['sentences'] = [];
         $transformed['sections'] = [];

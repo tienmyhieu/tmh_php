@@ -49,12 +49,15 @@ class HtmlOutput
     {
         $isUpload = 0 < strlen($intro['image_dir']);
         $targetImgSize = $isUpload ? '256' : '1024';
-        $imgSrc = HtmlOutput::BASE_IMG_URL . HtmlOutput::IMG_PREVIEW_SIZE . '/' . $intro['image'];
-        $imageHref = HtmlOutput::BASE_IMG_URL . $targetImgSize . '/' . $intro['image'];
-        $imageTitle = $intro['image_title'];
         $html = "\n\t\t\t\t\t\t" . '<td>';
-        $html .= '<a href="' . $imageHref . '" title="' . $imageTitle . '">';
-        $html .= '<img src="' . $imgSrc . '" alt="' . $imageTitle . '" /></a>';
+        foreach ($intro['images'] as $introImage) {
+            $imgSrc = HtmlOutput::BASE_IMG_URL . HtmlOutput::IMG_PREVIEW_SIZE . '/' . $introImage['src'];
+            $imageHref = HtmlOutput::BASE_IMG_URL . $targetImgSize . '/' . $introImage['src'];
+            $imageTitle = $introImage['title'];
+            $html .= '<a href="' . $imageHref . '" title="' . $imageTitle . '">';
+            $html .= '<img src="' . $imgSrc . '" alt="' . $imageTitle . '" /></a>';
+        }
+
         $html .= '</td>';
         $html .= "\n\t\t\t\t\t\t" . '<td valign="top">';
         foreach ($intro['sentences'] as $sentence) {
