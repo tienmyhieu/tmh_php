@@ -1,0 +1,68 @@
+{
+  "page_image": "378adf5da3a74b9db39adf8750edf30b-2",
+  "images": [
+    { "image_id": "1", "uuid": "rflobmms", "src": "82c3c350d52b48b094ca9f2756a297b7-2.png", "href": "NA_419", "copyright": "0", "country": "fr", "year": "1900", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "vfbypxek", "src": "7161f8ef6d1f4d389bce0a59a494e001-1.png", "href": "CMV_1545", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "pgcznlce", "src": "7161f8ef6d1f4d389bce0a59a494e001-2.png", "href": "CMV_1545", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "s7pkw6oy", "src": "be1f640fdb8f43ccaed72c082351e901-1.png", "href": "HCCV_146", "copyright": "1", "country": "sg", "year": "2004", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "3kvxaomu", "src": "be1f640fdb8f43ccaed72c082351e901-2.png", "href": "HCCV_146", "copyright": "1", "country": "sg", "year": "2004", "color": "0", "visible": "1" },
+    { "image_id": "6", "uuid": "pwd16dz9", "src": "40f10d846d1846948087783b460693d6-1.png", "href": "HCCV_146", "copyright": "1", "country": "sg", "year": "2004", "color": "1", "visible": "0" },
+    { "image_id": "7", "uuid": "rj05fl4k", "src": "40f10d846d1846948087783b460693d6-2.png", "href": "HCCV_146", "copyright": "1", "country": "sg", "year": "2004", "color": "1", "visible": "0" },
+    { "image_id": "8", "uuid": "gvpvz8xi", "src": "3ff8e798bfe9414d96651bd137206aae-1.png", "href": "ANZDQ_16", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
+    { "image_id": "9", "uuid": "g2xuigru", "src": "3ff8e798bfe9414d96651bd137206aae-2.png", "href": "ANZDQ_16", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
+    { "image_id": "10", "uuid": "j0nnp85b", "src": "f9a43bab2e064d1382923256304c7ac0-1.png", "href": "AMDK_8", "copyright": "1", "country": "ja", "year": "2012", "color": "0", "visible": "1" },
+    { "image_id": "11", "uuid": "ex2c1hkb", "src": "f9a43bab2e064d1382923256304c7ac0-2.png", "href": "AMDK_8", "copyright": "1", "country": "ja", "year": "2012", "color": "0", "visible": "1" },
+    { "image_id": "12", "uuid": "dmi51wcv", "src": "03a1879755984c47a035a43ad22a3388-1.png", "href": "STTMM_7", "copyright": "1", "country": "vn", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "13", "uuid": "uuxxl668", "src": "03a1879755984c47a035a43ad22a3388-2.png", "href": "STTMM_7", "copyright": "1", "country": "vn", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "14", "uuid": "w0w59esg", "src": "87d699b035824ce690268fe1b8f54a7d-1.png", "href": "STTMM_7", "copyright": "1", "country": "vn", "year": "2013", "color": "1", "visible": "0" },
+    { "image_id": "15", "uuid": "rtqdn8n0", "src": "87d699b035824ce690268fe1b8f54a7d-2.png", "href": "STTMM_7", "copyright": "1", "country": "vn", "year": "2013", "color": "1" , "visible": "0"},
+    { "image_id": "16", "uuid": "4d6ywif4", "src": "378adf5da3a74b9db39adf8750edf30b-1.png", "href": "HCCV_146", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },
+    { "image_id": "17", "uuid": "h4yt0367", "src": "378adf5da3a74b9db39adf8750edf30b-2.png", "href": "HCCV_146", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },
+    { "image_id": "18", "uuid": "uttkbl0c", "src": "b81531e51fb148e0995f089828c07557-1.png", "href": "HCCV_146", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" },
+    { "image_id": "19", "uuid": "qtjc3mwv", "src": "b81531e51fb148e0995f089828c07557-2.png", "href": "HCCV_146", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" }
+  ],
+  "reference_specimens": [
+    { "code": "Lacroix 419", "images": ["rflobmms"], "diameter": "", "weight": "", "page": "180", "plate": "29", "articles": [] },
+    { "code": "Thierry 1545", "images": ["vfbypxek", "pgcznlce"], "diameter": "51.00", "weight": "27.89", "page": "87", "plate": "23", "articles": [] },
+    { "code": "Barker 146", "images": ["4d6ywif4", "h4yt0367"], "diameter": "51.13", "weight": "26.40", "page": "274", "plate": "", "articles": [] },
+    { "code": "大庫 16", "images": ["gvpvz8xi", "g2xuigru"], "diameter": "", "weight": "", "page": "48", "plate": "", "articles": [] },
+    { "code": "泉堂 8", "images": ["j0nnp85b", "ex2c1hkb"], "diameter": "", "weight": "", "page": "8", "plate": "", "articles": [] },
+    { "code": "STTMM 7", "images": ["dmi51wcv", "uuxxl668"], "diameter": "51.00", "weight": "30.30", "page": "81", "plate": "", "articles": [] }
+  ],
+  "references": [
+    { "reference_uuid": "59out4lc", "page": "35", "plate": "", "identifier": "", "notes": "", "articles": [] },
+    { "reference_uuid": "egjosprx", "page": "180", "plate": "29", "identifier": "419", "notes": "", "articles": [] },
+    { "reference_uuid": "8eszq2lc", "page": "48", "plate": "", "identifier": "12", "notes": "", "articles": [] },
+    { "reference_uuid": "uh1x8rgi", "page": "87", "plate": "23", "identifier": "1545", "notes": "", "articles": [] },
+    { "reference_uuid": "rybfmx61", "page": "61", "plate": "", "identifier": "8", "notes": "", "articles": [] },
+    { "reference_uuid": "57qxr0k8", "page": "168", "plate": "", "identifier": "168", "notes": "", "articles": [] },
+    { "reference_uuid": "77qpk8fb", "page": "203", "plate": "", "identifier": "432", "notes": "", "articles": [] },
+    { "reference_uuid": "5ekjpp24", "page": "274", "plate": "", "identifier": "146", "notes": "", "articles": [] },
+    { "reference_uuid": "drq2opmz", "page": "70", "plate": "", "identifier": "", "notes": "", "articles": [] },
+    { "reference_uuid": "vt6sjmp6", "page": "119", "plate": "", "identifier": "", "notes": "", "articles": [] },
+    { "reference_uuid": "pe4aw1hq", "page": "48", "plate": "", "identifier": "16", "notes": "", "articles": [] },
+    { "reference_uuid": "ybfi7983", "page": "388", "plate": "", "identifier": "32", "notes": "", "articles": []},
+    { "reference_uuid": "u3yk53j3", "page": "81", "plate": "", "identifier": "7", "notes": "", "articles": [] },
+    { "reference_uuid": "0qynj8k8", "page": "10", "plate": "", "identifier": "VN31-6", "notes": "", "articles": [] },
+    { "reference_uuid": "jybo2v6v", "page": "207", "plate": "", "identifier": "32", "notes": "cmv_partial_copy", "articles": [] },
+    { "reference_uuid": "08w1apoy", "page": "", "plate": "", "identifier": "1983,0619.245", "notes": "", "articles": [] }
+  ],
+  "other_specimens": [
+    { "code": "MANT vae14-1147", "images": ["n0xibuk0", "bmr6rhaf"], "diameter": "51.00", "weight": "28.22", "page": "", "plate": "" },
+    { "code": "LAVA MM1", "images": ["pvm34lm8", "hv8ued8m"], "diameter": "54.10", "weight": "26.23", "page": "", "plate": "" }
+  ],
+  "other_images": [
+    { "image_id": "20", "uuid": "n0xibuk0", "src": "18c20935136f4fec8832909644f8d0b5-1.png", "href": "MANT MM4", "copyright": "0", "country": "fr", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "21", "uuid": "bmr6rhaf", "src": "18c20935136f4fec8832909644f8d0b5-2.png", "href": "MANT MM4", "copyright": "0", "country": "fr", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "22", "uuid": "hwcy8o9e", "src": "573a3e6da1134beea63f9831b673fe1a-1.png", "href": "MANT MM4", "copyright": "0", "country": "fr", "year": "2013", "color": "1", "visible": "0" },
+    { "image_id": "23", "uuid": "5ntdzcod", "src": "573a3e6da1134beea63f9831b673fe1a-2.png", "href": "MANT MM4", "copyright": "0", "country": "fr", "year": "2013", "color": "1", "visible": "0" },
+    { "image_id": "24", "uuid": "pvm34lm8", "src": "0726e36fa7b64001b578ec4344b18808-1.png", "href": "LAVA MM1", "copyright": "0", "country": "fr", "year": "2019", "color": "0", "visible": "1" },
+    { "image_id": "25", "uuid": "hv8ued8m", "src": "0726e36fa7b64001b578ec4344b18808-2.png", "href": "LAVA MM1", "copyright": "0", "country": "fr", "year": "2019", "color": "0", "visible": "1" },
+    { "image_id": "26", "uuid": "c68c1isp", "src": "d3d5aea568ca4fcba07a95f921cd8b95-1.png", "href": "LAVA MM1", "copyright": "0", "country": "fr", "year": "2019", "color": "1", "visible": "0" },
+    { "image_id": "27", "uuid": "xtztblh3", "src": "b6efe63cc67d444e9e4aed85c5ceb69d-2.png", "href": "LAVA MM1", "copyright": "0", "country": "fr", "year": "2019", "color": "1", "visible": "0" }
+  ],
+  "collections": [
+    { "collection_uuid": "qzi0xluv", "date": "2013-11-21", "pdf_url": "", "url_obverse": "http://www.monnaiesdantan.com/upload/140983.jpg", "url_reverse": "http://www.monnaiesdantan.com/upload/140983.jpg", "identifier": "", "lot_number": "" },
+    { "collection_uuid": "o2cf2ev8", "date": "2019-09-26", "pdf_url": "", "url_obverse": "https://www.zeno.ru/data/11015/Minh_Mang_my_hi_u_wxz3320_54_1mm_26_23g.jpg", "url_reverse": "https://www.zeno.ru/data/11015/Minh_Mang_my_hi_u_wxz3320_54_1mm_26_23g.jpg", "identifier": "", "lot_number": "" }
+  ]
+}

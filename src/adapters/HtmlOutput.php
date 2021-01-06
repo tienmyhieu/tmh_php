@@ -355,7 +355,7 @@ class HtmlOutput
                 '<td>' .  $reference['year'] . '</td>';
 //                '<td>' .  $reference['acronym'] . '</td>';
 
-            $html .= "\n\t\t" . '<td><a href="' . $reference['href'] . '" title="' . $reference['title'] . 'zzzz">' .
+            $html .= "\n\t\t" . '<td><a href="' . $reference['href'] . '" title="' . $reference['title'] . '">' .
                 self::truncatedTitle($reference['title']) . '</a></td>';
             foreach($reference['emperors'] as $emperorId => $emperor) {
                 $emperorTitle = self::linkTitle($emperor['href']);
