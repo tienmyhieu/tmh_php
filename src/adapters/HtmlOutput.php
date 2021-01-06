@@ -69,7 +69,7 @@ class HtmlOutput
 
     public static function articlesTable($articles, $lexicon): string
     {
-        $title = self::sectionTitle($lexicon['articles']);
+        $title = self::sectionTitle($lexicon['articles'], 2);
         $html = $title;
         if (0 < count($articles)) {
             $html .= "\n\t\t\t" . '<table border="1" cellpadding="2" cellspacing="1">';
@@ -140,7 +140,7 @@ class HtmlOutput
 
     public static function coinEmperorReferences2($collection, $sources, $lexicon): string
     {
-        $title = self::sectionTitle($lexicon['private_collections']);
+        $title = self::sectionTitle($lexicon['private_collections'], 3);
         $html = $title;
         if (0 < count($collection)) {
             $html .= "\n\t\t\t" . '<table width="100%" border="1" cellpadding="2" cellspacing="1">';
@@ -172,7 +172,7 @@ class HtmlOutput
 
     public static function coinEmperorReferences($coinEmperor, $references, $lexicon, $articles): string
     {
-        $title = self::sectionTitle($lexicon['references']);
+        $title = self::sectionTitle($lexicon['references'], 3);
         $html = $title;
         if (0 < count($coinEmperor['references'])) {
             $html .= "\n\t\t\t" . '<table width="100%" border="1" cellpadding="2" cellspacing="1">';
@@ -385,9 +385,9 @@ class HtmlOutput
             . '</table>' . "\n";
     }
 
-    public static function sectionTitle($title)
+    public static function sectionTitle($title, $size, $withBr=true)
     {
-       return '<br/><h2>' . $title . '</h2>';
+       return ($withBr ? '<br/>': '') . '<h' . $size . '>' . $title . '</h' . $size . '>';
     }
 
     public static function twoCellEnd(): string
