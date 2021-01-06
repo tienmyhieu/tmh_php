@@ -89,7 +89,8 @@
     "reverse": "Lưng tiền",
     "title": "Tiêu đề",
     "weight": "Trọng lượng",
-    "year": "Năm"
+    "year": "Năm",
+    "none": "Không ai"
   },
   "article": [
     { "article_id":  "1", "uuid": "hjhgn9na", "date": "2021-01-01", "title": "Schroeder 130 là một đồng tiền của Tự Đức", "href": "Schroeder_130_là_một_đồng_tiền_của_Tự_Đức", "visible": "1" },
