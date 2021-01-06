@@ -64,6 +64,7 @@ class Output
         $output = HtmlOutput::twoCellStart();
         $output .= HtmlOutput::emperorListTable($emperor, $coins, $lexicon);
         $output .= HtmlOutput::twoCellMiddle();
+        $output .= HtmlOutput::sectionTitle($lexicon['reference_images']);
         $output .= HtmlOutput::coinEmperorReferencesList($coinEmperor['reference_specimens'], $tmpImages, $lexicon, $articles);
         //$output .= HtmlOutput::gallery($coinEmperor['images'], 4, $title, $lexicon);
         $output .= HtmlOutput::coinEmperorReferences($coinEmperor, $references, $lexicon, $articles);
