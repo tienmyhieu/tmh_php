@@ -13,19 +13,19 @@
     { "image_id": "10", "uuid": "qys5zlpd", "src": "14f4b921a6f447bb93172e3e600a1340-2.png", "href": "HCCV_169", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Barker 169", "images": ["khwon11e", "fix7bhke"], "diameter": "51.69", "weight": "34.41", "page": "290", "plate": "", "articles": [] },
-    { "code": "大庫 48", "images": ["hpp1hu4z", "gvoa32lk"], "diameter": "", "weight": "", "page": "69", "plate": "", "articles": [] }
+    { "code": "Barker 169", "images": ["khwon11e", "fix7bhke"], "diameter": "51.69", "weight": "34.41", "page": "290", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫 48", "images": ["hpp1hu4z", "gvoa32lk"], "diameter": "", "weight": "", "page": "69", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
-    { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [] },
-    { "reference_uuid": "x2hkl3yi", "page": "47", "plate": "", "identifier": "18", "notes": "", "articles": [] },
-    { "reference_uuid": "57qxr0k8", "page": "202", "plate": "", "identifier": "258", "notes": "", "articles": [] },
-    { "reference_uuid": "5ekjpp24", "page": "290", "plate": "", "identifier": "169", "notes": "", "articles": [] },
-    { "reference_uuid": "5h4ycj4i", "page": "839", "plate": "", "identifier": "", "notes": "", "articles": [] },
-    { "reference_uuid": "vt6sjmp6", "page": "125", "plate": "", "identifier": "", "notes": "", "articles": [] },
-    { "reference_uuid": "pe4aw1hq", "page": "69", "plate": "", "identifier": "48", "notes": "", "articles": [] },
+    { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "x2hkl3yi", "page": "47", "plate": "", "identifier": "18", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "57qxr0k8", "page": "202", "plate": "", "identifier": "258", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "5ekjpp24", "page": "290", "plate": "", "identifier": "169", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "5h4ycj4i", "page": "839", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "vt6sjmp6", "page": "125", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "pe4aw1hq", "page": "69", "plate": "", "identifier": "48", "notes": "", "articles": [], "urls": [] },
     { "reference_uuid": "ybfi7983", "page": "387", "plate": "", "identifier": "30", "notes": "" , "articles": []},
-    { "reference_uuid": "jybo2v6v", "page": "205", "plate": "", "identifier": "30", "notes": "hccv_partial_copy", "articles": [] }
+    { "reference_uuid": "jybo2v6v", "page": "205", "plate": "", "identifier": "30", "notes": "hccv_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
     { "code": "IKAR TT3", "images": ["yn52idw8"], "diameter": "", "weight": "", "page": "", "plate": "" },

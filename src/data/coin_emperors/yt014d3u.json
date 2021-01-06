@@ -14,17 +14,17 @@
     { "image_id": "11", "uuid": "vrlsk2pv", "src": "eb6599d43c0046b68008889632b89332-2.png", "href": "HCCV_140", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 479", "images": ["9gvsbcev"], "diameter": "", "weight": "", "page": "191", "plate": "36", "articles": [] },
-    { "code": "Thierry 1796", "images": ["2phvasbl", "iau62ie0"], "diameter": "52.00", "weight": "42.01", "page": "97", "plate": "32", "articles": [] },
-    { "code": "Barker 189", "images": ["tzn9s8zx", "owis20gc"], "diameter": "50.68", "weight": "31.28", "page": "302", "plate": "", "articles": [] }
+    { "code": "Lacroix 479", "images": ["9gvsbcev"], "diameter": "", "weight": "", "page": "191", "plate": "36", "articles": [], "urls": [] },
+    { "code": "Thierry 1796", "images": ["2phvasbl", "iau62ie0"], "diameter": "52.00", "weight": "42.01", "page": "97", "plate": "32", "articles": [], "urls": [] },
+    { "code": "Barker 189", "images": ["tzn9s8zx", "owis20gc"], "diameter": "50.68", "weight": "31.28", "page": "302", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
-    { "reference_uuid": "egjosprx", "page": "191", "plate": "36", "identifier": "479", "notes": "", "articles": [] },
-    { "reference_uuid": "uh1x8rgi", "page": "97", "plate": "36", "identifier": "1796", "notes": "", "articles": [] },
-    { "reference_uuid": "5ekjpp24", "page": "302", "plate": "", "identifier": "189", "notes": "", "articles": [] },
-    { "reference_uuid": "vt6sjmp6", "page": "131", "plate": "", "identifier": "", "notes": "", "articles": [] },
-    { "reference_uuid": "ybfi7983", "page": "388", "plate": "", "identifier": "31", "notes": "", "articles": [] },
-    { "reference_uuid": "jybo2v6v", "page": "206", "plate": "", "identifier": "31", "notes": "cmv_partial_copy", "articles": [] }
+    { "reference_uuid": "egjosprx", "page": "191", "plate": "36", "identifier": "479", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "uh1x8rgi", "page": "97", "plate": "36", "identifier": "1796", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "5ekjpp24", "page": "302", "plate": "", "identifier": "189", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "vt6sjmp6", "page": "131", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "ybfi7983", "page": "388", "plate": "", "identifier": "31", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "jybo2v6v", "page": "206", "plate": "", "identifier": "31", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
     { "code": "MANT vae14-1171", "images": ["867dr9fy", "qeogiz4z"], "diameter": "51.00", "weight": "36.37", "page": "", "plate": "" },

@@ -21,24 +21,24 @@
     { "image_id": "18", "uuid": "1w5yciv1", "src": "05cbe4fe5b3f4bc0b74dd1029308fd32-2.png", "href": "BTTPHCM_10", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 466", "images": ["vsu7dwx2"], "diameter": "", "weight": "", "page": "190", "plate": "35", "articles": [] },
-    { "code": "Schroeder 135", "images": ["1lkcsyu2"], "diameter": "", "weight": "", "page": "430", "plate": "58", "articles": ["14f2amvp"] },
-    { "code": "Thierry 1799", "images": ["jxiily72", "p15tmj7m"], "diameter": "51.00", "weight": "35.71", "page": "97", "plate": "32", "articles": [] },
-    { "code": "大庫 74", "images": ["3vt9b9mh", "wsuqsal3"], "diameter": "", "weight": "", "page": "92", "plate": "", "articles": [] },
-    { "code": "Joyaux 845", "images": ["ssl192no", "oyc7umex"], "diameter": "50.40", "weight": "33.93", "page": "156", "plate": "", "articles": [] },
-    { "code": "泉堂 41", "images": ["ykb9mc26", "u1vm2kag"], "diameter": "", "weight": "", "page": "41", "plate": "", "articles": [] },
-    { "code": "BTTPHCM 14", "images": ["sv5lxw2r", "sdhy44a1"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [] }
+    { "code": "Lacroix 466", "images": ["vsu7dwx2"], "diameter": "", "weight": "", "page": "190", "plate": "35", "articles": [], "urls": [] },
+    { "code": "Schroeder 135", "images": ["1lkcsyu2"], "diameter": "", "weight": "", "page": "430", "plate": "58", "articles": ["14f2amvp"], "urls": [] },
+    { "code": "Thierry 1799", "images": ["jxiily72", "p15tmj7m"], "diameter": "51.00", "weight": "35.71", "page": "97", "plate": "32", "articles": [], "urls": [] },
+    { "code": "大庫 74", "images": ["3vt9b9mh", "wsuqsal3"], "diameter": "", "weight": "", "page": "92", "plate": "", "articles": [], "urls": [] },
+    { "code": "Joyaux 845", "images": ["ssl192no", "oyc7umex"], "diameter": "50.40", "weight": "33.93", "page": "156", "plate": "", "articles": [], "urls": [] },
+    { "code": "泉堂 41", "images": ["ykb9mc26", "u1vm2kag"], "diameter": "", "weight": "", "page": "41", "plate": "", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 14", "images": ["sv5lxw2r", "sdhy44a1"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "egjosprx", "page": "190", "plate": "35", "identifier": "466", "notes": "" , "articles": []},
-    { "reference_uuid": "3wpxtg83", "page": "430", "plate": "58", "identifier": "135", "notes": "", "articles": ["14f2amvp"] },
-    { "reference_uuid": "uh1x8rgi", "page": "97", "plate": "32", "identifier": "1799", "notes": "", "articles": [] },
-    { "reference_uuid": "pe4aw1hq", "page": "92", "plate": "", "identifier": "74", "notes": "", "articles": [] },
-    { "reference_uuid": "c6ntdqg1", "page": "156", "plate": "", "identifier": "845", "notes": "", "articles": [] },
+    { "reference_uuid": "3wpxtg83", "page": "430", "plate": "58", "identifier": "135", "notes": "", "articles": ["14f2amvp"], "urls": [] },
+    { "reference_uuid": "uh1x8rgi", "page": "97", "plate": "32", "identifier": "1799", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "pe4aw1hq", "page": "92", "plate": "", "identifier": "74", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "c6ntdqg1", "page": "156", "plate": "", "identifier": "845", "notes": "", "articles": [], "urls": [] },
     { "reference_uuid": "ybfi7983", "page": "388", "plate": "", "identifier": "32", "notes": "", "articles": []},
-    { "reference_uuid": "cxqs7bca", "page": "41", "plate": "", "identifier": "41", "notes": "", "articles": [] },
-    { "reference_uuid": "jybo2v6v", "page": "207", "plate": "", "identifier": "32", "notes": "cmv_partial_copy", "articles": [] },
-    { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "14", "notes": "bttphcm_td", "articles": [] }
+    { "reference_uuid": "cxqs7bca", "page": "41", "plate": "", "identifier": "41", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "jybo2v6v", "page": "207", "plate": "", "identifier": "32", "notes": "cmv_partial_copy", "articles": [], "urls": [] },
+    { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "14", "notes": "bttphcm_td", "articles": [], "urls": [] }
   ],
   "other_specimens": [
     { "code": "WOYL TD3", "images": ["uhr4165t", "qu6qvq2b"], "diameter": "", "weight": "", "page": "", "plate": "" }
