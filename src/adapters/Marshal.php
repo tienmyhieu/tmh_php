@@ -95,7 +95,7 @@ class Marshal
         return $keyedItems;
     }
 
-    private function transformArticle($article, $locales)
+    private function transformArticle($article, $locales): array
     {
         $transformed = [];
         $images = $this->setKeyedItems($article['images']);

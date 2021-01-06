@@ -22,15 +22,11 @@ $output = $factory->output();
 // plate
 switch ($template) {
     case 'article':
-
         $identifier = $meta->identifier();
         $entities = [
             'article' => $articles->getArticle($identifier, $meta->language()),
             'lexicon' => $referenceEmperors->lexicon()
         ];
-//        echo '<pre>';
-//        print_r($articles->getArticle($identifier, $meta->language()));
-//        echo '</pre>';
         $output->setEntities($entities);
         break;
     case 'coin_emperor':
@@ -44,7 +40,8 @@ switch ($template) {
             'emperor' => $emperor,
             'lexicon' => $referenceEmperors->lexicon(),
             'referenceEmperors' => $referenceEmperors->get(),
-            'title' => $meta->title()
+            'title' => $meta->title(),
+            'articles' => $articles->get()
         ];
         $output->setEntities($entities);
         break;

@@ -168,7 +168,7 @@ class HtmlOutput
         return $html;
     }
 
-    public static function coinEmperorReferences($coinEmperor, $references, $lexicon): string
+    public static function coinEmperorReferences($coinEmperor, $references, $lexicon, $articles): string
     {
         $title = self::sectionTitle($lexicon['references']);
         $html = $title;
@@ -197,6 +197,13 @@ class HtmlOutput
                 $html .= "\n\t\t\t\t\t\t" . '<td align="left" valign="top">' . $reference['title'];
                 if (0 < strlen($coinEmperorReference['notes'])) {
                     $html .= '<br>' . "&nbsp;&nbsp;-&nbsp;" . '<small>' . $lexicon[$coinEmperorReference['notes']] . '</small>';
+                }
+                if (0 < count($coinEmperorReference['articles'])) {
+                    foreach ($coinEmperorReference['articles'] as $articleUuid) {
+                        $article = $articles[$articleUuid];
+                        $articleLink = '<a href="' . $article['href'] . '" title="' . $article['title'] . '">' . $article['title'] . '</a>';
+                        $html .= '<br>' . "&nbsp;&nbsp;-&nbsp;" . '<small>' . $lexicon['articles'] . ': ' . $articleLink . '</small>';
+                    }
                 }
                 $html .= '</td>';
                 $html .= "\n\t\t\t\t\t\t" . '<td valign="top">' . $coinEmperorReference['page'] . '</td>';
@@ -239,7 +246,7 @@ class HtmlOutput
         return $html;
     }
 
-    public static function coinEmperorReferencesList($references, $images, $lexicon): string
+    public static function coinEmperorReferencesList($references, $images, $lexicon, $articles): string
     {
         $html = '';
         if (0 < count($images)) {
@@ -248,6 +255,7 @@ class HtmlOutput
             $html .= "\n\t\t\t" . '<table border="1" cellpadding="2" cellspacing="1">';
             $i = 1;
             foreach ($references as $reference) {
+                $hasArticle = in_array('articles', array_keys($reference)) && 0 < count($reference['articles']);
                 $hasPage = 0 < strlen($reference['page']);
                 $hasPlate = 0 < strlen($reference['plate']);
                 $hasMeasurements = 0 < strlen($reference['diameter']) || 0 < strlen($reference['weight']);
@@ -263,6 +271,17 @@ class HtmlOutput
                 if ($hasMeasurements) {
                     $html .= '&nbsp;&nbsp;&nbsp;' . $lexicon['diameter'] . ': ' . $reference['diameter'] . '<br/>';
                     $html .= '&nbsp;&nbsp;&nbsp;' . $lexicon['weight'] . ': ' . $reference['weight'] . '<br/>';
+                }
+                if ($hasArticle) {
+                    $linksHtml = '&nbsp;&nbsp;&nbsp;' . $lexicon['articles'] . ': ';
+                    $i = 1;
+                    foreach ($reference['articles'] as $articleUuid) {
+                        $article = $articles[$articleUuid];
+                        $linksHtml .= '<a href="' . $article['href'] . '" title="' . $article['title'] . '">' . $i . '</a>, ';
+                        $i++;
+                    }
+                    $linksHtml = substr($linksHtml, 0,  -2) . '<br/>';
+                    $html .= $linksHtml;
                 }
                 $html .= '</td>';
                 $html .= "\n\t\t\t\t\t" . '<td align="right">';
