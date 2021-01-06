@@ -214,6 +214,8 @@ class HtmlOutput
             }
             $html .= "\n\t\t\t\t" . '</tbody>';
             $html .= "\n\t\t\t" . '</table>';
+        } else {
+            $html .= '&nbsp;&nbsp;&nbsp;' . $lexicon['none'];
         }
         return $html;
     }
