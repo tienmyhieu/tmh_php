@@ -8,7 +8,7 @@
   ],
   "reference_specimens": [
     { "code": "三浦清吾 21", "images": ["yq4w1mru", "9v2hs0ih"], "diameter": "", "weight": "", "page": "22", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫 73", "images": ["fkn8yw2b", "kbmohero"], "diameter": "", "weight": "", "page": "91", "plate": "", "articles": [], "urls": [] }
+    { "code": "大庫隆夫 73", "images": ["fkn8yw2b", "kbmohero"], "diameter": "", "weight": "", "page": "91", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "nlyz7za5", "page": "22", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },

@@ -14,7 +14,7 @@
   ],
   "reference_specimens": [
     { "code": "Barker 169", "images": ["khwon11e", "fix7bhke"], "diameter": "51.69", "weight": "34.41", "page": "290", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫 48", "images": ["hpp1hu4z", "gvoa32lk"], "diameter": "", "weight": "", "page": "69", "plate": "", "articles": [], "urls": [] }
+    { "code": "大庫隆夫 48", "images": ["hpp1hu4z", "gvoa32lk"], "diameter": "", "weight": "", "page": "69", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },

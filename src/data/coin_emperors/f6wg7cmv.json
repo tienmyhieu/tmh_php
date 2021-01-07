@@ -11,7 +11,7 @@
     { "image_id": "8", "uuid": "euslwcfs", "src": "b81ef676ff8f4f88b0b5e42c2159855b-2.png", "href": "BTTPHCM_16", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "大庫 49", "images": ["luusturw", "vhf5aj2f"], "diameter": "", "weight": "", "page": "70", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 49", "images": ["luusturw", "vhf5aj2f"], "diameter": "", "weight": "", "page": "70", "plate": "", "articles": [], "urls": [] },
     { "code": "BTTPHCM 16", "images": ["xkyulk8v", "pmlqj5if"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
