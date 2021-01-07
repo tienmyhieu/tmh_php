@@ -10,5 +10,6 @@
   { "collection_id": "9", "uuid": "9o8x5glc", "acronym": "HEUR", "language": "en", "title": "Heritage Europe Auctions", "year": "2013-9999", "visible": "1" },
   { "collection_id": "10", "uuid": "cieffkb8", "acronym": "SSSC", "language": "cn", "title": "盛世收藏 拍卖会", "year": "2008-9999", "visible": "1" },
   { "collection_id": "11", "uuid": "41zuhlq5", "acronym": "JESF", "language": "fr", "title": "Jean Elsen & ses Fils enchères", "year": "2017-9999", "visible": "1" },
-  { "collection_id": "12", "uuid": "o2cf2ev8", "acronym": "LAVA", "language": "fr", "title": "La Vansa collection", "year": "2006-9999", "visible": "1" }
+  { "collection_id": "12", "uuid": "o2cf2ev8", "acronym": "LAVA", "language": "fr", "title": "La Vansa collection", "year": "2006-9999", "visible": "1" },
+  { "collection_id": "13", "uuid": "pxkf3ru5", "acronym": "AWOR", "language": "ja", "title": "オークション ワールド オークション", "year": "2016-9999", "visible": "1" }
 ]
