@@ -1,0 +1,34 @@
+{
+  "page_image": "e8d2c4f712f74a6ba0b3009d60dbeb8d-2",
+  "images": [
+    { "image_id": "1", "uuid": "k9az19il", "src": "e8d2c4f712f74a6ba0b3009d60dbeb8d-1.png", "href": "CMV_1800", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "k4w6xa8v", "src": "e8d2c4f712f74a6ba0b3009d60dbeb8d-2.png", "href": "CMV_1800", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" }
+  ],
+  "reference_specimens": [
+    { "code": "Thierry 1800", "images": ["k9az19il", "k4w6xa8v"], "diameter": "50.00", "weight": "30.59", "page": "97", "plate": "32", "articles": [], "urls": [] }
+  ],
+  "references": [
+    { "reference_uuid": "uh1x8rgi", "page": "97", "plate": "32", "identifier": "1800", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "5ekjpp24", "page": "268", "plate": "", "identifier": "", "notes": "known_to_exist", "articles": [], "urls": [] },
+    { "reference_uuid": "ybfi7983", "page": "389", "plate": "", "identifier": "34", "notes": "", "articles": []},
+    { "reference_uuid": "jybo2v6v", "page": "209", "plate": "", "identifier": "34", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
+  ],
+  "other_specimens": [
+    { "code": "HUAY TD1", "images": ["8u8r9d9f", "02p32wd5"], "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "MANT vae14-1173", "images": ["kq2q4ypt", "sznstdk0"], "diameter": "51.00", "weight": "43.87", "page": "", "plate": "" }
+  ],
+  "other_images": [
+    { "image_id": "3", "uuid": "8u8r9d9f", "src": "3cf31eafba144bb986fb3b873dbcfa24-1.png", "href": "HUAY TD1", "copyright": "0", "country": "cn", "year": "2011", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "02p32wd5", "src": "3cf31eafba144bb986fb3b873dbcfa24-2.png", "href": "HUAY TD1", "copyright": "0", "country": "cn", "year": "2011", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "k4tjkijc", "src": "c24a15e22dd6418181e2d69ec6938837-1.png", "href": "HUAY TD1", "copyright": "0", "country": "cn", "year": "2011", "color": "1", "visible": "0" },
+    { "image_id": "6", "uuid": "5h9r097t", "src": "c24a15e22dd6418181e2d69ec6938837-2.png", "href": "HUAY TD1", "copyright": "0", "country": "cn", "year": "2011", "color": "1", "visible": "0" },
+    { "image_id": "7", "uuid": "kq2q4ypt", "src": "0bd8862f9f2948e68d06cbc789e68d67-1.png", "href": "MANT_TD3", "copyright": "0", "country": "fr", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "8", "uuid": "sznstdk0", "src": "0bd8862f9f2948e68d06cbc789e68d67-2.png", "href": "MANT_TD3", "copyright": "0", "country": "fr", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "9", "uuid": "l0bk5xyp", "src": "b29c92d3acbe4daf83db3ba7b64ae0de-1.png", "href": "MANT_TD3", "copyright": "0", "country": "fr", "year": "2013", "color": "1", "visible": "0" },
+    { "image_id": "10", "uuid": "jxqsysqb", "src": "b29c92d3acbe4daf83db3ba7b64ae0de-2.png", "href": "MANT_TD3", "copyright": "0", "country": "fr", "year": "2013", "color": "1", "visible": "0" }
+  ],
+  "collections": [
+    { "collection_uuid": "0i5gqe5p", "date": "2011-04-24", "pdf_url": "", "url_obverse": "http://imgali.hxgqw.com/pic/2011/0424/2011042410561176983111.jpg", "url_reverse": "http://imgali.hxgqw.com/pic/2011/0424/2011042410561176983111.jpg", "identifier": "", "lot_number": "" },
+    { "collection_uuid": "qzi0xluv", "date": "2013-11-21", "pdf_url": "", "url_obverse": "http://www.monnaiesdantan.com/upload/140996.jpg", "url_reverse": "http://www.monnaiesdantan.com/upload/140996.jpg", "identifier": "", "lot_number": "" }
+  ]
+}
