@@ -10,7 +10,7 @@
   "reference_specimens": [
     { "code": "Lacroix 477", "images": ["v0wwcsh3"], "diameter": "", "weight": "", "page": "191", "plate": "36", "articles": [], "urls": [] },
     { "code": "大庫隆夫 90", "images": ["94liz2oh", "gj9lm0kd"], "diameter": "", "weight": "", "page": "72", "plate": "", "articles": [], "urls": [] },
-    { "code": "泉堂 40", "images": ["i0xa4bs8", "m9ppbdun"], "diameter": "", "weight": "", "page": "40", "plate": "", "articles": [], "urls": [] }
+    { "code": "満泉堂 40", "images": ["i0xa4bs8", "m9ppbdun"], "diameter": "", "weight": "", "page": "40", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "egjosprx", "page": "191", "plate": "36", "identifier": "477", "notes": "" , "articles": []},
