@@ -1,0 +1,41 @@
+{
+  "page_image": "777a4f7346e9470487a105f44d43ab97-2",
+  "images": [
+    { "image_id": "1", "uuid": "rclatqdn", "src": "777a4f7346e9470487a105f44d43ab97-1.png", "href": "CMV_1609", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "sbgita1q", "src": "777a4f7346e9470487a105f44d43ab97-2.png", "href": "CMV_1609", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "xqsxuj8x", "src": "99aac82e297e4e28a717fbf504a05f64-1.png", "href": "BTTPHCM_20", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "5yzq4kn0", "src": "99aac82e297e4e28a717fbf504a05f64-2.png", "href": "BTTPHCM_20", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "ro1vpn8g", "src": "3612f3b9292549319040b06fd61ab497-2.png", "href": "BTTPHCM_20", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "6", "uuid": "pxbmxawl", "src": "3b1fcc909f624926a0b4bd54bd373a45-1.png", "href": "BTTPHCM_20", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "7", "uuid": "iz2q6xsc", "src": "3b1fcc909f624926a0b4bd54bd373a45-2.png", "href": "BTTPHCM_20", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "8", "uuid": "i2gyyd1n", "src": "009ecaf8a68e4c098e1a6e47e3c81fba-2.png", "href": "BTTPHCM_20", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
+  ],
+  "reference_specimens": [
+    { "code": "Thierry 1609", "images": ["rclatqdn", "sbgita1q"], "diameter": "53.00", "weight": "32.75", "page": "91", "plate": "26", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 20", "images": ["xqsxuj8x", "5yzq4kn0"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+  ],
+  "references": [
+    { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "x2hkl3yi", "page": "47", "plate": "", "identifier": "15", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "uh1x8rgi", "page": "91", "plate": "26", "identifier": "1609", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "57qxr0k8", "page": "200", "plate": "", "identifier": "244", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "5ekjpp24", "page": "268", "plate": "", "identifier": "", "notes": "known_to_exist", "articles": [], "urls": [] },
+    { "reference_uuid": "5h4ycj4i", "page": "839", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "vt6sjmp6", "page": "124", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "ybfi7983", "page": "390", "plate": "", "identifier": "35", "notes": "", "articles": []},
+    { "reference_uuid": "jybo2v6v", "page": "210", "plate": "", "identifier": "35", "notes": "cmv_partial_copy", "articles": [], "urls": [] },
+    { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "20", "notes": "bttphcm_tt", "articles": [], "urls": [] }
+  ],
+  "other_specimens": [
+    { "code": "DBSQ TT1", "images": ["uhhxt1ly", "6skpfdil"], "diameter": "", "weight": "", "page": "", "plate": "" }
+  ],
+  "other_images": [
+    { "image_id": "9", "uuid": "uhhxt1ly", "src": "e4bb9b816aa54cd59c9d1ace051155c9-1.png", "href": "DBSQ TT1", "copyright": "0", "country": "cn", "year": "2018", "color": "0", "visible": "1" },
+    { "image_id": "10", "uuid": "6skpfdil", "src": "e4bb9b816aa54cd59c9d1ace051155c9-2.png", "href": "DBSQ TT1", "copyright": "0", "country": "cn", "year": "2018", "color": "0", "visible": "1" },
+    { "image_id": "11", "uuid": "d7iikllg", "src": "9bc775dda83844959455a390b97de72a-1.png", "href": "DBSQ TT1", "copyright": "0", "country": "cn", "year": "2018", "color": "1", "visible": "0" },
+    { "image_id": "12", "uuid": "rsbzgpid", "src": "9bc775dda83844959455a390b97de72a-2.png", "href": "DBSQ TT1", "copyright": "0", "country": "cn", "year": "2018", "color": "1", "visible": "0" }
+  ],
+  "collections": [
+    { "collection_uuid": "a48u9ebr", "date": "2018-11-13", "pdf_url": "", "url_obverse": "https://pic1.chcoin.com/M02/08/0D/OlOH51vqbPCIDGbrAAENEF4xgwEAADApgJuEAcAAQ0o699.jpg", "url_reverse": "https://pic1.chcoin.com/M02/08/0D/OlOH51vqbPCIbboCAAErSOpHsqIAADApgJvHS8AAStg793.jpg", "identifier": "", "lot_number": "" }
+  ]
+}
