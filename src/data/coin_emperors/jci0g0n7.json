@@ -52,7 +52,7 @@
     { "reference_uuid": "ybfi7983", "page": "388", "plate": "", "identifier": "33", "notes": "", "articles": []},
     { "reference_uuid": "cxqs7bca", "page": "21", "plate": "", "identifier": "21", "notes": "", "articles": [], "urls": [] },
     { "reference_uuid": "u3yk53j3", "page": "82", "plate": "", "identifier": "8", "notes": "", "articles": [], "urls": [] },
-    { "reference_uuid": "0qynj8k8", "page": "11", "plate": "", "identifier": "VN30-8", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "0qynj8k8", "page": "11", "plate": "", "identifier": "VN30-8", "notes": "btlsqg", "articles": [], "urls": [] },
     { "reference_uuid": "jybo2v6v", "page": "208", "plate": "", "identifier": "33", "notes": "cmv_partial_copy", "articles": [], "urls": [] },
     { "reference_uuid": "08w1apoy", "page": "", "plate": "", "identifier": "1983,0619.250", "notes": "", "articles": [], "urls": [] }
   ],
