@@ -36,7 +36,7 @@
     { "reference_uuid": "cxqs7bca", "page": "50", "plate": "", "identifier": "50", "notes": "", "articles": [], "urls": [] },
     { "reference_uuid": "gvkepvmm", "page": "12", "plate": "", "identifier": "", "notes": "btlsqg", "articles": [], "urls": [] },
     { "reference_uuid": "jybo2v6v", "page": "210", "plate": "", "identifier": "35", "notes": "cmv_partial_copy", "articles": [], "urls": [] },
-    { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "15", "notes": "bttphcm_tt", "articles": [], "urls": [] }
+    { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "15", "notes": "bttphcm_td", "articles": [], "urls": [] }
   ],
   "other_specimens": [
     { "code": "BSWA 10.198", "images": ["v93vyhc2", "s348v5vd"], "diameter": "51.00", "weight": "30.87", "page": "", "plate": "" },

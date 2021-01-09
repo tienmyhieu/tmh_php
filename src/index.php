@@ -16,7 +16,6 @@ $meta = $factory->meta();
 $referenceEmperors = $factory->referenceEmperors();
 $template = $meta->template();
 $output = $factory->output();
-// article
 // reference
 // collection
 // plate

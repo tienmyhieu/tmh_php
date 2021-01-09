@@ -189,6 +189,7 @@ class HtmlOutput
             $html .= "\n\t\t\t\t" . '<tbody>';
             $i = 1;
             foreach ($coinEmperor['references'] as $coinEmperorReference) {
+
                 $reference = $references[$coinEmperorReference['reference_uuid']];
                 $year = 0 < strlen($reference['year']) ? $reference['year'] : date('Y');
                 $html .= "\n\t\t\t\t\t" . '<tr>';
@@ -196,7 +197,7 @@ class HtmlOutput
                 $html .= "\n\t\t\t\t\t\t" . '<td valign="top">' . $year . '</td>';
                 $html .= "\n\t\t\t\t\t\t" . '<td valign="top">' . $reference['author'] . '</td>';
                 $html .= "\n\t\t\t\t\t\t" . '<td valign="top">' . $coinEmperorReference['identifier'] . '</td>';
-                $html .= "\n\t\t\t\t\t\t" . '<td align="left" valign="top">' . $reference['title'];
+                $html .= "\n\t\t\t\t\t\t" . '<td align="left" valign="top">' . self::truncatedTitle($reference['title']);
                 if (0 < strlen($coinEmperorReference['notes'])) {
                     $html .= '<br>' . "&nbsp;&nbsp;-&nbsp;" . '<small>' . $lexicon[$coinEmperorReference['notes']] . '</small>';
                 }
@@ -422,7 +423,7 @@ class HtmlOutput
 
     private static function truncatedTitle($title)
     {
-        $maxLength = 70;
+        $maxLength = 50;
         $ellipsis = mb_strlen($title) >= $maxLength ? '...' : '';
         return mb_strlen($title) >= $maxLength ? mb_substr($title, 0, $maxLength) . $ellipsis : $title;
     }
