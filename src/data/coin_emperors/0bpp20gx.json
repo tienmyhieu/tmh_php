@@ -1,0 +1,42 @@
+{
+  "page_image": "dfeedf07aa3b488faed7eb75a956f46c-2",
+  "images": [
+    { "image_id": "1", "uuid": "dhy6najq", "src": "c3e61566cb3f4b268e2d338fa580b5d9-2.png", "href": "NA_478", "copyright": "0", "country": "fr", "year": "1900", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "c9rtapsm", "src": "dfeedf07aa3b488faed7eb75a956f46c-1.png", "href": "BTTPHCM_14", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "zyfpakfa", "src": "dfeedf07aa3b488faed7eb75a956f46c-2.png", "href": "BTTPHCM_14", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "ol3rv9y2", "src": "fb749086ab0d4e07a0ca8e22599f7e59-2.png", "href": "BTTPHCM_14", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "h26uony4", "src": "a458d16b0de64f4dbf7e19468f518682-1.png", "href": "BTTPHCM_14", "copyright": "0", "country": "vn", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "6", "uuid": "krms71el", "src": "a458d16b0de64f4dbf7e19468f518682-2.png", "href": "BTTPHCM_14", "copyright": "0", "country": "vn", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "7", "uuid": "r7swcrc1", "src": "e425c07a4b8544ddbfcb2fed871cb75f-2.png", "href": "BTTPHCM_14", "copyright": "0", "country": "vn", "year": "", "color": "1", "visible": "0" }
+  ],
+  "reference_specimens": [
+    { "code": "Lacroix 478", "images": ["dhy6najq"], "diameter": "", "weight": "", "page": "191", "plate": "36", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 14", "images": ["c9rtapsm", "zyfpakfa"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+  ],
+  "references": [
+    { "reference_uuid": "egjosprx", "page": "191", "plate": "36", "identifier": "478", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "ybfi7983", "page": "391", "plate": "", "identifier": "37", "notes": "", "articles": []},
+    { "reference_uuid": "gvkepvmm", "page": "14", "plate": "", "identifier": "25", "notes": "btlsqg", "articles": []},
+    { "reference_uuid": "jybo2v6v", "page": "212", "plate": "", "identifier": "37", "notes": "cmv_partial_copy", "articles": [], "urls": [] },
+    { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "14", "notes": "bttphcm_td", "articles": [], "urls": [] }
+  ],
+  "other_specimens": [
+    { "code": "DDDU TD1", "images": ["lbyy7pyl", "8pt81115"], "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "GZLL TD2", "images": ["ovnoee7t", "jpzrmsht"], "diameter": "", "weight": "", "page": "", "plate": "" }
+  ],
+  "other_images": [
+    { "image_id": "8", "uuid": "lbyy7pyl", "src": "9437099223324bfc80fb378b1648526a-1.png", "href": "DDDU_TD1", "copyright": "0", "country": "vn", "year": "2009", "color": "0", "visible": "1" },
+    { "image_id": "9", "uuid": "8pt81115", "src": "9437099223324bfc80fb378b1648526a-2.png", "href": "DDDU_TD1", "copyright": "0", "country": "vn", "year": "2009", "color": "0", "visible": "1" },
+    { "image_id": "10", "uuid": "5a8k612j", "src": "cad77ac55e5c4ed288aada23416890c4-1.png", "href": "DDDU_TD1", "copyright": "0", "country": "vn", "year": "2009", "color": "1", "visible": "0" },
+    { "image_id": "11", "uuid": "igo6kd1o", "src": "cad77ac55e5c4ed288aada23416890c4-2.png", "href": "DDDU_TD1", "copyright": "0", "country": "vn", "year": "2009", "color": "1", "visible": "0" },
+
+    { "image_id": "21", "uuid": "ovnoee7t", "src": "438f8194c4bc4dcd92490313fcc645b2-1.png", "href": "GZLL_TD2", "copyright": "0", "country": "cn", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "22", "uuid": "jpzrmsht", "src": "438f8194c4bc4dcd92490313fcc645b2-2.png", "href": "GZLL_TD2", "copyright": "0", "country": "cn", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "23", "uuid": "rxgk2rf3", "src": "44336af38ac844df862f558030757d29-1.png", "href": "GZLL_TD2", "copyright": "0", "country": "cn", "year": "2013", "color": "1", "visible": "0" },
+    { "image_id": "24", "uuid": "dwvqc0b7", "src": "44336af38ac844df862f558030757d29-2.png", "href": "GZLL_TD2", "copyright": "0", "country": "cn", "year": "2013", "color": "1", "visible": "0" }
+  ],
+  "collections": [
+    { "collection_uuid": "f4x3gafm", "date": "2009-01-01", "pdf_url": "", "url_obverse": "http://img1.tienmyhieu.com/uploads/TuDuc-NhusonNhuxuyen.jpg", "url_reverse": "http://img1.tienmyhieu.com/uploads/TuDuc-NhusonNhuxuyen.jpg", "identifier": "", "lot_number": "" },
+    { "collection_uuid": "fc2mrfkz", "date": "2013-08-17", "pdf_url": "", "url_obverse": "http://pic.chcoin.com/attachment/Day_130817/53_36503_977e89f8b960dd5.jpg", "url_reverse": "http://pic.chcoin.com/attachment/Day_130817/53_36503_977e89f8b960dd5.jpg", "identifier": "", "lot_number": "" }
+  ]
+}
