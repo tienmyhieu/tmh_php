@@ -1,0 +1,23 @@
+{
+  "page_image": "31738c0b289349ec89fddb84d8899051-2",
+  "images": [
+    { "image_id": "1", "uuid": "zfobkwie", "src": "31738c0b289349ec89fddb84d8899051-2.png", "href": "NA_454", "copyright": "0", "country": "fr", "year": "1900", "color": "0", "visible": "1" }
+  ],
+  "reference_specimens": [
+    { "code": "Lacroix 454", "images": ["zfobkwie"], "diameter": "", "weight": "", "page": "185", "plate": "33", "articles": [], "urls": [] }
+  ],
+  "references": [
+    { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "egjosprx", "page": "185", "plate": "33", "identifier": "454", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "x2hkl3yi", "page": "47", "plate": "", "identifier": "17", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "57qxr0k8", "page": "202", "plate": "", "identifier": "257", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "5ekjpp24", "page": "268", "plate": "", "identifier": "", "notes": "known_to_exist", "articles": [], "urls": [] },
+    { "reference_uuid": "5h4ycj4i", "page": "839", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "vt6sjmp6", "page": "125", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "ybfi7983", "page": "383", "plate": "", "identifier": "25", "notes": "", "articles": []},
+    { "reference_uuid": "jybo2v6v", "page": "200", "plate": "", "identifier": "25", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
+  ],
+  "other_specimens": [],
+  "other_images": [],
+  "collections": []
+}
