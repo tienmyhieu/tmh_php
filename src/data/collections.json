@@ -17,5 +17,6 @@
   { "collection_id": "16", "uuid": "p5kcilvq", "acronym": "BSWA", "language": "be", "title": "Bru Sale & Wellico Auctions", "year": "2012-9999", "visible": "1" },
   { "collection_id": "17", "uuid": "fc2mrfkz", "acronym": "GZLL", "language": "cn", "title": "广州老林 采集", "year": "2013-9999", "visible": "1" },
   { "collection_id": "18", "uuid": "f4x3gafm", "acronym": "DDDU", "language": "vn", "title": "bộ sưu tập: Đặng Đức Dũng", "year": "2009-2020", "visible": "1" },
-  { "collection_id": "19", "uuid": "bhx41e36", "acronym": "EAAT", "language": "en", "title": "Eloge de l'Art par Alain Truong", "year": "2010-999", "visible": "1" }
+  { "collection_id": "19", "uuid": "bhx41e36", "acronym": "EAAT", "language": "en", "title": "Eloge de l'Art par Alain Truong", "year": "2010-9999", "visible": "1" },
+  { "collection_id": "20", "uuid": "fvfxlmvl", "acronym": "KYQS", "language": "en", "title": "KYQS", "year": "2009-9999", "visible": "1" }
 ]
