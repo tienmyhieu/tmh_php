@@ -9,7 +9,7 @@
   ],
   "references": [
     { "reference_uuid": "uh1x8rgi", "page": "97", "plate": "31", "identifier": "1792", "notes": "", "articles": [], "urls": [] },
-    { "reference_uuid": "5ekjpp24", "page": "268", "plate": "", "identifier": "", "notes": "known_to_exist", "articles": [], "urls": [] },
+    { "reference_uuid": "5ekjpp24", "page": "268", "plate": "", "identifier": "", "notes": "cites_thierry", "articles": [], "urls": [] },
     { "reference_uuid": "ybfi7983", "page": "384", "plate": "", "identifier": "26", "notes": "", "articles": [], "urls": [] },
     { "reference_uuid": "jybo2v6v", "page": "201", "plate": "", "identifier": "26", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
   ],
