@@ -23,7 +23,7 @@
     { "code": "BSWA 10.197", "images": ["7cbr0uer", "51cz319i"], "diameter": "51.00", "weight": "30.87", "page": "", "plate": "" },
     { "code": "IKAR TD4", "images": ["azakhob0"], "diameter": "", "weight": "", "page": "", "plate": "" },
     { "code": "HUAY 19-0706-192", "images": ["hnidli4g", "x8gm3k94"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "WOYL TD6", "images": ["juf8kemn"], "diameter": "49.42", "weight": "", "page": "", "plate": "" }
+    { "code": "WOYL TD6", "images": ["juf8kemn"], "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "17", "uuid": "7cbr0uer", "src": "ae2064c4df3142d79f2f734463a32dea-1.png", "href": "BSWA_TD2", "copyright": "0", "country": "be", "year": "2012", "color": "0", "visible": "1" },
