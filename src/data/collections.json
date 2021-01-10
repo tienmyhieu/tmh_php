@@ -12,9 +12,10 @@
   { "collection_id": "11", "uuid": "41zuhlq5", "acronym": "JESF", "language": "fr", "title": "Jean Elsen & ses Fils enchères", "year": "2017-9999", "visible": "1" },
   { "collection_id": "12", "uuid": "o2cf2ev8", "acronym": "LAVA", "language": "fr", "title": "La Vansa collection", "year": "2006-9999", "visible": "1" },
   { "collection_id": "13", "uuid": "pxkf3ru5", "acronym": "AWOR", "language": "ja", "title": "オークション ワールド オークション", "year": "2016-9999", "visible": "1" },
-  { "collection_id": "11", "uuid": "2q7h45bp", "acronym": "MVBO", "language": "fr", "title": "Maison de Ventes Boule", "year": "2001-9999", "visible": "1" },
-  { "collection_id": "12", "uuid": "a48u9ebr", "acronym": "DBSQ", "language": "cn", "title": "东北散钱 采集", "year": "2018-9999", "visible": "1" },
-  { "collection_id": "13", "uuid": "p5kcilvq", "acronym": "BSWA", "language": "be", "title": "Bru Sale & Wellico Auctions", "year": "2012-9999", "visible": "1" },
-  { "collection_id": "14", "uuid": "fc2mrfkz", "acronym": "GZLL", "language": "cn", "title": "广州老林 采集", "year": "2013-9999", "visible": "1" },
-  { "collection_id": "15", "uuid": "f4x3gafm", "acronym": "DDDU", "language": "vn", "title": "bộ sưu tập: Đặng Đức Dũng", "year": "2009-2020", "visible": "1" }
+  { "collection_id": "14", "uuid": "2q7h45bp", "acronym": "MVBO", "language": "fr", "title": "Maison de Ventes Boule", "year": "2001-9999", "visible": "1" },
+  { "collection_id": "15", "uuid": "a48u9ebr", "acronym": "DBSQ", "language": "cn", "title": "东北散钱 采集", "year": "2018-9999", "visible": "1" },
+  { "collection_id": "16", "uuid": "p5kcilvq", "acronym": "BSWA", "language": "be", "title": "Bru Sale & Wellico Auctions", "year": "2012-9999", "visible": "1" },
+  { "collection_id": "17", "uuid": "fc2mrfkz", "acronym": "GZLL", "language": "cn", "title": "广州老林 采集", "year": "2013-9999", "visible": "1" },
+  { "collection_id": "18", "uuid": "f4x3gafm", "acronym": "DDDU", "language": "vn", "title": "bộ sưu tập: Đặng Đức Dũng", "year": "2009-2020", "visible": "1" },
+  { "collection_id": "19", "uuid": "bhx41e36", "acronym": "EAAT", "language": "en", "title": "Eloge de l'Art par Alain Truong", "year": "2010-999", "visible": "1" }
 ]
