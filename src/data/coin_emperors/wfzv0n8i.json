@@ -1,0 +1,30 @@
+{
+  "page_image": "aba912cd1fb4474f936e676671e046b4-2",
+  "images": [
+    { "image_id": "1", "uuid": "xzmx8rsf", "src": "f6d9415d3e674f4ea562489224f8542c-1.png", "href": "ANZDQ_53", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "ohels1nz", "src": "f6d9415d3e674f4ea562489224f8542c-2.png", "href": "ANZDQ_53", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "nu8p6cy9", "src": "aba912cd1fb4474f936e676671e046b4-1.png", "href": "BTTPHCM_17", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "ocnfo6lv", "src": "aba912cd1fb4474f936e676671e046b4-2.png", "href": "BTTPHCM_17", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "nlr37972", "src": "9eb9ed4a510d4973902a75d247d5d679-2.png", "href": "BTTPHCM_17", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "6", "uuid": "p3ct5p8j", "src": "5e1073a0afa445dc9104ca47aaec5f47-1.png", "href": "BTTPHCM_17", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "7", "uuid": "v29vza7s", "src": "5e1073a0afa445dc9104ca47aaec5f47-2.png", "href": "BTTPHCM_17", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "8", "uuid": "7b3zgnk5", "src": "91978aed288e454ca3d7a448ee040180-2.png", "href": "BTTPHCM_17", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
+  ],
+  "reference_specimens": [
+    { "code": "大庫隆夫 53", "images": ["xzmx8rsf", "ohels1nz"], "diameter": "", "weight": "", "page": "74", "plate": "", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 17", "images": ["nu8p6cy9", "ocnfo6lv"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+  ],
+  "references": [
+    { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "x2hkl3yi", "page": "47", "plate": "", "identifier": "9", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "57qxr0k8", "page": "201", "plate": "", "identifier": "249", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "5ekjpp24", "page": "268", "plate": "", "identifier": "", "notes": "private_collection", "articles": [], "urls": [] },
+    { "reference_uuid": "5h4ycj4i", "page": "839", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "vt6sjmp6", "page": "124", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "pe4aw1hq", "page": "74", "plate": "", "identifier": "53", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "14", "notes": "bttphcm_tt", "articles": [], "urls": [] }
+  ],
+  "other_specimens": [],
+  "other_images": [],
+  "collections": []
+}
