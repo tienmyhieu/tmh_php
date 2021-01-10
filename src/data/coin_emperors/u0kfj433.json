@@ -1,0 +1,23 @@
+{
+  "page_image": "34695b69fffe49758d9595d72d472f52-2",
+  "images": [],
+  "reference_specimens": [],
+  "references": [
+    { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "x2hkl3yi", "page": "47", "plate": "", "identifier": "11", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "57qxr0k8", "page": "201", "plate": "", "identifier": "251", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "5ekjpp24", "page": "268", "plate": "", "identifier": "", "notes": "known_to_exist", "articles": [], "urls": [] },
+    { "reference_uuid": "5h4ycj4i", "page": "839", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "vt6sjmp6", "page": "124", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] }
+  ],
+  "other_specimens": [
+    { "code": "IKAR TT4", "images": ["fkgbfijc"], "diameter": "", "weight": "", "page": "", "plate": "" }
+  ],
+  "other_images": [
+    { "image_id": "1", "uuid": "fkgbfijc", "src": "34695b69fffe49758d9595d72d472f52-2.png", "href": "IKARU TT4", "copyright": "0", "country": "ja", "year": "2016", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "ojk99bpy", "src": "177403d1d4734ef5b12088a3faf25189-2.png", "href": "IKARU TT4", "copyright": "0", "country": "ja", "year": "2016", "color": "1", "visible": "0" }
+  ],
+  "collections": [
+    { "collection_uuid": "i91nbvi5", "date": "2016-11-11", "pdf_url": "", "url_obverse": "", "url_reverse": "http://blogimg.goo.ne.jp/user_image/11/b4/7e5ab6a5f6425428b7cb102df22ea728.jpg", "identifier": "", "lot_number": "" }
+  ]
+}
