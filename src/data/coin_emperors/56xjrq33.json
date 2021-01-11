@@ -1,0 +1,44 @@
+{
+  "page_image": "f7ea36798ee94f6bb60189568d129ccf-2",
+  "images": [
+    { "image_id": "1", "uuid": "ifuyuz3b", "src": "33594c827e05410d94dcec5a197f9894-1.png", "href": "HCCV_171", "copyright": "1", "country": "sg", "year": "2004", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "swqn5tab", "src": "33594c827e05410d94dcec5a197f9894-2.png", "href": "HCCV_171", "copyright": "1", "country": "sg", "year": "2004", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "98rl2uee", "src": "7f99349ee7dc4965b593d44027999267-1.png", "href": "HCCV_171", "copyright": "1", "country": "sg", "year": "2004", "color": "1", "visible": "0" },
+    { "image_id": "4", "uuid": "qdht7rz7", "src": "7f99349ee7dc4965b593d44027999267-2.png", "href": "HCCV_171", "copyright": "1", "country": "sg", "year": "2004", "color": "1", "visible": "0" },
+    { "image_id": "5", "uuid": "cocwzu20", "src": "f7ea36798ee94f6bb60189568d129ccf-1.png", "href": "HCCV_171", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },
+    { "image_id": "6", "uuid": "y6flkyep", "src": "f7ea36798ee94f6bb60189568d129ccf-2.png", "href": "HCCV_171", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },
+    { "image_id": "7", "uuid": "mgz8wlav", "src": "a0f2d9ee1bef441bab6cdfa64f9c3804-1.png", "href": "HCCV_171", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" },
+    { "image_id": "8", "uuid": "a4czo6rd", "src": "a0f2d9ee1bef441bab6cdfa64f9c3804-2.png", "href": "HCCV_171", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" }
+  ],
+  "reference_specimens": [
+    { "code": "Barker 171", "images": ["cocwzu20", "y6flkyep"], "diameter": "51.90", "weight": "34.32", "page": "292", "plate": "", "articles": [], "urls": [] }
+  ],
+  "references": [
+    { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "x2hkl3yi", "page": "47", "plate": "", "identifier": "19", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "57qxr0k8", "page": "202", "plate": "", "identifier": "259", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "5ekjpp24", "page": "292", "plate": "", "identifier": "171", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "5h4ycj4i", "page": "839", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "vt6sjmp6", "page": "124", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "ybfi7983", "page": "393", "plate": "", "identifier": "41", "notes": "", "articles": []},
+    { "reference_uuid": "jybo2v6v", "page": "216", "plate": "", "identifier": "41", "notes": "hccv_partial_copy", "articles": [], "urls": [] }
+  ],
+  "other_specimens": [
+    { "code": "HUAY TT2", "images": ["nx4taelw", "dfmncdbb"], "diameter": "52.10", "weight": "32.00", "page": "", "plate": "" },
+    { "code": "HUAY TT3", "images": ["a7ijqzrv", "v7wbip5m"], "diameter": "51.80", "weight": "36.40", "page": "", "plate": "" }
+  ],
+  "other_images": [
+    { "image_id": "9", "uuid": "nx4taelw", "src": "c42f5bd206ab4cfab7679d831ef03c18-1.png", "href": "HUAY_TT2", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },
+    { "image_id": "10", "uuid": "dfmncdbb", "src": "c42f5bd206ab4cfab7679d831ef03c18-2.png", "href": "HUAY_TT2", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },
+    { "image_id": "11", "uuid": "itmdmg3s", "src": "fe164e14b80f4a93a120b07c1e5526ad-1.png", "href": "HUAY_TT2", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" },
+    { "image_id": "12", "uuid": "9xgse081", "src": "fe164e14b80f4a93a120b07c1e5526ad-2.png", "href": "HUAY_TT2", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" },
+    { "image_id": "13", "uuid": "a7ijqzrv", "src": "cd42af853e4944f581bc6845a6ac2dde-1.png", "href": "HUAY_TT3", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },
+    { "image_id": "14", "uuid": "v7wbip5m", "src": "cd42af853e4944f581bc6845a6ac2dde-2.png", "href": "HUAY_TT3", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },
+    { "image_id": "15", "uuid": "e2dc2z8j", "src": "12a903d53e124e7cb9254b47bf30801c-1.png", "href": "HUAY_TT3", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" },
+    { "image_id": "16", "uuid": "oc5fcizr", "src": "12a903d53e124e7cb9254b47bf30801c-2.png", "href": "HUAY_TT3", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" }
+  ],
+  "collections": [
+    { "collection_uuid": "0i5gqe5p", "date": "2017-01-13", "pdf_url": "", "url_obverse": "http://img1.tienmyhieu.com/uploads/20170113122700_9227_800.jpg", "url_reverse": "http://img1.tienmyhieu.com/uploads/20170113122701_492_800.jpg", "identifier": "", "lot_number": "" },
+    { "collection_uuid": "0i5gqe5p", "date": "2017-01-13", "pdf_url": "", "url_obverse": "http://img1.tienmyhieu.com/uploads/20170113122600_8388_800.jpg", "url_reverse": "http://img1.tienmyhieu.com/uploads/20170113122601_3098_800.jpg", "identifier": "", "lot_number": "" }
+  ]
+}
