@@ -1,0 +1,38 @@
+{
+  "page_image": "0dff5468d6b74e708da528da3d90b928-2",
+  "images": [
+    { "image_id": "1", "uuid": "9bq7j3v4", "src": "9126599e11ba4970b9012515ebef82ae-1.png", "href": "ANZDQ_70", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "2eqet4yt", "src": "9126599e11ba4970b9012515ebef82ae-2.png", "href": "ANZDQ_70", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "uoleq3d6", "src": "0dff5468d6b74e708da528da3d90b928-1.png", "href": "BTTPHCM_9", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "djikivg0", "src": "0dff5468d6b74e708da528da3d90b928-2.png", "href": "BTTPHCM_9", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "7i3e4zxf", "src": "e23a46bd0a3544dca6968cf8409c151b-2.png", "href": "BTTPHCM_9", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "6", "uuid": "k1unsvck", "src": "22fd3d3fa97d4665acf1e4687382d66b-1.png", "href": "BTTPHCM_9", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "7", "uuid": "01pez1ea", "src": "22fd3d3fa97d4665acf1e4687382d66b-2.png", "href": "BTTPHCM_9", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "8", "uuid": "lyyaecyg", "src": "5ba9594b96444425bafdcd6b941e6921-2.png", "href": "BTTPHCM_9", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
+  ],
+  "reference_specimens": [
+    { "code": "大庫隆夫 70", "images": ["9bq7j3v4", "2eqet4yt"], "diameter": "", "weight": "", "page": "88", "plate": "", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 9", "images": ["uoleq3d6", "djikivg0"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+  ],
+  "references": [
+    { "reference_uuid": "5ekjpp24", "page": "268", "plate": "", "identifier": "", "notes": "private_collection", "articles": [], "urls": [] },
+    { "reference_uuid": "pe4aw1hq", "page": "88", "plate": "", "identifier": "70", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "9", "notes": "bttphcm_td", "articles": [], "urls": [] }
+  ],
+  "other_specimens": [
+    { "code": "RRZT TD1", "images": ["ykgj82ey", "mlwrr246"], "diameter": "50.00", "weight": "32.20", "page": "", "plate": "" }
+  ],
+  "other_images": [
+    { "image_id": "9", "uuid": "ykgj82ey", "src": "7ac0d32fe1474cf8982c38b885607df6-1.png", "href": "RRZT TD1", "copyright": "0", "country": "cn", "year": "2014", "color": "0", "visible": "1" },
+    { "image_id": "10", "uuid": "mlwrr246", "src": "7ac0d32fe1474cf8982c38b885607df6-2.png", "href": "RRZT TD1", "copyright": "0", "country": "cn", "year": "2014", "color": "0", "visible": "1" },
+    { "image_id": "11", "uuid": "p7cxic53", "src": "1fdf856cccdb4366a161337614256337-1.png", "href": "RRZT TD1", "copyright": "0", "country": "cn", "year": "2014", "color": "1", "visible": "0" },
+    { "image_id": "12", "uuid": "d3nmq7ys", "src": "1fdf856cccdb4366a161337614256337-2.png", "href": "RRZT TD1", "copyright": "0", "country": "cn", "year": "2014", "color": "1", "visible": "0" },
+    { "image_id": "13", "uuid": "kbo0fbuk", "src": "c2ca414de33f4716a3f67dd310874492-1.png", "href": "MVBO TD1", "copyright": "0", "country": "fr", "year": "2019", "color": "0", "visible": "1" },
+    { "image_id": "14", "uuid": "nm2yrwwx", "src": "c2ca414de33f4716a3f67dd310874492-2.png", "href": "MVBO TD1", "copyright": "0", "country": "fr", "year": "2019", "color": "0", "visible": "1" },
+    { "image_id": "15", "uuid": "treew7hc", "src": "0a825924f0874ef08af9f835e26e4fb5-1.png", "href": "MVBO TD1", "copyright": "0", "country": "fr", "year": "2019", "color": "1", "visible": "0" },
+    { "image_id": "16", "uuid": "m3av7znl", "src": "0a825924f0874ef08af9f835e26e4fb5-2.png", "href": "MVBO TD1", "copyright": "0", "country": "fr", "year": "2019", "color": "1", "visible": "0" }
+  ],
+  "collections": [
+    { "collection_uuid": "s8b89tom", "date": "2014-08-13", "pdf_url": "", "url_obverse": "http://coin007.com/files/users/140635735834997.JPG", "url_reverse": "http://coin007.com/files/users/1406357358972c4.JPG", "identifier": "", "lot_number": "" }
+  ]
+}
