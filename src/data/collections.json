@@ -19,5 +19,6 @@
   { "collection_id": "18", "uuid": "f4x3gafm", "acronym": "DDDU", "language": "vn", "title": "bộ sưu tập: Đặng Đức Dũng", "year": "2009-2020", "visible": "1" },
   { "collection_id": "19", "uuid": "bhx41e36", "acronym": "EAAT", "language": "en", "title": "Eloge de l'Art par Alain Truong", "year": "2010-9999", "visible": "1" },
   { "collection_id": "20", "uuid": "fvfxlmvl", "acronym": "KYQS", "language": "en", "title": "KYQS", "year": "2009-9999", "visible": "1" },
-  { "collection_id": "15", "uuid": "s8b89tom", "acronym": "RRZT", "language": "cn", "title": "如日中天 采集", "year": "2014-9999", "visible": "1" }
+  { "collection_id": "21", "uuid": "s8b89tom", "acronym": "RRZT", "language": "cn", "title": "如日中天 采集", "year": "2014-9999", "visible": "1" },
+  { "collection_id": "22", "uuid": "n0qy8b6k", "acronym": "GXCY", "language": "cn", "title": "广西陈勇 采集", "year": "2004-9999", "visible": "1" }
 ]
