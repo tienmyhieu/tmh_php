@@ -1,0 +1,30 @@
+{
+  "page_image": "ff1495b45ff34185b05ce70529ec1ffc-2",
+  "images": [
+    { "image_id": "1", "uuid": "bf6k0yd4", "src": "ff1495b45ff34185b05ce70529ec1ffc-2.png", "href": "NA_488", "copyright": "0", "country": "fr", "year": "1900", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "vfpkhhm5", "src": "4b801019d36e472082940175bf968ddb-1.png", "href": "AMDK_46", "copyright": "1", "country": "ja", "year": "2012", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "lnt8g197", "src": "4b801019d36e472082940175bf968ddb-2.png", "href": "AMDK_46", "copyright": "1", "country": "ja", "year": "2012", "color": "0", "visible": "1" }
+  ],
+  "reference_specimens": [
+    { "code": "Lacroix 480", "images": ["bf6k0yd4"], "diameter": "", "weight": "", "page": "191", "plate": "36", "articles": [], "urls": [] },
+    { "code": "満泉堂 46", "images": ["vfpkhhm5", "lnt8g197"], "diameter": "", "weight": "", "page": "46", "plate": "", "articles": [], "urls": [] }
+  ],
+  "references": [
+    { "reference_uuid": "egjosprx", "page": "1912", "plate": "36", "identifier": "480", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "ybfi7983", "page": "394", "plate": "", "identifier": "44", "notes": "", "articles": []},
+    { "reference_uuid": "cxqs7bca", "page": "46", "plate": "", "identifier": "46", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "jybo2v6v", "page": "219", "plate": "", "identifier": "44", "notes": "no_image", "articles": [], "urls": [] }
+  ],
+  "other_specimens": [
+    { "code": "GZLL TD3", "images": ["ovnoee7t", "jpzrmsht"], "diameter": "", "weight": "", "page": "", "plate": "" }
+  ],
+  "other_images": [
+    { "image_id": "4", "uuid": "ovnoee7t", "src": "4ccbe848482a49ad8688fb30e3d840af-1.png", "href": "GZLL_TD3", "copyright": "0", "country": "cn", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "jpzrmsht", "src": "4ccbe848482a49ad8688fb30e3d840af-2.png", "href": "GZLL_TD3", "copyright": "0", "country": "cn", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "6", "uuid": "ldt2flxo", "src": "7dc4d282d0ae461e9a15e8b35c4d865f-1.png", "href": "GZLL_TD3", "copyright": "0", "country": "cn", "year": "2013", "color": "1", "visible": "0" },
+    { "image_id": "7", "uuid": "7v3rgk3t", "src": "7dc4d282d0ae461e9a15e8b35c4d865f-2.png", "href": "GZLL_TD3", "copyright": "0", "country": "cn", "year": "2013", "color": "1", "visible": "0" }
+  ],
+  "collections": [
+    { "collection_uuid": "fc2mrfkz", "date": "2013-08-17", "pdf_url": "", "url_obverse": "http://pic.chcoin.com/attachment/Day_130817/53_36503_cc1b6b184efcbd2.jpg", "url_reverse": "http://pic.chcoin.com/attachment/Day_130817/53_36503_cc1b6b184efcbd2.jpg", "identifier": "", "lot_number": "" }
+  ]
+}
