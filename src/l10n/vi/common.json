@@ -48,13 +48,15 @@
     { "coin_id": "46", "uuid": "wnma8nv7", "name": "Phạm vi thiên địa khúc thành vạn vật", "href": "Phạm_vi_thiên_địa_khúc_thành_vạn_vật", "visible": "1" },
     { "coin_id": "47", "uuid": "tathtlet", "name": "Ư vạn tư niên thụ thiên chi hựu", "href": "Ư_vạn_tư_niên_thụ_thiên_chi_hựu", "visible": "1" },
     { "coin_id": "48", "uuid": "czadx0lc", "name": "Như khuê như chương lệnh văn lệnh vọng", "href": "Như_khuê_như_chương_lệnh_văn_lệnh_vọng", "visible": "1" },
-    { "coin_id": "49", "uuid": "v0jcnqjc", "name": "Công tư phú cấp", "href": "Công_tư_phú_cấp", "visible": "1" },
-    { "coin_id": "50", "uuid": "wxqxjam6", "name": "Phúc lộc lai thành", "href": "Phúc_lộc_lai_thành", "visible": "1" },
-    { "coin_id": "51", "uuid": "nj1ft469", "name": "Triệu dân đoan hoài", "href": "Triệu_dân_đoan_hoài", "visible": "1" },
-    { "coin_id": "52", "uuid": "pqscppt4", "name": "Cửu công duy tự", "href": "Cửu_công_duy_tự", "visible": "1" },
-    { "coin_id": "53", "uuid": "9tzc17hq", "name": "Kinh luân thiên hạ", "href": "Kinh_luân_thiên_hạ", "visible": "1" },
-    { "coin_id": "54", "uuid": "j299tlz9", "name": "Trị công đỉnh thịnh", "href": "Trị_công_đỉnh_thịnh", "visible": "1" },
-    { "coin_id": "55", "uuid": "hwkhn0c3", "name": "Thứ chính duy hòa", "href": "Thứ_chính_duy_hòa", "visible": "1" }
+    { "coin_id": "49", "uuid": "8zv0jwam", "name": "Dĩ lễ chế tâm dĩ nghĩa chế sự", "href": "Dĩ_lễ_chế_tâm_dĩ_nghĩa_chế_sự", "visible": "1" },
+    { "coin_id": "50", "uuid": "13gxzvix", "name": "Vạn vật hàm nhược bách tỉnh thái hòa", "href": "Vạn_vật_hàm_nhược_bách_tỉnh_thái_hòa", "visible": "1" },
+    { "coin_id": "51", "uuid": "v0jcnqjc", "name": "Công tư phú cấp", "href": "Công_tư_phú_cấp", "visible": "1" },
+    { "coin_id": "52", "uuid": "wxqxjam6", "name": "Phúc lộc lai thành", "href": "Phúc_lộc_lai_thành", "visible": "1" },
+    { "coin_id": "53", "uuid": "nj1ft469", "name": "Triệu dân đoan hoài", "href": "Triệu_dân_đoan_hoài", "visible": "1" },
+    { "coin_id": "54", "uuid": "pqscppt4", "name": "Cửu công duy tự", "href": "Cửu_công_duy_tự", "visible": "1" },
+    { "coin_id": "55", "uuid": "9tzc17hq", "name": "Kinh luân thiên hạ", "href": "Kinh_luân_thiên_hạ", "visible": "1" },
+    { "coin_id": "56", "uuid": "j299tlz9", "name": "Trị công đỉnh thịnh", "href": "Trị_công_đỉnh_thịnh", "visible": "1" },
+    { "coin_id": "57", "uuid": "hwkhn0c3", "name": "Thứ chính duy hòa", "href": "Thứ_chính_duy_hòa", "visible": "1" }
   ],
   "emperor": [
     { "emperor_id":  "1", "uuid": "mezsdqwu", "name": "Minh Mệnh", "href": "Minh_Mệnh_thông_bảo", "visible": "1" },

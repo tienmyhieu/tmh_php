@@ -54,11 +54,13 @@
   { "inscription_id": "53", "uuid": "v3pl8h42", "inscription":  "範圍天地曲成萬物", "visible": "1" },
   { "inscription_id": "54", "uuid": "z1rm4nol", "inscription":  "於萬斯年受天之祐", "visible": "1" },
   { "inscription_id": "55", "uuid": "erhhnc5u", "inscription":  "如圭如璋令聞令望", "visible": "1" },
-  { "inscription_id": "56", "uuid": "zwf2b1bp", "inscription":  "公私富給", "visible": "1" },
-  { "inscription_id": "57", "uuid": "c674mvgw", "inscription":  "福祿來成", "visible": "1" },
-  { "inscription_id": "58", "uuid": "cg12h801", "inscription":  "兆民允懷", "visible": "1" },
-  { "inscription_id": "59", "uuid": "pdknzo2s", "inscription":  "九功惟敘", "visible": "1" },
-  { "inscription_id": "60", "uuid": "qfhj10vu", "inscription":  "經綸天下", "visible": "1" },
-  { "inscription_id": "61", "uuid": "0ccoge7i", "inscription":  "治功鼎盛", "visible": "1" },
-  { "inscription_id": "62", "uuid": "ja897g7o", "inscription":  "庶政惟和", "visible": "1" }
+  { "inscription_id": "56", "uuid": "yszs4fdd", "inscription":  "以禮制心以義制事", "visible": "1" },
+  { "inscription_id": "57", "uuid": "yoa8uoko", "inscription":  "萬物咸若百姓太和", "visible": "1" },
+  { "inscription_id": "58", "uuid": "zwf2b1bp", "inscription":  "公私富給", "visible": "1" },
+  { "inscription_id": "59", "uuid": "c674mvgw", "inscription":  "福祿來成", "visible": "1" },
+  { "inscription_id": "60", "uuid": "cg12h801", "inscription":  "兆民允懷", "visible": "1" },
+  { "inscription_id": "61", "uuid": "pdknzo2s", "inscription":  "九功惟敘", "visible": "1" },
+  { "inscription_id": "62", "uuid": "qfhj10vu", "inscription":  "經綸天下", "visible": "1" },
+  { "inscription_id": "63", "uuid": "0ccoge7i", "inscription":  "治功鼎盛", "visible": "1" },
+  { "inscription_id": "64", "uuid": "ja897g7o", "inscription":  "庶政惟和", "visible": "1" }
 ]
