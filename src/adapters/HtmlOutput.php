@@ -165,7 +165,7 @@ class HtmlOutput
             $html .= "\n\t\t\t\t" . '</tbody>';
             $html .= "\n\t\t\t" . '</table>';
         } else {
-            $html .= '&nbsp;&nbsp;&nbsp;' . $lexicon['none'];
+            $html .= '&nbsp;&nbsp;&nbsp;' . $lexicon['none'] . '<br />';
         }
         return $html;
     }
@@ -216,7 +216,7 @@ class HtmlOutput
             $html .= "\n\t\t\t\t" . '</tbody>';
             $html .= "\n\t\t\t" . '</table>';
         } else {
-            $html .= '&nbsp;&nbsp;&nbsp;' . $lexicon['none'];
+            $html .= '&nbsp;&nbsp;&nbsp;' . $lexicon['none'] . '<br />';
         }
         return $html;
     }
@@ -304,7 +304,7 @@ class HtmlOutput
             }
             $html .= "\n\t\t\t" . '</table>';
         } else {
-            $html .= '&nbsp;&nbsp;&nbsp;' . $lexicon['none'];
+            $html .= '&nbsp;&nbsp;&nbsp;' . $lexicon['none'] . '<br />';
         }
         return $html;
     }
@@ -390,7 +390,7 @@ class HtmlOutput
 
     public static function sectionTitle($title, $size, $withBr=true)
     {
-       return ($withBr ? '<br/>': '') . '<h' . $size . '>' . $title . '</h' . $size . '>';
+       return ($withBr ? '<br/>': '') . '<h' . $size . ' style="margin-top: 0">' . $title . '</h' . $size . '>';
     }
 
     public static function twoCellEnd(): string
