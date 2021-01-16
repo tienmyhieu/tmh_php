@@ -24,7 +24,7 @@
     { "code": "Thierry 1810", "images": ["f0x68ugn", "lt6fb6zz"], "diameter": "50.00", "weight": "39.90", "page": "98", "plate": "33", "articles": [], "urls": [] },
     { "code": "満泉堂 44", "images": ["kbj0gbgq", "in6rht0x"], "diameter": "", "weight": "", "page": "44", "plate": "", "articles": [], "urls": [] },
     { "code": "VN6 TD9", "images": ["8sfosklg", "jngkzr8r"], "diameter": "", "weight": "", "page": "12", "plate": "", "articles": [], "urls": [] },
-    { "code": "BRMU TD1", "images": ["l7o5gin2", "4a7l4bee"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] },
+    { "code": "BRMU TD1", "images": ["l7o5gin2", "4a7l4bee"], "diameter": "50.00", "weight": "35.13", "page": "", "plate": "", "articles": [], "urls": [] },
     { "code": "BTTPHCM 11", "images": ["16pwxr3i", "5m59cw45"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [

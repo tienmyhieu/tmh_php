@@ -1,0 +1,38 @@
+{
+  "page_image": "8b4f02d61e7e45f6b6dbe669fa8b3f05-2",
+  "images": [
+    { "image_id": "1", "uuid": "rve502i2", "src": "c260315261bc488ea2fac93bbeb2e0df-1.png", "href": "MAAS_17", "copyright": "1", "country": "fr", "year": "2020", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "ncetzmhx", "src": "c260315261bc488ea2fac93bbeb2e0df-2.png", "href": "MAAS_17", "copyright": "1", "country": "fr", "year": "2020", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "jdjl4t5k", "src": "f8c2d88fefe1477fa449c8f6774b5153-1.png", "href": "MAAS_17", "copyright": "1", "country": "fr", "year": "2020", "color": "1", "visible": "0" },
+    { "image_id": "4", "uuid": "bh4qum51", "src": "f8c2d88fefe1477fa449c8f6774b5153-2.png", "href": "MAAS_17", "copyright": "1", "country": "fr", "year": "2020", "color": "1", "visible": "0" },
+    { "image_id": "5", "uuid": "dg2s02iy", "src": "8b4f02d61e7e45f6b6dbe669fa8b3f05-1.png", "href": "BRMU_TT1", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "6", "uuid": "bvlt4v5s", "src": "8b4f02d61e7e45f6b6dbe669fa8b3f05-2.png", "href": "BRMU_TT1", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "7", "uuid": "uro37dzv", "src": "f99033e9158e4458842370d0264d9e7f-1.png", "href": "BRMU_TT1", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "8", "uuid": "mz4b47pz", "src": "f99033e9158e4458842370d0264d9e7f-2.png", "href": "BRMU_TT1", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "9", "uuid": "yzykx451", "src": "f29a5007e1234f6899620ca0f4b0ae65-1.png", "href": "BTTPHCM_2", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "10", "uuid": "rvt79b5f", "src": "f29a5007e1234f6899620ca0f4b0ae65-2.png", "href": "BTTPHCM_2", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "11", "uuid": "r8s9lk24", "src": "817900089bb54448bc886de12a48d41d-2.png", "href": "BTTPHCM_2", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "12", "uuid": "af10x8wi", "src": "4d0c16f192004efaa0f78dbe0aca8816-1.png", "href": "BTTPHCM_2", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "13", "uuid": "yxh9qq3h", "src": "4d0c16f192004efaa0f78dbe0aca8816-2.png", "href": "BTTPHCM_2", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "14", "uuid": "hhq4c9yx", "src": "53cd6febf6a4437e807a2a023b160b89-2.png", "href": "BTTPHCM_2", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
+  ],
+  "reference_specimens": [
+    { "code": "Joyaux 17", "images": ["rve502i2", "ncetzmhx"], "diameter": "52.50", "weight": "36.67", "page": "18", "plate": "", "articles": [], "urls": [] },
+    { "code": "BRMU TT1", "images": ["dg2s02iy", "bvlt4v5s"], "diameter": "53.00", "weight": "34.84", "page": "", "plate": "", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 2", "images": ["yzykx451", "rvt79b5f"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+  ],
+  "references": [
+    { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "x2hkl3yi", "page": "48", "plate": "", "identifier": "36", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "57qxr0k8", "page": "205", "plate": "", "identifier": "276", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "5ekjpp24", "page": "269", "plate": "", "identifier": "", "notes": "private_collection", "articles": [], "urls": [] },
+    { "reference_uuid": "5h4ycj4i", "page": "849", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "vt6sjmp6", "page": "125", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "wy30l8iv", "page": "18", "plate": "", "identifier": "17", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "08w1apoy", "page": "", "plate": "", "identifier": "1983,0619.262", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "2", "notes": "bttphcm_tt", "articles": [], "urls": [] }
+  ],
+  "other_specimens": [],
+  "other_images": [],
+  "collections": []
+}
