@@ -1,0 +1,50 @@
+{
+  "page_image": "116d658e560b428ebcc884c7ec2c0f35-2",
+  "images": [
+    { "image_id": "1", "uuid": "tjofqd5i", "src": "e85fc4863fc442d7906f926d644f3ebd-2.png", "href": "NA_460", "copyright": "0", "country": "fr", "year": "1900", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "1vsci6q0", "src": "05d51ca1a08a45c09b745247784da280-1.png", "href": "AS3_24", "copyright": "1", "country": "ja", "year": "1971", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "rl6mag69", "src": "05d51ca1a08a45c09b745247784da280-2.png", "href": "AS3_24", "copyright": "1", "country": "ja", "year": "1971", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "wk71h8ir", "src": "e44133d0ea5c4dedaf85e86969c4ae61-1.png", "href": "HCCV_196", "copyright": "1", "country": "sg", "year": "2004", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "7b5dalhd", "src": "e44133d0ea5c4dedaf85e86969c4ae61-2.png", "href": "HCCV_196", "copyright": "1", "country": "sg", "year": "2004", "color": "0", "visible": "1" },
+    { "image_id": "6", "uuid": "1zgqvq68", "src": "3620f3f04305484c89b801bb5fb7beda-1.png", "href": "HCCV_196", "copyright": "1", "country": "sg", "year": "2004", "color": "1", "visible": "0" },
+    { "image_id": "7", "uuid": "w8ousoay", "src": "3620f3f04305484c89b801bb5fb7beda-2.png", "href": "HCCV_196", "copyright": "1", "country": "sg", "year": "2004", "color": "1", "visible": "0" },
+    { "image_id": "8", "uuid": "zyyhg9gt", "src": "cd55c6671f394620862f06205b0dd251-1.png", "href": "ANZDQ_86", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
+    { "image_id": "9", "uuid": "8ol36wtz", "src": "cd55c6671f394620862f06205b0dd251-2.png", "href": "ANZDQ_86", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
+    { "image_id": "10", "uuid": "gotswamz", "src": "148e154d1bc043debe5d13cf83bbc184-1.png", "href": "AMDK_54", "copyright": "1", "country": "ja", "year": "2012", "color": "0", "visible": "1" },
+    { "image_id": "11", "uuid": "atla73wl", "src": "148e154d1bc043debe5d13cf83bbc184-2.png", "href": "AMDK_54", "copyright": "1", "country": "ja", "year": "2012", "color": "0", "visible": "1" },
+    { "image_id": "12", "uuid": "v95ybi91", "src": "116d658e560b428ebcc884c7ec2c0f35-1.png", "href": "HCCV_196", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },
+    { "image_id": "13", "uuid": "4ue97h16", "src": "116d658e560b428ebcc884c7ec2c0f35-2.png", "href": "HCCV_196", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },
+    { "image_id": "14", "uuid": "kz94027z", "src": "c4668c4a2d5c4c6696350d550cd13651-1.png", "href": "HCCV_196", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" },
+    { "image_id": "15", "uuid": "gock1mfp", "src": "c4668c4a2d5c4c6696350d550cd13651-2.png", "href": "HCCV_196", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" }
+  ],
+  "reference_specimens": [
+    { "code": "Lacroix 460", "images": ["tjofqd5i"], "diameter": "", "weight": "", "page": "190", "plate": "34", "articles": [], "urls": [] },
+    { "code": "三浦清吾 24", "images": ["1vsci6q0", "rl6mag69"], "diameter": "", "weight": "", "page": "23", "plate": "", "articles": [], "urls": [] },
+    { "code": "Barker 196", "images": ["v95ybi91", "4ue97h16"], "diameter": "51.31", "weight": "36.83", "page": "307", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 86", "images": ["zyyhg9gt", "8ol36wtz"], "diameter": "", "weight": "", "page": "104", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 54", "images": ["gotswamz", "atla73wl"], "diameter": "", "weight": "", "page": "54", "plate": "", "articles": [], "urls": [] }
+  ],
+  "references": [
+    { "reference_uuid": "egjosprx", "page": "190", "plate": "34", "identifier": "460", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "nlyz7za5", "page": "23", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "5ekjpp24", "page": "307", "plate": "", "identifier": "196", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "vt6sjmp6", "page": "131", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "pe4aw1hq", "page": "104", "plate": "", "identifier": "86", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "ybfi7983", "page": "374", "plate": "", "identifier": "4", "notes": "", "articles": []},
+    { "reference_uuid": "cxqs7bca", "page": "54", "plate": "", "identifier": "54", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "gvkepvmm", "page": "14", "plate": "", "identifier": "VN TD18", "notes": "btlsqg", "articles": [], "urls": [] },
+    { "reference_uuid": "jybo2v6v", "page": "183", "plate": "", "identifier": "4", "notes": "hccv_partial_copy", "articles": [], "urls": [] }
+  ],
+  "other_specimens": [
+    { "code": "MANT vae14-1175", "images": ["b9v2ybqz", "ntplg3s7"], "diameter": "51.00", "weight": "29.81", "page": "", "plate": "" }
+  ],
+  "other_images": [
+    { "image_id": "16", "uuid": "b9v2ybqz", "src": "3c4c17ba7bec4df98518ea427eecb480-1.png", "href": "MANT_TD5", "copyright": "0", "country": "fr", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "17", "uuid": "ntplg3s7", "src": "3c4c17ba7bec4df98518ea427eecb480-2.png", "href": "MANT_TD5", "copyright": "0", "country": "fr", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "18", "uuid": "jy39iacg", "src": "1bebbce2ea3b4ada9c4c29c8345d6ae9-1.png", "href": "MANT_TD5", "copyright": "0", "country": "fr", "year": "2013", "color": "1", "visible": "0" },
+    { "image_id": "19", "uuid": "ntf41zd3", "src": "1bebbce2ea3b4ada9c4c29c8345d6ae9-2.png", "href": "MANT_TD5", "copyright": "0", "country": "fr", "year": "2013", "color": "1", "visible": "0" }
+  ],
+  "collections": [
+    { "collection_uuid": "qzi0xluv", "date": "2013-11-21", "pdf_url": "", "url_obverse": "http://www.monnaiesdantan.com/upload/140998.jpg", "url_reverse": "http://www.monnaiesdantan.com/upload/140998.jpg", "identifier": "", "lot_number": "" }
+  ]
+}
