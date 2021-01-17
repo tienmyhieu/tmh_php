@@ -22,5 +22,6 @@
   { "collection_id": "21", "uuid": "s8b89tom", "acronym": "RRZT", "language": "cn", "title": "如日中天 采集", "year": "2014-9999", "visible": "1" },
   { "collection_id": "22", "uuid": "n0qy8b6k", "acronym": "GXCY", "language": "cn", "title": "广西陈勇 采集", "year": "2004-9999", "visible": "1" },
   { "collection_id": "23", "uuid": "5h4klx8a", "acronym": "GQYD", "language": "cn", "title": "古泉园地 采集", "year": "2004-9999", "visible": "1" },
-  { "collection_id": "24", "uuid": "elvct4xr", "acronym": "MOUL", "language": "fr", "title": "Moullec collection", "year": "2013-9999", "visible": "1" }
+  { "collection_id": "24", "uuid": "elvct4xr", "acronym": "MOUL", "language": "fr", "title": "Moullec collection", "year": "2013-9999", "visible": "1" },
+  { "collection_id": "25", "uuid": "cofwlf05", "acronym": "AXZI", "language": "cn", "title": "阿秀字 采集", "year": "2018-9999", "visible": "1" }
 ]
