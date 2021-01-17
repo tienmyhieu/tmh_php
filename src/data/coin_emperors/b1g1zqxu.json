@@ -9,10 +9,10 @@
     { "image_id": "6", "uuid": "dv7wt9y0", "src": "236d60a8ae644023a570fdddd102a4ce-2.png", "href": "ANZDQ_35", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
     { "image_id": "7", "uuid": "5cbpoais", "src": "9fa3f18a2263442e9110eaa2a88cde57-1.png", "href": "AMDK_25", "copyright": "1", "country": "ja", "year": "2012", "color": "0", "visible": "1" },
     { "image_id": "8", "uuid": "421czgks", "src": "9fa3f18a2263442e9110eaa2a88cde57-2.png", "href": "AMDK_25", "copyright": "1", "country": "ja", "year": "2012", "color": "0", "visible": "1" },
-    { "image_id": "9", "uuid": "4lh8zqb2", "src": "7ba830f784be4d32993dbcb29f6833e0-1.png", "href": "STTMM_25", "copyright": "1", "country": "vn", "year": "2013", "color": "0", "visible": "1" },
-    { "image_id": "10", "uuid": "0tz9ceyl", "src": "7ba830f784be4d32993dbcb29f6833e0-2.png", "href": "STTMM_25", "copyright": "1", "country": "vn", "year": "2013", "color": "0", "visible": "1" },
-    { "image_id": "11", "uuid": "ad5hfcmf", "src": "2f9ea7e502cd4b0da2670507cb7cace0-1.png", "href": "STTMM_25", "copyright": "1", "country": "vn", "year": "2013", "color": "1", "visible": "0" },
-    { "image_id": "12", "uuid": "tkix2vii", "src": "2f9ea7e502cd4b0da2670507cb7cace0-2.png", "href": "STTMM_25", "copyright": "1", "country": "vn", "year": "2013", "color": "1" , "visible": "0"}
+    { "image_id": "9", "uuid": "4lh8zqb2", "src": "7ba830f784be4d32993dbcb29f6833e0-1.png", "href": "STTMM_24", "copyright": "1", "country": "vn", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "10", "uuid": "0tz9ceyl", "src": "7ba830f784be4d32993dbcb29f6833e0-2.png", "href": "STTMM_24", "copyright": "1", "country": "vn", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "11", "uuid": "ad5hfcmf", "src": "2f9ea7e502cd4b0da2670507cb7cace0-1.png", "href": "STTMM_24", "copyright": "1", "country": "vn", "year": "2013", "color": "1", "visible": "0" },
+    { "image_id": "12", "uuid": "tkix2vii", "src": "2f9ea7e502cd4b0da2670507cb7cace0-2.png", "href": "STTMM_24", "copyright": "1", "country": "vn", "year": "2013", "color": "1" , "visible": "0"}
   ],
   "reference_specimens": [
     { "code": "Lacroix 401", "images": ["bkqrwsoo"], "diameter": "", "weight": "", "page": "178", "plate": "27", "articles": [], "urls": [] },
