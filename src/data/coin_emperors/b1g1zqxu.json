@@ -20,7 +20,7 @@
     { "code": "Thierry 1517", "images": ["bkkmsnom", "rhs4i3vk"], "diameter": "51.00", "weight": "27.89", "page": "84", "plate": "20", "articles": [], "urls": [] },
     { "code": "大庫隆夫 35", "images": ["dxofbr3l", "dv7wt9y0"], "diameter": "", "weight": "", "page": "60", "plate": "", "articles": [], "urls": [] },
     { "code": "満泉堂 25", "images": ["5cbpoais", "421czgks"], "diameter": "", "weight": "", "page": "25", "plate": "", "articles": [], "urls": [] },
-    { "code": "STTMM 25", "images": ["4lh8zqb2", "0tz9ceyl"], "diameter": "51.80", "weight": "22.70", "page": "98", "plate": "", "articles": [], "urls": [] }
+    { "code": "STTMM 24", "images": ["4lh8zqb2", "0tz9ceyl"], "diameter": "51.80", "weight": "22.70", "page": "98", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "59out4lc", "page": "35", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -38,7 +38,7 @@
     { "reference_uuid": "pe4aw1hq", "page": "60", "plate": "", "identifier": "35", "notes": "", "articles": [], "urls": [] },
     { "reference_uuid": "ybfi7983", "page": "374", "plate": "", "identifier": "4", "notes": "", "articles": []},
     { "reference_uuid": "cxqs7bca", "page": "25", "plate": "", "identifier": "25", "notes": "", "articles": [], "urls": [] },
-    { "reference_uuid": "u3yk53j3", "page": "98", "plate": "", "identifier": "25", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "u3yk53j3", "page": "98", "plate": "", "identifier": "24", "notes": "", "articles": [], "urls": [] },
     { "reference_uuid": "0qynj8k8", "page": "10", "plate": "", "identifier": "VN31-7", "notes": "btlsqg", "articles": [], "urls": [] },
     { "reference_uuid": "jybo2v6v", "page": "183", "plate": "", "identifier": "4", "notes": "cmv_partial_copy", "articles": [], "urls": [] },
     { "reference_uuid": "08w1apoy", "page": "", "plate": "", "identifier": "1983,0619.255", "notes": "", "articles": [], "urls": [] }
