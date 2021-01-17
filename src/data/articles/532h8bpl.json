@@ -1,0 +1,31 @@
+{
+  "page_image": "bec9d71ba95e488e9908c0d9d5b22717-2",
+  "images": [
+    { "image_id": "1", "uuid": "zrhohuaj", "title_uuid": "bzh104lr", "src": "bec9d71ba95e488e9908c0d9d5b22717-2.png", "href": "AEN_156", "copyright": "0", "country": "fr", "year": "1905", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "ccrhe2ya", "title_uuid": "o0ukxi0b", "src": "a07bf2ae5b894bfe9667eca422e02655.png", "href": "LPTD_4", "copyright": "0", "country": "fr", "year": "2020", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "ak70hpjh", "title_uuid": "bnc3mo9b", "src": "354acad8bd2a421caf245d3fde8e2a22.jpg", "href": "AEN_156_C1", "copyright": "0", "country": "fr", "year": "1900", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "8jf84eg8", "title_uuid": "twehyv1f", "src": "47114f4dd1464a2a92c01afdcbf95012.jpg", "href": "CMV_1519_C1", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "8bwxjmk6", "title_uuid": "3ok3ibk0", "src": "5d2370ecb0fc41358e7a3b94f4eb8c94.jpg", "href": "BTTPHCM_7_C1", "copyright": "0", "country": "vn", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "6", "uuid": "3m1s74sh", "title_uuid": "j66qfdks", "src": "d39c553de29d43c687d59ce9cd4e6da3.jpg", "href": "CMV_1782_C1", "copyright": "1", "country": "cn", "year": "2009", "color": "0", "visible": "1" },
+    { "image_id": "7", "uuid": "ihcmehsn", "title_uuid": "1676ewho", "src": "5b592d35a9d541f88842c3d3cdf91e22.jpg", "href": "AEN_156_C3", "copyright": "0", "country": "fr", "year": "1900", "color": "0", "visible": "1" },
+    { "image_id": "8", "uuid": "cmn7j577", "title_uuid": "xgrv0sew", "src": "8387f3d4bf13436fa74885a24c19b3f7.jpg", "href": "CMV_1519_C3", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "9", "uuid": "gi7xd9vq", "title_uuid": "xu2vn9tv", "src": "96d6822ea6464bc2bbb50603ab960a87.jpg", "href": "BTTPHCM_7_C3", "copyright": "0", "country": "vn", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "10", "uuid": "zraf9sm7", "title_uuid": "a7jbknss", "src": "e46e86415270481aa31483de27e8f61f.jpg", "href": "CMV_1782_C3", "copyright": "1", "country": "cn", "year": "2009", "color": "0", "visible": "1" },
+    { "image_id": "11", "uuid": "3ib6pys1", "title_uuid": "0zxgrtaj", "src": "d4534b013de24c9299484e670a5c5a73.jpg", "href": "AEN_156_C4", "copyright": "0", "country": "fr", "year": "1900", "color": "0", "visible": "1" },
+    { "image_id": "12", "uuid": "jnss8ciw", "title_uuid": "lhbu8e3w", "src": "aa269b07f82d451c810de6b96f7cf58c.jpg", "href": "CMV_1519_C4", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "13", "uuid": "v364ww9h", "title_uuid": "hje4bsod", "src": "cf71ce6846da429d81d2f5caddfded08.jpg", "href": "BTTPHCM_7_C4", "copyright": "0", "country": "vn", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "14", "uuid": "sh0c84oq", "title_uuid": "44cpqz8f", "src": "3ff3fc87fbb3433ca7e9f2a7f323217f.jpg", "href": "CMV_1782_C4", "copyright": "1", "country": "cn", "year": "2009", "color": "0", "visible": "1" }
+  ],
+  "intro": { "images": ["zrhohuaj", "ccrhe2ya"], "sentences": ["0tf099qj"], "image_dir": "" },
+  "sections": [
+    {"section_id": "1", "uuid": "bvlv2nmv", "type": "2it", "images": ["ak70hpjh", "8jf84eg8"], "title_uuid": "", "sentences": ["4n3ey5au", "ama8usop"] },
+    {"section_id": "2", "uuid": "c6068y89", "type": "2it", "images": ["ak70hpjh", "8bwxjmk6"], "title_uuid": "", "sentences": ["jwhplkez", "ama8usop"] },
+    {"section_id": "3", "uuid": "fvet2j6f", "type": "2it", "images": ["ak70hpjh", "3m1s74sh"], "title_uuid": "", "sentences": ["axmafnbr", "j0558pph"] },
+    {"section_id": "5", "uuid": "wvciv4nb", "type": "2it", "images": ["ihcmehsn", "cmn7j577"], "title_uuid": "", "sentences": ["4n3ey5au", "7d8mafsd"] },
+    {"section_id": "6", "uuid": "nbccx7fa", "type": "2it", "images": ["ihcmehsn", "gi7xd9vq"], "title_uuid": "", "sentences": ["jwhplkez", "7d8mafsd"] },
+    {"section_id": "7", "uuid": "vq6x71ts", "type": "2it", "images": ["ihcmehsn", "zraf9sm7"], "title_uuid": "", "sentences": ["axmafnbr", "jtdtgsx1"] },
+    {"section_id": "8", "uuid": "msdapmna", "type": "2it", "images": ["3ib6pys1", "jnss8ciw"], "title_uuid": "", "sentences": ["4n3ey5au", "nn0r7ifo"] },
+    {"section_id": "9", "uuid": "xk29ioi3", "type": "2it", "images": ["3ib6pys1", "v364ww9h"], "title_uuid": "", "sentences": ["jwhplkez", "nn0r7ifo"] },
+    {"section_id": "10", "uuid": "9wyi6eiu", "type": "2it", "images": ["3ib6pys1", "sh0c84oq"], "title_uuid": "", "sentences": ["axmafnbr", "y8ehtiwq"] }
+  ]
+}

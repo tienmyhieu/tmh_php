@@ -1,0 +1,31 @@
+{
+  "titles": [
+    { "title_id": "1", "uuid": "bzh104lr", "title": "Schroeder 156" },
+    { "title_id": "2", "uuid": "s7k2muz9", "title": "Schroeder 156 là một đồng tiền của Tự Đức" },
+    { "title_id": "3", "uuid": "bnc3mo9b", "title": "Schroeder 156 chữ 1" },
+    { "title_id": "4", "uuid": "twehyv1f", "title": "Thierry 1519 chữ 1" },
+    { "title_id": "5", "uuid": "3ok3ibk0", "title": "BTTPHCM 7 chữ 1" },
+    { "title_id": "6", "uuid": "j66qfdks", "title": "Thierry 1782 chữ 1" },
+    { "title_id": "7", "uuid": "1676ewho", "title": "Schroeder 156 chữ 3" },
+    { "title_id": "8", "uuid": "xgrv0sew", "title": "Thierry 1519 chữ 3" },
+    { "title_id": "9", "uuid": "xu2vn9tv", "title": "BTTPHCM 7 chữ 3" },
+    { "title_id": "10", "uuid": "a7jbknss", "title": "Thierry 1782 chữ 3" },
+    { "title_id": "11", "uuid": "0zxgrtaj", "title": "Schroeder 156 chữ 4" },
+    { "title_id": "12", "uuid": "lhbu8e3w", "title": "Thierry 1519 chữ 4" },
+    { "title_id": "13", "uuid": "hje4bsod", "title": "BTTPHCM 7 chữ 4" },
+    { "title_id": "14", "uuid": "44cpqz8f", "title": "Thierry 1782 chữ 4" },
+    { "title_id": "15", "uuid": "o0ukxi0b", "title": "tất cả lưng tiền" }
+  ],
+  "sentences": [
+    { "sentence_id": "1", "uuid": "0tf099qj", "title_uuid": "", "sentence": "Schroder 156 này nằm trong các hình ảnh tiền của Minh Mệnh" },
+    { "sentence_id": "2", "uuid": "4n3ey5au", "title_uuid": "", "sentence": "Thierry 1519 là một tiền của Minh Mệnh" },
+    { "sentence_id": "3", "uuid": "jwhplkez", "title_uuid": "", "sentence": "BTTPHCM 7 là một tiền của Thiệu Trị" },
+    { "sentence_id": "4", "uuid": "axmafnbr", "title_uuid": "", "sentence": "Thierry 1782 là một tiền của Tự Đức" },
+    { "sentence_id": "5", "uuid": "ama8usop", "title_uuid": "", "sentence": "Các chữ 'Liễm' cái trông không giống nhau" },
+    { "sentence_id": "6", "uuid": "j0558pph", "title_uuid": "", "sentence": "Các chữ 'Liễm' cái trông giống nhau" },
+    { "sentence_id": "7", "uuid": "7d8mafsd", "title_uuid": "", "sentence": "Các chữ 'Tích ' cái trông không giống nhau" },
+    { "sentence_id": "8", "uuid": "jtdtgsx1", "title_uuid": "", "sentence": "Các chữ 'Tích' cái trông giống nhau" },
+    { "sentence_id": "9", "uuid": "nn0r7ifo", "title_uuid": "", "sentence": "Các chữ 'Dân' cái trông không giống nhau" },
+    { "sentence_id": "10", "uuid": "y8ehtiwq", "title_uuid": "", "sentence": "Các chữ 'Dân' cái trông giống nhau" }
+  ]
+}
