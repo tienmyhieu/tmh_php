@@ -3,8 +3,8 @@
   "images": [
     { "image_id": "1", "uuid": "16q25o45", "src": "a153a81ddc88413481c1223545e37dc1-1.png", "href": "MEO2_V214", "copyright": "1", "country": "fr", "year": "1986", "color": "0", "visible": "1" },
     { "image_id": "2", "uuid": "bck5rn0y", "src": "a153a81ddc88413481c1223545e37dc1-2.png", "href": "MEO2_V214", "copyright": "1", "country": "fr", "year": "1986", "color": "0", "visible": "1" },
-    { "image_id": "3", "uuid": "xzj8yhqj", "src": "fae4a8521b95464fa1f000a312c761f5-1.png", "href": "CMVS_491", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
-    { "image_id": "4", "uuid": "fbpy7kx9", "src": "fae4a8521b95464fa1f000a312c761f5-2.png", "href": "CMVS_491", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" }
+    { "image_id": "3", "uuid": "xzj8yhqj", "src": "fae4a8521b95464fa1f000a312c761f5-1.png", "href": "CMVS_491", "copyright": "1", "country": "fr", "year": "2002", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "fbpy7kx9", "src": "fae4a8521b95464fa1f000a312c761f5-2.png", "href": "CMVS_491", "copyright": "1", "country": "fr", "year": "2002", "color": "0", "visible": "1" }
   ],
   "reference_specimens": [
     { "code": "Thierry V214", "images": ["16q25o45", "bck5rn0y"], "diameter": "50.50", "weight": "34.03", "page": "64", "plate": "61", "articles": [], "urls": [] },
