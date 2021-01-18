@@ -27,7 +27,7 @@
     { "reference_uuid": "5ekjpp24", "page": "268", "plate": "", "identifier": "", "notes": "known_to_exist", "articles": [], "urls": [] },
     { "reference_uuid": "vt6sjmp6", "page": "131", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
     { "reference_uuid": "cxqs7bca", "page": "39", "plate": "", "identifier": "39", "notes": "", "articles": [], "urls": [] },
-    { "reference_uuid": "gvkepvmm", "page": "13", "plate": "", "identifier": "", "notes": "btlsqg", "articles": [], "urls": [] }
+    { "reference_uuid": "gvkepvmm", "page": "13", "plate": "", "identifier": "13", "notes": "btlsqg", "articles": [], "urls": [] }
   ],
   "other_specimens": [
     { "code": "CHEN 23.1156", "images": ["46673055", "13741617"], "diameter": "50.00", "weight": "", "page": "", "plate": "" },

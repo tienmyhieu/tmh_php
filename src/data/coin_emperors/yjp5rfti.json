@@ -35,7 +35,7 @@
     { "reference_uuid": "vt6sjmp6", "page": "131", "plate": "", "identifier": "", "notes": "", "articles": []},
     { "reference_uuid": "ybfi7983", "page": "390", "plate": "", "identifier": "35", "notes": "", "articles": []},
     { "reference_uuid": "cxqs7bca", "page": "50", "plate": "", "identifier": "50", "notes": "", "articles": [], "urls": [] },
-    { "reference_uuid": "gvkepvmm", "page": "12", "plate": "", "identifier": "", "notes": "btlsqg", "articles": [], "urls": [] },
+    { "reference_uuid": "gvkepvmm", "page": "12", "plate": "", "identifier": "10", "notes": "btlsqg", "articles": [], "urls": [] },
     { "reference_uuid": "jybo2v6v", "page": "210", "plate": "", "identifier": "35", "notes": "cmv_partial_copy", "articles": [], "urls": [] },
     { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "15", "notes": "bttphcm_td", "articles": [], "urls": [] }
   ],
