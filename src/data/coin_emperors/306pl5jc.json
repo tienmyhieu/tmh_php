@@ -1,0 +1,39 @@
+{
+  "page_image": "af20ace8366f45748f92293b6c462c4b-2",
+  "images": [
+    { "image_id": "1", "uuid": "kim1byvu", "src": "d01ded6743e24b0d879f12c28c23b237-2.png", "href": "AEN_148", "copyright": "0", "country": "fr", "year": "1905", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "1ks05qye", "src": "af20ace8366f45748f92293b6c462c4b-1.png", "href": "CMV_1804", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "dh1tew0s", "src": "af20ace8366f45748f92293b6c462c4b-2.png", "href": "CMV_1804", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "7vj9hh8w", "src": "ba231970b4944336a07f01921594eae1-1.png", "href": "PKMM_21", "copyright": "0", "country": "de", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "jr5bfbwg", "src": "ba231970b4944336a07f01921594eae1-2.png", "href": "PKMM_21", "copyright": "0", "country": "de", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "6", "uuid": "s16vsfih", "src": "987f8223d8554a65971ea295a407f3d8-1.png", "href": "ANZDQ_77", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
+    { "image_id": "7", "uuid": "ndjs5c68", "src": "987f8223d8554a65971ea295a407f3d8-2.png", "href": "ANZDQ_77", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" }
+  ],
+  "reference_specimens": [
+    { "code": "Schroeder 148", "images": ["kim1byvu"], "diameter": "", "weight": "", "page": "430", "plate": "60", "articles": ["bk37dzxw"], "urls": [] },
+    { "code": "Thierry 1804", "images": ["1ks05qye", "dh1tew0s"], "diameter": "51.50", "weight": "30.28", "page": "92", "plate": "33", "articles": [], "urls": [] },
+    { "code": "Kempgen 21", "images": ["7vj9hh8w", "jr5bfbwg"], "diameter": "51.00", "weight": "29.66", "page": "65", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 77", "images": ["s16vsfih", "ndjs5c68"], "diameter": "", "weight": "", "page": "95", "plate": "", "articles": [], "urls": [] }
+  ],
+  "references": [
+    { "reference_uuid": "3wpxtg83", "page": "430", "plate": "60", "identifier": "148", "notes": "", "articles": ["bk37dzxw"], "urls": [] },
+    { "reference_uuid": "uh1x8rgi", "page": "92", "plate": "33", "identifier": "1804", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "rybfmx61", "page": "65", "plate": "", "identifier": "21", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "5ekjpp24", "page": "268", "plate": "", "identifier": "", "notes": "cites_thierry", "articles": [], "urls": [] },
+    { "reference_uuid": "pe4aw1hq", "page": "95", "plate": "", "identifier": "77", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "ybfi7983", "page": "394", "plate": "", "identifier": "45", "notes": "", "articles": []},
+    { "reference_uuid": "jybo2v6v", "page": "220", "plate": "", "identifier": "45", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
+  ],
+  "other_specimens": [
+    { "code": "LMHH TD1", "images": ["0g9r5zof", "8meoa8nn"], "diameter": "", "weight": "", "page": "", "plate": "" }
+  ],
+  "other_images": [
+    { "image_id": "8", "uuid": "0g9r5zof", "src": "97f9d91b6bd84a089625c8498b5b7a89-1.png", "href": "LMHH_TD1", "copyright": "0", "country": "de", "year": "2020", "color": "0", "visible": "1" },
+    { "image_id": "9", "uuid": "8meoa8nn", "src": "97f9d91b6bd84a089625c8498b5b7a89-2.png", "href": "LMHH_TD1", "copyright": "0", "country": "de", "year": "2020", "color": "0", "visible": "1" },
+    { "image_id": "10", "uuid": "ugq268wm", "src": "71ccf8b2b667420e9038f0af51515cf0-1.png", "href": "LMHH_TD1", "copyright": "0", "country": "de", "year": "2020", "color": "1", "visible": "0" },
+    { "image_id": "11", "uuid": "2tc3qqtj", "src": "71ccf8b2b667420e9038f0af51515cf0-2.png", "href": "LMHH_TD1", "copyright": "0", "country": "de", "year": "2020", "color": "1", "visible": "0" }
+  ],
+  "collections": [
+    { "collection_uuid": "qo4mfzee", "date": "2020-10-14", "pdf_url": "", "url_obverse": "https://www.numisbids.com/sales/hosted/hoehn/e515/image04858.jpg", "url_reverse": "https://www.numisbids.com/sales/hosted/hoehn/e515/image04858.jpg", "identifier": "", "lot_number": "" }
+  ]
+}
