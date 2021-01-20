@@ -39,6 +39,8 @@
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
     { "reference_uuid": "3wpxtg83", "page": "444", "plate": "72", "identifier": "217", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "o16jso3o", "page": "64", "plate": "", "identifier": "", "notes": "aen_partial_copy", "articles": [], "urls": [] },
+    { "reference_uuid": "e4m6tdqj", "page": "19", "plate": "27", "identifier": "217", "notes": "aen_partial_copy", "articles": [], "urls": [] },
     { "reference_uuid": "x2hkl3yi", "page": "48", "plate": "", "identifier": "27", "notes": "", "articles": [], "urls": [] },
     { "reference_uuid": "uh1x8rgi", "page": "91", "plate": "25", "identifier": "1602", "notes": "", "articles": [], "urls": [] },
     { "reference_uuid": "57qxr0k8", "page": "203", "plate": "", "identifier": "267", "notes": "", "articles": [], "urls": [] },
