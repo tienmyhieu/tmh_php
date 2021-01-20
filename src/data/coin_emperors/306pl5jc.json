@@ -11,7 +11,7 @@
   ],
   "reference_specimens": [
     { "code": "Schroeder 148", "images": ["kim1byvu"], "diameter": "", "weight": "", "page": "430", "plate": "60", "articles": ["bk37dzxw"], "urls": [] },
-    { "code": "Thierry 1804", "images": ["1ks05qye", "dh1tew0s"], "diameter": "51.50", "weight": "30.28", "page": "92", "plate": "33", "articles": [], "urls": [] },
+    { "code": "Thierry 1804", "images": ["1ks05qye", "dh1tew0s"], "diameter": "51.50", "weight": "30.28", "page": "98", "plate": "33", "articles": [], "urls": [] },
     { "code": "Kempgen 21", "images": ["7vj9hh8w", "jr5bfbwg"], "diameter": "51.00", "weight": "29.66", "page": "65", "plate": "", "articles": [], "urls": [] },
     { "code": "大庫隆夫 77", "images": ["s16vsfih", "ndjs5c68"], "diameter": "", "weight": "", "page": "95", "plate": "", "articles": [], "urls": [] }
   ],

@@ -49,7 +49,22 @@
     { "reference_uuid": "08w1apoy", "page": "", "plate": "", "identifier": "1983,0619.259", "notes": "", "articles": [], "urls": [] },
     { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "12", "notes": "bttphcm_tt", "articles": [], "urls": [] }
   ],
-  "other_specimens": [],
-  "other_images": [],
-  "collections": []
+  "other_specimens": [
+    { "code": "GZLL TT1", "images": ["qeo5qawu", "jkpy4mxs"], "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "WOYL TT5", "images": ["9a94ib6c", "dz9a81ig"], "diameter": "", "weight": "", "page": "", "plate": "" }
+  ],
+  "other_images": [
+    { "image_id": "20", "uuid": "qeo5qawu", "src": "75418087c8904c35b4186c42e53d7af4-1.png", "href": "GZLL_TT1", "copyright": "0", "country": "cn", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "21", "uuid": "jkpy4mxs", "src": "75418087c8904c35b4186c42e53d7af4-2.png", "href": "GZLL_TT1", "copyright": "0", "country": "cn", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "22", "uuid": "gadn9wbh", "src": "24568aac2e4341998ff1170a292b77af-1.png", "href": "GZLL_TT1", "copyright": "0", "country": "cn", "year": "2013", "color": "1", "visible": "0" },
+    { "image_id": "23", "uuid": "wu9l3huv", "src": "24568aac2e4341998ff1170a292b77af-2.png", "href": "GZLL_TT1", "copyright": "0", "country": "cn", "year": "2013", "color": "1", "visible": "0" },
+    { "image_id": "24", "uuid": "9a94ib6c", "src": "992e169894724655acd16bb36853a3b0-1.png", "href": "WOYL TT5", "copyright": "0", "country": "cn", "year": "2020", "color": "0", "visible": "1" },
+    { "image_id": "25", "uuid": "dz9a81ig", "src": "992e169894724655acd16bb36853a3b0-2.png", "href": "WOYL TT5", "copyright": "0", "country": "cn", "year": "2020", "color": "0", "visible": "1" },
+    { "image_id": "26", "uuid": "0k2phnzh", "src": "311fa755cf5c4d78bce2435a0a6efc1e-1.png", "href": "WOYL TT5", "copyright": "0", "country": "cn", "year": "2020", "color": "1", "visible": "0" },
+    { "image_id": "27", "uuid": "eb7au7q4", "src": "311fa755cf5c4d78bce2435a0a6efc1e-2.png", "href": "WOYL TT5", "copyright": "0", "country": "cn", "year": "2020", "color": "1", "visible": "0" }
+  ],
+  "collections": [
+    { "collection_uuid": "fc2mrfkz", "date": "2013-08-17", "pdf_url": "", "url_obverse": "http://pic.chcoin.com/attachment/Day_130817/53_36503_7f3572c0d736ad1.jpg", "url_reverse": "http://pic.chcoin.com/attachment/Day_130817/53_36503_7f3572c0d736ad1.jpg", "identifier": "", "lot_number": "" },
+    { "collection_uuid": "p7wm00bk", "date": "2020-04-02", "pdf_url": "", "url_obverse": "https://pic1.chcoin.com/M02/06/0C/wKgBWF6FU12IULppAADyCRHn4CUAAEh6gIdRhQAAPIh317.jpg", "url_reverse": "https://pic1.chcoin.com/M02/06/0C/wKgBWF6FU12IULppAADyCRHn4CUAAEh6gIdRhQAAPIh317.jpg", "identifier": "", "lot_number": "" }
+  ]
 }

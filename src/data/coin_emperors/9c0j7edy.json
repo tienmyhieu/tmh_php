@@ -1,0 +1,32 @@
+{
+  "page_image": "2d2fda73c1a2428a8c3d9ca73f752c8d-2",
+  "images": [
+    { "image_id": "1", "uuid": "cozfvwjr", "src": "2d2fda73c1a2428a8c3d9ca73f752c8d-1.png", "href": "CMV_1803", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "cgp9s7op", "src": "2d2fda73c1a2428a8c3d9ca73f752c8d-2.png", "href": "CMV_1803", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "lwwlcffd", "src": "a3358e53a21f4ad197f63d956bcfbf72-1.png", "href": "VN6_TD8", "copyright": "1", "country": "vn", "year": "2018", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "bo9a6j2e", "src": "a3358e53a21f4ad197f63d956bcfbf72-2.png", "href": "VN6_TD8", "copyright": "1", "country": "vn", "year": "2018", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "mcr0riva", "src": "1987777713114cbdac039414dfa09bac-1.png", "href": "VN6_TD8", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" },
+    { "image_id": "6", "uuid": "y8fmvrtw", "src": "1987777713114cbdac039414dfa09bac-2.png", "href": "VN6_TD8", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" }
+  ],
+  "reference_specimens": [
+    { "code": "Thierry 1803", "images": ["cozfvwjr", "cgp9s7op"], "diameter": "52.00", "weight": "31.59", "page": "97", "plate": "33", "articles": [], "urls": [] },
+    { "code": "VN6 TD8", "images": ["lwwlcffd", "bo9a6j2e"], "diameter": "", "weight": "", "page": "12", "plate": "", "articles": [], "urls": [] }
+  ],
+  "references": [
+    { "reference_uuid": "uh1x8rgi", "page": "97", "plate": "33", "identifier": "1803", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "5ekjpp24", "page": "268", "plate": "", "identifier": "", "notes": "cites_thierry", "articles": [], "urls": [] },
+    { "reference_uuid": "ybfi7983", "page": "396", "plate": "", "identifier": "48", "notes": "", "articles": []},
+    { "reference_uuid": "gvkepvmm", "page": "12", "plate": "", "identifier": "8", "notes": "btlsqg", "articles": [], "urls": [] },
+    { "reference_uuid": "jybo2v6v", "page": "223", "plate": "", "identifier": "48", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
+  ],
+  "other_specimens": [
+    { "code": "IKAR TD8", "images": ["xnlqpmmt"], "diameter": "", "weight": "", "page": "", "plate": "" }
+  ],
+  "other_images": [
+    { "image_id": "7", "uuid": "xnlqpmmt", "src": "dcd7387d34634478bd7c27370bce6b8f-2.png", "href": "IKAR TD8", "copyright": "0", "country": "ja", "year": "2016", "color": "0", "visible": "1" },
+    { "image_id": "8", "uuid": "gb8v46op", "src": "3f9b36306bd448dca18ab4a5534bfa84-2.png", "href": "IKAR_TD8", "copyright": "0", "country": "ja", "year": "2016", "color": "1", "visible": "0" }
+  ],
+  "collections": [
+    { "collection_uuid": "i91nbvi5", "date": "2016-11-11", "pdf_url": "", "url_obverse": "", "url_reverse": "http://blogimg.goo.ne.jp/user_image/62/1b/696eb015630c89827409503baaa9162e.jpg", "identifier": "", "lot_number": "" }
+  ]
+}
