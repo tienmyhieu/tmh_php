@@ -16,7 +16,7 @@
     { "title_id": "14", "uuid": "2k7wglg2", "title": "Thierry 1804 chữ 8" }
   ],
   "sentences": [
-    { "sentence_id": "1", "uuid": "u3m6usae", "title_uuid": "", "sentence": "Schroder 148 này nằm trong các hình ảnh tiền của Minh Mệnh" },
+    { "sentence_id": "1", "uuid": "u3m6usae", "title_uuid": "", "sentence": "Schroeder 148 này nằm trong các hình ảnh tiền của Minh Mệnh" },
     { "sentence_id": "2", "uuid": "577zzoz7", "title_uuid": "", "sentence": "Thierry 1623 là một tiền của Thiệu Trị" },
     { "sentence_id": "3", "uuid": "f5kefspa", "title_uuid": "", "sentence": "Thierry 1804 là một tiền của Tự Đức" },
     { "sentence_id": "4", "uuid": "nziclsqd", "title_uuid": "", "sentence": "Các chữ 'Tự' cái trông không giống nhau" },
@@ -25,7 +25,7 @@
     { "sentence_id": "7", "uuid": "eds9anx0", "title_uuid": "", "sentence": "Các chữ 'Thiên' cái trông giống nhau" },
     { "sentence_id": "8", "uuid": "9nq1mwwe", "title_uuid": "", "sentence": "Các chữ 'Cát' cái trông không giống nhau" },
     { "sentence_id": "9", "uuid": "f7dkm39e", "title_uuid": "", "sentence": "Các chữ 'Cát' cái trông giống nhau" },
-    { "sentence_id": "8", "uuid": "xcz4pg52", "title_uuid": "", "sentence": "Các chữ 'Lợi' cái trông không giống nhau" },
-    { "sentence_id": "9", "uuid": "vbdh9qbr", "title_uuid": "", "sentence": "Các chữ 'Lợi' cái trông giống nhau" }
+    { "sentence_id": "10", "uuid": "xcz4pg52", "title_uuid": "", "sentence": "Các chữ 'Lợi' cái trông không giống nhau" },
+    { "sentence_id": "11", "uuid": "vbdh9qbr", "title_uuid": "", "sentence": "Các chữ 'Lợi' cái trông giống nhau" }
   ]
 }

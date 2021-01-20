@@ -1,0 +1,25 @@
+{
+  "page_image": "4b768d0eb3884695a3e0350d22c338af-2",
+  "images": [
+    { "image_id": "1", "uuid": "wdphmmql", "title_uuid": "3avths0v", "src": "4b768d0eb3884695a3e0350d22c338af-2.png", "href": "AEN_166", "copyright": "0", "country": "fr", "year": "1905", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "naovnezy", "title_uuid": "rt4kudqw", "src": "d8be13572fbb487a841b7aa2a4f01854.png", "href": "TKVN_4", "copyright": "0", "country": "fr", "year": "2020", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "pkynhkj6", "title_uuid": "z26ow08f", "src": "258f5365253446eeba10ecb2782200aa.jpg", "href": "AEN_166_C1", "copyright": "0", "country": "fr", "year": "1900", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "grz2t5wy", "title_uuid": "by3bazky", "src": "403e88680d6e47c5905f7a84f0db33b2.jpg", "href": "CMV_1602_C1", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "3mjywhbf", "title_uuid": "5yltygwd", "src": "dc539c8e87ad49448fe1efccde9597ca.jpg", "href": "HCCV_195_C1", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "6", "uuid": "3x1rv26y", "title_uuid": "thw0doas", "src": "5da387faf353466db70df5658b0504e8.jpg", "href": "AEN_166_C2", "copyright": "0", "country": "fr", "year": "1900", "color": "0", "visible": "1" },
+    { "image_id": "7", "uuid": "8t6frip1", "title_uuid": "qhqzntq4", "src": "b1c84ed6dfb14461b8ae76d10bafe2a6.jpg", "href": "CMV_1602_C2", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "8", "uuid": "iw7au4pk", "title_uuid": "hxtf4n0w", "src": "3863ff3581c74246b0799befda448c45.jpg", "href": "HCCV_195_C2", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "9", "uuid": "xz2dfhnl", "title_uuid": "5il2u2qd", "src": "3a22210491f64e95889478c83aa999d5.jpg", "href": "AEN_166_C3", "copyright": "0", "country": "fr", "year": "1900", "color": "0", "visible": "1" },
+    { "image_id": "10", "uuid": "prs269a4", "title_uuid": "1k2ux6vw", "src": "c8d0a017759142eca3bcdd14ddbdc5e3.jpg", "href": "CMV_1602_C3", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "11", "uuid": "i8u4491v", "title_uuid": "nmec0ezs", "src": "06b172d8c134447c8365e3a3cf7eccd0.jpg", "href": "HCCV_195_C3", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" }
+  ],
+  "intro": { "images": ["wdphmmql", "naovnezy"], "sentences": ["ably6150"], "image_dir": "" },
+  "sections": [
+    {"section_id": "1", "uuid": "5re4sxy1", "type": "2it", "images": ["pkynhkj6", "grz2t5wy"], "title_uuid": "", "sentences": ["dl1e2rju", "dl6j26es"] },
+    {"section_id": "2", "uuid": "k5rqoti1", "type": "2it", "images": ["pkynhkj6", "3mjywhbf"], "title_uuid": "", "sentences": ["saohj1gw", "0do89y0w"] },
+    {"section_id": "3", "uuid": "xp3et9yc", "type": "2it", "images": ["3x1rv26y", "8t6frip1"], "title_uuid": "", "sentences": ["dl1e2rju", "jwuta56x"] },
+    {"section_id": "4", "uuid": "l9p70pk8", "type": "2it", "images": ["3x1rv26y", "iw7au4pk"], "title_uuid": "", "sentences": ["saohj1gw", "hvi5i4ja"] },
+    {"section_id": "5", "uuid": "5fnf6cwb", "type": "2it", "images": ["xz2dfhnl", "prs269a4"], "title_uuid": "", "sentences": ["dl1e2rju", "3qja2n13"] },
+    {"section_id": "6", "uuid": "aorx1ym5", "type": "2it", "images": ["xz2dfhnl", "i8u4491v"], "title_uuid": "", "sentences": ["saohj1gw", "9a7f50zd"] }
+  ]
+}
