@@ -1,0 +1,38 @@
+{
+  "page_image": "1bfb4050d71f4bca8656277c667734dd-2",
+  "images": [
+    { "image_id": "1", "uuid": "dgyq1wj8", "src": "ede0291c66aa4320917f0c1c83d86473-1.png", "href": "HCCV_199", "copyright": "1", "country": "sg", "year": "2004", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "kcntnqa4", "src": "ede0291c66aa4320917f0c1c83d86473-2.png", "href": "HCCV_199", "copyright": "1", "country": "sg", "year": "2004", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "i625kfjf", "src": "4b3950c189fd48819406799c11774fdb-2.png", "href": "HCCV_199", "copyright": "1", "country": "sg", "year": "2004", "color": "1", "visible": "0" },
+    { "image_id": "4", "uuid": "xcmbh6n9", "src": "4b3950c189fd48819406799c11774fdb-2.png", "href": "HCCV_199", "copyright": "1", "country": "sg", "year": "2004", "color": "1", "visible": "0" },
+    { "image_id": "5", "uuid": "ct5w06n5", "src": "d42d548f22be4254be4211d512a314f8-1.png", "href": "AMDK_61", "copyright": "1", "country": "ja", "year": "2012", "color": "0", "visible": "1" },
+    { "image_id": "6", "uuid": "sqfaq20b", "src": "d42d548f22be4254be4211d512a314f8-2.png", "href": "AMDK_61", "copyright": "1", "country": "ja", "year": "2012", "color": "0", "visible": "1" },
+    { "image_id": "7", "uuid": "lick2uee", "src": "1bfb4050d71f4bca8656277c667734dd-1.png", "href": "HCCV_199", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },
+    { "image_id": "8", "uuid": "ddj18lmi", "src": "1bfb4050d71f4bca8656277c667734dd-2.png", "href": "HCCV_199", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },
+    { "image_id": "9", "uuid": "vgszosxb", "src": "0de448f510cc499e977c180859b9c864-1.png", "href": "HCCV_199", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" },
+    { "image_id": "10", "uuid": "8fb309kk", "src": "0de448f510cc499e977c180859b9c864-2.png", "href": "HCCV_199", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" }
+  ],
+  "reference_specimens": [
+    { "code": "Barker 199", "images": ["lick2uee", "ddj18lmi"], "diameter": "50.23", "weight": "30.88", "page": "309", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 61", "images": ["ct5w06n5", "sqfaq20b"], "diameter": "", "weight": "", "page": "61", "plate": "", "articles": [], "urls": [] }
+  ],
+  "references": [
+    { "reference_uuid": "5ekjpp24", "page": "309", "plate": "", "identifier": "199", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "vt6sjmp6", "page": "131", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "ybfi7983", "page": "378", "plate": "", "identifier": "15", "notes": "", "articles": []},
+    { "reference_uuid": "cxqs7bca", "page": "61", "plate": "", "identifier": "61", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "jybo2v6v", "page": "194", "plate": "", "identifier": "15", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
+  ],
+  "other_specimens": [
+    { "code": "HUAY 19-0706-190", "images": ["cnvgdxcn", "77maeaib"], "diameter": "49.80", "weight": "", "page": "", "plate": "" }
+  ],
+  "other_images": [
+    { "image_id": "11", "uuid": "cnvgdxcn", "src": "d4b282ea110f49509eedb9f65f44f7a8-1.png", "href": "HUAY TD6", "copyright": "0", "country": "cn", "year": "2019", "color": "0", "visible": "1" },
+    { "image_id": "12", "uuid": "77maeaib", "src": "d4b282ea110f49509eedb9f65f44f7a8-2.png", "href": "HUAY TD6", "copyright": "0", "country": "cn", "year": "2019", "color": "0", "visible": "1" },
+    { "image_id": "13", "uuid": "k93twe94", "src": "3b9bfba5b5304e599804c051a998b7be-1.png", "href": "HUAY TD6", "copyright": "0", "country": "cn", "year": "2019", "color": "1", "visible": "0" },
+    { "image_id": "14", "uuid": "zdk4ctc1", "src": "3b9bfba5b5304e599804c051a998b7be-2.png", "href": "HUAY TD6", "copyright": "0", "country": "cn", "year": "2019", "color": "1", "visible": "0" }
+  ],
+  "collections": [
+    { "collection_uuid": "0i5gqe5p", "date": "2019-06-24", "pdf_url": "", "url_obverse": "http://imgali.hxgqw.com/pic/2019/0624/2019062400580452057588w1200h1200.jpg", "url_reverse": "http://imgali.hxgqw.com/pic/2019/0624/2019062400580582977221w1200h1200.jpg", "identifier": "", "lot_number": "" }
+  ]
+}
