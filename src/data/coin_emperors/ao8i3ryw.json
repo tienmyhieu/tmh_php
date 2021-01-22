@@ -1,0 +1,38 @@
+{
+  "page_image": "9f66f5d2ea03484b98952746cb600539-2",
+  "images": [
+    { "image_id": "1", "uuid": "tyx9di6x", "src": "40ef3694bab7405d98849837eb85e97d-2.png", "href": "NA_470", "copyright": "0", "country": "fr", "year": "1900", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "a7zsy9yh", "src": "028d42d71323477da0f3e1afc6d13c2a-1.png", "href": "ANZDQ_92", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "te7l4c5h", "src": "028d42d71323477da0f3e1afc6d13c2a-2.png", "href": "ANZDQ_92", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "udqboq7p", "src": "9f66f5d2ea03484b98952746cb600539-1.png", "href": "BTTPHCM_1", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "se59fn2s", "src": "9f66f5d2ea03484b98952746cb600539-2.png", "href": "BTTPHCM_1", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "6", "uuid": "z6dvjg0s", "src": "3f93f6d8f63646b58a59058a1f5c8c3e-2.png", "href": "BTTPHCM_1", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "7", "uuid": "dhl8zaml", "src": "854aabbb41b8484f98f15055f0a49066-1.png", "href": "BTTPHCM_1", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "8", "uuid": "207boigj", "src": "854aabbb41b8484f98f15055f0a49066-2.png", "href": "BTTPHCM_1", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "9", "uuid": "xt8bvenr", "src": "bc587a370220428c9e1d6aa8b0135996-2.png", "href": "BTTPHCM_1", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
+  ],
+  "reference_specimens": [
+    { "code": "Lacroix 470", "images": ["tyx9di6x"], "diameter": "", "weight": "", "page": "191", "plate": "35", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 92", "images": ["a7zsy9yh", "te7l4c5h"], "diameter": "", "weight": "", "page": "110", "plate": "", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 1", "images": ["udqboq7p", "se59fn2s"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+  ],
+  "references": [
+    { "reference_uuid": "egjosprx", "page": "191", "plate": "35", "identifier": "470", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "pe4aw1hq", "page": "110", "plate": "", "identifier": "92", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "ybfi7983", "page": "378", "plate": "", "identifier": "13", "notes": "", "articles": []},
+    { "reference_uuid": "jybo2v6v", "page": "192", "plate": "", "identifier": "13", "notes": "anzdq_partial_copy", "articles": [], "urls": [] },
+    { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "1", "notes": "bttphcm_td", "articles": [], "urls": [] }
+  ],
+  "other_specimens": [
+    { "code": "DDDU TD2", "images": ["9q3uoajq", "z1yv6n0q"], "diameter": "", "weight": "", "page": "", "plate": "" }
+  ],
+  "other_images": [
+    { "image_id": "10", "uuid": "9q3uoajq", "src": "a8b925d223b6484fa8a23ebec4f8627b-1.png", "href": "DDDU_TD2", "copyright": "0", "country": "vn", "year": "2009", "color": "0", "visible": "1" },
+    { "image_id": "11", "uuid": "z1yv6n0q", "src": "a8b925d223b6484fa8a23ebec4f8627b-2.png", "href": "DDDU_TD2", "copyright": "0", "country": "vn", "year": "2009", "color": "0", "visible": "1" },
+    { "image_id": "12", "uuid": "8ldopw95", "src": "e4ef0a86c6214ecfbcd1ff603cb5fa96-1.png", "href": "DDDU_TD2", "copyright": "0", "country": "vn", "year": "2009", "color": "1", "visible": "0" },
+    { "image_id": "13", "uuid": "2xuq0urg", "src": "e4ef0a86c6214ecfbcd1ff603cb5fa96-2.png", "href": "DDDU_TD2", "copyright": "0", "country": "vn", "year": "2009", "color": "1", "visible": "0" }
+  ],
+  "collections": [
+    { "collection_uuid": "f4x3gafm", "date": "2009-01-01", "pdf_url": "", "url_obverse": "http://img1.tienmyhieu.com/uploads/TuDuc-Van_zps996e2d0a.jpg", "url_reverse": "http://img1.tienmyhieu.com/uploads/TuDuc-Van_zps996e2d0a.jpg", "identifier": "", "lot_number": "" }
+  ]
+}
