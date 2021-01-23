@@ -182,7 +182,7 @@ class HtmlOutput
             $html .= "\n\t\t\t\t\t\t" . '<th>' . $lexicon['year'] . '</th>';
             $html .= "\n\t\t\t\t\t\t" . '<th align="left">' . $lexicon['author'] . '</th>';
             $html .= "\n\t\t\t\t\t\t" . '<th>' . $lexicon['number_abbrev'] . '</th>';
-            $html .= "\n\t\t\t\t\t\t" . '<th align="left">' . $lexicon['title'] . '</th>';
+            $html .= "\n\t\t\t\t\t\t" . '<th align="left">' . $lexicon['references'] . '</th>';
             $html .= "\n\t\t\t\t\t\t" . '<th>' . $lexicon['page'] . '</th>';
             $html .= "\n\t\t\t\t\t" . '</tr>';
             $html .= "\n\t\t\t\t" . '</thead>';
