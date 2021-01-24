@@ -1,0 +1,36 @@
+{
+  "page_image": "85f10b01d1034b8aaeff44f2869ee08e-2",
+  "images": [
+    { "image_id": "1", "uuid": "f3gnb90z", "src": "85f10b01d1034b8aaeff44f2869ee08e-2.png", "href": "NA_461", "copyright": "0", "country": "fr", "year": "1900", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "asv1dbib", "src": "8c9b29e10ffd4a8ca83923ec5ef7fa81-1.png", "href": "ANZDQ_94", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "fdjpd5sn", "src": "8c9b29e10ffd4a8ca83923ec5ef7fa81-2.png", "href": "ANZDQ_94", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" }
+  ],
+  "reference_specimens": [
+    { "code": "Lacroix 461", "images": ["f3gnb90z"], "diameter": "", "weight": "", "page": "190", "plate": "34", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 94", "images": ["asv1dbib", "fdjpd5sn"], "diameter": "", "weight": "", "page": "112", "plate": "", "articles": [], "urls": [] }
+  ],
+  "references": [
+    { "reference_uuid": "egjosprx", "page": "190", "plate": "34", "identifier": "461", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "3wpxtg83", "page": "467", "plate": "", "identifier": "318", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "e4m6tdqj", "page": "38", "plate": "", "identifier": "318", "notes": "", "articles": []},
+    { "reference_uuid": "pjmp6uhz", "page": "63", "plate": "", "identifier": "18", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "57qxr0k8", "page": "234", "plate": "", "identifier": "360", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "5ekjpp24", "page": "269", "plate": "", "identifier": "", "notes": "known_to_exist", "articles": [], "urls": [] },
+    { "reference_uuid": "vt6sjmp6", "page": "131", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "pe4aw1hq", "page": "112", "plate": "", "identifier": "94", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "ybfi7983", "page": "382", "plate": "", "identifier": "24", "notes": "", "articles": []},
+    { "reference_uuid": "jybo2v6v", "page": "199", "plate": "", "identifier": "24", "notes": "anzdq_partial_copy", "articles": [], "urls": [] }
+  ],
+  "other_specimens": [
+    { "code": "WYHU TD1", "images": ["aiczui1z", "d22s3r6o"], "diameter": "", "weight": "", "page": "", "plate": "" }
+  ],
+  "other_images": [
+    { "image_id": "4", "uuid": "aiczui1z", "src": "3793b24cdbe4493fb76e17d0db4494b2-1.png", "href": "WYHU TD1", "copyright": "0", "country": "cn", "year": "2016", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "d22s3r6o", "src": "3793b24cdbe4493fb76e17d0db4494b2-2.png", "href": "WYHU TD1", "copyright": "0", "country": "cn", "year": "2016", "color": "0", "visible": "1" },
+    { "image_id": "6", "uuid": "l609io63", "src": "0380b0bc92fd45acb5cccd82c103e08f-1.png", "href": "WYHU TD1", "copyright": "0", "country": "cn", "year": "2016", "color": "1", "visible": "0" },
+    { "image_id": "7", "uuid": "y89j5oit", "src": "0380b0bc92fd45acb5cccd82c103e08f-2.png", "href": "WYHU TD1", "copyright": "0", "country": "cn", "year": "2016", "color": "1", "visible": "0" }
+  ],
+  "collections": [
+    { "collection_uuid": "m6k8xok8", "date": "2016-12-19", "pdf_url": "", "url_obverse": "http://pic1.chcoin.com/M01/01/09/AgAAAFhXrOOIfTLoAACfnT7wiRMAABiXwGGpKsAAJ-1777.jpg", "url_reverse": "http://pic1.chcoin.com/M01/01/09/AgAAAFhXrAmIczFSAACkgwCjhBAAABiXwFS_yoAAKSb919.jpg", "identifier": "", "lot_number": "" }
+  ]
+}

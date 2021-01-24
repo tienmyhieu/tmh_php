@@ -25,5 +25,6 @@
   { "collection_id": "24", "uuid": "elvct4xr", "acronym": "MOUL", "language": "fr", "title": "Moullec collection", "year": "2013-9999", "visible": "1" },
   { "collection_id": "25", "uuid": "cofwlf05", "acronym": "AXZI", "language": "cn", "title": "阿秀字 采集", "year": "2018-9999", "visible": "1" },
   { "collection_id": "26", "uuid": "qo4mfzee", "acronym": "LMHH", "language": "de", "title": "Leipziger Münzhandlung Auktion", "year": "1990-9999", "visible": "1" },
-  { "collection_id": "13", "uuid": "bamh331m", "acronym": "ZNTK", "language": "ja", "title": "ぜにやとくべいこうせん コレクション", "year": "2018-9999", "visible": "1" }
+  { "collection_id": "27", "uuid": "bamh331m", "acronym": "ZNTK", "language": "ja", "title": "ぜにやとくべいこうせん コレクション", "year": "2018-9999", "visible": "1" },
+  { "collection_id": "28", "uuid": "m6k8xok8", "acronym": "WYHU", "language": "cn", "title": "无余话 采集", "year": "2016-9999", "visible": "1" }
 ]
