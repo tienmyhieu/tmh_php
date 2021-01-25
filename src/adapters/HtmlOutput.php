@@ -251,7 +251,7 @@ class HtmlOutput
         return $html;
     }
 
-    public static function coinEmperorReferencesList($references, $images, $lexicon, $articles): string
+    public static function coinEmperorReferencesList($references, $images, $lexicon, $articles, $variants): string
     {
         $html = '';
         if (0 < count($images)) {
@@ -264,6 +264,7 @@ class HtmlOutput
                 $hasPage = 0 < strlen($reference['page']);
                 $hasPlate = 0 < strlen($reference['plate']);
                 $hasMeasurements = 0 < strlen($reference['diameter']) || 0 < strlen($reference['weight']);
+                $hasVariant = 0 < strlen($reference['variant']);
                 $html .= "\n\t\t\t\t" . '<tr>';
                 $html .= "\n\t\t\t\t\t" . '<td valign="top">';
                 $html .= $i . '. ' . $reference['code'] . '<br/>';
@@ -287,6 +288,10 @@ class HtmlOutput
                     }
                     $linksHtml = substr($linksHtml, 0,  -2) . '<br/>';
                     $html .= $linksHtml;
+                }
+                if ($hasVariant) {
+                    $variant = $variants[$reference['variant']]['variant'];
+                    $html .= '&nbsp;&nbsp;&nbsp;' . $lexicon['variant'] . ': ' . $variant . '<br/>';
                 }
                 $html .= '</td>';
                 $html .= "\n\t\t\t\t\t" . '<td align="right">';

@@ -40,7 +40,8 @@ switch ($template) {
             'lexicon' => $referenceEmperors->lexicon(),
             'referenceEmperors' => $referenceEmperors->get(),
             'title' => $meta->title(),
-            'articles' => $articles->get()
+            'articles' => $articles->get(),
+            'variants' => $coinEmperors->variants(),
         ];
         $output->setEntities($entities);
         break;

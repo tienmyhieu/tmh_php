@@ -11,6 +11,7 @@ class Marshal
     protected $inscriptions;
     protected $lexicon;
     protected $references;
+    protected $variants;
 
     private $json;
     private $metals;
@@ -24,6 +25,7 @@ class Marshal
         $this->emperors = $json->setCollectionKeys($common, 'emperor');
         $this->lexicon = $common['lexicon'];
         $this->metals = $json->setCollectionKeys($common, 'metal');
+        $this->variants = $json->setCollectionKeys($common, 'variants');
     }
 
     public function articles()
@@ -79,6 +81,11 @@ class Marshal
         $referenceEmperors = $this->json->loadData('reference_emperors');
         //$referenceEmperors['images'] = $this->json->setCollectionKeys($referenceEmperors['images'], 'image', false);
         return $referenceEmperors;
+    }
+
+    public function variants()
+    {
+        return $this->variants;
     }
 
     private function itemsKey($items, $key)

@@ -83,6 +83,7 @@
     "no_image": "tác giả: nói không có hình ảnh",
     "obverse": "Mặt tiền",
     "page": "Trang",
+    "variant": "Biến thể",
     "na_partial_copy": "hình ảnh của 'Numismatique Annamite'",
     "aen_partial_copy": "hình ảnh của 'Annam. Études Numismatiques'",
     "cmv_partial_copy": "hình ảnh của 'Catalogue des Monnaies Vietnamiennes'",
@@ -112,5 +113,9 @@
     { "article_id":  "6", "uuid": "ls0z7d8m", "date": "2021-01-20", "title": "Schroeder 162 là một đồng tiền của Thiệu Trị", "href": "Schroeder_162_là_một_đồng_tiền_của_Thiệu_Trị", "visible": "1" },
     { "article_id":  "7", "uuid": "vt1vrbvr", "date": "2021-01-21", "title": "Schroeder 167 là một đồng tiền của Tự Đức", "href": "Schroeder_167_là_một_đồng_tiền_của_Tự_Đức", "visible": "1" },
     { "article_id":  "8", "uuid": "271wji3h", "date": "2021-01-21", "title": "Schroeder 164 là một đồng tiền của Tự Đức", "href": "Schroeder_164_là_một_đồng_tiền_của_Tự_Đức", "visible": "1" }
+  ],
+  "variants": [
+    { "variant_id": "1", "uuid": "28o8xdkb", "variant": "1<br/>&nbsp;&nbsp;&nbsp;thông một dấu chấm" },
+    { "variant_id": "2", "uuid": "q3wrske6", "variant": "2<br/>&nbsp;&nbsp;&nbsp;thông hai dấu chấm" }
   ]
 }
