@@ -31,16 +31,16 @@
     { "image_id": "28", "uuid": "0k6e7z2u", "src": "8cd59ca54d8c427399ff1c18abdf30e1-2.png", "href": "VN4_VN29_1", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 409", "images": ["7aspws01"], "diameter": "", "weight": "", "page": "179", "plate": "28", "articles": [], "urls": [] },
-    { "code": "Schroeder 139", "images": ["pkw26d77"], "diameter": "", "weight": "", "page": "431", "plate": "59", "articles": [], "urls": [] },
-    { "code": "三浦清吾 2", "images": ["i4vbiith", "avi6qx8t"], "diameter": "", "weight": "", "page": "9", "plate": "", "articles": [], "urls": [] },
-    { "code": "Thierry V337", "images": ["msgxn723", "cx816rp8"], "diameter": "51.20", "weight": "29.78", "page": "76", "plate": "2A", "articles": [], "urls": [] },
-    { "code": "Thierry 394", "images": ["opkzcbte", "3vkfjab6"], "diameter": "51.00", "weight": "25.18", "page": "71", "plate": "", "articles": [], "urls": [] },
-    { "code": "Barker 150", "images": ["7sctz5ig", "wu5opj48"], "diameter": "50.96", "weight": "25.14", "page": "277", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 20", "images": ["jr35ql3f", "q39k4qnj"], "diameter": "", "weight": "", "page": "50", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 10", "images": ["o60rqr5u", "aonv2zix"], "diameter": "", "weight": "", "page": "10", "plate": "", "articles": [], "urls": [] },
-    { "code": "STTMM 11", "images": ["kdk5erl8", "iuch9p3i"], "diameter": "51.50", "weight": "29.00", "page": "85", "plate": "", "articles": [], "urls": [] },
-    { "code": "VN29-1", "images": ["lqgfh5la", "gmpyp8jf"], "diameter": "", "weight": "", "page": "10", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 409", "images": ["7aspws01"], "variant": "", "diameter": "", "weight": "", "page": "179", "plate": "28", "articles": [], "urls": [] },
+    { "code": "Schroeder 139", "images": ["pkw26d77"], "variant": "", "diameter": "", "weight": "", "page": "431", "plate": "59", "articles": [], "urls": [] },
+    { "code": "三浦清吾 2", "images": ["i4vbiith", "avi6qx8t"], "variant": "", "diameter": "", "weight": "", "page": "9", "plate": "", "articles": [], "urls": [] },
+    { "code": "Thierry V337", "images": ["msgxn723", "cx816rp8"], "variant": "", "diameter": "51.20", "weight": "29.78", "page": "76", "plate": "2A", "articles": [], "urls": [] },
+    { "code": "Thierry 394", "images": ["opkzcbte", "3vkfjab6"], "variant": "", "diameter": "51.00", "weight": "25.18", "page": "71", "plate": "", "articles": [], "urls": [] },
+    { "code": "Barker 150", "images": ["7sctz5ig", "wu5opj48"], "variant": "", "diameter": "50.96", "weight": "25.14", "page": "277", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 20", "images": ["jr35ql3f", "q39k4qnj"], "variant": "", "diameter": "", "weight": "", "page": "50", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 10", "images": ["o60rqr5u", "aonv2zix"], "variant": "", "diameter": "", "weight": "", "page": "10", "plate": "", "articles": [], "urls": [] },
+    { "code": "STTMM 11", "images": ["kdk5erl8", "iuch9p3i"], "variant": "", "diameter": "51.50", "weight": "29.00", "page": "85", "plate": "", "articles": [], "urls": [] },
+    { "code": "VN29-1", "images": ["lqgfh5la", "gmpyp8jf"], "variant": "", "diameter": "", "weight": "", "page": "10", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "59out4lc", "page": "35", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -66,10 +66,10 @@
     { "reference_uuid": "08w1apoy", "page": "", "plate": "", "identifier": "1983,0619.246", "notes": "", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "DDDU MM1", "images": ["ck4k2lnc", "pwuoqmbl"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "BMTW 55.820.8", "images": ["duz9ihqr"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "MVBO 153.1", "images": ["86xjjcqh", "22kbmnm8"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "MVBO 156", "images": ["7ih673qd", "cefq0go9"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "DDDU MM1", "images": ["ck4k2lnc", "pwuoqmbl"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "BMTW 55.820.8", "images": ["duz9ihqr"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "MVBO 153.1", "images": ["86xjjcqh", "22kbmnm8"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "MVBO 156", "images": ["7ih673qd", "cefq0go9"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "29", "uuid": "ck4k2lnc", "src": "14d9804ab65c480e90698c740c5dbac2-1.png", "href": "DDDU MM1", "copyright": "0", "country": "vn", "year": "2009", "color": "0", "visible": "1" },

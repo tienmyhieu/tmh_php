@@ -5,7 +5,7 @@
     { "image_id": "1", "uuid": "jn1ni4yi", "src": "0135099469f24b75aa4437b09bf9750d-2.png", "href": "ANZDQ_81", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" }
   ],
   "reference_specimens": [
-    { "code": "大庫隆夫 81", "images": ["i4y929xa", "jn1ni4yi"], "diameter": "", "weight": "", "page": "99", "plate": "", "articles": [], "urls": [] }
+    { "code": "大庫隆夫 81", "images": ["i4y929xa", "jn1ni4yi"], "variant": "", "diameter": "", "weight": "", "page": "99", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "pe4aw1hq", "page": "99", "plate": "", "identifier": "81", "notes": "", "articles": [], "urls": [] },

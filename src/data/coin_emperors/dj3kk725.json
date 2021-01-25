@@ -14,10 +14,10 @@
     { "image_id": "12", "uuid": "u7sd56fs", "src": "916eec66ffd3464a9b5d32b472053abe-2.png", "href": "BTTPHCM_5", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 462", "images": ["0xsj18h7"], "diameter": "", "weight": "", "page": "190", "plate": "34", "articles": [], "urls": [] },
-    { "code": "Thierry 1781", "images": ["k4nhvk6m", "mj76lq2m"], "diameter": "51.00", "weight": "34.87", "page": "96", "plate": "30", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 87", "images": ["3z79m9az", "krk9y3mw"], "diameter": "", "weight": "", "page": "105", "plate": "", "articles": [], "urls": [] },
-    { "code": "BTTPHCM 5", "images": ["1ujbum85", "kxrsacse"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 462", "images": ["0xsj18h7"], "variant": "", "diameter": "", "weight": "", "page": "190", "plate": "34", "articles": [], "urls": [] },
+    { "code": "Thierry 1781", "images": ["k4nhvk6m", "mj76lq2m"], "variant": "", "diameter": "51.00", "weight": "34.87", "page": "96", "plate": "30", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 87", "images": ["3z79m9az", "krk9y3mw"], "variant": "", "diameter": "", "weight": "", "page": "105", "plate": "", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 5", "images": ["1ujbum85", "kxrsacse"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "egjosprx", "page": "190", "plate": "34", "identifier": "462", "notes": "", "articles": [], "urls": [] },

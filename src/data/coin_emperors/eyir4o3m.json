@@ -21,13 +21,13 @@
     { "image_id": "18", "uuid": "1w5yciv1", "src": "05cbe4fe5b3f4bc0b74dd1029308fd32-2.png", "href": "BTTPHCM_10", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 466", "images": ["vsu7dwx2"], "diameter": "", "weight": "", "page": "190", "plate": "35", "articles": [], "urls": [] },
-    { "code": "Schroeder 135", "images": ["1lkcsyu2"], "diameter": "", "weight": "", "page": "430", "plate": "58", "articles": ["14f2amvp"], "urls": [] },
-    { "code": "Thierry 1799", "images": ["jxiily72", "p15tmj7m"], "diameter": "51.00", "weight": "35.71", "page": "97", "plate": "32", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 74", "images": ["3vt9b9mh", "wsuqsal3"], "diameter": "", "weight": "", "page": "92", "plate": "", "articles": [], "urls": [] },
-    { "code": "Joyaux 845", "images": ["ssl192no", "oyc7umex"], "diameter": "50.40", "weight": "33.93", "page": "156", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 41", "images": ["ykb9mc26", "u1vm2kag"], "diameter": "", "weight": "", "page": "41", "plate": "", "articles": [], "urls": [] },
-    { "code": "BTTPHCM 14", "images": ["sv5lxw2r", "sdhy44a1"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 466", "images": ["vsu7dwx2"], "variant": "", "diameter": "", "weight": "", "page": "190", "plate": "35", "articles": [], "urls": [] },
+    { "code": "Schroeder 135", "images": ["1lkcsyu2"], "variant": "", "diameter": "", "weight": "", "page": "430", "plate": "58", "articles": ["14f2amvp"], "urls": [] },
+    { "code": "Thierry 1799", "images": ["jxiily72", "p15tmj7m"], "variant": "", "diameter": "51.00", "weight": "35.71", "page": "97", "plate": "32", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 74", "images": ["3vt9b9mh", "wsuqsal3"], "variant": "", "diameter": "", "weight": "", "page": "92", "plate": "", "articles": [], "urls": [] },
+    { "code": "Joyaux 845", "images": ["ssl192no", "oyc7umex"], "variant": "", "diameter": "50.40", "weight": "33.93", "page": "156", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 41", "images": ["ykb9mc26", "u1vm2kag"], "variant": "", "diameter": "", "weight": "", "page": "41", "plate": "", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 14", "images": ["sv5lxw2r", "sdhy44a1"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "egjosprx", "page": "190", "plate": "35", "identifier": "466", "notes": "" , "articles": []},
@@ -41,7 +41,7 @@
     { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "14", "notes": "bttphcm_td", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "WOYL TD3", "images": ["uhr4165t", "qu6qvq2b"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "WOYL TD3", "images": ["uhr4165t", "qu6qvq2b"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "19", "uuid": "uhr4165t", "src": "e7d23dad4c4b4af5b17731434a5f33b3-1.png", "href": "WOYL TD3", "copyright": "0", "country": "cn", "year": "2020", "color": "0", "visible": "1" },

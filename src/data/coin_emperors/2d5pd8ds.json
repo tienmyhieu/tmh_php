@@ -5,7 +5,7 @@
     { "image_id": "2", "uuid": "5catkcqk", "src": "1c3d2edbc78c43189c1189d287036f75-2.png", "href": "CMV_1811", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" }
   ],
   "reference_specimens": [
-    { "code": "Thierry 1811", "images": ["zem74inv", "5catkcqk"], "diameter": "51.00", "weight": "28.90", "page": "98", "plate": "33", "articles": [], "urls": [] }
+    { "code": "Thierry 1811", "images": ["zem74inv", "5catkcqk"], "variant": "", "diameter": "51.00", "weight": "28.90", "page": "98", "plate": "33", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "uh1x8rgi", "page": "98", "plate": "33", "identifier": "1811", "notes": "", "articles": [], "urls": [] },
@@ -13,7 +13,7 @@
     { "reference_uuid": "jybo2v6v", "page": "221", "plate": "", "identifier": "46", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "MANT vae14-1168", "images": ["aft966vx", "trxkf2fb"], "diameter": "51.00", "weight": "32.28", "page": "", "plate": "" }
+    { "code": "MANT vae14-1168", "images": ["aft966vx", "trxkf2fb"], "variant": "", "diameter": "51.00", "weight": "32.28", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "3", "uuid": "aft966vx", "src": "08b0f13ed2fc4a499d29fa051bb983c1-1.png", "href": "MANT_TD7", "copyright": "0", "country": "fr", "year": "2013", "color": "0", "visible": "1" },

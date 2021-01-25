@@ -7,8 +7,8 @@
     { "image_id": "4", "uuid": "fbpy7kx9", "src": "fae4a8521b95464fa1f000a312c761f5-2.png", "href": "CMVS_491", "copyright": "1", "country": "fr", "year": "2002", "color": "0", "visible": "1" }
   ],
   "reference_specimens": [
-    { "code": "Thierry V214", "images": ["16q25o45", "bck5rn0y"], "diameter": "50.50", "weight": "34.03", "page": "64", "plate": "61", "articles": [], "urls": [] },
-    { "code": "Thierry 491", "images": ["xzj8yhqj", "fbpy7kx9"], "diameter": "50.80", "weight": "34.94", "page": "85", "plate": "", "articles": [], "urls": [] }
+    { "code": "Thierry V214", "images": ["16q25o45", "bck5rn0y"], "variant": "", "diameter": "50.50", "weight": "34.03", "page": "64", "plate": "61", "articles": [], "urls": [] },
+    { "code": "Thierry 491", "images": ["xzj8yhqj", "fbpy7kx9"], "variant": "", "diameter": "50.80", "weight": "34.94", "page": "85", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "epbbj5hx", "page": "64", "plate": "61", "identifier": "V214", "notes": "", "articles": [], "urls": [] },

@@ -11,9 +11,9 @@
     { "image_id": "8", "uuid": "mz4b47pz", "src": "dca776a7cd3049b39954d5119cc8af04-2.png", "href": "BRMU_TT2", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Thierry V142", "images": ["b5smwu6v", "80iwdo8t"], "diameter": "51.00", "weight": "29.29", "page": "57", "plate": "36", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 57", "images": ["h40yeyui", "foyquv1x"], "diameter": "", "weight": "", "page": "78", "plate": "", "articles": [], "urls": [] },
-    { "code": "BRMU TT2", "images": ["dg2s02iy", "bvlt4v5s"], "diameter": "53.00", "weight": "40.72", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "Thierry V142", "images": ["b5smwu6v", "80iwdo8t"], "variant": "", "diameter": "51.00", "weight": "29.29", "page": "57", "plate": "36", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 57", "images": ["h40yeyui", "foyquv1x"], "variant": "", "diameter": "", "weight": "", "page": "78", "plate": "", "articles": [], "urls": [] },
+    { "code": "BRMU TT2", "images": ["dg2s02iy", "bvlt4v5s"], "variant": "", "diameter": "53.00", "weight": "40.72", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -29,8 +29,8 @@
     { "reference_uuid": "08w1apoy", "page": "", "plate": "", "identifier": "1983,0619.265", "notes": "", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "IKAR TT5", "images": ["zaw8tqfu"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "AXZI TT1", "images": ["nmn8vqqh", "kmy2ookx"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "IKAR TT5", "images": ["zaw8tqfu"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "AXZI TT1", "images": ["nmn8vqqh", "kmy2ookx"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "9", "uuid": "zaw8tqfu", "src": "aefafb07c35342b4bc32a4c9d0d3a2a8-2.png", "href": "IKARU TT5", "copyright": "0", "country": "ja", "year": "2016", "color": "0", "visible": "1" },

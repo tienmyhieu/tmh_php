@@ -12,10 +12,10 @@
     { "image_id": "9", "uuid": "e8dlrdir", "src": "93074b1d1e044b1f90ee75c82baf255c-2.png", "href": "VN6_TD13", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Schroeder 130", "images": ["ljfwp5x5"], "diameter": "", "weight": "", "page": "430", "plate": "58", "articles": ["hjhgn9na"], "urls": [] },
-    { "code": "大庫隆夫 71", "images": ["qnblt7eu", "b5lmppvb"], "diameter": "", "weight": "", "page": "89", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 39", "images": ["e89tedxy", "9gclvjp7"], "diameter": "", "weight": "", "page": "19", "plate": "", "articles": [], "urls": [] },
-    { "code": "VN6 TD13", "images": ["afg0skur", "dtlg9wtn"], "diameter": "", "weight": "", "page": "13", "plate": "", "articles": [], "urls": [] }
+    { "code": "Schroeder 130", "images": ["ljfwp5x5"], "variant": "", "diameter": "", "weight": "", "page": "430", "plate": "58", "articles": ["hjhgn9na"], "urls": [] },
+    { "code": "大庫隆夫 71", "images": ["qnblt7eu", "b5lmppvb"], "variant": "", "diameter": "", "weight": "", "page": "89", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 39", "images": ["e89tedxy", "9gclvjp7"], "variant": "", "diameter": "", "weight": "", "page": "19", "plate": "", "articles": [], "urls": [] },
+    { "code": "VN6 TD13", "images": ["afg0skur", "dtlg9wtn"], "variant": "", "diameter": "", "weight": "", "page": "13", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "3wpxtg83", "page": "430", "plate": "58", "identifier": "130", "notes": "", "articles": ["hjhgn9na"], "urls": [] },
@@ -30,9 +30,9 @@
     { "reference_uuid": "gvkepvmm", "page": "13", "plate": "", "identifier": "13", "notes": "btlsqg", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "CHEN 23.1156", "images": ["46673055", "13741617"], "diameter": "50.00", "weight": "", "page": "", "plate": "" },
-    { "code": "CHCO 2239218", "images": ["47799508", "34242001"], "diameter": "51.00", "weight": "32.50", "page": "", "plate": "" },
-    { "code": "HUAY 18-0103-104", "images": ["31160238", "43925955"], "diameter": "50.68", "weight": "", "page": "", "plate": "" }
+    { "code": "CHEN 23.1156", "images": ["46673055", "13741617"], "variant": "", "diameter": "50.00", "weight": "", "page": "", "plate": "" },
+    { "code": "CHCO 2239218", "images": ["47799508", "34242001"], "variant": "", "diameter": "51.00", "weight": "32.50", "page": "", "plate": "" },
+    { "code": "HUAY 18-0103-104", "images": ["31160238", "43925955"], "variant": "", "diameter": "50.68", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "10", "uuid": "46673055", "src": "8b284491179e4973b217a44cd8eee463-1.png", "href": "CHEN TD1", "copyright": "0", "country": "cn", "year": "2007", "color": "0", "visible": "1" },

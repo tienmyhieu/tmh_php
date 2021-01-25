@@ -25,13 +25,13 @@
     { "image_id": "23", "uuid": "7a36shp7", "src": "5db9cf2fe7b745b8af032b4783fd2b74-2.png", "href": "BTTPHCM_3", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 450", "images": ["cor6th4o"], "diameter": "", "weight": "", "page": "184", "plate": "33", "articles": [], "urls": [] },
-    { "code": "Schroeder 162", "images": ["d8d4d5x0"], "diameter": "", "weight": "", "page": "433", "plate": "62", "articles": ["ls0z7d8m"], "urls": [] },
-    { "code": "Thierry 424", "images": ["46e1h9xg", "t9cpmudo"], "diameter": "54.00", "weight": "33.67", "page": "75", "plate": "", "articles": [], "urls": [] },
-    { "code": "Barker 185", "images": ["wpy48muq", "9cmoli2x"], "diameter": "52.50", "weight": "37.47", "page": "300", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 59", "images": ["kipk6g2x", "0gf0n5x8"], "diameter": "", "weight": "", "page": "80", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 35", "images": ["9xaeyrk6", "5x7akldv"], "diameter": "", "weight": "", "page": "35", "plate": "", "articles": [], "urls": [] },
-    { "code": "BTTPHCM 3", "images": ["zblryid9", "m4mhe89s"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 450", "images": ["cor6th4o"], "variant": "", "diameter": "", "weight": "", "page": "184", "plate": "33", "articles": [], "urls": [] },
+    { "code": "Schroeder 162", "images": ["d8d4d5x0"], "variant": "", "diameter": "", "weight": "", "page": "433", "plate": "62", "articles": ["ls0z7d8m"], "urls": [] },
+    { "code": "Thierry 424", "images": ["46e1h9xg", "t9cpmudo"], "variant": "", "diameter": "54.00", "weight": "33.67", "page": "75", "plate": "", "articles": [], "urls": [] },
+    { "code": "Barker 185", "images": ["wpy48muq", "9cmoli2x"], "variant": "", "diameter": "52.50", "weight": "37.47", "page": "300", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 59", "images": ["kipk6g2x", "0gf0n5x8"], "variant": "", "diameter": "", "weight": "", "page": "80", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 35", "images": ["9xaeyrk6", "5x7akldv"], "variant": "", "diameter": "", "weight": "", "page": "35", "plate": "", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 3", "images": ["zblryid9", "m4mhe89s"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },

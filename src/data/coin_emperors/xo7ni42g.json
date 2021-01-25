@@ -19,9 +19,9 @@
     { "image_id": "16", "uuid": "kd23pkoo", "src": "3e8193d8029b42af90b21b48ef204cc5-2.png", "href": "BTTPHCM_8", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Barker 183", "images": ["wpy48muq", "9cmoli2x"], "diameter": "51.73", "weight": "33.41", "page": "299", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 64", "images": ["xbtqnz9l", "1tfr2lqg"], "diameter": "", "weight": "", "page": "83", "plate": "", "articles": [], "urls": [] },
-    { "code": "BTTPHCM 8", "images": ["4vn4js2q", "jakp2goc"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "Barker 183", "images": ["wpy48muq", "9cmoli2x"], "variant": "", "diameter": "51.73", "weight": "33.41", "page": "299", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 64", "images": ["xbtqnz9l", "1tfr2lqg"], "variant": "", "diameter": "", "weight": "", "page": "83", "plate": "", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 8", "images": ["4vn4js2q", "jakp2goc"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -37,9 +37,9 @@
     { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "8", "notes": "bttphcm_tt", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "DDDU TT1", "images": ["bsj63uj3", "pdax5myp"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "IKAR TT8", "images": ["hm0fn41z"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "GZLL TT2", "images": ["ojwbye3h", "dogicrk0"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "DDDU TT1", "images": ["bsj63uj3", "pdax5myp"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "IKAR TT8", "images": ["hm0fn41z"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "GZLL TT2", "images": ["ojwbye3h", "dogicrk0"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "17", "uuid": "bsj63uj3", "src": "31b9c87793324dda8206d837e349c66e-1.png", "href": "DDDU_TT1", "copyright": "0", "country": "vn", "year": "2009", "color": "0", "visible": "1" },

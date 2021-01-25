@@ -6,8 +6,8 @@
     { "image_id": "3", "uuid": "lnt8g197", "src": "4b801019d36e472082940175bf968ddb-2.png", "href": "AMDK_46", "copyright": "1", "country": "ja", "year": "2012", "color": "0", "visible": "1" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 480", "images": ["bf6k0yd4"], "diameter": "", "weight": "", "page": "191", "plate": "36", "articles": [], "urls": [] },
-    { "code": "満泉堂 46", "images": ["vfpkhhm5", "lnt8g197"], "diameter": "", "weight": "", "page": "46", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 480", "images": ["bf6k0yd4"], "variant": "", "diameter": "", "weight": "", "page": "191", "plate": "36", "articles": [], "urls": [] },
+    { "code": "満泉堂 46", "images": ["vfpkhhm5", "lnt8g197"], "variant": "", "diameter": "", "weight": "", "page": "46", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "egjosprx", "page": "1912", "plate": "36", "identifier": "480", "notes": "", "articles": [], "urls": [] },
@@ -16,7 +16,7 @@
     { "reference_uuid": "jybo2v6v", "page": "219", "plate": "", "identifier": "44", "notes": "no_image", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "GZLL TD3", "images": ["ovnoee7t", "jpzrmsht"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "GZLL TD3", "images": ["ovnoee7t", "jpzrmsht"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "4", "uuid": "ovnoee7t", "src": "4ccbe848482a49ad8688fb30e3d840af-1.png", "href": "GZLL_TD3", "copyright": "0", "country": "cn", "year": "2013", "color": "0", "visible": "1" },

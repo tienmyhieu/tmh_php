@@ -17,10 +17,10 @@
     { "image_id": "14", "uuid": "c8bomhc6", "src": "07930a36c88144ccb3d7fb554820b64b-2.png", "href": "HCCV_191", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Thierry V215", "images": ["tsi7eqt4", "5ozmslhi"], "diameter": "50.10", "weight": "37.32", "page": "64", "plate": "61", "articles": [], "urls": [] },
-    { "code": "Barker 191", "images": ["c2mxrjgi", "q28mqjtx"], "diameter": "48.41", "weight": "36.38", "page": "304", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 75", "images": ["se7d6k1d", "wolfk4v6"], "diameter": "", "weight": "", "page": "93", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 43", "images": ["yh8436ho", "fltz5jvo"], "diameter": "", "weight": "", "page": "43", "plate": "", "articles": [], "urls": [] }
+    { "code": "Thierry V215", "images": ["tsi7eqt4", "5ozmslhi"], "variant": "", "diameter": "50.10", "weight": "37.32", "page": "64", "plate": "61", "articles": [], "urls": [] },
+    { "code": "Barker 191", "images": ["c2mxrjgi", "q28mqjtx"], "variant": "", "diameter": "48.41", "weight": "36.38", "page": "304", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 75", "images": ["se7d6k1d", "wolfk4v6"], "variant": "", "diameter": "", "weight": "", "page": "93", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 43", "images": ["yh8436ho", "fltz5jvo"], "variant": "", "diameter": "", "weight": "", "page": "43", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "epbbj5hx", "page": "64", "plate": "61", "identifier": "V215", "notes": "", "articles": [], "urls": [] },
@@ -34,8 +34,8 @@
     { "reference_uuid": "jybo2v6v", "page": "214", "plate": "", "identifier": "39", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "IKAR TD5", "images": ["nhvmuf6f"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "WOYL TD7", "images": ["k4q2xlly"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "IKAR TD5", "images": ["nhvmuf6f"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "WOYL TD7", "images": ["k4q2xlly"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "41", "uuid": "nhvmuf6f", "src": "e26315ba6c8e4b68a4b81b5dc716b112-2.png", "href": "IKAR TD5", "copyright": "0", "country": "ja", "year": "2016", "color": "0", "visible": "1" },

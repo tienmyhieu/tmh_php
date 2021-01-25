@@ -11,8 +11,8 @@
     { "image_id": "8", "uuid": "r1qtdhyl", "src": "7f92d179e4b543f2a5b105d1ea1ea88d-2.png", "href": "BTTPHCM_19", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Thierry 1610", "images": ["5p1s260t", "htu6mmtu"], "diameter": "51.80", "weight": "31.22", "page": "91", "plate": "26", "articles": [], "urls": [] },
-    { "code": "BTTPHCM 19", "images": ["h4qd0u2l", "w99ylhmy"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "Thierry 1610", "images": ["5p1s260t", "htu6mmtu"], "variant": "", "diameter": "51.80", "weight": "31.22", "page": "91", "plate": "26", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 19", "images": ["h4qd0u2l", "w99ylhmy"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },

@@ -11,7 +11,7 @@
     { "reference_uuid": "vt6sjmp6", "page": "124", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "IKAR TT4", "images": ["fkgbfijc"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "IKAR TT4", "images": ["fkgbfijc"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "1", "uuid": "fkgbfijc", "src": "34695b69fffe49758d9595d72d472f52-2.png", "href": "IKARU TT4", "copyright": "0", "country": "ja", "year": "2016", "color": "0", "visible": "1" },

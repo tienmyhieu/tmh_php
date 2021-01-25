@@ -22,11 +22,11 @@
     { "image_id": "19", "uuid": "x26quosy", "src": "12b70b6837494fb8aea0b3374b80255f-1.png", "href": "BTTPHCM_11", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 451", "images": ["l6dndium"], "diameter": "", "weight": "", "page": "185", "plate": "33", "articles": [], "urls": [] },
-    { "code": "Thierry V146", "images": ["sq6oep7e", "54pssx1d"], "diameter": "52.50", "weight": "35.29", "page": "57", "plate": "38", "articles": [], "urls": [] },
-    { "code": "Barker 173", "images": ["296v5z1s", "tgu6pbb0"], "diameter": "54.10", "weight": "38.23", "page": "293", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 52", "images": ["rlbzss4q", "vwjorti6"], "diameter": "", "weight": "", "page": "73", "plate": "", "articles": [], "urls": [] },
-    { "code": "BTTPHCM 11", "images": ["1175fo1b", "31uxyq1f"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 451", "images": ["l6dndium"], "variant": "", "diameter": "", "weight": "", "page": "185", "plate": "33", "articles": [], "urls": [] },
+    { "code": "Thierry V146", "images": ["sq6oep7e", "54pssx1d"], "variant": "", "diameter": "52.50", "weight": "35.29", "page": "57", "plate": "38", "articles": [], "urls": [] },
+    { "code": "Barker 173", "images": ["296v5z1s", "tgu6pbb0"], "variant": "", "diameter": "54.10", "weight": "38.23", "page": "293", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 52", "images": ["rlbzss4q", "vwjorti6"], "variant": "", "diameter": "", "weight": "", "page": "73", "plate": "", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 11", "images": ["1175fo1b", "31uxyq1f"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -45,7 +45,7 @@
     { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "11", "notes": "bttphcm_tt", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "KYQS TT2", "images": ["bsllzod1", "5244iagq"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "KYQS TT2", "images": ["bsllzod1", "5244iagq"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "20", "uuid": "bsllzod1", "src": "5c7c1e1864bd4a7091f4c414c531cd92-1.png", "href": "KYQS TT2", "copyright": "0", "country": "cn", "year": "2009", "color": "0", "visible": "1" },

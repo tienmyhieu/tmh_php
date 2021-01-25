@@ -34,17 +34,17 @@
     { "image_id": "31", "uuid": "e9wf2ty4", "src": "29ce403ff6f84012890ff21265d9cc2e-2.png", "href": "HCCV_148", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 427", "images": ["ausxxdfh"], "diameter": "", "weight": "", "page": "180", "plate": "30", "articles": [], "urls": [] },
-    { "code": "Schroeder 137", "images": ["8w1vvhs0"], "diameter": "", "weight": "", "page": "431", "plate": "59", "articles": [], "urls": [] },
-    { "code": "三浦清吾 3", "images": ["0252dwta", "1mav8cgm"], "diameter": "", "weight": "", "page": "10", "plate": "", "articles": [], "urls": [] },
-    { "code": "Thierry 1546", "images": ["ecnuu8bx", "h7suym1g"], "diameter": "51.00", "weight": "31.30", "page": "87", "plate": "23", "articles": [], "urls": [] },
-    { "code": "Kempgen 10", "images": ["z7eloh50"], "diameter": "51.00", "weight": "24.87", "page": "62", "plate": "", "articles": [], "urls": [] },
-    { "code": "Barker 148", "images": ["91xd9lm3", "w5ka7lxk"], "diameter": "51.08", "weight": "27.91", "page": "275", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 18", "images": ["1asjr7bo", "c7w8y4kb"], "diameter": "", "weight": "", "page": "49", "plate": "", "articles": [], "urls": [] },
-    { "code": "Joyaux 827", "images": ["t5rpkw2r", "wgnnppci"], "diameter": "51.30", "weight": "31.33", "page": "147", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 9", "images": ["qkyeh4tx", "w9zgyuz1"], "diameter": "", "weight": "", "page": "9", "plate": "", "articles": [], "urls": [] },
-    { "code": "STTMM 9", "images": ["54dudgf6", "cye0im0u"], "diameter": "52.00", "weight": "32.00", "page": "83", "plate": "", "articles": [], "urls": [] },
-    { "code": "VN29-6", "images": ["z06v1snc", "7pl519db"], "diameter": "", "weight": "", "page": "11", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 427", "images": ["ausxxdfh"], "variant": "", "diameter": "", "weight": "", "page": "180", "plate": "30", "articles": [], "urls": [] },
+    { "code": "Schroeder 137", "images": ["8w1vvhs0"], "variant": "", "diameter": "", "weight": "", "page": "431", "plate": "59", "articles": [], "urls": [] },
+    { "code": "三浦清吾 3", "images": ["0252dwta", "1mav8cgm"], "variant": "", "diameter": "", "weight": "", "page": "10", "plate": "", "articles": [], "urls": [] },
+    { "code": "Thierry 1546", "images": ["ecnuu8bx", "h7suym1g"], "variant": "", "diameter": "51.00", "weight": "31.30", "page": "87", "plate": "23", "articles": [], "urls": [] },
+    { "code": "Kempgen 10", "images": ["z7eloh50"], "variant": "", "diameter": "51.00", "weight": "24.87", "page": "62", "plate": "", "articles": [], "urls": [] },
+    { "code": "Barker 148", "images": ["91xd9lm3", "w5ka7lxk"], "variant": "", "diameter": "51.08", "weight": "27.91", "page": "275", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 18", "images": ["1asjr7bo", "c7w8y4kb"], "variant": "", "diameter": "", "weight": "", "page": "49", "plate": "", "articles": [], "urls": [] },
+    { "code": "Joyaux 827", "images": ["t5rpkw2r", "wgnnppci"], "variant": "", "diameter": "51.30", "weight": "31.33", "page": "147", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 9", "images": ["qkyeh4tx", "w9zgyuz1"], "variant": "", "diameter": "", "weight": "", "page": "9", "plate": "", "articles": [], "urls": [] },
+    { "code": "STTMM 9", "images": ["54dudgf6", "cye0im0u"], "variant": "", "diameter": "52.00", "weight": "32.00", "page": "83", "plate": "", "articles": [], "urls": [] },
+    { "code": "VN29-6", "images": ["z06v1snc", "7pl519db"], "variant": "", "diameter": "", "weight": "", "page": "11", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "59out4lc", "page": "35", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -70,9 +70,9 @@
     { "reference_uuid": "08w1apoy", "page": "", "plate": "", "identifier": "1983,0619.240", "notes": "", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "MANT vae14-1148", "images": ["jdotikab", "a9q6ez8c"], "diameter": "51.00", "weight": "25.03", "page": "", "plate": "" },
-    { "code": "IKAR MM6", "images": ["r4nxdxfj"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "MVBO 155", "images": ["ylnlpqrz", "ejd64qck"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "MANT vae14-1148", "images": ["jdotikab", "a9q6ez8c"], "variant": "", "diameter": "51.00", "weight": "25.03", "page": "", "plate": "" },
+    { "code": "IKAR MM6", "images": ["r4nxdxfj"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "MVBO 155", "images": ["ylnlpqrz", "ejd64qck"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "32", "uuid": "jdotikab", "src": "0a8730aeb34a4e2ea30aa22c81953191-1.png", "href": "MANT MM5", "copyright": "0", "country": "fr", "year": "2013", "color": "0", "visible": "1" },

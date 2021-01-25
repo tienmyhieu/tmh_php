@@ -9,8 +9,8 @@
     { "image_id": "6", "uuid": "y8fmvrtw", "src": "1987777713114cbdac039414dfa09bac-2.png", "href": "VN6_TD8", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Thierry 1803", "images": ["cozfvwjr", "cgp9s7op"], "diameter": "52.00", "weight": "31.59", "page": "97", "plate": "33", "articles": [], "urls": [] },
-    { "code": "VN6 TD8", "images": ["lwwlcffd", "bo9a6j2e"], "diameter": "", "weight": "", "page": "12", "plate": "", "articles": [], "urls": [] }
+    { "code": "Thierry 1803", "images": ["cozfvwjr", "cgp9s7op"], "variant": "", "diameter": "52.00", "weight": "31.59", "page": "97", "plate": "33", "articles": [], "urls": [] },
+    { "code": "VN6 TD8", "images": ["lwwlcffd", "bo9a6j2e"], "variant": "", "diameter": "", "weight": "", "page": "12", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "uh1x8rgi", "page": "97", "plate": "33", "identifier": "1803", "notes": "", "articles": [], "urls": [] },
@@ -20,7 +20,7 @@
     { "reference_uuid": "jybo2v6v", "page": "223", "plate": "", "identifier": "48", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "IKAR TD8", "images": ["xnlqpmmt"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "IKAR TD8", "images": ["xnlqpmmt"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "7", "uuid": "xnlqpmmt", "src": "dcd7387d34634478bd7c27370bce6b8f-2.png", "href": "IKAR TD8", "copyright": "0", "country": "ja", "year": "2016", "color": "0", "visible": "1" },

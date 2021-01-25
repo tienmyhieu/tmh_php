@@ -21,11 +21,11 @@
     { "image_id": "18", "uuid": "z0kyeqyn", "src": "2898ffb1b6734c29bc8de33c682cc590-2.png", "href": "HCCV_192", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Thierry 1801", "images": ["2kxho2s7", "lf6lk34l"], "diameter": "51.00", "weight": "34.43", "page": "97", "plate": "32", "articles": [], "urls": [] },
-    { "code": "Barker 192", "images": ["f7qu7wb3", "wxnojzti"], "diameter": "50.85", "weight": "35.53", "page": "304", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 76", "images": ["p93awst0", "befdff6h"], "diameter": "", "weight": "", "page": "94", "plate": "", "articles": [], "urls": [] },
-    { "code": "Joyaux 849", "images": ["hsi8w6i1", "ihqa59hw"], "diameter": "50.40", "weight": "34.11", "page": "158", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 45", "images": ["mi8gwjhl", "iq0e1gyf"], "diameter": "", "weight": "", "page": "45", "plate": "", "articles": [], "urls": [] }
+    { "code": "Thierry 1801", "images": ["2kxho2s7", "lf6lk34l"], "variant": "", "diameter": "51.00", "weight": "34.43", "page": "97", "plate": "32", "articles": [], "urls": [] },
+    { "code": "Barker 192", "images": ["f7qu7wb3", "wxnojzti"], "variant": "", "diameter": "50.85", "weight": "35.53", "page": "304", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 76", "images": ["p93awst0", "befdff6h"], "variant": "", "diameter": "", "weight": "", "page": "94", "plate": "", "articles": [], "urls": [] },
+    { "code": "Joyaux 849", "images": ["hsi8w6i1", "ihqa59hw"], "variant": "", "diameter": "50.40", "weight": "34.11", "page": "158", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 45", "images": ["mi8gwjhl", "iq0e1gyf"], "variant": "", "diameter": "", "weight": "", "page": "45", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "uh1x8rgi", "page": "97", "plate": "32", "identifier": "1801", "notes": "", "articles": [], "urls": [] },

@@ -11,10 +11,10 @@
     { "image_id": "8", "uuid": "a7hfbssx", "src": "4ec7756ca60f4378a7d5527467ed4afe-2.png", "href": "AMDK_32", "copyright": "1", "country": "ja", "year": "2012", "color": "0", "visible": "1" }
   ],
   "reference_specimens": [
-    { "code": "三浦清吾 17", "images": ["x6rs6ccn", "1mg2cd6l"], "diameter": "", "weight": "", "page": "17", "plate": "", "articles": [], "urls": [] },
-    { "code": "Thierry 429", "images": ["z4j5x8a7", "fozpod1z"], "diameter": "53.00", "weight": "39.79", "page": "76", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 51", "images": ["qnhwlpes", "9ff1s11y"], "diameter": "", "weight": "", "page": "72", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 32", "images": ["f18577la", "a7hfbssx"], "diameter": "", "weight": "", "page": "32", "plate": "", "articles": [], "urls": [] }
+    { "code": "三浦清吾 17", "images": ["x6rs6ccn", "1mg2cd6l"], "variant": "", "diameter": "", "weight": "", "page": "17", "plate": "", "articles": [], "urls": [] },
+    { "code": "Thierry 429", "images": ["z4j5x8a7", "fozpod1z"], "variant": "", "diameter": "53.00", "weight": "39.79", "page": "76", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 51", "images": ["qnhwlpes", "9ff1s11y"], "variant": "", "diameter": "", "weight": "", "page": "72", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 32", "images": ["f18577la", "a7hfbssx"], "variant": "", "diameter": "", "weight": "", "page": "32", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -31,7 +31,7 @@
     { "reference_uuid": "jybo2v6v", "page": "218", "plate": "", "identifier": "43", "notes": "cmvs_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "GXCY TT1", "images": ["7t7wwbny", "ydz4le1g"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "GXCY TT1", "images": ["7t7wwbny", "ydz4le1g"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "9", "uuid": "7t7wwbny", "src": "35da306b5e1244099c83256188b5be0b-1.png", "href": "GXCY_TT1", "copyright": "0", "country": "cn", "year": "2020", "color": "0", "visible": "1" },

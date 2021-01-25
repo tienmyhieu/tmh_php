@@ -28,15 +28,15 @@
     { "image_id": "25", "uuid": "3eovhucs", "src": "816c3e0320c043c39fac2f3f887246b2-2.png", "href": "HCCV_155", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 430", "images": ["hln1jx90"], "diameter": "", "weight": "", "page": "181", "plate": "30", "articles": [], "urls": [] },
-    { "code": "Schroeder 142", "images": ["siwfqwb5"], "diameter": "", "weight": "", "page": "431", "plate": "60", "articles": [], "urls": [] },
-    { "code": "Thierry 1550", "images": ["3k565g6g", "cuhqzcgl"], "diameter": "50.00", "weight": "21.77", "page": "87", "plate": "23", "articles": [], "urls": [] },
-    { "code": "Kempgen 15", "images": ["dnqh3tio"], "diameter": "51.00", "weight": "25.62", "page": "64", "plate": "", "articles": [], "urls": [] },
-    { "code": "Barker 155", "images": ["38rcadyu", "cv8vnm7x"], "diameter": "50.77", "weight": "20.22", "page": "280", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 22", "images": ["c9ank5vu", "oj55mao0"], "diameter": "", "weight": "", "page": "51", "plate": "", "articles": [], "urls": [] },
-    { "code": "Joyaux 830", "images": ["l8z4fwu2", "bsc2hlib"], "diameter": "51.60", "weight": "29.07", "page": "148", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 8", "images": ["8x06ssf9", "gjrzksxk"], "diameter": "", "weight": "", "page": "8", "plate": "", "articles": [], "urls": [] },
-    { "code": "STTMM 15", "images": ["wiir6jcg", "5yh5ka31"], "diameter": "51.00", "weight": "22.20", "page": "89", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 430", "images": ["hln1jx90"], "variant": "", "diameter": "", "weight": "", "page": "181", "plate": "30", "articles": [], "urls": [] },
+    { "code": "Schroeder 142", "images": ["siwfqwb5"], "variant": "", "diameter": "", "weight": "", "page": "431", "plate": "60", "articles": [], "urls": [] },
+    { "code": "Thierry 1550", "images": ["3k565g6g", "cuhqzcgl"], "variant": "", "diameter": "50.00", "weight": "21.77", "page": "87", "plate": "23", "articles": [], "urls": [] },
+    { "code": "Kempgen 15", "images": ["dnqh3tio"], "variant": "", "diameter": "51.00", "weight": "25.62", "page": "64", "plate": "", "articles": [], "urls": [] },
+    { "code": "Barker 155", "images": ["38rcadyu", "cv8vnm7x"], "variant": "", "diameter": "50.77", "weight": "20.22", "page": "280", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 22", "images": ["c9ank5vu", "oj55mao0"], "variant": "", "diameter": "", "weight": "", "page": "51", "plate": "", "articles": [], "urls": [] },
+    { "code": "Joyaux 830", "images": ["l8z4fwu2", "bsc2hlib"], "variant": "", "diameter": "51.60", "weight": "29.07", "page": "148", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 8", "images": ["8x06ssf9", "gjrzksxk"], "variant": "", "diameter": "", "weight": "", "page": "8", "plate": "", "articles": [], "urls": [] },
+    { "code": "STTMM 15", "images": ["wiir6jcg", "5yh5ka31"], "variant": "", "diameter": "51.00", "weight": "22.20", "page": "89", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "59out4lc", "page": "35", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -63,9 +63,9 @@
     { "reference_uuid": "08w1apoy", "page": "", "plate": "", "identifier": "1983,0619.244", "notes": "", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "BMTW 55.820.10", "images": ["epfw1fw9"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "IKAR MM7", "images": ["r02dtn63"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "TGCT MM2", "images": ["2gt6ldcr", "khkm20ae"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "BMTW 55.820.10", "images": ["epfw1fw9"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "IKAR MM7", "images": ["r02dtn63"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "TGCT MM2", "images": ["2gt6ldcr", "khkm20ae"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "26", "uuid": "epfw1fw9", "src": "a4ae1595f0084b2a964a374b6ce8192e-2.png", "href": "BMT55 MM10", "copyright": "0", "country": "hk", "year": "2013", "color": "0", "visible": "1" },

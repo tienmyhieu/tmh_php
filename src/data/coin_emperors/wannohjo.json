@@ -15,8 +15,8 @@
     { "image_id": "12", "uuid": "ax6ouveq", "src": "85f352f83f744683a2cab2365b5a4a25-2.png", "href": "BTTPHCM_15", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Thierry 1629", "images": ["fzogmxor", "w3jz6ari"], "diameter": "51.30", "weight": "34.94", "page": "92", "plate": "27", "articles": [], "urls": [] },
-    { "code": "BTTPHCM 15", "images": ["tj8u5v13", "yvh1i105"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "Thierry 1629", "images": ["fzogmxor", "w3jz6ari"], "variant": "", "diameter": "51.30", "weight": "34.94", "page": "92", "plate": "27", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 15", "images": ["tj8u5v13", "yvh1i105"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -31,7 +31,7 @@
     { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "15", "notes": "bttphcm_tt", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "IKAR TT2", "images": ["116qgxh6"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "IKAR TT2", "images": ["116qgxh6"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "1", "uuid": "116qgxh6", "src": "111b1b40fa3e42a3bf90c41efb239083-2.png", "href": "IKAR TT2", "copyright": "0", "country": "ja", "year": "2016", "color": "0", "visible": "1" },

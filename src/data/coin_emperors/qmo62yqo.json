@@ -33,15 +33,15 @@
     { "image_id": "30", "uuid": "uxad98rf", "src": "c9a2572b9ad94552878f92774d9c4141-2.png", "href": "VN4_VN29_2", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lockhart 1318", "images": ["ekejrdto", "5b2lu3wf"], "diameter": "", "weight": "", "page": "115", "plate": "130", "articles": [], "urls": [] },
-    { "code": "三浦清吾 6", "images": ["1zi3q7gi", "uqvnbmvp"], "diameter": "", "weight": "", "page": "11", "plate": "", "articles": [], "urls": [] },
-    { "code": "Thierry 1552", "images": ["hkpud428", "mt8pn68j"], "diameter": "50.00", "weight": "25.46", "page": "88", "plate": "23", "articles": [], "urls": [] },
-    { "code": "Barker 154", "images": ["5879fqwg", "s1l9px5j"], "diameter": "50.86", "weight": "25.76", "page": "279", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 28", "images": ["fohykpj1", "zylm95sx"], "diameter": "", "weight": "", "page": "55", "plate": "", "articles": [], "urls": [] },
-    { "code": "Joyaux 831", "images": ["x14c7wxz", "bwe778jy"], "diameter": "51.40", "weight": "27.12", "page": "149", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 15", "images": ["o8pr6hjn", "2y8c3bm9"], "diameter": "", "weight": "", "page": "15", "plate": "", "articles": [], "urls": [] },
-    { "code": "STTMM 16", "images": ["45vl8kq1", "miopayev"], "diameter": "50.90", "weight": "24.90", "page": "90", "plate": "", "articles": [], "urls": [] },
-    { "code": "VN29-2", "images": ["oknbi2h0", "hr62yjwd"], "diameter": "", "weight": "", "page": "10", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lockhart 1318", "images": ["ekejrdto", "5b2lu3wf"], "variant": "", "diameter": "", "weight": "", "page": "115", "plate": "130", "articles": [], "urls": [] },
+    { "code": "三浦清吾 6", "images": ["1zi3q7gi", "uqvnbmvp"], "variant": "", "diameter": "", "weight": "", "page": "11", "plate": "", "articles": [], "urls": [] },
+    { "code": "Thierry 1552", "images": ["hkpud428", "mt8pn68j"], "variant": "", "diameter": "50.00", "weight": "25.46", "page": "88", "plate": "23", "articles": [], "urls": [] },
+    { "code": "Barker 154", "images": ["5879fqwg", "s1l9px5j"], "variant": "", "diameter": "50.86", "weight": "25.76", "page": "279", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 28", "images": ["fohykpj1", "zylm95sx"], "variant": "", "diameter": "", "weight": "", "page": "55", "plate": "", "articles": [], "urls": [] },
+    { "code": "Joyaux 831", "images": ["x14c7wxz", "bwe778jy"], "variant": "", "diameter": "51.40", "weight": "27.12", "page": "149", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 15", "images": ["o8pr6hjn", "2y8c3bm9"], "variant": "", "diameter": "", "weight": "", "page": "15", "plate": "", "articles": [], "urls": [] },
+    { "code": "STTMM 16", "images": ["45vl8kq1", "miopayev"], "variant": "", "diameter": "50.90", "weight": "24.90", "page": "90", "plate": "", "articles": [], "urls": [] },
+    { "code": "VN29-2", "images": ["oknbi2h0", "hr62yjwd"], "variant": "", "diameter": "", "weight": "", "page": "10", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "59out4lc", "page": "35", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -66,8 +66,8 @@
     { "reference_uuid": "08w1apoy", "page": "", "plate": "", "identifier": "1973,1209.2", "notes": "", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "KYQS MM1", "images": ["xajepep8", "z6zcb3f9"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "BMTW 55.820.11", "images": ["8cru000n"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "KYQS MM1", "images": ["xajepep8", "z6zcb3f9"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "BMTW 55.820.11", "images": ["8cru000n"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "31", "uuid": "xajepep8", "src": "2968c87926dc45f581bfcbca75c34238-1.png", "href": "KYQS MM1", "copyright": "0", "country": "cn", "year": "2009", "color": "0", "visible": "1" },

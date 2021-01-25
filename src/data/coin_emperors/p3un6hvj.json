@@ -21,11 +21,11 @@
     { "image_id": "17", "uuid": "73t33sbx", "src": "d559f6f7f5cc445b81bb2083cc849d11-2.png", "href": "BTTPHCM_11", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Thierry 1810", "images": ["f0x68ugn", "lt6fb6zz"], "diameter": "50.00", "weight": "39.90", "page": "98", "plate": "33", "articles": [], "urls": [] },
-    { "code": "満泉堂 44", "images": ["kbj0gbgq", "in6rht0x"], "diameter": "", "weight": "", "page": "44", "plate": "", "articles": [], "urls": [] },
-    { "code": "VN6 TD9", "images": ["8sfosklg", "jngkzr8r"], "diameter": "", "weight": "", "page": "12", "plate": "", "articles": [], "urls": [] },
-    { "code": "BRMU TD1", "images": ["l7o5gin2", "4a7l4bee"], "diameter": "50.00", "weight": "35.13", "page": "", "plate": "", "articles": [], "urls": [] },
-    { "code": "BTTPHCM 11", "images": ["16pwxr3i", "5m59cw45"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "Thierry 1810", "images": ["f0x68ugn", "lt6fb6zz"], "variant": "", "diameter": "50.00", "weight": "39.90", "page": "98", "plate": "33", "articles": [], "urls": [] },
+    { "code": "満泉堂 44", "images": ["kbj0gbgq", "in6rht0x"], "variant": "", "diameter": "", "weight": "", "page": "44", "plate": "", "articles": [], "urls": [] },
+    { "code": "VN6 TD9", "images": ["8sfosklg", "jngkzr8r"], "variant": "", "diameter": "", "weight": "", "page": "12", "plate": "", "articles": [], "urls": [] },
+    { "code": "BRMU TD1", "images": ["l7o5gin2", "4a7l4bee"], "variant": "", "diameter": "50.00", "weight": "35.13", "page": "", "plate": "", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 11", "images": ["16pwxr3i", "5m59cw45"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "uh1x8rgi", "page": "98", "plate": "32", "identifier": "1818", "notes": "", "articles": [], "urls": [] },
@@ -38,9 +38,9 @@
     { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "11", "notes": "bttphcm_td", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "EAAT TD1", "images": ["l3n4pv51", "tww8pffx"], "diameter": "50.40", "weight": "34.10", "page": "", "plate": "" },
-    { "code": "MANT vae14-1169", "images": ["0ly3vfh8", "2v4v4owa"], "diameter": "51.00", "weight": "36.02", "page": "", "plate": "" },
-    { "code": "IKAR TD5", "images": ["wm9ogyby"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "EAAT TD1", "images": ["l3n4pv51", "tww8pffx"], "variant": "", "diameter": "50.40", "weight": "34.10", "page": "", "plate": "" },
+    { "code": "MANT vae14-1169", "images": ["0ly3vfh8", "2v4v4owa"], "variant": "", "diameter": "51.00", "weight": "36.02", "page": "", "plate": "" },
+    { "code": "IKAR TD5", "images": ["wm9ogyby"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "18", "uuid": "l3n4pv51", "src": "a0974dfb38db46f79cb1062dcc28df27-1.png", "href": "EAAT TD1", "copyright": "0", "country": "fr", "year": "2010", "color": "0", "visible": "1" },

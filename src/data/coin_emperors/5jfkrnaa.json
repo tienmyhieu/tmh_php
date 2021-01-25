@@ -20,12 +20,12 @@
     { "image_id": "18", "uuid": "cvqs20lq", "src": "76d15010786a4837b4e2c5a1417c05a4-2.png", "href": "BTTPHCM_6", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 464", "images": ["r5pi69r2"], "diameter": "", "weight": "", "page": "190", "plate": "34", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 84", "images": ["8qgm1qan", "wu8btaln"], "diameter": "", "weight": "", "page": "102", "plate": "", "articles": [], "urls": [] },
-    { "code": "Thierry 488", "images": ["uoyjuytw", "tvpi4p4h"], "diameter": "50.00", "weight": "34.59", "page": "373", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 53", "images": ["mzozief8", "j4h2xn6p"], "diameter": "", "weight": "", "page": "53", "plate": "", "articles": [], "urls": [] },
-    { "code": "VN6 TD5", "images": ["oet4rppc", "8ucm9u1a"], "diameter": "", "weight": "", "page": "12", "plate": "", "articles": [], "urls": [] },
-    { "code": "BTTPHCM 6", "images": ["532fu18h", "b6c3tpx4"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 464", "images": ["r5pi69r2"], "variant": "", "diameter": "", "weight": "", "page": "190", "plate": "34", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 84", "images": ["8qgm1qan", "wu8btaln"], "variant": "", "diameter": "", "weight": "", "page": "102", "plate": "", "articles": [], "urls": [] },
+    { "code": "Thierry 488", "images": ["uoyjuytw", "tvpi4p4h"], "variant": "", "diameter": "50.00", "weight": "34.59", "page": "373", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 53", "images": ["mzozief8", "j4h2xn6p"], "variant": "", "diameter": "", "weight": "", "page": "53", "plate": "", "articles": [], "urls": [] },
+    { "code": "VN6 TD5", "images": ["oet4rppc", "8ucm9u1a"], "variant": "", "diameter": "", "weight": "", "page": "12", "plate": "", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 6", "images": ["532fu18h", "b6c3tpx4"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "egjosprx", "page": "190", "plate": "34", "identifier": "464", "notes": "", "articles": [], "urls": [] },

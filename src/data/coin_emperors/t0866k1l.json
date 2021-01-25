@@ -8,9 +8,9 @@
     { "image_id": "5", "uuid": "m9ppbdun", "src": "22c4d742db734ee0a8db8a8c6b522acf-2.png", "href": "AMDK_40", "copyright": "1", "country": "ja", "year": "2012", "color": "0", "visible": "1" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 477", "images": ["v0wwcsh3"], "diameter": "", "weight": "", "page": "191", "plate": "36", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 90", "images": ["94liz2oh", "gj9lm0kd"], "diameter": "", "weight": "", "page": "72", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 40", "images": ["i0xa4bs8", "m9ppbdun"], "diameter": "", "weight": "", "page": "40", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 477", "images": ["v0wwcsh3"], "variant": "", "diameter": "", "weight": "", "page": "191", "plate": "36", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 90", "images": ["94liz2oh", "gj9lm0kd"], "variant": "", "diameter": "", "weight": "", "page": "72", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 40", "images": ["i0xa4bs8", "m9ppbdun"], "variant": "", "diameter": "", "weight": "", "page": "40", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "egjosprx", "page": "191", "plate": "36", "identifier": "477", "notes": "" , "articles": []},
@@ -20,9 +20,9 @@
     { "reference_uuid": "jybo2v6v", "page": "204", "plate": "", "identifier": "29", "notes": "anzdq_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "MANT vae14-1172", "images": ["0ugodq93", "0xgrw0pi"], "diameter": "51.00", "weight": "30.92", "page": "", "plate": "" },
-    { "code": "IKAR TD1", "images": ["7zomv94g"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "WOYL TD1", "images": ["2m1yo554", "nfx2p3ql"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "MANT vae14-1172", "images": ["0ugodq93", "0xgrw0pi"], "variant": "", "diameter": "51.00", "weight": "30.92", "page": "", "plate": "" },
+    { "code": "IKAR TD1", "images": ["7zomv94g"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "WOYL TD1", "images": ["2m1yo554", "nfx2p3ql"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "6", "uuid": "0ugodq93", "src": "e556b673c51d49fba69eb98a43b51ce1-1.png", "href": "MANT TD1", "copyright": "0", "country": "fr", "year": "2013", "color": "0", "visible": "1" },

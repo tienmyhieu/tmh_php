@@ -14,10 +14,10 @@
     { "image_id": "11", "uuid": "py2defue", "src": "fa2358a9e04e4765960b15c2bf186256-2.png", "href": "BRMU_TT3", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Schroeder 217", "images": ["bak7yu2r"], "diameter": "", "weight": "", "page": "444", "plate": "72", "articles": [], "urls": [] },
-    { "code": "Thierry 1623", "images": ["rkojvoeo", "n6aw7plj"], "diameter": "53.50", "weight": "39.01", "page": "92", "plate": "27", "articles": [], "urls": [] },
-    { "code": "Joyaux 844", "images": ["kuahyck6", "erqiow7y"], "diameter": "52.10", "weight": "35.72", "page": "155", "plate": "", "articles": [], "urls": [] },
-    { "code": "BRMU TT3", "images": ["rl56b1qo", "xwspy2hj"], "diameter": "52.00", "weight": "33.51", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "Schroeder 217", "images": ["bak7yu2r"], "variant": "", "diameter": "", "weight": "", "page": "444", "plate": "72", "articles": [], "urls": [] },
+    { "code": "Thierry 1623", "images": ["rkojvoeo", "n6aw7plj"], "variant": "", "diameter": "53.50", "weight": "39.01", "page": "92", "plate": "27", "articles": [], "urls": [] },
+    { "code": "Joyaux 844", "images": ["kuahyck6", "erqiow7y"], "variant": "", "diameter": "52.10", "weight": "35.72", "page": "155", "plate": "", "articles": [], "urls": [] },
+    { "code": "BRMU TT3", "images": ["rl56b1qo", "xwspy2hj"], "variant": "", "diameter": "52.00", "weight": "33.51", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },

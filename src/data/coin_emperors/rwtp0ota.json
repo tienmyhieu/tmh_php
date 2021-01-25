@@ -8,8 +8,8 @@
     { "image_id": "5", "uuid": "a1980ovk", "src": "a874a6c76b174ebabd71406919b49049-2.png", "href": "MAAS_9", "copyright": "1", "country": "fr", "year": "2020", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 467", "images": ["4f6oq98k"], "diameter": "", "weight": "", "page": "190", "plate": "35", "articles": [], "urls": [] },
-    { "code": "Joyaux 9", "images": ["r6swvqmp", "mpkcciu3"], "diameter": "", "weight": "", "page": "13", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 467", "images": ["4f6oq98k"], "variant": "", "diameter": "", "weight": "", "page": "190", "plate": "35", "articles": [], "urls": [] },
+    { "code": "Joyaux 9", "images": ["r6swvqmp", "mpkcciu3"], "variant": "", "diameter": "", "weight": "", "page": "13", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "egjosprx", "page": "190", "plate": "35", "identifier": "467", "notes": "", "articles": [], "urls": [] },

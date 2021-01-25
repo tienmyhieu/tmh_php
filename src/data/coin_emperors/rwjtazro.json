@@ -10,8 +10,8 @@
     { "image_id": "7", "uuid": "78s9kq2g", "src": "01d40f4719d84da0a4c7b80a0a3af0bf-2.png", "href": "BTTPHCM_9", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 452", "images": ["1nbdeeo2"], "diameter": "", "weight": "", "page": "185", "plate": "33", "articles": [], "urls": [] },
-    { "code": "BTTPHCM 9", "images": ["c8tr61yb", "gc1fhyi4"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 452", "images": ["1nbdeeo2"], "variant": "", "diameter": "", "weight": "", "page": "185", "plate": "33", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 9", "images": ["c8tr61yb", "gc1fhyi4"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },

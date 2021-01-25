@@ -9,7 +9,7 @@
     { "image_id": "6", "uuid": "xmr6j4gz", "src": "7da23e61873f48379c05299a9520061e-2.png", "href": "BTTPHCM_14", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "BTTPHCM 14", "images": ["cgrnfmpp", "ml1ixkft"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "BTTPHCM 14", "images": ["cgrnfmpp", "ml1ixkft"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -21,7 +21,7 @@
     { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "14", "notes": "bttphcm_tt", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "IKAR TT3", "images": ["v1irul6e"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "IKAR TT3", "images": ["v1irul6e"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "1", "uuid": "v1irul6e", "src": "c202e12f710e42feb944fbc4b2a50ae4-2.png", "href": "IKAR TT3", "copyright": "0", "country": "ja", "year": "2016", "color": "0", "visible": "1" },

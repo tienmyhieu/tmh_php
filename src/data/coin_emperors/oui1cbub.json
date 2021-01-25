@@ -17,10 +17,10 @@
     { "image_id": "14", "uuid": "34e76le4", "src": "99fa0af6f73c4f229bb00976e6f14c36-2.png", "href": "BTTPHCM_12", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Thierry 1836", "images": ["2uyytecw", "0ijewnyf"], "diameter": "53.00", "weight": "32.43", "page": "99", "plate": "34", "articles": [], "urls": [] },
-    { "code": "Barker 193", "images": ["en28e6yx", "v5x9gjac"], "diameter": "", "weight": "48.81", "page": "305", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 78", "images": ["uvi22dh8", "kdl5675a"], "diameter": "", "weight": "", "page": "96", "plate": "", "articles": [], "urls": [] },
-    { "code": "BTTPHCM 12", "images": ["kdkgituz", "9s7oxtud"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "Thierry 1836", "images": ["2uyytecw", "0ijewnyf"], "variant": "", "diameter": "53.00", "weight": "32.43", "page": "99", "plate": "34", "articles": [], "urls": [] },
+    { "code": "Barker 193", "images": ["en28e6yx", "v5x9gjac"], "variant": "", "diameter": "", "weight": "48.81", "page": "305", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 78", "images": ["uvi22dh8", "kdl5675a"], "variant": "", "diameter": "", "weight": "", "page": "96", "plate": "", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 12", "images": ["kdkgituz", "9s7oxtud"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "uh1x8rgi", "page": "99", "plate": "34", "identifier": "1836", "notes": "", "articles": [], "urls": [] },

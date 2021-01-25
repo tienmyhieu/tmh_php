@@ -5,7 +5,7 @@
     { "image_id": "2", "uuid": "chxn8poh", "src": "955d0e53c1ec4a9d9d5e38fb8c45edfe-2.png", "href": "CMV_1620", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" }
   ],
   "reference_specimens": [
-    { "code": "Thierry 1620", "images": ["rgiq3pih", "chxn8poh"], "diameter": "52.00", "weight": "32.20", "page": "91", "plate": "26", "articles": [], "urls": [] }
+    { "code": "Thierry 1620", "images": ["rgiq3pih", "chxn8poh"], "variant": "", "diameter": "52.00", "weight": "32.20", "page": "91", "plate": "26", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -19,7 +19,7 @@
     { "reference_uuid": "jybo2v6v", "page": "217", "plate": "", "identifier": "42", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "EAAT TT1", "images": ["wqlhcfkf"], "diameter": "52.00", "weight": "35.70", "page": "", "plate": "" }
+    { "code": "EAAT TT1", "images": ["wqlhcfkf"], "variant": "", "diameter": "52.00", "weight": "35.70", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "3", "uuid": "wqlhcfkf", "src": "96ebb3b03f3f4c91826a89b14f5a04b3-2.png", "href": "EAAT TT1", "copyright": "0", "country": "fr", "year": "2010", "color": "0", "visible": "1" },

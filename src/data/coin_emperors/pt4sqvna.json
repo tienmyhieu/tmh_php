@@ -15,9 +15,9 @@
     { "image_id": "12", "uuid": "gxg9c338", "src": "b7c2f8bba39c4df38864ae8724959f0c-2.png", "href": "HCCV_194", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Thierry 1822", "images": ["w0q14ebv", "gnkm307p"], "diameter": "52.00", "weight": "46.27", "page": "98", "plate": "33", "articles": [], "urls": [] },
-    { "code": "Barker 194", "images": ["u4prvmhx", "hdcuvlc1"], "diameter": "50.41", "weight": "42.41", "page": "306", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 83", "images": ["jgq5dbfu", "pp4zmj1y"], "diameter": "", "weight": "", "page": "101", "plate": "", "articles": [], "urls": [] }
+    { "code": "Thierry 1822", "images": ["w0q14ebv", "gnkm307p"], "variant": "", "diameter": "52.00", "weight": "46.27", "page": "98", "plate": "33", "articles": [], "urls": [] },
+    { "code": "Barker 194", "images": ["u4prvmhx", "hdcuvlc1"], "variant": "", "diameter": "50.41", "weight": "42.41", "page": "306", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 83", "images": ["jgq5dbfu", "pp4zmj1y"], "variant": "", "diameter": "", "weight": "", "page": "101", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "pjmp6uhz", "page": "62", "plate": "", "identifier": "9", "notes": "", "articles": [], "urls": [] },
@@ -31,7 +31,7 @@
     { "reference_uuid": "jybo2v6v", "page": "224", "plate": "", "identifier": "50", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "DDDU TD3", "images": ["ykjqo98z", "82ywr7p1"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "DDDU TD3", "images": ["ykjqo98z", "82ywr7p1"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "13", "uuid": "ykjqo98z", "src": "2d8dbac67bf5406984e1c1b6e79e5d1f-1.png", "href": "DDDU_TD3", "copyright": "0", "country": "vn", "year": "2009", "color": "0", "visible": "1" },

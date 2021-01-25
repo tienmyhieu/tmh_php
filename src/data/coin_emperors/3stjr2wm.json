@@ -13,8 +13,8 @@
     { "image_id": "10", "uuid": "e8foh67z", "src": "12d35ced1e694cbda30c320018244720-2.png", "href": "HCCV_180", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Barker 180", "images": ["bzfwopw8", "2d0i72ek"], "diameter": "51.41", "weight": "31.50", "page": "297", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 56", "images": ["oczr816x", "d4z4hx3d"], "diameter": "", "weight": "", "page": "77", "plate": "", "articles": [], "urls": [] }
+    { "code": "Barker 180", "images": ["bzfwopw8", "2d0i72ek"], "variant": "", "diameter": "51.41", "weight": "31.50", "page": "297", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 56", "images": ["oczr816x", "d4z4hx3d"], "variant": "", "diameter": "", "weight": "", "page": "77", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -28,7 +28,7 @@
     { "reference_uuid": "jybo2v6v", "page": "183", "plate": "", "identifier": "4", "notes": "hccv_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "WOYL TT4", "images": ["lgk1qo7d"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "WOYL TT4", "images": ["lgk1qo7d"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "11", "uuid": "lgk1qo7d", "src": "3b71185bd5a94d95b4976243d4a2f92c-2.png", "href": "WOYL TT4", "copyright": "0", "country": "cn", "year": "2020", "color": "0", "visible": "1" },

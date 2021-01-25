@@ -7,7 +7,7 @@
     { "image_id": "4", "uuid": "pmzgprzz", "src": "23a4799753c2402c8e73c4ba327e3319-2.png", "href": "VN6_TD12", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "VN6 TD12", "images": ["v5yn4bsr", "7raqv85e"], "diameter": "", "weight": "", "page": "13", "plate": "", "articles": [], "urls": [] }
+    { "code": "VN6 TD12", "images": ["v5yn4bsr", "7raqv85e"], "variant": "", "diameter": "", "weight": "", "page": "13", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "gvkepvmm", "page": "13", "plate": "", "identifier": "12", "notes": "btlsqg", "articles": [], "urls": [] }

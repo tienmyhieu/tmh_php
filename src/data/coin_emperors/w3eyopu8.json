@@ -27,14 +27,14 @@
     { "image_id": "28", "uuid": "ilhyk0j3", "src": "be26ea1f1013476cb5e12bdbac90d7e4-2.png", "href": "VN4_VN29_7", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 418", "images": ["eeofe8t0"], "diameter": "", "weight": "", "page": "180", "plate": "29", "articles": [], "urls": [] },
-    { "code": "Schroeder 131", "images": ["vwhdcigl"], "diameter": "", "weight": "", "page": "430", "plate": "58", "articles": [], "urls": [] },
-    { "code": "Thierry 1534", "images": ["b44y80vz", "27vhytvh"], "diameter": "51.00", "weight": "29.46", "page": "86", "plate": "22", "articles": [], "urls": [] },
-    { "code": "Barker 141", "images": ["c2mxrjgi", "q28mqjtx"], "diameter": "50.57", "weight": "29.94", "page": "271", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 7", "images": ["1eymep8m", "es2qu4bb"], "diameter": "", "weight": "", "page": "41", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 1", "images": ["kvsknil8", "sotwwi1z"], "diameter": "", "weight": "", "page": "1", "plate": "", "articles": [], "urls": [] },
-    { "code": "STTMM 3", "images": ["nheucibv", "za5anly5"], "diameter": "51.00", "weight": "30.90", "page": "77", "plate": "", "articles": [], "urls": [] },
-    { "code": "VN29-7", "images": ["glc757uu", "uwqxj6y0"], "diameter": "", "weight": "", "page": "11", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 418", "images": ["eeofe8t0"], "variant": "", "diameter": "", "weight": "", "page": "180", "plate": "29", "articles": [], "urls": [] },
+    { "code": "Schroeder 131", "images": ["vwhdcigl"], "variant": "", "diameter": "", "weight": "", "page": "430", "plate": "58", "articles": [], "urls": [] },
+    { "code": "Thierry 1534", "images": ["b44y80vz", "27vhytvh"], "variant": "", "diameter": "51.00", "weight": "29.46", "page": "86", "plate": "22", "articles": [], "urls": [] },
+    { "code": "Barker 141", "images": ["c2mxrjgi", "q28mqjtx"], "variant": "", "diameter": "50.57", "weight": "29.94", "page": "271", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 7", "images": ["1eymep8m", "es2qu4bb"], "variant": "", "diameter": "", "weight": "", "page": "41", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 1", "images": ["kvsknil8", "sotwwi1z"], "variant": "", "diameter": "", "weight": "", "page": "1", "plate": "", "articles": [], "urls": [] },
+    { "code": "STTMM 3", "images": ["nheucibv", "za5anly5"], "variant": "", "diameter": "51.00", "weight": "30.90", "page": "77", "plate": "", "articles": [], "urls": [] },
+    { "code": "VN29-7", "images": ["glc757uu", "uwqxj6y0"], "variant": "", "diameter": "", "weight": "", "page": "11", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "59out4lc", "page": "35", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -59,9 +59,9 @@
     { "reference_uuid": "08w1apoy", "page": "", "plate": "", "identifier": "1984,0718.11", "notes": "", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "MANT vae14-1146", "images": ["fj6ha0qu", "3joxcgur"], "diameter": "51.00", "weight": "29.69", "page": "", "plate": "" },
-    { "code": "BMTW 56.779", "images": ["izl2egwh", "lahzfzat"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "WOYL MM1", "images": ["ao2h576m", "i58tqcbb"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "MANT vae14-1146", "images": ["fj6ha0qu", "3joxcgur"], "variant": "", "diameter": "51.00", "weight": "29.69", "page": "", "plate": "" },
+    { "code": "BMTW 56.779", "images": ["izl2egwh", "lahzfzat"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "WOYL MM1", "images": ["ao2h576m", "i58tqcbb"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "21", "uuid": "fj6ha0qu", "src": "dd12077718c549eba7da8bc5f42ee38a-1.png", "href": "MANT MM1", "copyright": "0", "country": "fr", "year": "2013", "color": "0", "visible": "1" },

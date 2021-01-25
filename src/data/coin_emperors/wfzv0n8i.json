@@ -11,8 +11,8 @@
     { "image_id": "8", "uuid": "7b3zgnk5", "src": "91978aed288e454ca3d7a448ee040180-2.png", "href": "BTTPHCM_17", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "大庫隆夫 53", "images": ["xzmx8rsf", "ohels1nz"], "diameter": "", "weight": "", "page": "74", "plate": "", "articles": [], "urls": [] },
-    { "code": "BTTPHCM 17", "images": ["nu8p6cy9", "ocnfo6lv"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "大庫隆夫 53", "images": ["xzmx8rsf", "ohels1nz"], "variant": "", "diameter": "", "weight": "", "page": "74", "plate": "", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 17", "images": ["nu8p6cy9", "ocnfo6lv"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },

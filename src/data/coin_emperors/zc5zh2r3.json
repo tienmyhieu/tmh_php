@@ -4,7 +4,7 @@
     { "image_id": "1", "uuid": "zrb5z4lm", "src": "c6cc971849f04d94aece745d000c4e3c-2.png", "href": "NA_456", "copyright": "0", "country": "fr", "year": "1900", "color": "0", "visible": "1" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 456", "images": ["zrb5z4lm"], "diameter": "", "weight": "", "page": "185", "plate": "33", "articles": [], "urls": [] }
+    { "code": "Lacroix 456", "images": ["zrb5z4lm"], "variant": "", "diameter": "", "weight": "", "page": "185", "plate": "33", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },

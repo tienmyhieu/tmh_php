@@ -15,8 +15,8 @@
     { "image_id": "12", "uuid": "dgmucjbz", "src": "804947654cd648238fdb4601f976be88-2.png", "href": "HCCV_178", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Barker 178", "images": ["3oekusst", "nnlnz69q"], "diameter": "51.38", "weight": "27.78", "page": "296", "plate": "", "articles": [], "urls": [] },
-    { "code": "Joyaux 843", "images": ["nkq9bdmh", "lc2z58yp"], "diameter": "51.80", "weight": "33.67", "page": "155", "plate": "", "articles": [], "urls": [] }
+    { "code": "Barker 178", "images": ["3oekusst", "nnlnz69q"], "variant": "", "diameter": "51.38", "weight": "27.78", "page": "296", "plate": "", "articles": [], "urls": [] },
+    { "code": "Joyaux 843", "images": ["nkq9bdmh", "lc2z58yp"], "variant": "", "diameter": "51.80", "weight": "33.67", "page": "155", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },

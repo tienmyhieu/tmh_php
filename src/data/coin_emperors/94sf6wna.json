@@ -9,7 +9,7 @@
     { "image_id": "6", "uuid": "xmr6j4gz", "src": "ad6c8d529b384c42847096990d54a9e0-2.png", "href": "BTTPHCM_14", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "BTTPHCM 13", "images": ["cgrnfmpp", "ml1ixkft"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "BTTPHCM 13", "images": ["cgrnfmpp", "ml1ixkft"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },

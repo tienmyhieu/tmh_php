@@ -11,8 +11,8 @@
     { "image_id": "8", "uuid": "i2gyyd1n", "src": "009ecaf8a68e4c098e1a6e47e3c81fba-2.png", "href": "BTTPHCM_20", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Thierry 1609", "images": ["rclatqdn", "sbgita1q"], "diameter": "53.00", "weight": "32.75", "page": "91", "plate": "26", "articles": [], "urls": [] },
-    { "code": "BTTPHCM 20", "images": ["xqsxuj8x", "5yzq4kn0"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "Thierry 1609", "images": ["rclatqdn", "sbgita1q"], "variant": "", "diameter": "53.00", "weight": "32.75", "page": "91", "plate": "26", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 20", "images": ["xqsxuj8x", "5yzq4kn0"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -27,7 +27,7 @@
     { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "20", "notes": "bttphcm_tt", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "DBSQ TT1", "images": ["uhhxt1ly", "6skpfdil"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "DBSQ TT1", "images": ["uhhxt1ly", "6skpfdil"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "9", "uuid": "uhhxt1ly", "src": "e4bb9b816aa54cd59c9d1ace051155c9-1.png", "href": "DBSQ TT1", "copyright": "0", "country": "cn", "year": "2018", "color": "0", "visible": "1" },

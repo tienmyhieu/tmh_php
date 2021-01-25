@@ -6,8 +6,8 @@
     { "image_id": "3", "uuid": "fdjpd5sn", "src": "8c9b29e10ffd4a8ca83923ec5ef7fa81-2.png", "href": "ANZDQ_94", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 461", "images": ["f3gnb90z"], "diameter": "", "weight": "", "page": "190", "plate": "34", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 94", "images": ["asv1dbib", "fdjpd5sn"], "diameter": "", "weight": "", "page": "112", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 461", "images": ["f3gnb90z"], "variant": "", "diameter": "", "weight": "", "page": "190", "plate": "34", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 94", "images": ["asv1dbib", "fdjpd5sn"], "variant": "", "diameter": "", "weight": "", "page": "112", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "egjosprx", "page": "190", "plate": "34", "identifier": "461", "notes": "", "articles": [], "urls": [] },
@@ -22,7 +22,7 @@
     { "reference_uuid": "jybo2v6v", "page": "199", "plate": "", "identifier": "24", "notes": "anzdq_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "WYHU TD1", "images": ["aiczui1z", "d22s3r6o"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "WYHU TD1", "images": ["aiczui1z", "d22s3r6o"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "4", "uuid": "aiczui1z", "src": "3793b24cdbe4493fb76e17d0db4494b2-1.png", "href": "WYHU TD1", "copyright": "0", "country": "cn", "year": "2016", "color": "0", "visible": "1" },

@@ -10,10 +10,10 @@
     { "image_id": "7", "uuid": "ndjs5c68", "src": "987f8223d8554a65971ea295a407f3d8-2.png", "href": "ANZDQ_77", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" }
   ],
   "reference_specimens": [
-    { "code": "Schroeder 148", "images": ["kim1byvu"], "diameter": "", "weight": "", "page": "430", "plate": "60", "articles": ["bk37dzxw"], "urls": [] },
-    { "code": "Thierry 1804", "images": ["1ks05qye", "dh1tew0s"], "diameter": "51.50", "weight": "30.28", "page": "98", "plate": "33", "articles": [], "urls": [] },
-    { "code": "Kempgen 21", "images": ["7vj9hh8w", "jr5bfbwg"], "diameter": "51.00", "weight": "29.66", "page": "65", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 77", "images": ["s16vsfih", "ndjs5c68"], "diameter": "", "weight": "", "page": "95", "plate": "", "articles": [], "urls": [] }
+    { "code": "Schroeder 148", "images": ["kim1byvu"], "variant": "", "diameter": "", "weight": "", "page": "430", "plate": "60", "articles": ["bk37dzxw"], "urls": [] },
+    { "code": "Thierry 1804", "images": ["1ks05qye", "dh1tew0s"], "variant": "", "diameter": "51.50", "weight": "30.28", "page": "98", "plate": "33", "articles": [], "urls": [] },
+    { "code": "Kempgen 21", "images": ["7vj9hh8w", "jr5bfbwg"], "variant": "", "diameter": "51.00", "weight": "29.66", "page": "65", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 77", "images": ["s16vsfih", "ndjs5c68"], "variant": "", "diameter": "", "weight": "", "page": "95", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "3wpxtg83", "page": "430", "plate": "60", "identifier": "148", "notes": "", "articles": ["bk37dzxw"], "urls": [] },
@@ -25,7 +25,7 @@
     { "reference_uuid": "jybo2v6v", "page": "220", "plate": "", "identifier": "45", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "LMHH TD1", "images": ["0g9r5zof", "8meoa8nn"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "LMHH TD1", "images": ["0g9r5zof", "8meoa8nn"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "8", "uuid": "0g9r5zof", "src": "97f9d91b6bd84a089625c8498b5b7a89-1.png", "href": "LMHH_TD1", "copyright": "0", "country": "de", "year": "2020", "color": "0", "visible": "1" },

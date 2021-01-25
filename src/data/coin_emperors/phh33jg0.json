@@ -33,15 +33,15 @@
     { "image_id": "29", "uuid": "0n1a3h9t", "src": "9b027906aa074572921c7cbdb0a02119-2.png", "href": "VN4_VN29_3", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lockhart 1317", "images": ["cb3rqayi", "jz0rypih"], "diameter": "", "weight": "", "page": "115", "plate": "130", "articles": [], "urls": [] },
-    { "code": "Lacroix 420", "images": ["44atzio7"], "diameter": "", "weight": "", "page": "180", "plate": "29", "articles": [], "urls": [] },
-    { "code": "三浦清吾 8", "images": ["e1rw8541", "7j35k7dz"], "diameter": "", "weight": "", "page": "12", "plate": "", "articles": [], "urls": [] },
-    { "code": "Barker 156", "images": ["ixnl3ngi", "lqn6b1w2"], "diameter": "50.97", "weight": "29.98", "page": "281", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 24", "images": ["x37q7urf", "w39kmlyz"], "diameter": "", "weight": "", "page": "52", "plate": "", "articles": [], "urls": [] },
-    { "code": "Joyaux MM1", "images": ["d3m9q1sq", "0z4ghtk9"], "diameter": "", "weight": "", "page": "22", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 12", "images": ["udm3src6", "3skp0536"], "diameter": "", "weight": "", "page": "12", "plate": "", "articles": [], "urls": [] },
-    { "code": "STTMM 17", "images": ["ooswz31u", "jcgw4c0y"], "diameter": "51.00", "weight": "26.20", "page": "91", "plate": "", "articles": [], "urls": [] },
-    { "code": "VN29-3", "images": ["qtw314z3", "um4q1151"], "diameter": "", "weight": "", "page": "11", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lockhart 1317", "images": ["cb3rqayi", "jz0rypih"], "variant": "", "diameter": "", "weight": "", "page": "115", "plate": "130", "articles": [], "urls": [] },
+    { "code": "Lacroix 420", "images": ["44atzio7"], "variant": "", "diameter": "", "weight": "", "page": "180", "plate": "29", "articles": [], "urls": [] },
+    { "code": "三浦清吾 8", "images": ["e1rw8541", "7j35k7dz"], "variant": "", "diameter": "", "weight": "", "page": "12", "plate": "", "articles": [], "urls": [] },
+    { "code": "Barker 156", "images": ["ixnl3ngi", "lqn6b1w2"], "variant": "", "diameter": "50.97", "weight": "29.98", "page": "281", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 24", "images": ["x37q7urf", "w39kmlyz"], "variant": "", "diameter": "", "weight": "", "page": "52", "plate": "", "articles": [], "urls": [] },
+    { "code": "Joyaux MM1", "images": ["d3m9q1sq", "0z4ghtk9"], "variant": "", "diameter": "", "weight": "", "page": "22", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 12", "images": ["udm3src6", "3skp0536"], "variant": "", "diameter": "", "weight": "", "page": "12", "plate": "", "articles": [], "urls": [] },
+    { "code": "STTMM 17", "images": ["ooswz31u", "jcgw4c0y"], "variant": "", "diameter": "51.00", "weight": "26.20", "page": "91", "plate": "", "articles": [], "urls": [] },
+    { "code": "VN29-3", "images": ["qtw314z3", "um4q1151"], "variant": "", "diameter": "", "weight": "", "page": "11", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "59out4lc", "page": "35", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -66,9 +66,9 @@
     { "reference_uuid": "08w1apoy", "page": "", "plate": "", "identifier": "1983,0619.247", "notes": "", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "KYQS MM2", "images": ["0dfvm04g", "yfrf4n7r"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "HUAY MM7", "images": ["laxy713c", "5tvtt49x"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "LAVA MM2", "images": ["ricamqvw", "n9vdynnt"], "diameter": "50.80", "weight": "27.50", "page": "", "plate": "" }
+    { "code": "KYQS MM2", "images": ["0dfvm04g", "yfrf4n7r"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "HUAY MM7", "images": ["laxy713c", "5tvtt49x"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "LAVA MM2", "images": ["ricamqvw", "n9vdynnt"], "variant": "", "diameter": "50.80", "weight": "27.50", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "30", "uuid": "0dfvm04g", "src": "9a59803e4e614223827a35d5d3cf6bf9-1.png", "href": "KYQS MM2", "copyright": "0", "country": "cn", "year": "2010", "color": "0", "visible": "1" },

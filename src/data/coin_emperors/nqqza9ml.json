@@ -22,13 +22,13 @@
     { "image_id": "19", "uuid": "53ntnwyw", "src": "bc395eac6e4c4b40adc53cea2eb1b66c-2.png", "href": "HCCV_152", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 416", "images": ["ogzeqryu"], "diameter": "", "weight": "", "page": "179", "plate": "29", "articles": [], "urls": [] },
-    { "code": "Schroeder 141", "images": ["z0p5oedl"], "diameter": "", "weight": "", "page": "431", "plate": "60", "articles": [], "urls": [] },
-    { "code": "Kempgen 14", "images": ["16scryy1"], "diameter": "51.00", "weight": "28.93", "page": "64", "plate": "", "articles": [], "urls": [] },
-    { "code": "Barker 152", "images": ["gixfvn9j", "m1pxcd9a"], "diameter": "51.22", "weight": "25.47", "page": "278", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 36", "images": ["j3msxx9b", "9836rwc3"], "diameter": "", "weight": "", "page": "54", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 14", "images": ["7ur8u3co", "lz84ymkt"], "diameter": "", "weight": "", "page": "14", "plate": "", "articles": [], "urls": [] },
-    { "code": "STTMM 14", "images": ["dzil5rsn", "njlk89uy"], "diameter": "50.50", "weight": "24.00", "page": "88", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 416", "images": ["ogzeqryu"], "variant": "", "diameter": "", "weight": "", "page": "179", "plate": "29", "articles": [], "urls": [] },
+    { "code": "Schroeder 141", "images": ["z0p5oedl"], "variant": "", "diameter": "", "weight": "", "page": "431", "plate": "60", "articles": [], "urls": [] },
+    { "code": "Kempgen 14", "images": ["16scryy1"], "variant": "", "diameter": "51.00", "weight": "28.93", "page": "64", "plate": "", "articles": [], "urls": [] },
+    { "code": "Barker 152", "images": ["gixfvn9j", "m1pxcd9a"], "variant": "", "diameter": "51.22", "weight": "25.47", "page": "278", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 36", "images": ["j3msxx9b", "9836rwc3"], "variant": "", "diameter": "", "weight": "", "page": "54", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 14", "images": ["7ur8u3co", "lz84ymkt"], "variant": "", "diameter": "", "weight": "", "page": "14", "plate": "", "articles": [], "urls": [] },
+    { "code": "STTMM 14", "images": ["dzil5rsn", "njlk89uy"], "variant": "", "diameter": "50.50", "weight": "24.00", "page": "88", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "59out4lc", "page": "35", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -50,8 +50,8 @@
     { "reference_uuid": "jybo2v6v", "page": "213", "plate": "", "identifier": "38", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "MANT vae14-1149", "images": ["7ubmicjf", "wit37lzf"], "diameter": "51.00", "weight": "26.05", "page": "", "plate": "" },
-    { "code": "HUAY MM6", "images": ["040woka3", "bzo679nd"], "diameter": "50.8", "weight": "28.40", "page": "", "plate": "" }
+    { "code": "MANT vae14-1149", "images": ["7ubmicjf", "wit37lzf"], "variant": "", "diameter": "51.00", "weight": "26.05", "page": "", "plate": "" },
+    { "code": "HUAY MM6", "images": ["040woka3", "bzo679nd"], "variant": "", "diameter": "50.8", "weight": "28.40", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "20", "uuid": "7ubmicjf", "src": "81f509a716554914a6fe1257096e5a72-1.png", "href": "MANT MM6", "copyright": "0", "country": "fr", "year": "2013", "color": "0", "visible": "1" },

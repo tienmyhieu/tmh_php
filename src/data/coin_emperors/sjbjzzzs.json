@@ -31,15 +31,15 @@
     { "image_id": "28", "uuid": "32zrnzm2", "src": "ac9f2d40eec44281a37ba179f7f8e661-2.png", "href": "VN4_VN31_11", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 428", "images": ["cxugrijv"], "diameter": "", "weight": "", "page": "181", "plate": "30", "articles": [], "urls": [] },
-    { "code": "Schroeder 132", "images": ["ebf5pzyb"], "diameter": "", "weight": "", "page": "430", "plate": "58", "articles": [], "urls": [] },
-    { "code": "Thierry 1536", "images": ["v544bn6g", "vdxapob3"], "diameter": "52.00", "weight": "28.93", "page": "83", "plate": "22", "articles": [], "urls": [] },
-    { "code": "Barker 143", "images": ["j6dsuahc", "sxj4i1sh"], "diameter": "51.02", "weight": "23.89", "page": "272", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 13", "images": ["s9ou1rj4", "dp96c6oo"], "diameter": "", "weight": "", "page": "46", "plate": "", "articles": [], "urls": [] },
-    { "code": "Joyaux 825", "images": ["vbr58cuy", "ftilnefs"], "diameter": "51.00", "weight": "25.53", "page": "146", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 6", "images": ["p36ct2ci", "nkrrvr4e"], "diameter": "", "weight": "", "page": "6", "plate": "", "articles": [], "urls": [] },
-    { "code": "STTMM 4", "images": ["zh25e7s5", "fcu1k702"], "diameter": "50.80", "weight": "23.10", "page": "78", "plate": "", "articles": [], "urls": [] },
-    { "code": "VN31-11", "images": ["0z9xkhiq", "499kn61o"], "diameter": "", "weight": "", "page": "11", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 428", "images": ["cxugrijv"], "variant": "", "diameter": "", "weight": "", "page": "181", "plate": "30", "articles": [], "urls": [] },
+    { "code": "Schroeder 132", "images": ["ebf5pzyb"], "variant": "", "diameter": "", "weight": "", "page": "430", "plate": "58", "articles": [], "urls": [] },
+    { "code": "Thierry 1536", "images": ["v544bn6g", "vdxapob3"], "variant": "", "diameter": "52.00", "weight": "28.93", "page": "83", "plate": "22", "articles": [], "urls": [] },
+    { "code": "Barker 143", "images": ["j6dsuahc", "sxj4i1sh"], "variant": "", "diameter": "51.02", "weight": "23.89", "page": "272", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 13", "images": ["s9ou1rj4", "dp96c6oo"], "variant": "", "diameter": "", "weight": "", "page": "46", "plate": "", "articles": [], "urls": [] },
+    { "code": "Joyaux 825", "images": ["vbr58cuy", "ftilnefs"], "variant": "", "diameter": "51.00", "weight": "25.53", "page": "146", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 6", "images": ["p36ct2ci", "nkrrvr4e"], "variant": "", "diameter": "", "weight": "", "page": "6", "plate": "", "articles": [], "urls": [] },
+    { "code": "STTMM 4", "images": ["zh25e7s5", "fcu1k702"], "variant": "", "diameter": "50.80", "weight": "23.10", "page": "78", "plate": "", "articles": [], "urls": [] },
+    { "code": "VN31-11", "images": ["0z9xkhiq", "499kn61o"], "variant": "", "diameter": "", "weight": "", "page": "11", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "59out4lc", "page": "35", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -64,9 +64,9 @@
     { "reference_uuid": "08w1apoy", "page": "", "plate": "", "identifier": "1983,0619.241", "notes": "", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "HUAY MM2", "images": ["3dwvrzvs", "rnqe33j8"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "BMTW 55.820.3", "images": ["rdhbr9be"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "IKAR MM3", "images": ["snl0x7ow"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "HUAY MM2", "images": ["3dwvrzvs", "rnqe33j8"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "BMTW 55.820.3", "images": ["rdhbr9be"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "IKAR MM3", "images": ["snl0x7ow"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "29", "uuid": "3dwvrzvs", "src": "d3ef999a1d754ca1ae61e1b467bbf90b-1.png", "href": "HUAY MM2", "copyright": "0", "country": "cn", "year": "2011", "color": "0", "visible": "1" },

@@ -15,9 +15,9 @@
     { "image_id": "12", "uuid": "px6eg4yc", "src": "fede5c0462b04c83831b1b62636e7d9d-2.png", "href": "BTTPHCM_13", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "大庫隆夫 42", "images": ["ganwtog0", "hvhmp9yg"], "diameter": "", "weight": "", "page": "42", "plate": "", "articles": [], "urls": [] },
-    { "code": "VN6 TD14", "images": ["rda278zn", "etagsjky"], "diameter": "", "weight": "", "page": "13", "plate": "", "articles": [], "urls": [] },
-    { "code": "BTTPHCM 13", "images": ["bx8gkz92", "0os1tvo2"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "大庫隆夫 42", "images": ["ganwtog0", "hvhmp9yg"], "variant": "", "diameter": "", "weight": "", "page": "42", "plate": "", "articles": [], "urls": [] },
+    { "code": "VN6 TD14", "images": ["rda278zn", "etagsjky"], "variant": "", "diameter": "", "weight": "", "page": "13", "plate": "", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 13", "images": ["bx8gkz92", "0os1tvo2"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "ad2vyinb", "page": "278", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -26,10 +26,10 @@
     { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "13", "notes": "bttphcm_td", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "AWOL 16338", "images": ["rkev9hnc", "ksu67eee"], "diameter": "49.70", "weight": "31.40", "page": "", "plate": "" },
-    { "code": "IKAR TD3", "images": ["469wykmc"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "HUAY TD2", "images": ["o7n7yz5q", "4sazae8v"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "HUAY 17-1128-477", "images": ["ivq83qaq", "a9kmqzdn"], "diameter": "50.33", "weight": "", "page": "", "plate": "" }
+    { "code": "AWOL 16338", "images": ["rkev9hnc", "ksu67eee"], "variant": "", "diameter": "49.70", "weight": "31.40", "page": "", "plate": "" },
+    { "code": "IKAR TD3", "images": ["469wykmc"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "HUAY TD2", "images": ["o7n7yz5q", "4sazae8v"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "HUAY 17-1128-477", "images": ["ivq83qaq", "a9kmqzdn"], "variant": "", "diameter": "50.33", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "13", "uuid": "rkev9hnc", "src": "3f11b53fc81d478cbc61861927188324-1.png", "href": "AWOL_TD2", "copyright": "0", "country": "ja", "year": "2011", "color": "0", "visible": "1" },

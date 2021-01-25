@@ -17,9 +17,9 @@
     { "image_id": "14", "uuid": "hhq4c9yx", "src": "53cd6febf6a4437e807a2a023b160b89-2.png", "href": "BTTPHCM_2", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Joyaux 17", "images": ["rve502i2", "ncetzmhx"], "diameter": "52.50", "weight": "36.67", "page": "18", "plate": "", "articles": [], "urls": [] },
-    { "code": "BRMU TT1", "images": ["dg2s02iy", "bvlt4v5s"], "diameter": "53.00", "weight": "34.84", "page": "", "plate": "", "articles": [], "urls": [] },
-    { "code": "BTTPHCM 2", "images": ["yzykx451", "rvt79b5f"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "Joyaux 17", "images": ["rve502i2", "ncetzmhx"], "variant": "", "diameter": "52.50", "weight": "36.67", "page": "18", "plate": "", "articles": [], "urls": [] },
+    { "code": "BRMU TT1", "images": ["dg2s02iy", "bvlt4v5s"], "variant": "", "diameter": "53.00", "weight": "34.84", "page": "", "plate": "", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 2", "images": ["yzykx451", "rvt79b5f"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },

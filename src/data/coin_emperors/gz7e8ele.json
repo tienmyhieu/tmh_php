@@ -13,8 +13,8 @@
     { "image_id": "10", "uuid": "4zafznwz", "src": "23dbd72f8ece4c2d9fd230ad54e1fd34-2.png", "href": "HCCV_181", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Thierry V144", "images": ["77sj3zif", "kq3ryqfb"], "diameter": "53.50", "weight": "39.31", "page": "57", "plate": "37", "articles": [], "urls": [] },
-    { "code": "Barker 181", "images": ["4gja6vdg", "ncp67riu"], "diameter": "51.59", "weight": "32.31", "page": "298", "plate": "", "articles": [], "urls": [] }
+    { "code": "Thierry V144", "images": ["77sj3zif", "kq3ryqfb"], "variant": "", "diameter": "53.50", "weight": "39.31", "page": "57", "plate": "37", "articles": [], "urls": [] },
+    { "code": "Barker 181", "images": ["4gja6vdg", "ncp67riu"], "variant": "", "diameter": "51.59", "weight": "32.31", "page": "298", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },

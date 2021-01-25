@@ -13,8 +13,8 @@
     { "image_id": "10", "uuid": "8fb309kk", "src": "0de448f510cc499e977c180859b9c864-2.png", "href": "HCCV_199", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Barker 199", "images": ["lick2uee", "ddj18lmi"], "diameter": "50.23", "weight": "30.88", "page": "309", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 61", "images": ["ct5w06n5", "sqfaq20b"], "diameter": "", "weight": "", "page": "61", "plate": "", "articles": [], "urls": [] }
+    { "code": "Barker 199", "images": ["lick2uee", "ddj18lmi"], "variant": "", "diameter": "50.23", "weight": "30.88", "page": "309", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 61", "images": ["ct5w06n5", "sqfaq20b"], "variant": "", "diameter": "", "weight": "", "page": "61", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "5ekjpp24", "page": "309", "plate": "", "identifier": "199", "notes": "", "articles": [], "urls": [] },
@@ -24,7 +24,7 @@
     { "reference_uuid": "jybo2v6v", "page": "194", "plate": "", "identifier": "15", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "HUAY 19-0706-190", "images": ["cnvgdxcn", "77maeaib"], "diameter": "49.80", "weight": "", "page": "", "plate": "" }
+    { "code": "HUAY 19-0706-190", "images": ["cnvgdxcn", "77maeaib"], "variant": "", "diameter": "49.80", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "11", "uuid": "cnvgdxcn", "src": "d4b282ea110f49509eedb9f65f44f7a8-1.png", "href": "HUAY TD6", "copyright": "0", "country": "cn", "year": "2019", "color": "0", "visible": "1" },

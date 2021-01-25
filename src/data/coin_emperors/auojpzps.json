@@ -11,10 +11,10 @@
     { "image_id": "8", "uuid": "8zbtfexd", "src": "0be64cf5da884cbbb03813dad6b31331-2.png", "href": "AMDK_38", "copyright": "1", "country": "ja", "year": "2012", "color": "0", "visible": "1" }
   ],
   "reference_specimens": [
-    { "code": "三浦清吾 19", "images": ["1xhee240", "i40yp460"], "diameter": "", "weight": "", "page": "18", "plate": "", "articles": [], "urls": [] },
-    { "code": "Thierry 422", "images": ["ur71600m", "ir47sib9"], "diameter": "51.80", "weight": "29.86", "page": "75", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 67", "images": ["avd4h4pk", "q6qnebon"], "diameter": "", "weight": "", "page": "85", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 38", "images": ["u4jy1w01", "8zbtfexd"], "diameter": "", "weight": "", "page": "38", "plate": "", "articles": [], "urls": [] }
+    { "code": "三浦清吾 19", "images": ["1xhee240", "i40yp460"], "variant": "", "diameter": "", "weight": "", "page": "18", "plate": "", "articles": [], "urls": [] },
+    { "code": "Thierry 422", "images": ["ur71600m", "ir47sib9"], "variant": "", "diameter": "51.80", "weight": "29.86", "page": "75", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 67", "images": ["avd4h4pk", "q6qnebon"], "variant": "", "diameter": "", "weight": "", "page": "85", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 38", "images": ["u4jy1w01", "8zbtfexd"], "variant": "", "diameter": "", "weight": "", "page": "38", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -32,8 +32,8 @@
     { "reference_uuid": "jybo2v6v", "page": "194", "plate": "", "identifier": "15", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "WOYL TT7", "images": ["qsmy84v2", "ywpvh27i"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "WOYL TT8", "images": ["ec0svl6b", "tfqfk5cg"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "WOYL TT7", "images": ["qsmy84v2", "ywpvh27i"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "WOYL TT8", "images": ["ec0svl6b", "tfqfk5cg"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "9", "uuid": "qsmy84v2", "src": "9c56e7d563a7418cbeb9b2957fe5f75b-1.png", "href": "WOYL TT7", "copyright": "0", "country": "cn", "year": "2020", "color": "0", "visible": "1" },

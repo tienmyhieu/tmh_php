@@ -14,9 +14,9 @@
     { "image_id": "11", "uuid": "vrlsk2pv", "src": "eb6599d43c0046b68008889632b89332-2.png", "href": "HCCV_189", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 479", "images": ["9gvsbcev"], "diameter": "", "weight": "", "page": "191", "plate": "36", "articles": [], "urls": [] },
-    { "code": "Thierry 1796", "images": ["2phvasbl", "iau62ie0"], "diameter": "52.00", "weight": "42.01", "page": "97", "plate": "32", "articles": [], "urls": [] },
-    { "code": "Barker 189", "images": ["tzn9s8zx", "owis20gc"], "diameter": "50.68", "weight": "31.28", "page": "302", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 479", "images": ["9gvsbcev"], "variant": "", "diameter": "", "weight": "", "page": "191", "plate": "36", "articles": [], "urls": [] },
+    { "code": "Thierry 1796", "images": ["2phvasbl", "iau62ie0"], "variant": "", "diameter": "52.00", "weight": "42.01", "page": "97", "plate": "32", "articles": [], "urls": [] },
+    { "code": "Barker 189", "images": ["tzn9s8zx", "owis20gc"], "variant": "", "diameter": "50.68", "weight": "31.28", "page": "302", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "egjosprx", "page": "191", "plate": "36", "identifier": "479", "notes": "", "articles": [], "urls": [] },
@@ -27,8 +27,8 @@
     { "reference_uuid": "jybo2v6v", "page": "206", "plate": "", "identifier": "31", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "MANT vae14-1171", "images": ["867dr9fy", "qeogiz4z"], "diameter": "51.00", "weight": "36.37", "page": "", "plate": "" },
-    { "code": "WOYL TD2", "images": ["dsf9bftg"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "MANT vae14-1171", "images": ["867dr9fy", "qeogiz4z"], "variant": "", "diameter": "51.00", "weight": "36.37", "page": "", "plate": "" },
+    { "code": "WOYL TD2", "images": ["dsf9bftg"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "12", "uuid": "867dr9fy", "src": "3812c952f32c49f3bda7e8664e1ee408-1.png", "href": "MANT TD2", "copyright": "0", "country": "fr", "year": "2013", "color": "0", "visible": "1" },

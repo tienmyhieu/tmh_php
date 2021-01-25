@@ -34,15 +34,15 @@
     { "image_id": "31", "uuid": "0gvuyl2v", "src": "d2cc121784c8446792423446005234ba-2.png", "href": "BTTPHCM_16", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 468", "images": ["grgdgr2t"], "diameter": "", "weight": "", "page": "190", "plate": "35", "articles": [], "urls": [] },
-    { "code": "Thierry 1793", "images": ["nk9xkvex", "9qt3niik"], "diameter": "50.00", "weight": "39.64", "page": "97", "plate": "32", "articles": [], "urls": [] },
-    { "code": "Kempgen 9", "images": ["jxz5ahuf", "ll2drhv7"], "diameter": "51.00", "weight": "33.19", "page": "61", "plate": "", "articles": [], "urls": [] },
-    { "code": "Barker 190", "images": ["5xo5sn5s", "o8rqej6s"], "diameter": "50.34", "weight": "31.34", "page": "303", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 79", "images": ["91loen9n", "47lujkbm"], "diameter": "", "weight": "", "page": "97", "plate": "", "articles": [], "urls": [] },
-    { "code": "Joyaux 847", "images": ["kkp2jgm7", "412z5b8b"], "diameter": "50.80", "weight": "31.43", "page": "157", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 51", "images": ["mrgfyiyy", "xvt3anhx"], "diameter": "", "weight": "", "page": "51", "plate": "", "articles": [], "urls": [] },
-    { "code": "VN6 TD17", "images": ["tl7dd0j4", "dginwvtn"], "diameter": "", "weight": "", "page": "13", "plate": "", "articles": [], "urls": [] },
-    { "code": "BTTPHCM 17", "images": ["ruwyegum", "wc537ttj"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 468", "images": ["grgdgr2t"], "variant": "", "diameter": "", "weight": "", "page": "190", "plate": "35", "articles": [], "urls": [] },
+    { "code": "Thierry 1793", "images": ["nk9xkvex", "9qt3niik"], "variant": "", "diameter": "50.00", "weight": "39.64", "page": "97", "plate": "32", "articles": [], "urls": [] },
+    { "code": "Kempgen 9", "images": ["jxz5ahuf", "ll2drhv7"], "variant": "", "diameter": "51.00", "weight": "33.19", "page": "61", "plate": "", "articles": [], "urls": [] },
+    { "code": "Barker 190", "images": ["5xo5sn5s", "o8rqej6s"], "variant": "", "diameter": "50.34", "weight": "31.34", "page": "303", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 79", "images": ["91loen9n", "47lujkbm"], "variant": "", "diameter": "", "weight": "", "page": "97", "plate": "", "articles": [], "urls": [] },
+    { "code": "Joyaux 847", "images": ["kkp2jgm7", "412z5b8b"], "variant": "", "diameter": "50.80", "weight": "31.43", "page": "157", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 51", "images": ["mrgfyiyy", "xvt3anhx"], "variant": "", "diameter": "", "weight": "", "page": "51", "plate": "", "articles": [], "urls": [] },
+    { "code": "VN6 TD17", "images": ["tl7dd0j4", "dginwvtn"], "variant": "", "diameter": "", "weight": "", "page": "13", "plate": "", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 17", "images": ["ruwyegum", "wc537ttj"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "egjosprx", "page": "190", "plate": "35", "identifier": "468", "notes": "" , "articles": []},
@@ -59,9 +59,9 @@
     { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "17", "notes": "bttphcm_td", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "AWOL TD1", "images": ["902peg29", "j76usbu4"], "diameter": "50.40", "weight": "31.30", "page": "", "plate": "" },
-    { "code": "WOYL TD4", "images": ["cmbwtoe5"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "WOYL TD5", "images": ["2dbxh8wl"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "AWOL TD1", "images": ["902peg29", "j76usbu4"], "variant": "", "diameter": "50.40", "weight": "31.30", "page": "", "plate": "" },
+    { "code": "WOYL TD4", "images": ["cmbwtoe5"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "WOYL TD5", "images": ["2dbxh8wl"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "32", "uuid": "902peg29", "src": "f1afe0bfc3bd40808a0c4098a28affc0-1.png", "href": "AWOL_TD1", "copyright": "0", "country": "ja", "year": "2019", "color": "0", "visible": "1" },

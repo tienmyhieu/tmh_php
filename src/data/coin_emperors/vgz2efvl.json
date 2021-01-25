@@ -6,8 +6,8 @@
     { "image_id": "3", "uuid": "gl7b79hc", "src": "745cdd2cfdd245e999a943c832a633d0-2.png", "href": "CMV_1790", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 469", "images": ["8rcu2yup"], "diameter": "", "weight": "", "page": "190", "plate": "35", "articles": [], "urls": [] },
-    { "code": "Thierry 1790", "images": ["wlo1a281", "gl7b79hc"], "diameter": "52.00", "weight": "33.98", "page": "97", "plate": "31", "articles": [], "urls": [] }
+    { "code": "Lacroix 469", "images": ["8rcu2yup"], "variant": "", "diameter": "", "weight": "", "page": "190", "plate": "35", "articles": [], "urls": [] },
+    { "code": "Thierry 1790", "images": ["wlo1a281", "gl7b79hc"], "variant": "", "diameter": "52.00", "weight": "33.98", "page": "97", "plate": "31", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "egjosprx", "page": "190", "plate": "35", "identifier": "469", "notes": "", "articles": [], "urls": [] },

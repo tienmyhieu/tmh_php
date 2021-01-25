@@ -35,14 +35,14 @@
     { "image_id": "32", "uuid": "o8r2tl7r", "src": "7b817f576380412ba0ebe2ed5215abbc-2.png", "href": "HCCV_142", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lockhart 1319", "images": ["wj2t65xp", "szeqdjio"], "diameter": "", "weight": "", "page": "115", "plate": "131", "articles": [], "urls": [] },
-    { "code": "三浦清吾 5", "images": ["rs4oc3f9", "uftsuz7i"], "diameter": "", "weight": "", "page": "11", "plate": "", "articles": [], "urls": [] },
-    { "code": "Thierry 1533", "images": ["8snfvmwl", "8jl7jner"], "diameter": "51.00", "weight": "26.64", "page": "86", "plate": "22", "articles": [], "urls": [] },
-    { "code": "Barker 142", "images": ["5mgjhor2", "al1c6aqo"], "diameter": "", "weight": "25.61", "page": "271", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 12", "images": ["opylmc5d", "49p4jkdx"], "diameter": "", "weight": "", "page": "45", "plate": "", "articles": [], "urls": [] },
-    { "code": "Joyaux 824", "images": ["70m9i2v4", "scuckm6h"], "diameter": "50.70", "weight": "25.56", "page": "145", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 5", "images": ["srd0x7ak", "5a773y1a"], "diameter": "", "weight": "", "page": "5", "plate": "", "articles": [], "urls": [] },
-    { "code": "STTMM 2", "images": ["lz0fr772", "h9ciadhp"], "diameter": "51.10", "weight": "25.00", "page": "76", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lockhart 1319", "images": ["wj2t65xp", "szeqdjio"], "variant": "", "diameter": "", "weight": "", "page": "115", "plate": "131", "articles": [], "urls": [] },
+    { "code": "三浦清吾 5", "images": ["rs4oc3f9", "uftsuz7i"], "variant": "", "diameter": "", "weight": "", "page": "11", "plate": "", "articles": [], "urls": [] },
+    { "code": "Thierry 1533", "images": ["8snfvmwl", "8jl7jner"], "variant": "", "diameter": "51.00", "weight": "26.64", "page": "86", "plate": "22", "articles": [], "urls": [] },
+    { "code": "Barker 142", "images": ["5mgjhor2", "al1c6aqo"], "variant": "", "diameter": "", "weight": "25.61", "page": "271", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 12", "images": ["opylmc5d", "49p4jkdx"], "variant": "", "diameter": "", "weight": "", "page": "45", "plate": "", "articles": [], "urls": [] },
+    { "code": "Joyaux 824", "images": ["70m9i2v4", "scuckm6h"], "variant": "", "diameter": "50.70", "weight": "25.56", "page": "145", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 5", "images": ["srd0x7ak", "5a773y1a"], "variant": "", "diameter": "", "weight": "", "page": "5", "plate": "", "articles": [], "urls": [] },
+    { "code": "STTMM 2", "images": ["lz0fr772", "h9ciadhp"], "variant": "", "diameter": "51.10", "weight": "25.00", "page": "76", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "59out4lc", "page": "35", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -65,10 +65,10 @@
     { "reference_uuid": "jybo2v6v", "page": "202", "plate": "", "identifier": "27", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "MANT vae14-1145", "images": ["5a2jrgo9", "iic889wt"], "diameter": "51.00", "weight": "25.03", "page": "", "plate": "" },
-    { "code": "BMTW 55.820.2", "images": ["zd9rrmm9"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "IKAR MM2", "images": ["g4rfwg8v"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "TGCT MM1", "images": ["rx9bps8a", "khfebecx"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "MANT vae14-1145", "images": ["5a2jrgo9", "iic889wt"], "variant": "", "diameter": "51.00", "weight": "25.03", "page": "", "plate": "" },
+    { "code": "BMTW 55.820.2", "images": ["zd9rrmm9"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "IKAR MM2", "images": ["g4rfwg8v"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "TGCT MM1", "images": ["rx9bps8a", "khfebecx"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "33", "uuid": "5a2jrgo9", "src": "c5c765361b8e4f9089c7b9a4949c3ade-1.png", "href": "MANT MM2", "copyright": "0", "country": "fr", "year": "2013", "color": "0", "visible": "1" },

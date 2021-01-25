@@ -7,8 +7,8 @@
     { "image_id": "4", "uuid": "ral7q9iq", "src": "d99b77bd1b5443878c4fd51394b5b0c4-2.png", "href": "ANZDQ_90", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" }
   ],
   "reference_specimens": [
-    { "code": "Thierry 1785", "images": ["vu59rpk6", "rts6yhbx"], "diameter": "50.50", "weight": "27.85", "page": "96", "plate": "30", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 90", "images": ["uno99i9g", "ral7q9iq"], "diameter": "", "weight": "", "page": "108", "plate": "", "articles": [], "urls": [] }
+    { "code": "Thierry 1785", "images": ["vu59rpk6", "rts6yhbx"], "variant": "", "diameter": "50.50", "weight": "27.85", "page": "96", "plate": "30", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 90", "images": ["uno99i9g", "ral7q9iq"], "variant": "", "diameter": "", "weight": "", "page": "108", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "uh1x8rgi", "page": "96", "plate": "30", "identifier": "1785", "notes": "", "articles": [], "urls": [] },
@@ -17,7 +17,7 @@
     { "reference_uuid": "jybo2v6v", "page": "191", "plate": "", "identifier": "12", "notes": "anzdq_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "IKAR TD10", "images": ["4snr9el5"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "IKAR TD10", "images": ["4snr9el5"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "5", "uuid": "4snr9el5", "src": "70c19610de604adea9b8add26b80dff4-2.png", "href": "IKAR TD10", "copyright": "0", "country": "ja", "year": "2016", "color": "0", "visible": "1" },

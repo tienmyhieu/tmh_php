@@ -7,8 +7,8 @@
     { "image_id": "4", "uuid": "kbmohero", "src": "b1e4d6187ecc4be4b9127cdb5f1ce38f-2.png", "href": "ANZDQ_47", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" }
   ],
   "reference_specimens": [
-    { "code": "三浦清吾 21", "images": ["yq4w1mru", "9v2hs0ih"], "diameter": "", "weight": "", "page": "22", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 73", "images": ["fkn8yw2b", "kbmohero"], "diameter": "", "weight": "", "page": "91", "plate": "", "articles": [], "urls": [] }
+    { "code": "三浦清吾 21", "images": ["yq4w1mru", "9v2hs0ih"], "variant": "", "diameter": "", "weight": "", "page": "22", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 73", "images": ["fkn8yw2b", "kbmohero"], "variant": "", "diameter": "", "weight": "", "page": "91", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "nlyz7za5", "page": "22", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -18,8 +18,8 @@
     { "reference_uuid": "jybo2v6v", "page": "205", "plate": "", "identifier": "30", "notes": "anzdq_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "SSSC TD1", "images": ["jyufp9t4", "kh3f2w9w"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "IKAR TD2", "images": ["ri3gt4lz"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "SSSC TD1", "images": ["jyufp9t4", "kh3f2w9w"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "IKAR TD2", "images": ["ri3gt4lz"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "5", "uuid": "jyufp9t4", "src": "4bfba93df4e34566abeecebb917520b9-1.png", "href": "SSSC TD1", "copyright": "0", "country": "cn", "year": "2008", "color": "0", "visible": "1" },

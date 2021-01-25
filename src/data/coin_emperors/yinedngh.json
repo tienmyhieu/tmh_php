@@ -9,16 +9,16 @@
     { "image_id": "6", "uuid": "8wo1hlnw", "src": "55c352328b7d42e6a8ff0cbf9b032a90-2.png", "href": "BTTPHCM_4", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "BTTPHCM 4", "images": ["xr0wag0n", "3sb59k05"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "BTTPHCM 4", "images": ["xr0wag0n", "3sb59k05"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "gvkepvmm", "page": "6", "plate": "", "identifier": "19", "notes": "btlsqg", "articles": [], "urls": [] },
     { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "4", "notes": "bttphcm_td", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "IKAR TD6", "images": ["ticd279j"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "GQYD TD1", "images": ["y75ucs2f", "xatgr7vk"], "diameter": "50.00", "weight": "33.74", "page": "", "plate": "" },
-    { "code": "WOYL TD8", "images": ["5j731qck", "n7jniqzr"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "IKAR TD6", "images": ["ticd279j"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "GQYD TD1", "images": ["y75ucs2f", "xatgr7vk"], "variant": "", "diameter": "50.00", "weight": "33.74", "page": "", "plate": "" },
+    { "code": "WOYL TD8", "images": ["5j731qck", "n7jniqzr"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "7", "uuid": "ticd279j", "src": "5eb2256bbfd24b83bd1d0fa0cb6de637-2.png", "href": "IKAR TD6", "copyright": "0", "country": "ja", "year": "2016", "color": "0", "visible": "1" },

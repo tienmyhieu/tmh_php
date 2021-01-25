@@ -8,9 +8,9 @@
     { "image_id": "18", "uuid": "dz4fayr9", "src": "8d4d9f30805c42deafac7baa818582f9-2.png", "href": "ANZDQ_50", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 453", "images": ["arrh6da8"], "diameter": "", "weight": "", "page": "185", "plate": "33", "articles": [], "urls": [] },
-    { "code": "Thierry V138", "images": ["576tz6t1", "ranryarc"], "diameter": "53.70", "weight": "39.00", "page": "57", "plate": "35", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 50", "images": ["tipjt2yq", "dz4fayr9"], "diameter": "", "weight": "", "page": "71", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 453", "images": ["arrh6da8"], "variant": "", "diameter": "", "weight": "", "page": "185", "plate": "33", "articles": [], "urls": [] },
+    { "code": "Thierry V138", "images": ["576tz6t1", "ranryarc"], "variant": "", "diameter": "53.70", "weight": "39.00", "page": "57", "plate": "35", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 50", "images": ["tipjt2yq", "dz4fayr9"], "variant": "", "diameter": "", "weight": "", "page": "71", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },

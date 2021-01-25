@@ -7,8 +7,8 @@
     { "image_id": "4", "uuid": "a4gfzt6n", "src": "acad993f68594676a22be1952cb4df50-2.png", "href": "ANZDQ_46", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" }
   ],
   "reference_specimens": [
-    { "code": "Thierry 1622", "images": ["c5jbamby", "ykaxgelo"], "diameter": "52.00", "weight": "32.24", "page": "92", "plate": "27", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 46", "images": ["o1shmbvi", "a4gfzt6n"], "diameter": "", "weight": "", "page": "67", "plate": "", "articles": [], "urls": [] }
+    { "code": "Thierry 1622", "images": ["c5jbamby", "ykaxgelo"], "variant": "", "diameter": "52.00", "weight": "32.24", "page": "92", "plate": "27", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 46", "images": ["o1shmbvi", "a4gfzt6n"], "variant": "", "diameter": "", "weight": "", "page": "67", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },

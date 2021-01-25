@@ -16,10 +16,10 @@
     { "image_id": "13", "uuid": "k6xv57gb", "src": "544cfcdabf6f4b179bfb87b5748de341-2.png", "href": "BTTPHCM_7", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 463", "images": ["h4xwr5ba"], "diameter": "", "weight": "", "page": "190", "plate": "34", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 89", "images": ["0yiq7ndh", "bzxxpk9v"], "diameter": "", "weight": "", "page": "107", "plate": "", "articles": [], "urls": [] },
-    { "code": "VN6 TD4", "images": ["9l3f925s", "h1y9i7u2"], "diameter": "", "weight": "", "page": "11", "plate": "", "articles": [], "urls": [] },
-    { "code": "BTTPHCM 7", "images": ["a4vv32zz", "vbwc5sid"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 463", "images": ["h4xwr5ba"], "variant": "", "diameter": "", "weight": "", "page": "190", "plate": "34", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 89", "images": ["0yiq7ndh", "bzxxpk9v"], "variant": "", "diameter": "", "weight": "", "page": "107", "plate": "", "articles": [], "urls": [] },
+    { "code": "VN6 TD4", "images": ["9l3f925s", "h1y9i7u2"], "variant": "", "diameter": "", "weight": "", "page": "11", "plate": "", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 7", "images": ["a4vv32zz", "vbwc5sid"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "egjosprx", "page": "190", "plate": "34", "identifier": "463", "notes": "", "articles": [], "urls": [] },

@@ -7,8 +7,8 @@
     { "image_id": "4", "uuid": "2t1tihe0", "src": "41563c1ebfac4075ba3747bf4e9c32ea-2.png", "href": "ANZDQ_85", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" }
   ],
   "reference_specimens": [
-    { "code": "Thierry 1780", "images": ["7ibctadq", "y6pmy82k"], "diameter": "50.90", "weight": "34.91", "page": "96", "plate": "30", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 85", "images": ["s8hlcqjm", "2t1tihe0"], "diameter": "", "weight": "", "page": "103", "plate": "", "articles": [], "urls": [] }
+    { "code": "Thierry 1780", "images": ["7ibctadq", "y6pmy82k"], "variant": "", "diameter": "50.90", "weight": "34.91", "page": "96", "plate": "30", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 85", "images": ["s8hlcqjm", "2t1tihe0"], "variant": "", "diameter": "", "weight": "", "page": "103", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "uh1x8rgi", "page": "96", "plate": "30", "identifier": "1780", "notes": "", "articles": [], "urls": [] },
@@ -17,8 +17,8 @@
     { "reference_uuid": "jybo2v6v", "page": "182", "plate": "", "identifier": "3", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "BSWA 10.199", "images": ["147kstub", "g9wxrhha"], "diameter": "", "weight": "36.98", "page": "", "plate": "" },
-    { "code": "BMTW 55.811", "images": ["dvr0w9e5", "7szwfj5u"], "diameter": "50.00", "weight": "", "page": "", "plate": "" }
+    { "code": "BSWA 10.199", "images": ["147kstub", "g9wxrhha"], "variant": "", "diameter": "", "weight": "36.98", "page": "", "plate": "" },
+    { "code": "BMTW 55.811", "images": ["dvr0w9e5", "7szwfj5u"], "variant": "", "diameter": "50.00", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "5", "uuid": "147kstub", "src": "ef2ca40f1dc34e2786eec8ac8a6ce056-1.png", "href": "BSWA_TD3", "copyright": "0", "country": "be", "year": "2012", "color": "0", "visible": "1" },

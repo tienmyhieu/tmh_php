@@ -18,11 +18,11 @@
     { "image_id": "15", "uuid": "gock1mfp", "src": "c4668c4a2d5c4c6696350d550cd13651-2.png", "href": "HCCV_196", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 460", "images": ["tjofqd5i"], "diameter": "", "weight": "", "page": "190", "plate": "34", "articles": [], "urls": [] },
-    { "code": "三浦清吾 24", "images": ["1vsci6q0", "rl6mag69"], "diameter": "", "weight": "", "page": "23", "plate": "", "articles": [], "urls": [] },
-    { "code": "Barker 196", "images": ["v95ybi91", "4ue97h16"], "diameter": "51.31", "weight": "36.83", "page": "307", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 86", "images": ["zyyhg9gt", "8ol36wtz"], "diameter": "", "weight": "", "page": "104", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 54", "images": ["gotswamz", "atla73wl"], "diameter": "", "weight": "", "page": "54", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 460", "images": ["tjofqd5i"], "variant": "", "diameter": "", "weight": "", "page": "190", "plate": "34", "articles": [], "urls": [] },
+    { "code": "三浦清吾 24", "images": ["1vsci6q0", "rl6mag69"], "variant": "", "diameter": "", "weight": "", "page": "23", "plate": "", "articles": [], "urls": [] },
+    { "code": "Barker 196", "images": ["v95ybi91", "4ue97h16"], "variant": "", "diameter": "51.31", "weight": "36.83", "page": "307", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 86", "images": ["zyyhg9gt", "8ol36wtz"], "variant": "", "diameter": "", "weight": "", "page": "104", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 54", "images": ["gotswamz", "atla73wl"], "variant": "", "diameter": "", "weight": "", "page": "54", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "egjosprx", "page": "190", "plate": "34", "identifier": "460", "notes": "", "articles": [], "urls": [] },
@@ -36,7 +36,7 @@
     { "reference_uuid": "jybo2v6v", "page": "183", "plate": "", "identifier": "4", "notes": "hccv_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "MANT vae14-1175", "images": ["b9v2ybqz", "ntplg3s7"], "diameter": "51.00", "weight": "29.81", "page": "", "plate": "" }
+    { "code": "MANT vae14-1175", "images": ["b9v2ybqz", "ntplg3s7"], "variant": "", "diameter": "51.00", "weight": "29.81", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "16", "uuid": "b9v2ybqz", "src": "3c4c17ba7bec4df98518ea427eecb480-1.png", "href": "MANT_TD5", "copyright": "0", "country": "fr", "year": "2013", "color": "0", "visible": "1" },

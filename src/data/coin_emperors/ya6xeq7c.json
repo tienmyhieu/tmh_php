@@ -8,9 +8,9 @@
     { "image_id": "5", "uuid": "0gf0n5x8", "src": "daee406f9cb942b2973f15044f4e6152-2.png", "href": "ANZDQ_65", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 455", "images": ["zzyrb7t3"], "diameter": "", "weight": "", "page": "185", "plate": "33", "articles": [], "urls": [] },
-    { "code": "Thierry 1606", "images": ["0r8uxls6", "aeaqehwx"], "diameter": "52.90", "weight": "39.19", "page": "91", "plate": "25", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 65", "images": ["kipk6g2x", "0gf0n5x8"], "diameter": "", "weight": "", "page": "84", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 455", "images": ["zzyrb7t3"], "variant": "", "diameter": "", "weight": "", "page": "185", "plate": "33", "articles": [], "urls": [] },
+    { "code": "Thierry 1606", "images": ["0r8uxls6", "aeaqehwx"], "variant": "", "diameter": "52.90", "weight": "39.19", "page": "91", "plate": "25", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 65", "images": ["kipk6g2x", "0gf0n5x8"], "variant": "", "diameter": "", "weight": "", "page": "84", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -27,8 +27,8 @@
     { "reference_uuid": "jybo2v6v", "page": "196", "plate": "", "identifier": "17", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "HUAY TT6", "images": ["wdm33y0k", "8zkobv5b"], "diameter": "53.00", "weight": "32.50", "page": "", "plate": "" },
-    { "code": "MVBO 155", "images": ["95db91ji", "bh6c21uc"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "HUAY TT6", "images": ["wdm33y0k", "8zkobv5b"], "variant": "", "diameter": "53.00", "weight": "32.50", "page": "", "plate": "" },
+    { "code": "MVBO 155", "images": ["95db91ji", "bh6c21uc"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "6", "uuid": "wdm33y0k", "src": "f6c700dd9b4d4305ae5870b2b0e8076f-1.png", "href": "HUAY_TT6", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },

@@ -15,10 +15,10 @@
     { "image_id": "12", "uuid": "m9r59yg0", "src": "47ae6be39016406abb1f2ffacac7c23b-2.png", "href": "HCCV_195", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 471", "images": ["l4xj9fl0"], "diameter": "", "weight": "", "page": "191", "plate": "35", "articles": [], "urls": [] },
-    { "code": "Schroeder 166", "images": ["gd1znsuu"], "diameter": "", "weight": "", "page": "434", "plate": "63", "articles": ["ao05st0x"], "urls": [] },
-    { "code": "Barker 195", "images": ["16n14bbz", "3opjrkco"], "diameter": "50.46", "weight": "29.70", "page": "306", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 60", "images": ["uu1lhqmf", "lrv3d2jb"], "diameter": "", "weight": "", "page": "60", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 471", "images": ["l4xj9fl0"], "variant": "", "diameter": "", "weight": "", "page": "191", "plate": "35", "articles": [], "urls": [] },
+    { "code": "Schroeder 166", "images": ["gd1znsuu"], "variant": "", "diameter": "", "weight": "", "page": "434", "plate": "63", "articles": ["ao05st0x"], "urls": [] },
+    { "code": "Barker 195", "images": ["16n14bbz", "3opjrkco"], "variant": "", "diameter": "50.46", "weight": "29.70", "page": "306", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 60", "images": ["uu1lhqmf", "lrv3d2jb"], "variant": "", "diameter": "", "weight": "", "page": "60", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "egjosprx", "page": "191", "plate": "35", "identifier": "471", "notes": "", "articles": [], "urls": [] },
@@ -29,7 +29,7 @@
     { "reference_uuid": "jybo2v6v", "page": "195", "plate": "", "identifier": "16", "notes": "hccv_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "KYQS TD1", "images": ["tx3o374d", "piog5fyt"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "KYQS TD1", "images": ["tx3o374d", "piog5fyt"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "13", "uuid": "tx3o374d", "src": "e37ae939bea34a36828924c569a53a37-1.png", "href": "KYQS TD1", "copyright": "0", "country": "cn", "year": "2009", "color": "0", "visible": "1" },

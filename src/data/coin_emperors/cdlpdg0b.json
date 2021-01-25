@@ -13,10 +13,10 @@
     { "image_id": "10", "uuid": "pmzgprzz", "src": "5ac3552bdf904534b0ee547ad46a6fe1-2.png", "href": "VN6_TD15", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Thierry 1", "images": ["yvhjbqb2", "8mmsshz0"], "diameter": "52.00", "weight": "41.00", "page": "270", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 80", "images": ["wd7gk6cn", "z60y8d3v"], "diameter": "", "weight": "", "page": "98", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 48", "images": ["mf9eekjk", "b14izi2d"], "diameter": "", "weight": "", "page": "48", "plate": "", "articles": [], "urls": [] },
-    { "code": "VN6 TD15", "images": ["v5yn4bsr", "7raqv85e"], "diameter": "", "weight": "", "page": "13", "plate": "", "articles": [], "urls": [] }
+    { "code": "Thierry 1", "images": ["yvhjbqb2", "8mmsshz0"], "variant": "", "diameter": "52.00", "weight": "41.00", "page": "270", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 80", "images": ["wd7gk6cn", "z60y8d3v"], "variant": "", "diameter": "", "weight": "", "page": "98", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 48", "images": ["mf9eekjk", "b14izi2d"], "variant": "", "diameter": "", "weight": "", "page": "48", "plate": "", "articles": [], "urls": [] },
+    { "code": "VN6 TD15", "images": ["v5yn4bsr", "7raqv85e"], "variant": "", "diameter": "", "weight": "", "page": "13", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "g280nf48", "page": "270", "plate": "", "identifier": "1", "notes": "", "articles": [], "urls": [] },

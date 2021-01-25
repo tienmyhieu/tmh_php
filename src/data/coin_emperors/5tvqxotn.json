@@ -10,9 +10,9 @@
     { "image_id": "7", "uuid": "oka99ra2", "src": "a3957a1027e14104825c2cdb7f594ad8-2.png", "href": "VN6_TD3", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Schroeder 164", "images": ["jgqpunvt"], "diameter": "", "weight": "", "page": "433", "plate": "62", "articles": ["271wji3h"], "urls": [] },
-    { "code": "満泉堂 57", "images": ["uwv28w5b", "u1bd5y97"], "diameter": "", "weight": "", "page": "57", "plate": "", "articles": [], "urls": [] },
-    { "code": "VN6 TD3", "images": ["d1jl3lp2", "ax42pdfw"], "diameter": "", "weight": "", "page": "11", "plate": "", "articles": [], "urls": [] }
+    { "code": "Schroeder 164", "images": ["jgqpunvt"], "variant": "", "diameter": "", "weight": "", "page": "433", "plate": "62", "articles": ["271wji3h"], "urls": [] },
+    { "code": "満泉堂 57", "images": ["uwv28w5b", "u1bd5y97"], "variant": "", "diameter": "", "weight": "", "page": "57", "plate": "", "articles": [], "urls": [] },
+    { "code": "VN6 TD3", "images": ["d1jl3lp2", "ax42pdfw"], "variant": "", "diameter": "", "weight": "", "page": "11", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "3wpxtg83", "page": "433", "plate": "62", "identifier": "167", "notes": "" , "articles": ["271wji3h"]},
@@ -20,8 +20,8 @@
     { "reference_uuid": "gvkepvmm", "page": "11", "plate": "", "identifier": "3", "notes": "btlsqg", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "HUAY TD8", "images": ["pvdvrgp1", "3nmdvjq6"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "ZNTK TD1", "images": ["7h6b0uyv", "2vt89njq"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "HUAY TD8", "images": ["pvdvrgp1", "3nmdvjq6"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "ZNTK TD1", "images": ["7h6b0uyv", "2vt89njq"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "8", "uuid": "pvdvrgp1", "src": "4afc878f74e54e6e92e9d2f2c9dc2079-1.png", "href": "HUAY TD8", "copyright": "0", "country": "cn", "year": "2014", "color": "0", "visible": "1" },

@@ -10,8 +10,8 @@
     { "image_id": "7", "uuid": "r7swcrc1", "src": "e425c07a4b8544ddbfcb2fed871cb75f-2.png", "href": "BTTPHCM_14", "copyright": "0", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Lacroix 478", "images": ["dhy6najq"], "diameter": "", "weight": "", "page": "191", "plate": "36", "articles": [], "urls": [] },
-    { "code": "BTTPHCM 14", "images": ["c9rtapsm", "zyfpakfa"], "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "Lacroix 478", "images": ["dhy6najq"], "variant": "", "diameter": "", "weight": "", "page": "191", "plate": "36", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 14", "images": ["c9rtapsm", "zyfpakfa"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "egjosprx", "page": "191", "plate": "36", "identifier": "478", "notes": "", "articles": [], "urls": [] },
@@ -21,8 +21,8 @@
     { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "14", "notes": "bttphcm_td", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "DDDU TD1", "images": ["lbyy7pyl", "8pt81115"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "GZLL TD2", "images": ["ovnoee7t", "jpzrmsht"], "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "DDDU TD1", "images": ["lbyy7pyl", "8pt81115"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "GZLL TD2", "images": ["ovnoee7t", "jpzrmsht"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "8", "uuid": "lbyy7pyl", "src": "9437099223324bfc80fb378b1648526a-1.png", "href": "DDDU_TD1", "copyright": "0", "country": "vn", "year": "2009", "color": "0", "visible": "1" },

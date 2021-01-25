@@ -7,7 +7,7 @@
     { "image_id": "4", "uuid": "wvel5un1", "src": "04f7feef8cb0457ab26280e5a592fb7b-2.png", "href": "BRMU_TT2", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "BRMU TT2", "images": ["jye3p5wc", "glh5z5fc"], "diameter": "52.00", "weight": "36.67", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "BRMU TT2", "images": ["jye3p5wc", "glh5z5fc"], "variant": "", "diameter": "52.00", "weight": "36.67", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -19,8 +19,8 @@
     { "reference_uuid": "08w1apoy", "page": "", "plate": "", "identifier": "1983,0619.261", "notes": "", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "IKAR TT6", "images": ["i08f1u6l"], "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "HUAY TT4", "images": ["tu2ordc4", "n0yeuum2"], "diameter": "51.20", "weight": "34.30", "page": "", "plate": "" }
+    { "code": "IKAR TT6", "images": ["i08f1u6l"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "HUAY TT4", "images": ["tu2ordc4", "n0yeuum2"], "variant": "", "diameter": "51.20", "weight": "34.30", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "5", "uuid": "i08f1u6l", "src": "2e5716c0512b42f286e3e25c299e4fb6-2.png", "href": "IKARU TT6", "copyright": "0", "country": "ja", "year": "2016", "color": "0", "visible": "1" },
