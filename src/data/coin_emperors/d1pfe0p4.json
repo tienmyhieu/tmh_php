@@ -1,0 +1,31 @@
+{
+  "page_image": "42894f4c19e04637b328e8d835685d9e-2",
+  "images": [
+    { "image_id": "1", "uuid": "nfqvwdb9", "src": "ff13d7c98930450c97b73dce99824365-2.png", "href": "AEN_319", "copyright": "0", "country": "fr", "year": "1905", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "pf4trlxb", "src": "42894f4c19e04637b328e8d835685d9e-1.png", "href": "MEO2_V217", "copyright": "1", "country": "fr", "year": "1986", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "ksv4h9nk", "src": "42894f4c19e04637b328e8d835685d9e-2.png", "href": "MEO2_V217", "copyright": "1", "country": "fr", "year": "1986", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "mu454vcv", "src": "a7ed1e764ece455da934423d56211730-1.png", "href": "CMV_1787", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "uo39js03", "src": "a7ed1e764ece455da934423d56211730-2.png", "href": "CMV_1787", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" }
+  ],
+  "reference_specimens": [
+    { "code": "Schroeder 319", "images": ["nfqvwdb9"], "variant": "", "diameter": "", "weight": "", "page": "467", "plate": "86", "articles": [], "urls": [] },
+    { "code": "Thierry V217", "images": ["pf4trlxb", "ksv4h9nk"], "variant": "", "diameter": "53.00", "weight": "38.94", "page": "64", "plate": "62", "articles": [], "urls": [] },
+    { "code": "Thierry 1787", "images": ["mu454vcv", "uo39js03"], "variant": "", "diameter": "52.00", "weight": "38.18", "page": "96", "plate": "31", "articles": [], "urls": [] }
+  ],
+  "references": [
+    { "reference_uuid": "3wpxtg83", "page": "467", "plate": "", "identifier": "319", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "o16jso3o", "page": "66", "plate": "", "identifier": "", "notes": "aen_partial_copy", "articles": [], "urls": [] },
+    { "reference_uuid": "e4m6tdqj", "page": "38", "plate": "", "identifier": "319", "notes": "", "articles": []},
+    { "reference_uuid": "pjmp6uhz", "page": "63", "plate": "", "identifier": "15", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "epbbj5hx", "page": "64", "plate": "64", "identifier": "V217", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "uh1x8rgi", "page": "96", "plate": "31", "identifier": "1787", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "57qxr0k8", "page": "235", "plate": "", "identifier": "357", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "5ekjpp24", "page": "269", "plate": "", "identifier": "", "notes": "cites_thierry", "articles": [], "urls": [] },
+    { "reference_uuid": "vt6sjmp6", "page": "131", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "ybfi7983", "page": "380", "plate": "", "identifier": "18", "notes": "", "articles": []},
+    { "reference_uuid": "jybo2v6v", "page": "197", "plate": "", "identifier": "18", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
+  ],
+  "other_specimens": [],
+  "other_images": [],
+  "collections": []
+}
