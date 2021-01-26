@@ -32,8 +32,8 @@
     { "reference_uuid": "jybo2v6v", "page": "194", "plate": "", "identifier": "15", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "WOYL TT7", "images": ["qsmy84v2", "ywpvh27i"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "WOYL TT8", "images": ["ec0svl6b", "tfqfk5cg"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "WOYL TT7", "images": ["qsmy84v2", "ywpvh27i"], "variant": "28o8xdkb", "diameter": "", "weight": "", "page": "", "plate": "" },
+    { "code": "WOYL TT8", "images": ["ec0svl6b", "tfqfk5cg"], "variant": "q3wrske6", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "9", "uuid": "qsmy84v2", "src": "9c56e7d563a7418cbeb9b2957fe5f75b-1.png", "href": "WOYL TT7", "copyright": "0", "country": "cn", "year": "2020", "color": "0", "visible": "1" },
