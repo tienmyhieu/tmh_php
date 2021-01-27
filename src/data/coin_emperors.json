@@ -166,7 +166,7 @@
   { "coin_emperor_id": "165", "uuid": "qx5qd23b", "coin_uuid": "9tzc17hq", "count": "4", "emperor_uuid": "zn6uo1wi", "inscription_uuid": "qfhj10vu", "metal_uuid": "shz7uzxw", "visible": "1" },
   { "coin_emperor_id": "166", "uuid": "7g8rn66r", "coin_uuid": "j299tlz9", "count": "0", "emperor_uuid": "mezsdqwu", "inscription_uuid": "0ccoge7i", "metal_uuid": "shz7uzxw", "visible": "1" },
   { "coin_emperor_id": "167", "uuid": "iv4negg1", "coin_uuid": "j299tlz9", "count": "0", "emperor_uuid": "4n18conu", "inscription_uuid": "0ccoge7i", "metal_uuid": "shz7uzxw", "visible": "1" },
-  { "coin_emperor_id": "168", "uuid": "imammzs8", "coin_uuid": "j299tlz9", "count": "5", "emperor_uuid": "zn6uo1wi", "inscription_uuid": "0ccoge7i", "metal_uuid": "shz7uzxw", "visible": "1" },
+  { "coin_emperor_id": "168", "uuid": "imammzs8", "coin_uuid": "j299tlz9", "count": "2", "emperor_uuid": "zn6uo1wi", "inscription_uuid": "0ccoge7i", "metal_uuid": "shz7uzxw", "visible": "1" },
   { "coin_emperor_id": "169", "uuid": "719m4shv", "coin_uuid": "hwkhn0c3", "count": "0", "emperor_uuid": "mezsdqwu", "inscription_uuid": "ja897g7o", "metal_uuid": "shz7uzxw", "visible": "1" },
   { "coin_emperor_id": "170", "uuid": "5229krj1", "coin_uuid": "hwkhn0c3", "count": "0", "emperor_uuid": "4n18conu", "inscription_uuid": "ja897g7o", "metal_uuid": "shz7uzxw", "visible": "1" },
   { "coin_emperor_id": "171", "uuid": "fc0lhgka", "coin_uuid": "hwkhn0c3", "count": "5", "emperor_uuid": "zn6uo1wi", "inscription_uuid": "ja897g7o", "metal_uuid": "shz7uzxw", "visible": "1" }
