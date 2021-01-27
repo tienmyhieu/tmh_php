@@ -28,10 +28,18 @@ switch ($template) {
         ];
         $output->setEntities($entities);
         break;
+    case 'coin':
+        $identifier = $meta->identifier();
+        $coin = $factory->coin();
+        $entities = [
+            'coin' => $coin->get($identifier, $meta->language())
+        ];
+        $output->setEntities($entities);
+        break;
     case 'coin_emperor':
         $coinEmperor = $factory->coinEmperor();
         $identifier = $meta->identifier();
-        $emperor = $coinEmperors->getEmperorByCoinEmperorId($meta->identifier());
+        $emperor = $coinEmperors->getEmperorByCoinEmperorId($identifier);
         $entities = [
             'coinEmperor' => $coinEmperor->get($identifier, 'ca'),
             'coins' => $coinEmperors->getEmperorList($emperor['uuid']),

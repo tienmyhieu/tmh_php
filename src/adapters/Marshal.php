@@ -40,6 +40,14 @@ class Marshal
         return $this->transformArticle($article, $locales);
     }
 
+    public function coin($coinId)
+    {
+        $coin = $this->json->loadSubData('coins', $coinId);
+        //print_r($coin);
+        //print_r($this->coins);
+        return $coin;
+    }
+
     public function coinEmperor($coinEmperorId)
     {
         $coinEmperor = $this->json->loadSubData('coin_emperors', $coinEmperorId);

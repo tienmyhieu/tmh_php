@@ -2,6 +2,7 @@
 namespace core;
 
 use adapters\Articles;
+use adapters\Coin;
 use adapters\CoinEmperor;
 use adapters\CoinEmperors;
 use adapters\Json;
@@ -11,6 +12,7 @@ use adapters\Output;
 use adapters\ReferenceEmperors;
 
 require_once (__DIR__ . '/../adapters/Articles.php');
+require_once (__DIR__ . '/../adapters/Coin.php');
 require_once (__DIR__ . '/../adapters/CoinEmperor.php');
 require_once (__DIR__ . '/../adapters/CoinEmperors.php');
 require_once (__DIR__ . '/../adapters/Json.php');
@@ -24,6 +26,11 @@ class Factory
     public function articles()
     {
         return new Articles($this->json(), $this->language());
+    }
+
+    public function coin()
+    {
+        return new Coin($this->json(), $this->language());
     }
 
     public function coinEmperor()

@@ -13,6 +13,9 @@ class Output
             case 'article':
                 $output = $this->article();
                 break;
+            case 'coin':
+                $output = $this->coin();
+                break;
             case 'coin_emperor':
                 $output = $this->coinEmperor();
                 break;
@@ -38,6 +41,12 @@ class Output
         $lexicon = $this->getEntity('lexicon');
         $output = HtmlOutput::article($article, $lexicon);
         return $output;
+    }
+
+    private function coin(): string
+    {
+        $coin = $this->getEntity('coin');
+        return '';
     }
 
     private function coinEmperor(): string
