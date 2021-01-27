@@ -18,8 +18,11 @@
   ],
   "references": [
     { "reference_uuid": "uh1x8rgi", "page": "98", "plate": "31", "identifier": "1786", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "5ekjpp24", "page": "311", "plate": "", "identifier": "202", "notes": "", "articles": [], "urls": [] },
     { "reference_uuid": "vt6sjmp6", "page": "131", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
-    { "reference_uuid": "5ekjpp24", "page": "311", "plate": "", "identifier": "202", "notes": "", "articles": [], "urls": [] }
+    { "reference_uuid": "ybfi7983", "page": "380", "plate": "", "identifier": "20", "notes": "", "articles": []},
+    { "reference_uuid": "cxqs7bca", "page": "307", "plate": "", "identifier": "312", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "jybo2v6v", "page": "197", "plate": "", "identifier": "20", "notes": "cmv_partial_copy", "articles": [], "urls": [] }
   ],
   "other_specimens": [
     { "code": "MOUL TD1", "images": ["ia5kxaeh", "3n6t1gu5"], "variant": "", "diameter": "52.45", "weight": "49.70", "page": "", "plate": "" },
