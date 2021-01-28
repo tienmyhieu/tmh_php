@@ -9,6 +9,7 @@ class Marshal
     protected $collections;
     protected $emperors;
     protected $inscriptions;
+    protected $language;
     protected $lexicon;
     protected $references;
     protected $variants;
@@ -19,6 +20,7 @@ class Marshal
     public function __construct($json, $language)
     {
         $this->json = $json;
+        $this->language = $language;
         $common = $json->loadLocalized($language, 'common');
         $this->articles = $json->setCollectionKeys($common, 'article');
         $this->coins = $json->setCollectionKeys($common, 'coin');
@@ -42,10 +44,12 @@ class Marshal
 
     public function coin($coinId)
     {
-        $coin = $this->json->loadSubData('coins', $coinId);
-        //print_r($coin);
-        //print_r($this->coins);
-        return $coin;
+        return $this->json->loadSubData('coins', $coinId);
+    }
+
+    public function coins()
+    {
+        return $this->coins;
     }
 
     public function coinEmperor($coinEmperorId)
@@ -82,13 +86,21 @@ class Marshal
         return $this->lexicon;
     }
 
+    public function maxims($coinId)
+    {
+        return $this->json->loadLocalizedSubData('maxims', $coinId, $this->language);
+    }
+
     public function referenceEmperors()
     {
+        $this->references = $this->references();
+        return $this->json->loadData('reference_emperors');
+    }
+
+    public function references()
+    {
         $references = $this->json->loadData('references');
-        $this->references = $this->json->setCollectionKeys($references, 'reference', false);
-        $referenceEmperors = $this->json->loadData('reference_emperors');
-        //$referenceEmperors['images'] = $this->json->setCollectionKeys($referenceEmperors['images'], 'image', false);
-        return $referenceEmperors;
+        return $this->json->setCollectionKeys($references, 'reference', false);
     }
 
     public function variants()
@@ -96,12 +108,12 @@ class Marshal
         return $this->variants;
     }
 
-    private function itemsKey($items, $key)
+    private function itemsKey($items, $key): string
     {
         return in_array($key, array_keys($items)) ? $items[$key] : '';
     }
 
-    private function setKeyedItems($items)
+    private function setKeyedItems($items): array
     {
         $keyedItems = [];
         foreach ($items as $item) {

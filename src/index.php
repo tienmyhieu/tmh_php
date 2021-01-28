@@ -32,7 +32,12 @@ switch ($template) {
         $identifier = $meta->identifier();
         $coin = $factory->coin();
         $entities = [
-            'coin' => $coin->get($identifier, $meta->language())
+            'coin' => $coin->get($identifier),
+            'coins' => $coin->coins(),
+            'emperors' => $coin->emperors(),
+            'lexicon' => $coin->lexicon(),
+            'maxims' => $coin->maxims($identifier),
+            'references' => $coin->references()
         ];
         $output->setEntities($entities);
         break;

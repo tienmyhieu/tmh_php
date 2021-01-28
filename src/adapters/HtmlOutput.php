@@ -229,6 +229,62 @@ class HtmlOutput
             . '</table>' . "\n";
     }
 
+    public static function coinListTable($coins, $lexicon): string
+    {
+        $html = "\n\t\t\t" . '<table width="100%" border="1" cellpadding="2" cellspacing="1">';
+        $html .= "\n\t\t\t\t" . '<thead>';
+        $html .= "\n\t\t\t\t\t" . '<tr>';
+        $html .= "\n\t\t\t\t\t\t" . '<th align="left">' . $lexicon['reverse'] . '</th>';
+        $html .= "\n\t\t\t\t\t" . '</tr>';
+        $html .= "\n\t\t\t\t" . '</thead>';
+        $html .= "\n\t\t\t\t" . '<tbody>';
+        foreach ($coins as $coin) {
+            $coinTitle = self::linkTitle($coin['href']);
+            $html .= "\n\t\t\t\t\t" . '<tr>';
+            $html .= "\n\t\t\t\t\t\t" . '<td><a href="' . $coin['href'] . '" title="' . $coinTitle . '">' . $coin['name'] . '</a></td>';
+            $html .= "\n\t\t\t\t\t" . '</tr>';
+        }
+        $html .= "\n\t\t\t\t" . '</tbody>';
+        $html .= "\n\t\t\t" . '</table>';
+        return $html;
+    }
+
+    public static function coinEmperors($coin, $emperors, $lexicon): string
+    {
+        $html = '';
+        $imagePreviewSize = '128';
+        $baseUrl = 'http://img1.tienmyhieu.com/';
+        foreach ($coin['emperors'] as $emperorCoin) {
+            $emperor = $emperors[$emperorCoin['emperor_uuid']];
+            $title = self::linkTitle($emperor['href']);
+            $html .= "\n\t\t\t" . '<table border="1" cellpadding="2" cellspacing="1">';
+            $html .= "\n\t\t\t\t" . '<tr>';
+            $html .= "\n\t\t\t\t\t" . '<td valign="top" colspan="2">';
+            $html .= "\n\t\t\t\t\t" . $title;
+            $html .= "\n\t\t\t\t\t" .'</td>';
+            $html .= "\n\t\t\t\t" . '</tr>';
+            $html .= "\n\t\t\t\t" . '<tr>';
+            if (1 == count($emperorCoin['images'])) {
+                $html .= "\n\t\t\t\t\t" . '<td valign="top">&nbsp;</td>';
+            }
+            foreach ($emperorCoin['images'] as $image) {
+                $image = $coin['images'][$image];
+                $imageTitle = self::linkTitle($image['href']);
+                $src =  $baseUrl . $imagePreviewSize . '/' . $image['src'];
+                $imageHref = $baseUrl . '1024/' . $image['src'];
+
+                $html .= "\n\t\t\t\t\t" . '<td valign="top">';
+                $html .= '<a href="' . $imageHref . '" title="' . $imageTitle . '">';
+                $html .= '<img src="' . $src . '" alt="' . $imageTitle . '" /></a>';
+                $html .= "\n\t\t\t\t\t" .'</td>';
+            }
+            $html .= "\n\t\t\t\t" . '</tr>';
+            $html .= "\n\t\t\t" . '</table>';
+            $html .= "\n\t\t\t" . '</br>';
+        }
+        return $html;
+    }
+
     public static function emperorListTable($emperor, $coins, $lexicon): string
     {
         $html = "\n\t\t\t" . '<table width="100%" border="1" cellpadding="2" cellspacing="1">';

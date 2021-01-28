@@ -46,7 +46,24 @@ class Output
     private function coin(): string
     {
         $coin = $this->getEntity('coin');
-        return '';
+        $coins = $this->getEntity('coins');
+        $emperors = $this->getEntity('emperors');
+        $lexicon = $this->getEntity('lexicon');
+        $maxims = $this->getEntity('maxims');
+        $references = $this->getEntity('references');
+
+        $images = [];
+        foreach ($coin['images'] as $image) {
+            $images[$image['uuid']] = $image;
+        }
+        $coin['images'] = $images;
+
+        $output = HtmlOutput::twoCellStart();
+        $output .= HtmlOutput::coinListTable($coins, $lexicon);
+        $output .= HtmlOutput::twoCellMiddle();
+        $output .= HtmlOutput::coinEmperors($coin, $emperors, $lexicon);
+        $output .= HtmlOutput::twoCellEnd();
+        return $output;
     }
 
     private function coinEmperor(): string

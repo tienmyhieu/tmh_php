@@ -12,10 +12,13 @@ class Coin extends Marshal
         parent::__construct($json, $language->get());
     }
 
-    public function get($coinId, $country='vn')
+    public function get($coinId)
     {
-        $coin = $this->coin($coinId);
-        return $coin;
+        return $this->coin($coinId);
     }
 
+    public function getMaxims($coinId)
+    {
+        return $this->maxims($coinId);
+    }
 }
