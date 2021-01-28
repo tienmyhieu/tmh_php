@@ -19,6 +19,6 @@ class Coin extends Marshal
 
     public function getMaxims($coinId)
     {
-        return $this->maxims($coinId);
+        return $this->descriptions($coinId);
     }
 }

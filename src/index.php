@@ -36,7 +36,7 @@ switch ($template) {
             'coins' => $coin->coins(),
             'emperors' => $coin->emperors(),
             'lexicon' => $coin->lexicon(),
-            'maxims' => $coin->maxims($identifier),
+            'descriptions' => $coin->descriptions($identifier),
             'references' => $coin->references()
         ];
         $output->setEntities($entities);

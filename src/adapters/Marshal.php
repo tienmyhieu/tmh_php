@@ -86,9 +86,9 @@ class Marshal
         return $this->lexicon;
     }
 
-    public function maxims($coinId)
+    public function descriptions($coinId)
     {
-        return $this->json->loadLocalizedSubData('maxims', $coinId, $this->language);
+        return $this->json->loadLocalizedSubData('descriptions', $coinId, $this->language);
     }
 
     public function referenceEmperors()

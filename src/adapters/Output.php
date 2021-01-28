@@ -49,7 +49,7 @@ class Output
         $coins = $this->getEntity('coins');
         $emperors = $this->getEntity('emperors');
         $lexicon = $this->getEntity('lexicon');
-        $maxims = $this->getEntity('maxims');
+        $descriptions = $this->getEntity('descriptions');
         $references = $this->getEntity('references');
 
         $images = [];
