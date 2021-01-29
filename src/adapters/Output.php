@@ -53,8 +53,10 @@ class Output
         $references = $this->getEntity('references');
 
         $images = [];
-        foreach ($coin['images'] as $image) {
-            $images[$image['uuid']] = $image;
+        if (in_array('images', array_keys($coin))) {
+            foreach ($coin['images'] as $image) {
+                $images[$image['uuid']] = $image;
+            }
         }
         $coin['images'] = $images;
 

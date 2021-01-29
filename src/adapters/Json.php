@@ -7,7 +7,11 @@ class Json
 
     public function load($path, $file)
     {
-        return json_decode(file_get_contents($path .  '/' . $file . '.json'), true);
+        $contents = '{}';
+        if (file_exists($path .  '/' . $file . '.json')) {
+            $contents = file_get_contents($path .  '/' . $file . '.json');
+        }
+        return json_decode($contents, true);
     }
 
     public function loadData($file)

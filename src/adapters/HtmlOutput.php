@@ -252,38 +252,40 @@ class HtmlOutput
     public static function maximsTable($coin, $descriptions, $references, $lexicon)
     {
         $html = '';
-        if (0 < count($descriptions['reference_maxims'])) {
-            $maxims = [];
-            foreach ($descriptions['maxims'] as $maxim) {
-                $maxims[$maxim['maxim_uuid']] = $maxim['maxim'];
-            }
-            $descriptions['maxims'] = $maxims;
-            $html .= HtmlOutput::sectionTitle($lexicon['meaning'], 3, false);
-            $html .= "\n\t\t\t" . '<table cellpadding="2" cellspacing="1">';
-            $i = 1;
-            foreach ($descriptions['reference_maxims'] as $maximUuid => $maximReferences) {
-                $maxim = $maxims[$maximUuid];
-                $html .= "\n\t\t\t\t" . '<tr>';
-                $html .= "\n\t\t\t\t\t" . '<td>' . $i . '</td>';
-                $html .= "\n\t\t\t\t\t" . '<td valign="top" colspan="3">';
-                $html .= '<b>' . $maxim . '</b>';
-                $html .= "\n\t\t\t\t\t" .'</td>';
-                $html .= "\n\t\t\t\t" . '</tr>';
-                foreach ($maximReferences as $maximReference) {
-                    $reference = $references[$maximReference['reference_uuid']];
-                    $html .= "\n\t\t\t\t" . '<tr>';
-                    $html .= "\n\t\t\t\t\t" . '<td>&nbsp;</td>';
-                    $html .= "\n\t\t\t\t\t" . '<td valign="top">' . $reference['year'] . '</td>';
-                    $html .= "\n\t\t\t\t\t" . '<td valign="top">' . self::truncatedTitle($reference['title'], 50) . '</td>';
-                    $html .= "\n\t\t\t\t\t" . '<td valign="top">' . $maximReference['page'] . '</td>';
-                    $html .= "\n\t\t\t\t\t" .'</td>';
-                    $html .= "\n\t\t\t\t" . '</tr>';
-
+        if (in_array('reference_maxims', array_keys($descriptions))) {
+            if (0 < count($descriptions['reference_maxims'])) {
+                $maxims = [];
+                foreach ($descriptions['maxims'] as $maxim) {
+                    $maxims[$maxim['maxim_uuid']] = $maxim['maxim'];
                 }
-                $html .= "\n\t\t\t\t" . '<tr><td colspan="4">&nbsp;</td></tr>';
-                $i++;
+                $descriptions['maxims'] = $maxims;
+                $html .= HtmlOutput::sectionTitle($lexicon['meaning'], 3, false);
+                $html .= "\n\t\t\t" . '<table cellpadding="2" cellspacing="1">';
+                $i = 1;
+                foreach ($descriptions['reference_maxims'] as $maximUuid => $maximReferences) {
+                    $maxim = $maxims[$maximUuid];
+                    $html .= "\n\t\t\t\t" . '<tr>';
+                    $html .= "\n\t\t\t\t\t" . '<td>' . $i . '</td>';
+                    $html .= "\n\t\t\t\t\t" . '<td valign="top" colspan="3">';
+                    $html .= '<b>' . $maxim . '</b>';
+                    $html .= "\n\t\t\t\t\t" . '</td>';
+                    $html .= "\n\t\t\t\t" . '</tr>';
+                    foreach ($maximReferences as $maximReference) {
+                        $reference = $references[$maximReference['reference_uuid']];
+                        $html .= "\n\t\t\t\t" . '<tr>';
+                        $html .= "\n\t\t\t\t\t" . '<td>&nbsp;</td>';
+                        $html .= "\n\t\t\t\t\t" . '<td valign="top">' . $reference['year'] . '</td>';
+                        $html .= "\n\t\t\t\t\t" . '<td valign="top">' . self::truncatedTitle($reference['title'], 50) . '</td>';
+                        $html .= "\n\t\t\t\t\t" . '<td valign="top">' . $maximReference['page'] . '</td>';
+                        $html .= "\n\t\t\t\t\t" . '</td>';
+                        $html .= "\n\t\t\t\t" . '</tr>';
+
+                    }
+                    $html .= "\n\t\t\t\t" . '<tr><td colspan="4">&nbsp;</td></tr>';
+                    $i++;
+                }
+                $html .= "\n\t\t\t" . '</table>';
             }
-            $html .= "\n\t\t\t" . '</table>';
         }
         return $html;
     }
@@ -293,33 +295,35 @@ class HtmlOutput
         $html = '';
         $imagePreviewSize = '128';
         $baseUrl = 'http://img1.tienmyhieu.com/';
-        foreach ($coin['emperors'] as $emperorCoin) {
-            $emperor = $emperors[$emperorCoin['emperor_uuid']];
-            $title = self::linkTitle($emperor['href']);
-            $html .= "\n\t\t\t" . '<table border="1" cellpadding="2" cellspacing="1">';
-            $html .= "\n\t\t\t\t" . '<tr>';
-            $html .= "\n\t\t\t\t\t" . '<td valign="top" colspan="2">';
-            $html .= "\n\t\t\t\t\t" . $title;
-            $html .= "\n\t\t\t\t\t" .'</td>';
-            $html .= "\n\t\t\t\t" . '</tr>';
-            $html .= "\n\t\t\t\t" . '<tr>';
-            if (1 == count($emperorCoin['images'])) {
-                $html .= "\n\t\t\t\t\t" . '<td valign="top">&nbsp;</td>';
-            }
-            foreach ($emperorCoin['images'] as $image) {
-                $image = $coin['images'][$image];
-                $imageTitle = self::linkTitle($image['href']);
-                $src =  $baseUrl . $imagePreviewSize . '/' . $image['src'];
-                $imageHref = $baseUrl . '1024/' . $image['src'];
+        if (in_array('emperors', array_keys($coin))) {
+            foreach ($coin['emperors'] as $emperorCoin) {
+                $emperor = $emperors[$emperorCoin['emperor_uuid']];
+                $title = self::linkTitle($emperor['href']);
+                $html .= "\n\t\t\t" . '<table border="1" cellpadding="2" cellspacing="1">';
+                $html .= "\n\t\t\t\t" . '<tr>';
+                $html .= "\n\t\t\t\t\t" . '<td valign="top" colspan="2">';
+                $html .= "\n\t\t\t\t\t" . $title;
+                $html .= "\n\t\t\t\t\t" . '</td>';
+                $html .= "\n\t\t\t\t" . '</tr>';
+                $html .= "\n\t\t\t\t" . '<tr>';
+                if (1 == count($emperorCoin['images'])) {
+                    $html .= "\n\t\t\t\t\t" . '<td valign="top">&nbsp;</td>';
+                }
+                foreach ($emperorCoin['images'] as $image) {
+                    $image = $coin['images'][$image];
+                    $imageTitle = self::linkTitle($image['href']);
+                    $src = $baseUrl . $imagePreviewSize . '/' . $image['src'];
+                    $imageHref = $baseUrl . '1024/' . $image['src'];
 
-                $html .= "\n\t\t\t\t\t" . '<td valign="top">';
-                $html .= '<a href="' . $imageHref . '" title="' . $imageTitle . '">';
-                $html .= '<img src="' . $src . '" alt="' . $imageTitle . '" /></a>';
-                $html .= "\n\t\t\t\t\t" .'</td>';
+                    $html .= "\n\t\t\t\t\t" . '<td valign="top">';
+                    $html .= '<a href="' . $imageHref . '" title="' . $imageTitle . '">';
+                    $html .= '<img src="' . $src . '" alt="' . $imageTitle . '" /></a>';
+                    $html .= "\n\t\t\t\t\t" . '</td>';
+                }
+                $html .= "\n\t\t\t\t" . '</tr>';
+                $html .= "\n\t\t\t" . '</table>';
+                $html .= "\n\t\t\t" . '</br>';
             }
-            $html .= "\n\t\t\t\t" . '</tr>';
-            $html .= "\n\t\t\t" . '</table>';
-            $html .= "\n\t\t\t" . '</br>';
         }
         return $html;
     }
