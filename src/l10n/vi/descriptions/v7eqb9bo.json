@@ -1,0 +1,25 @@
+{
+  "maxims": [
+    { "maxim_uuid": "49esj0jv", "maxim": "Nước thịnh, dân yên, gió hoà, mưa thuận", "visible":  "1" },
+    { "maxim_uuid": "9phyyuvm", "maxim": "Nước thịnh dân yên, gió hoà mưa thuận", "visible":  "1" },
+    { "maxim_uuid": "prxp0bed", "maxim": "Đất nước thái bình, nhan dân yên vui, gió hoà mưa thuận", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "49esj0jv": [
+      { "uuid": "TCMM", "reference_uuid": "8eszq2lc", "page": "47" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "234" },
+      { "uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "839" }
+    ],
+    "9phyyuvm": [
+      { "uuid": "TCTT", "reference_uuid": "x2hkl3yi", "page": "47" },
+      { "uuid": "DNTL3", "reference_uuid": "drq2opmz", "page": "69" },
+      { "uuid": "STTMM", "reference_uuid": "u3yk53j3", "page": "76" },
+      { "uuid": "VN6", "reference_uuid": "gvkepvmm", "page": "13" }
+    ],
+    "prxp0bed": [
+      { "uuid": "TCTD", "reference_uuid": "pjmp6uhz", "page": "62" }
+    ]
+  }
+}

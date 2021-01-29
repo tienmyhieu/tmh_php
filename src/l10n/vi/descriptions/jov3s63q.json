@@ -2,7 +2,7 @@
   "maxims": [
     { "maxim_uuid": "lcce94d2", "maxim": "Quý người hiền, thân người thân", "visible":  "1" },
     { "maxim_uuid": "es69oykn", "maxim": "Thân với người thân, yêu quý người hiền, lợi điều đáng lợi, vui điều đáng vui", "visible":  "1" },
-    { "maxim_uuid": "pmeh5bpj", "maxim": "Hiền với ngườì hiền, thân với ngựời thân, vui cái vuỉ, lợi cái lợi", "visible":  "1" }
+    { "maxim_uuid": "pmeh5bpj", "maxim": "Hiền với ngườì hiền, thân với ngựời thân, vui cái vui, lợi cái lợi", "visible":  "1" }
   ],
   "transliterations": [
     { "transliteration_uuid": "1pabwz30", "transliteration": "Hiền hiền thân thân - Lạc lạc lợi lợi", "visible":  "1" },
@@ -32,19 +32,5 @@
       { "uuid": "DNTL3", "reference_uuid": "drq2opmz", "page": "69" },
       { "uuid": "STTMM", "reference_uuid": "u3yk53j3", "page": "75" }
     ]
-  },
-  "descriptions": [
-    { "description_uuid": "m28c570z", "reference_uuid": "59out4lc", "page": "35", "maxim_uuid": "", "inscription_uuid": "7b2saeqw", "transliteration_uuid": "" },
-    { "description_uuid": "20u197pi", "reference_uuid": "vziiztcd", "page": "53", "maxim_uuid": "", "inscription_uuid": "7b2saeqw", "transliteration_uuid": "" },
-    { "description_uuid": "dcjwxvus", "reference_uuid": "x0lizhj8", "page": "515", "maxim_uuid": "", "inscription_uuid": "94sw4se5", "transliteration_uuid": "" },
-    { "description_uuid": "watfvvzb", "reference_uuid": "8eszq2lc", "page": "47", "maxim_uuid": "pmeh5bpj", "inscription_uuid": "", "transliteration_uuid": "d58izutz" },
-    { "description_uuid": "7a9aiktl", "reference_uuid": "x2hkl3yi", "page": "47", "maxim_uuid": "es69oykn", "inscription_uuid": "", "transliteration_uuid": "qid7m6sq" },
-    { "description_uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": ["167", "201"], "maxim_uuid": ["pmeh5bpj", "es69oykn"], "inscription_uuid": "", "transliteration_uuid": ["d58izutz", "qid7m6sq"] },
-    { "description_uuid": "KDDN", "reference_uuid": "sqw46hlm", "page": "18", "maxim_uuid": "", "inscription_uuid": "", "transliteration_uuid": "d58izutz" },
-    { "description_uuid": "DNTL3", "reference_uuid": "drq2opmz", "page": "69", "maxim_uuid": "lcce94d2", "inscription_uuid": "", "transliteration_uuid": "1pabwz30" },
-    { "description_uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "839", "maxim_uuid": "es69oykn", "inscription_uuid": "", "transliteration_uuid": "qid7m6sq" },
-    { "description_uuid": "TCVN2", "reference_uuid": "vt6sjmp6", "page": ["119", "124"], "maxim_uuid": "", "inscription_uuid": "", "transliteration_uuid": ["axiw4vnl", "axiw4vnl"] },
-    { "description_uuid": "STTMM", "reference_uuid": "u3yk53j3", "page": "75", "maxim_uuid": "lcce94d2", "inscription_uuid": "", "transliteration_uuid": "wy61ub04" },
-    { "description_uuid": "VN4", "reference_uuid": "0qynj8k8", "page": "11", "maxim_uuid": "pmeh5bpj", "inscription_uuid": "byr0s075", "transliteration_uuid": "d58izutz" }
-  ]
+  }
 }
