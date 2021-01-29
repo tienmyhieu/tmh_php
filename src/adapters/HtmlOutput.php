@@ -249,6 +249,45 @@ class HtmlOutput
         return $html;
     }
 
+    public static function maximsTable($coin, $descriptions, $references, $lexicon)
+    {
+        $html = '';
+        if (0 < count($descriptions['reference_maxims'])) {
+            $maxims = [];
+            foreach ($descriptions['maxims'] as $maxim) {
+                $maxims[$maxim['maxim_uuid']] = $maxim['maxim'];
+            }
+            $descriptions['maxims'] = $maxims;
+            $html .= HtmlOutput::sectionTitle($lexicon['meaning'], 3, false);
+            $html .= "\n\t\t\t" . '<table cellpadding="2" cellspacing="1">';
+            $i = 1;
+            foreach ($descriptions['reference_maxims'] as $maximUuid => $maximReferences) {
+                $maxim = $maxims[$maximUuid];
+                $html .= "\n\t\t\t\t" . '<tr>';
+                $html .= "\n\t\t\t\t\t" . '<td>' . $i . '</td>';
+                $html .= "\n\t\t\t\t\t" . '<td valign="top" colspan="3">';
+                $html .= '<b>' . $maxim . '</b>';
+                $html .= "\n\t\t\t\t\t" .'</td>';
+                $html .= "\n\t\t\t\t" . '</tr>';
+                foreach ($maximReferences as $maximReference) {
+                    $reference = $references[$maximReference['reference_uuid']];
+                    $html .= "\n\t\t\t\t" . '<tr>';
+                    $html .= "\n\t\t\t\t\t" . '<td>&nbsp;</td>';
+                    $html .= "\n\t\t\t\t\t" . '<td valign="top">' . $reference['year'] . '</td>';
+                    $html .= "\n\t\t\t\t\t" . '<td valign="top">' . self::truncatedTitle($reference['title'], 50) . '</td>';
+                    $html .= "\n\t\t\t\t\t" . '<td valign="top">' . $maximReference['page'] . '</td>';
+                    $html .= "\n\t\t\t\t\t" .'</td>';
+                    $html .= "\n\t\t\t\t" . '</tr>';
+
+                }
+                $html .= "\n\t\t\t\t" . '<tr><td colspan="4">&nbsp;</td></tr>';
+                $i++;
+            }
+            $html .= "\n\t\t\t" . '</table>';
+        }
+        return $html;
+    }
+
     public static function coinEmperors($coin, $emperors, $lexicon): string
     {
         $html = '';
@@ -482,9 +521,8 @@ class HtmlOutput
         return preg_replace('|_|', ' ', $title);
     }
 
-    private static function truncatedTitle($title)
+    private static function truncatedTitle($title, $maxLength=50): string
     {
-        $maxLength = 50;
         $ellipsis = mb_strlen($title) >= $maxLength ? '...' : '';
         return mb_strlen($title) >= $maxLength ? mb_substr($title, 0, $maxLength) . $ellipsis : $title;
     }

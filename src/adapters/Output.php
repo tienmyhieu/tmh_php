@@ -62,6 +62,7 @@ class Output
         $output .= HtmlOutput::coinListTable($coins, $lexicon);
         $output .= HtmlOutput::twoCellMiddle();
         $output .= HtmlOutput::coinEmperors($coin, $emperors, $lexicon);
+        $output .= HtmlOutput::maximsTable($coin, $descriptions, $references, $lexicon);
         $output .= HtmlOutput::twoCellEnd();
         return $output;
     }

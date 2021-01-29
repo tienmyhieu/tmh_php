@@ -68,6 +68,7 @@
     { "metal_id":  "2", "uuid": "ia5zffme", "name": "kẽm", "href": "kẽm", "visible": "1" }
   ],
   "lexicon" : {
+    "meaning": "Nghĩa là",
     "articles": "Bài báo",
     "author": "Tác giả",
     "diameter": "Đường kình",
