@@ -1,0 +1,16 @@
+{
+  "page_image": "ae7ed49354c4473e958f1db9a2195e86-2",
+  "images": [
+    { "image_id": "1", "uuid": "m1zzbb0a", "src": "ae7ed49354c4473e958f1db9a2195e86-1.png", "href": "CMV_1540", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "s1tkwcin", "src": "ae7ed49354c4473e958f1db9a2195e86-2.png", "href": "CMV_1540", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "khwon11e", "src": "7b6e4afb95a84beeb56829ea0dbdf1a9-1.png", "href": "HCCV_169", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "fix7bhke", "src": "7b6e4afb95a84beeb56829ea0dbdf1a9-2.png", "href": "HCCV_169", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "fkn8yw2b", "src": "b1e4d6187ecc4be4b9127cdb5f1ce38f-1.png", "href": "ANZDQ_47", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
+    { "image_id": "6", "uuid": "kbmohero", "src": "b1e4d6187ecc4be4b9127cdb5f1ce38f-2.png", "href": "ANZDQ_47", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" }
+  ],
+  "emperors": [
+    { "emperor_uuid": "mezsdqwu", "images": ["m1zzbb0a", "s1tkwcin"] },
+    { "emperor_uuid": "4n18conu", "images": ["khwon11e", "fix7bhke"] },
+    { "emperor_uuid": "zn6uo1wi", "images": ["fkn8yw2b", "kbmohero"] }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "maxims": [
+    { "maxim_uuid": "w5633jjv", "maxim": "Sáu kho (kim, mộc, thuỷ, hoả, thổ và thóc) đây đủ. Ba việc (chính đức, lợi dụng, hậu sinh) đêu làm", "visible":  "1" },
+    { "maxim_uuid": "kjl4rcaz", "maxim": "Sáu phủ sửa sang, ba việc chỉnh đốn", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "w5633jjv": [
+      { "uuid": "TCMM", "reference_uuid": "8eszq2lc", "page": "48" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "168" },
+      { "uuid": "DNTL3", "reference_uuid": "drq2opmz", "page": "70" },
+      { "uuid": "STTMM", "reference_uuid": "u3yk53j3", "page": "79" },
+      { "uuid": "VN4", "reference_uuid": "0qynj8k8", "page": "10" }
+    ],
+    "kjl4rcaz": [
+      { "uuid": "TCTT", "reference_uuid": "x2hkl3yi", "page": "47" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "202" },
+      { "uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "839" }
+    ]
+  }
+}
