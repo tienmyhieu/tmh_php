@@ -1,8 +1,24 @@
 {
-  "maxims": [],
+  "maxims": [
+    { "maxim_uuid": "06u528r2", "maxim": "Ngườì giữ phong cương ở Hoa Châu (Hoa Phong) chúc thánh nhân ba điều (giàu, sổng lâu, nhiều con trai). Thơ Thiên bảo chúc phúc nhà vua chín điều (như mặt trời mới mọc, như mặt trăng thường sáng, như núi, như gò, như đồng, như rừng, như nưi Nam Sơn không bao giờ lở, như cây tùng, cây bách, như nước sông mới chảy ra ngày một đầy thèm).", "visible":  "1" },
+    { "maxim_uuid": "9s99ounu", "maxim": "Chúc thánh nhân ba điều: giàu, sổng lâu, nhiều con trai, (Hoa Phong nghĩa là ngườì giữ phong cương ở hoa châu). Thơ Thiên bảo chúc phúc nhà vua Mặt trời mới mọc, như Mặt trăng thường sáng, như núi, như gò, như đồng, như rường, như nưi Nam Sơn không bao giờ lở, như cây tùng, cây bách, như nước sông mới chảy ra ngày một đầy thèm.", "visible":  "1" },
+    { "maxim_uuid": "r2c9169w", "maxim": "Ngườì giữ phong cương ở Hoa Châu (Hoa Phong) chúc thánh nhân 3 điều. Thơ Thiên bảo chúc phúc nhà vua 9 điều.", "visible":  "1" }
+  ],
   "transliterations": [],
   "inscriptions": [],
-  "reference_maxims": {},
+  "reference_maxims": {
+    "06u528r2": [
+      { "uuid": "TCMM", "reference_uuid": "8eszq2lc", "page": "47" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "167" }
+    ],
+    "9s99ounu": [
+      { "uuid": "DNTL3", "reference_uuid": "drq2opmz", "page": "69" },
+      { "uuid": "STTMM", "reference_uuid": "u3yk53j3", "page": "77" }
+    ],
+    "r2c9169w": [
+      { "uuid": "VN4", "reference_uuid": "0qynj8k8", "page": "11" }
+    ]
+  },
   "descriptions": [
     { "description_uuid": "DNTL3", "reference_uuid": "59out4lc", "page": "35", "maxim_uuid": "", "inscription_uuid": "", "transliteration_uuid": "" },
     { "description_uuid": "KDDN", "reference_uuid": "vziiztcd", "page": "53", "maxim_uuid": "", "inscription_uuid": "", "transliteration_uuid": "" },
@@ -21,4 +37,4 @@
     { "description_uuid": "VN6", "reference_uuid": "gvkepvmm", "page": "999", "maxim_uuid": "", "inscription_uuid": "", "transliteration_uuid": "" },
     { "description_uuid": "BTTPHCM", "reference_uuid": "knsmgzuq", "page": "999", "maxim_uuid": "", "inscription_uuid": "", "transliteration_uuid": "" }
   ]
-},
+}

@@ -265,7 +265,7 @@ class HtmlOutput
                 foreach ($descriptions['reference_maxims'] as $maximUuid => $maximReferences) {
                     $maxim = $maxims[$maximUuid];
                     $html .= "\n\t\t\t\t" . '<tr>';
-                    $html .= "\n\t\t\t\t\t" . '<td>' . $i . '</td>';
+                    $html .= "\n\t\t\t\t\t" . '<td valign="top">' . $i . '</td>';
                     $html .= "\n\t\t\t\t\t" . '<td valign="top" colspan="3">';
                     $html .= '<b>' . $maxim . '</b>';
                     $html .= "\n\t\t\t\t\t" . '</td>';
