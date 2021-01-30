@@ -241,7 +241,7 @@ class HtmlOutput
         foreach ($coins as $coin) {
             $coinTitle = self::linkTitle($coin['href']);
             $html .= "\n\t\t\t\t\t" . '<tr>';
-            $html .= "\n\t\t\t\t\t\t" . '<td><a href="' . $coin['href'] . '" title="' . $coinTitle . '">' . $coin['name'] . '</a></td>';
+            $html .= "\n\t\t\t\t\t\t" . '<td nowrap="nowrap"><a href="' . $coin['href'] . '" title="' . $coinTitle . '">' . $coin['name'] . '</a></td>';
             $html .= "\n\t\t\t\t\t" . '</tr>';
         }
         $html .= "\n\t\t\t\t" . '</tbody>';
