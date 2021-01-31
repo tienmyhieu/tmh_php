@@ -1,0 +1,29 @@
+{
+  "maxims": [
+    { "maxim_uuid": "z22yaw0w", "maxim": "Như núi, như sông, như gò, như đống", "visible":  "1" },
+    { "maxim_uuid": "puhrv6i6", "maxim": "Như núi như sông, như gò như đống", "visible":  "1" },
+    { "maxim_uuid": "5f6mpyxd", "maxim": "Sống lâu như núi sông, như gò đống", "visible":  "1" },
+    { "maxim_uuid": "bo4x0qk7", "maxim": "Như núi cao, như sông dài, như gò đống", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "z22yaw0w": [
+      { "uuid": "TCMM", "reference_uuid": "8eszq2lc", "page": "48" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "169" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "201" },
+      { "uuid": "VN4", "reference_uuid": "0qynj8k8", "page": "11" }
+    ],
+    "puhrv6i6": [
+      { "uuid": "TCTT", "reference_uuid": "x2hkl3yi", "page": "47" },
+      { "uuid": "DNTL3", "reference_uuid": "drq2opmz", "page": "70" },
+      { "uuid": "STTMM", "reference_uuid": "u3yk53j3", "page": "86" }
+    ],
+    "5f6mpyxd": [
+      { "uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "839" }
+    ],
+    "bo4x0qk7": [
+      { "uuid": "VN6", "reference_uuid": "gvkepvmm", "page": "14" }
+    ]
+  }
+}

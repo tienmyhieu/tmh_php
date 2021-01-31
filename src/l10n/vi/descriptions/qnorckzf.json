@@ -1,0 +1,26 @@
+{
+  "maxims": [
+    { "maxim_uuid": "7mnvwnxc", "maxim": "Phúc lớn như biển Đông, sống lâu như núi Nam", "visible":  "1" },
+    { "maxim_uuid": "2dieyst4", "maxim": "Phúc như biển Đông, thọ sánh núi Nam", "visible":  "1" },
+    { "maxim_uuid": "mmswhxcx", "maxim": "Phúc lớn như biển Đông, sống lâu như núi Nam Sơn", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "7mnvwnxc": [
+      { "uuid": "TCMM", "reference_uuid": "8eszq2lc", "page": "48" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "169" },
+      { "uuid": "STTMM", "reference_uuid": "u3yk53j3", "page": "88" },
+      { "uuid": "VN4", "reference_uuid": "0qynj8k8", "page": "10" },
+      { "uuid": "VN6", "reference_uuid": "gvkepvmm", "page": "12" }
+    ],
+    "2dieyst4": [
+      { "uuid": "TCTT", "reference_uuid": "x2hkl3yi", "page": "47" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "201" },
+      { "uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "839" }
+    ],
+    "mmswhxcx": [
+      { "uuid": "DNTL3", "reference_uuid": "drq2opmz", "page": "70" }
+    ]
+  }
+}

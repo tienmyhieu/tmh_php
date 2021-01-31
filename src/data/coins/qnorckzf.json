@@ -1,0 +1,16 @@
+{
+  "page_image": "zzz",
+  "images": [
+    { "image_id": "1", "uuid": "dzil5rsn", "src": "3984b42e8eb1458f92d237b28efae596-1.png", "href": "STTMM_14", "copyright": "1", "country": "vn", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "njlk89uy", "src": "3984b42e8eb1458f92d237b28efae596-2.png", "href": "STTMM_14", "copyright": "1", "country": "vn", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "nu8p6cy9", "src": "aba912cd1fb4474f936e676671e046b4-1.png", "href": "BTTPHCM_17", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "ocnfo6lv", "src": "aba912cd1fb4474f936e676671e046b4-2.png", "href": "BTTPHCM_17", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "f0x68ugn", "src": "2b88f2cd3071475780f513f589c11c11-1.png", "href": "CMV_1810", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "6", "uuid": "lt6fb6zz", "src": "2b88f2cd3071475780f513f589c11c11-2.png", "href": "CMV_1810", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" }
+  ],
+  "emperors": [
+    { "emperor_uuid": "mezsdqwu", "inscription_uuid": "k4i23zz9", "images": ["dzil5rsn", "njlk89uy"] },
+    { "emperor_uuid": "4n18conu", "inscription_uuid": "k4i23zz9", "images": ["nu8p6cy9", "ocnfo6lv"] },
+    { "emperor_uuid": "zn6uo1wi", "inscription_uuid": "k4i23zz9", "images": ["f0x68ugn", "lt6fb6zz"] }
+  ]
+}
