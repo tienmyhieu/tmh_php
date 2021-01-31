@@ -1,0 +1,28 @@
+{
+  "maxims": [
+    { "maxim_uuid": "xqi45jmy", "maxim": "Muôn năm, muôn năm, muôn năm sống lâu", "visible":  "1" },
+    { "maxim_uuid": "yw1m86eo", "maxim": "Muôn năm, muôn năm, muôn muôn năm", "visible":  "1" },
+    { "maxim_uuid": "dsekru9a", "maxim": "Sống lâu, muôn năm, muôn muôn năm", "visible":  "1" },
+    { "maxim_uuid": "zhvtj9kz", "maxim": "Muôn năm, muôn năm, muôn muôn năm sống lâu", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "xqi45jmy": [
+      { "uuid": "TCMM", "reference_uuid": "8eszq2lc", "page": "48" },
+      { "uuid": "DNTL3", "reference_uuid": "drq2opmz", "page": "70" },
+      { "uuid": "STTMM", "reference_uuid": "u3yk53j3", "page": "81" }
+    ],
+    "yw1m86eo": [
+      { "uuid": "TCTT", "reference_uuid": "x2hkl3yi", "page": "46" }
+    ],
+    "dsekru9a": [
+      { "uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "839" }
+    ],
+    "zhvtj9kz": [
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "168" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "201" },
+      { "uuid": "VN4", "reference_uuid": "0qynj8k8", "page": "10" }
+    ]
+  }
+}

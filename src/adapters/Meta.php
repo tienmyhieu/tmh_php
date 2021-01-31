@@ -43,6 +43,14 @@ class Meta
         return $this->title;
     }
 
+    private function pageNotFoundTitle()
+    {
+        $titles = [
+            'vi' => 'Tiền_mỹ_hiệu_không_tìm_thấy_trang'
+        ];
+        return $titles[$this->language];
+    }
+
     private function setTitleFields($json)
     {
         $languageTitles = $json->loadLocalized($this->language, 'titles');
@@ -55,9 +63,10 @@ class Meta
             ];
         }
         $urlTitle = $this->urlTitle();
+        $notFoundTitle = $titles[$this->pageNotFoundTitle()]['title'];
         $this->identifier = in_array($urlTitle, array_keys($titles)) ? $titles[$urlTitle]['identifier'] : '0';
         $this->template = in_array($urlTitle, array_keys($titles)) ? $titles[$urlTitle]['template'] : 'home';
-        $this->title = in_array($urlTitle, array_keys($titles)) ? $titles[$urlTitle]['title'] : $titles[''];
+        $this->title = in_array($urlTitle, array_keys($titles)) ? $titles[$urlTitle]['title'] : $notFoundTitle;
     }
 
     private function urlTitle(): string

@@ -1,0 +1,26 @@
+{
+  "maxims": [
+    { "maxim_uuid": "974fsr1k", "maxim": "Lộng lẫy rực rỡ, đông đảo nườm nượp", "visible":  "1" },
+    { "maxim_uuid": "laktjcsr", "maxim": "Lộng lẫy rực rỡ, đông đảo rườm rượp", "visible":  "1" },
+    { "maxim_uuid": "g3dqq6jr", "maxim": "Tôn nghiêm rực rỡ, đi lại tưng bừng", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "974fsr1k": [
+      { "uuid": "TCMM", "reference_uuid": "8eszq2lc", "page": "48" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "168" },
+      { "uuid": "VN4", "reference_uuid": "0qynj8k8", "page": "11" }
+    ],
+    "laktjcsr": [
+      { "uuid": "DNTL3", "reference_uuid": "drq2opmz", "page": "70" },
+      { "uuid": "STTMM", "reference_uuid": "u3yk53j3", "page": "82" }
+    ],
+    "g3dqq6jr": [
+      { "uuid": "TCTT", "reference_uuid": "x2hkl3yi", "page": "47" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "202" },
+      { "uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "839" },
+      { "uuid": "VN5", "reference_uuid": "82bjogf2", "page": "5" }
+    ]
+  }
+}
