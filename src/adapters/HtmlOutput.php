@@ -290,7 +290,7 @@ class HtmlOutput
         return $html;
     }
 
-    public static function coinEmperors($coin, $emperors, $lexicon): string
+    public static function coinEmperors($coin, $emperors, $inscriptions): string
     {
         $html = '';
         $imagePreviewSize = '128';
@@ -298,20 +298,20 @@ class HtmlOutput
         if (in_array('emperors', array_keys($coin))) {
             foreach ($coin['emperors'] as $emperorCoin) {
                 $emperor = $emperors[$emperorCoin['emperor_uuid']];
-                $title = self::linkTitle($emperor['href']);
+                $emperorTitle = self::linkTitle($emperor['href']);
                 $html .= "\n\t\t\t" . '<table border="1" cellpadding="2" cellspacing="1">';
                 $html .= "\n\t\t\t\t" . '<tr>';
                 $html .= "\n\t\t\t\t\t" . '<td valign="top" colspan="2">';
-                $html .= "\n\t\t\t\t\t" . $title;
+                $html .= "\n\t\t\t\t\t" . $emperorTitle;
                 $html .= "\n\t\t\t\t\t" . '</td>';
                 $html .= "\n\t\t\t\t" . '</tr>';
                 $html .= "\n\t\t\t\t" . '<tr>';
                 if (1 == count($emperorCoin['images'])) {
                     $html .= "\n\t\t\t\t\t" . '<td valign="top">&nbsp;</td>';
                 }
+                $imageTitle = $emperorTitle . ' ' . $coin['title'];
                 foreach ($emperorCoin['images'] as $image) {
                     $image = $coin['images'][$image];
-                    $imageTitle = self::linkTitle($image['href']);
                     $src = $baseUrl . $imagePreviewSize . '/' . $image['src'];
                     $imageHref = $baseUrl . '1024/' . $image['src'];
 
@@ -320,6 +320,12 @@ class HtmlOutput
                     $html .= '<img src="' . $src . '" alt="' . $imageTitle . '" /></a>';
                     $html .= "\n\t\t\t\t\t" . '</td>';
                 }
+                $obverseInscription = $inscriptions[$emperor['inscription_uuid']]['inscription'];
+                $reverseInscription = $inscriptions[$emperorCoin['inscription_uuid']]['inscription'];
+                $html .= "\n\t\t\t\t" . '</tr>';
+                $html .= "\n\t\t\t\t" . '<tr>';
+                $html .= "\n\t\t\t\t\t" . '<td valign="top">' . $obverseInscription . '</td>';
+                $html .= "\n\t\t\t\t\t" . '<td valign="top">' . $reverseInscription . '</td>';
                 $html .= "\n\t\t\t\t" . '</tr>';
                 $html .= "\n\t\t\t" . '</table>';
                 $html .= "\n\t\t\t" . '</br>';

@@ -48,6 +48,7 @@ class Output
         $coin = $this->getEntity('coin');
         $coins = $this->getEntity('coins');
         $emperors = $this->getEntity('emperors');
+        $inscriptions = $this->getEntity('inscriptions');
         $lexicon = $this->getEntity('lexicon');
         $descriptions = $this->getEntity('descriptions');
         $references = $this->getEntity('references');
@@ -59,11 +60,12 @@ class Output
             }
         }
         $coin['images'] = $images;
+        $coin['title'] = $this->getEntity('title');
 
         $output = HtmlOutput::twoCellStart();
         $output .= HtmlOutput::coinListTable($coins, $lexicon);
         $output .= HtmlOutput::twoCellMiddle();
-        $output .= HtmlOutput::coinEmperors($coin, $emperors, $lexicon);
+        $output .= HtmlOutput::coinEmperors($coin, $emperors, $inscriptions);
         $output .= HtmlOutput::maximsTable($coin, $descriptions, $references, $lexicon);
         $output .= HtmlOutput::twoCellEnd();
         return $output;

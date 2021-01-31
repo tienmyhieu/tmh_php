@@ -62,8 +62,7 @@ class Marshal
 
     public function coinEmperors()
     {
-        $inscriptions = $this->json->loadData('inscriptions');
-        $this->inscriptions = $this->json->setCollectionKeys($inscriptions, 'inscription', false);
+        $this->inscriptions();
         $coinEmperors = $this->json->loadData('coin_emperors');
         $this->coinEmperors = $this->json->setCollectionKeys($coinEmperors, 'coin_emperor', false);
         return $this->json->loadData('coin_emperors');
@@ -79,6 +78,18 @@ class Marshal
     public function emperors(): array
     {
         return $this->emperors;
+    }
+
+    public function inscriptions()
+    {
+        $inscriptions = $this->json->loadData('inscriptions');
+        $this->inscriptions = $this->json->setCollectionKeys($inscriptions, 'inscription', false);
+    }
+
+    public function getInscriptions(): array
+    {
+        $this->inscriptions();
+        return $this->inscriptions;
     }
 
     public function lexicon()

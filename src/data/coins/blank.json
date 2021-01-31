@@ -2,8 +2,8 @@
   "page_image": "zzz",
   "images": [],
   "emperors": [
-    { "emperor_uuid": "mezsdqwu", "images": [] },
-    { "emperor_uuid": "4n18conu", "images": [] },
-    { "emperor_uuid": "zn6uo1wi", "images": [] }
+    { "emperor_uuid": "mezsdqwu", "inscription_uuid": "zzz", "images": ["", ""] },
+    { "emperor_uuid": "4n18conu", "inscription_uuid": "zzz", "images": ["", ""] },
+    { "emperor_uuid": "zn6uo1wi", "inscription_uuid": "zzz", "images": ["", ""] }
   ]
 }

@@ -1,4 +1,7 @@
 [
+  { "inscription_id": "1", "uuid": "a2trmrok", "inscription":  "明命通寶", "visible": "1" },
+  { "inscription_id": "1", "uuid": "xygfnjs9", "inscription":  "紹治通寶", "visible": "1" },
+  { "inscription_id": "1", "uuid": "jp2s2r0b", "inscription":  "嗣德通寳", "visible": "1" },
   { "inscription_id": "1", "uuid": "ukjzeqed", "inscription":  "贒ㄑ親ㄑ樂ㄑ利ㄑ", "visible": "1" },
   { "inscription_id": "2", "uuid": "5t3o69ff", "inscription":  "賢賢親親樂樂利利", "visible": "1" },
   { "inscription_id": "3", "uuid": "kd62xgrf", "inscription":  "國泰民安風調雨順", "visible": "1" },

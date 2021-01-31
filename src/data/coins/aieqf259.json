@@ -9,8 +9,8 @@
     { "image_id": "6", "uuid": "kbmohero", "src": "b1e4d6187ecc4be4b9127cdb5f1ce38f-2.png", "href": "ANZDQ_47", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" }
   ],
   "emperors": [
-    { "emperor_uuid": "mezsdqwu", "images": ["m1zzbb0a", "s1tkwcin"] },
-    { "emperor_uuid": "4n18conu", "images": ["khwon11e", "fix7bhke"] },
-    { "emperor_uuid": "zn6uo1wi", "images": ["fkn8yw2b", "kbmohero"] }
+    { "emperor_uuid": "mezsdqwu", "inscription_uuid": "onai8zru", "images": ["m1zzbb0a", "s1tkwcin"] },
+    { "emperor_uuid": "4n18conu", "inscription_uuid": "onai8zru", "images": ["khwon11e", "fix7bhke"] },
+    { "emperor_uuid": "zn6uo1wi", "inscription_uuid": "onai8zru", "images": ["fkn8yw2b", "kbmohero"] }
   ]
 }

@@ -35,9 +35,11 @@ switch ($template) {
             'coin' => $coin->get($identifier),
             'coins' => $coin->coins(),
             'emperors' => $coin->emperors(),
+            'inscriptions' => $coin->getInscriptions(),
             'lexicon' => $coin->lexicon(),
             'descriptions' => $coin->descriptions($identifier),
-            'references' => $coin->references()
+            'references' => $coin->references(),
+            'title' => $meta->title(),
         ];
         $output->setEntities($entities);
         break;

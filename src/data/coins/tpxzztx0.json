@@ -9,8 +9,8 @@
     { "image_id": "6", "uuid": "p15tmj7m", "src": "7aa277d8426f42a9bb3e200302d04bad-2.png", "href": "CMV_1799", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" }
   ],
   "emperors": [
-    { "emperor_uuid": "mezsdqwu", "images": ["vfbypxek", "pgcznlce"] },
-    { "emperor_uuid": "4n18conu", "images": ["xkyulk8v", "pmlqj5if"] },
-    { "emperor_uuid": "zn6uo1wi", "images": ["jxiily72", "p15tmj7m"] }
+    { "emperor_uuid": "mezsdqwu", "inscription_uuid": "2d5nit5s", "images": ["vfbypxek", "pgcznlce"] },
+    { "emperor_uuid": "4n18conu", "inscription_uuid": "2d5nit5s", "images": ["xkyulk8v", "pmlqj5if"] },
+    { "emperor_uuid": "zn6uo1wi", "inscription_uuid": "2d5nit5s", "images": ["jxiily72", "p15tmj7m"] }
   ]
 }

@@ -59,9 +59,9 @@
     { "coin_id": "57", "uuid": "hwkhn0c3", "name": "Thứ chính duy hòa", "href": "Thứ_chính_duy_hòa", "visible": "1" }
   ],
   "emperor": [
-    { "emperor_id":  "1", "uuid": "mezsdqwu", "name": "Minh Mệnh", "href": "Minh_Mệnh_thông_bảo", "visible": "1" },
-    { "emperor_id":  "2", "uuid": "4n18conu", "name": "Thiệu Trị", "href": "Thiệu_Trị_thông_bảo", "visible": "1" },
-    { "emperor_id":  "3", "uuid": "zn6uo1wi", "name": "Tự Đức", "href": "Tự_Đức_thông_bảo", "visible": "1" }
+    { "emperor_id":  "1", "uuid": "mezsdqwu", "name": "Minh Mệnh", "href": "Minh_Mệnh_thông_bảo", "inscription_uuid": "a2trmrok", "visible": "1" },
+    { "emperor_id":  "2", "uuid": "4n18conu", "name": "Thiệu Trị", "href": "Thiệu_Trị_thông_bảo", "inscription_uuid": "xygfnjs9", "visible": "1" },
+    { "emperor_id":  "3", "uuid": "zn6uo1wi", "name": "Tự Đức", "href": "Tự_Đức_thông_bảo", "inscription_uuid": "jp2s2r0b", "visible": "1" }
   ],
   "metal" : [
     { "metal_id":  "1", "uuid": "shz7uzxw", "name": "đồng", "href": "đồng", "visible": "1" },

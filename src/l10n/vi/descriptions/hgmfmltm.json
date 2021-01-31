@@ -1,0 +1,31 @@
+{
+  "maxims": [
+    { "maxim_uuid": "xvb9m2z3", "maxim": "Thân người thân, kính người trưởng, trọng già, yêu trẻ", "visible":  "1" },
+    { "maxim_uuid": "rh8atl36", "maxim": "Thân với người thân, tôn kính người trưởng, trọng người già, yêu trẻ thơ", "visible":  "1" },
+    { "maxim_uuid": "os831z1g", "maxim": "Thân người thân, kính người trưởng, trọng người già, yêu trẻ con", "visible":  "1" },
+    { "maxim_uuid": "yrf3jpyn", "maxim": "Thân với người thân, kính người tôn trưởng, trọng người già, yêu trẻ bé", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "xvb9m2z3": [
+      { "uuid": "TCMM", "reference_uuid": "8eszq2lc", "page": "48" },
+      { "uuid": "TCTD", "reference_uuid": "pjmp6uhz", "page": "62" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "168" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "200" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "234" },
+      { "uuid": "VN4", "reference_uuid": "0qynj8k8", "page": "11" },
+      { "uuid": "VN6", "reference_uuid": "gvkepvmm", "page": "12" }
+    ],
+    "rh8atl36": [
+      { "uuid": "TCTT", "reference_uuid": "x2hkl3yi", "page": "46" }
+    ],
+    "os831z1g": [
+      { "uuid": "DNTL3", "reference_uuid": "drq2opmz", "page": "70" },
+      { "uuid": "STTMM", "reference_uuid": "u3yk53j3", "page": "84" }
+    ],
+    "yrf3jpyn": [
+      { "uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "839" }
+    ]
+  }
+}

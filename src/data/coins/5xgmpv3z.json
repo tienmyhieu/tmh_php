@@ -9,8 +9,8 @@
     { "image_id": "6", "uuid": "8z02z4gb", "src": "125fd611e9a3401e9d9ef20fe686048e.png", "href": "NONE", "copyright": "0", "country": "", "year": "", "color": "0", "visible": "1" }
   ],
   "emperors": [
-    { "emperor_uuid": "mezsdqwu", "images": ["v544bn6g", "vdxapob3"] },
-    { "emperor_uuid": "4n18conu", "images": ["l8oii351", "qvwty74a"] },
-    { "emperor_uuid": "zn6uo1wi", "images": ["8z02z4gb" ,"v0wwcsh3"] }
+    { "emperor_uuid": "mezsdqwu", "inscription_uuid": "pn8hlas6", "images": ["v544bn6g", "vdxapob3"] },
+    { "emperor_uuid": "4n18conu", "inscription_uuid": "pn8hlas6", "images": ["l8oii351", "qvwty74a"] },
+    { "emperor_uuid": "zn6uo1wi", "inscription_uuid": "pn8hlas6", "images": ["8z02z4gb" ,"v0wwcsh3"] }
   ]
 }
