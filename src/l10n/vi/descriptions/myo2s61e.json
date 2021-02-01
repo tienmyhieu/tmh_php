@@ -1,0 +1,28 @@
+{
+  "maxims": [
+    { "maxim_uuid": "xv2b5n1y", "maxim": "Đạo vương giả thênh thang, mưa thánh nhân dôi dào", "visible":  "1" },
+    { "maxim_uuid": "vwa7xoob", "maxim": "Đường vương giả phẳng rộng, mưu thánh đầy rẫy", "visible":  "1" },
+    { "maxim_uuid": "ojuqynue", "maxim": "Đạo vương giả rộng thênh thang, mưu thánh nhân dồi dào không hết", "visible":  "1" },
+    { "maxim_uuid": "qxhdcll2", "maxim": "Con đường vương giả phẳng rộng, mưu thánh đầy rẫy", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "xv2b5n1y": [
+      { "uuid": "TCMM", "reference_uuid": "8eszq2lc", "page": "48" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "170" },
+      { "uuid": "VN4", "reference_uuid": "0qynj8k8", "page": "11" }
+    ],
+    "vwa7xoob": [
+      { "uuid": "TCTT", "reference_uuid": "x2hkl3yi", "page": "47" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "202" }
+    ],
+    "ojuqynue": [
+      { "uuid": "DNTL3", "reference_uuid": "drq2opmz", "page": "70" },
+      { "uuid": "STTMM", "reference_uuid": "u3yk53j3", "page": "92" }
+    ],
+    "qxhdcll2": [
+      { "uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "839" }
+    ]
+  }
+}

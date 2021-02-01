@@ -1,0 +1,23 @@
+{
+  "maxims": [
+    { "maxim_uuid": "x601v5r7", "maxim": "Muôn tuổi đều bù, muôn phúc đều họp", "visible":  "1" },
+    { "maxim_uuid": "l1s74rb9", "maxim": "Sống lâu muôn tuổi, muôn phúc cùng chung", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "x601v5r7": [
+      { "uuid": "TCMM", "reference_uuid": "8eszq2lc", "page": "48" },
+      { "uuid": "DNTL3", "reference_uuid": "drq2opmz", "page": "70" },
+      { "uuid": "STTMM", "reference_uuid": "u3yk53j3", "page": "89" }
+    ],
+    "l1s74rb9": [
+      { "uuid": "TCTT", "reference_uuid": "x2hkl3yi", "page": "47" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "169" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "201" },
+      { "uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "839" },
+      { "uuid": "VN4", "reference_uuid": "0qynj8k8", "page": "11" },
+      { "uuid": "VN6", "reference_uuid": "gvkepvmm", "page": "14" }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "maxims": [
+    { "maxim_uuid": "nze9yhs9", "maxim": "Trời không tiếc đạo, đất không tiếc của", "visible":  "1" },
+    { "maxim_uuid": "mktmcra2", "maxim": "Trời chẳng tiếc đạo, đất không tiếc của", "visible":  "1" },
+    { "maxim_uuid": "83uo3w3h", "maxim": "Trời chẳng tiếc lẽ phải, đất chẳng tiếc của báu", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "nze9yhs9": [
+      { "uuid": "TCMM", "reference_uuid": "8eszq2lc", "page": "48" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "169" },
+      { "uuid": "DNTL3", "reference_uuid": "drq2opmz", "page": "70" },
+      { "uuid": "VN4", "reference_uuid": "0qynj8k8", "page": "11" },
+      { "uuid": "VN5", "reference_uuid": "82bjogf2", "page": "6" },
+      { "uuid": "STTMM", "reference_uuid": "u3yk53j3", "page": "90" }
+    ],
+    "mktmcra2": [
+      { "uuid": "TCTT", "reference_uuid": "x2hkl3yi", "page": "47" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "203" }
+    ],
+    "83uo3w3h": [
+      { "uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "840" }
+    ]
+  }
+}

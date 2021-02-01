@@ -1,0 +1,15 @@
+{
+  "page_image": "8a56423ca4e748f08641bb314ffc4007-2",
+  "images": [
+    { "image_id": "1", "uuid": "xy8iw2ao", "src": "8a56423ca4e748f08641bb314ffc4007-1.png", "href": "CMV_1556", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "2zmd04qk", "src": "8a56423ca4e748f08641bb314ffc4007-2.png", "href": "CMV_1556", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "zrb5z4lm", "src": "c6cc971849f04d94aece745d000c4e3c-2.png", "href": "NA_456", "copyright": "0", "country": "fr", "year": "1900", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "bf6k0yd4", "src": "ff1495b45ff34185b05ce70529ec1ffc-2.png", "href": "NA_488", "copyright": "0", "country": "fr", "year": "1900", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "8z02z4gb", "src": "125fd611e9a3401e9d9ef20fe686048e.png", "href": "NONE", "copyright": "0", "country": "", "year": "", "color": "0", "visible": "1" }
+  ],
+  "emperors": [
+    { "emperor_uuid": "mezsdqwu", "inscription_uuid": "8wz8yogp", "images": ["xy8iw2ao", "2zmd04qk"] },
+    { "emperor_uuid": "4n18conu", "inscription_uuid": "8wz8yogp", "images": ["8z02z4gb", "zrb5z4lm"] },
+    { "emperor_uuid": "zn6uo1wi", "inscription_uuid": "8wz8yogp", "images": ["8z02z4gb", "bf6k0yd4"] }
+  ]
+}

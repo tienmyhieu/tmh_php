@@ -1,0 +1,25 @@
+{
+  "maxims": [
+    { "maxim_uuid": "db8hjlzs", "maxim": "Năm thời (mộc thuộc xuân, hoả thuộc hạ, kim thuộc thu, thuỷ thuộc đông, thổ thuộc 4 tháng quí) đêu thuận, mọi việc đêu nên", "visible":  "1" },
+    { "maxim_uuid": "xq8fsqbm", "maxim": "Năm mùa hoà thuận, mọi việc đều nên", "visible":  "1" },
+    { "maxim_uuid": "hzyli6dg", "maxim": "Năm thời đều thuận, mọi việc đều nên", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "db8hjlzs": [
+      { "uuid": "TCMM", "reference_uuid": "8eszq2lc", "page": "48" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "170" },
+      { "uuid": "DNTL3", "reference_uuid": "drq2opmz", "page": "70" },
+      { "uuid": "STTMM", "reference_uuid": "u3yk53j3", "page": "94" }
+    ],
+    "xq8fsqbm": [
+      { "uuid": "TCTT", "reference_uuid": "x2hkl3yi", "page": "46" },
+      { "uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "839" }
+    ],
+    "hzyli6dg": [
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "200" },
+      { "uuid": "VN4", "reference_uuid": "0qynj8k8", "page": "11" }
+    ]
+  }
+}

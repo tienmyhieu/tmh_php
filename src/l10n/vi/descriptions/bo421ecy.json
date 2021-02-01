@@ -1,0 +1,25 @@
+{
+  "maxims": [
+    { "maxim_uuid": "lg1h1i1c", "maxim": "Mài dũa ấn chương cho đẹp, tô điểm vóc dáng như vàng, ngọc", "visible":  "1" },
+    { "maxim_uuid": "jfav8s74", "maxim": "Mài giũa cho đẹp, vàng ngọc nạm vào", "visible":  "1" },
+    { "maxim_uuid": "tmpg36f1", "maxim": "Mài giũa cho bóng, đẹp như vàng ngọc", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "lg1h1i1c": [
+      { "uuid": "TCMM", "reference_uuid": "8eszq2lc", "page": "48" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "169" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "202" },
+      { "uuid": "VN4", "reference_uuid": "0qynj8k8", "page": "11" }
+    ],
+    "jfav8s74": [
+      { "uuid": "TCTT", "reference_uuid": "x2hkl3yi", "page": "47" },
+      { "uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "839" }
+    ],
+    "tmpg36f1": [
+      { "uuid": "DNTL3", "reference_uuid": "drq2opmz", "page": "70" },
+      { "uuid": "STTMM", "reference_uuid": "u3yk53j3", "page": "91" }
+    ]
+  }
+}
