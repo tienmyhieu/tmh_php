@@ -1,0 +1,25 @@
+{
+  "maxims": [
+    { "maxim_uuid": "x3w9n6so", "maxim": "Đức nhà vua truyền rộng", "visible":  "1" },
+    { "maxim_uuid": "zkct6ru5", "maxim": "Đức nhà vua mở rộng khắp", "visible":  "1" },
+    { "maxim_uuid": "7bnzsfxp", "maxim": "Đức nhà vua rộng lớn", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "x3w9n6so": [
+      { "uuid": "TCMM", "reference_uuid": "8eszq2lc", "page": "49" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "170" },
+      { "uuid": "VN4", "reference_uuid": "0qynj8k8", "page": "10" }
+    ],
+    "zkct6ru5": [
+      { "uuid": "TCTT", "reference_uuid": "x2hkl3yi", "page": "48" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "205" },
+      { "uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "840" }
+    ],
+    "7bnzsfxp": [
+      { "uuid": "DNTL3", "reference_uuid": "drq2opmz", "page": "71" },
+      { "uuid": "STTMM", "reference_uuid": "u3yk53j3", "page": "97" }
+    ]
+  }
+}
