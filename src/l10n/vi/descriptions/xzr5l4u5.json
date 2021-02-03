@@ -1,0 +1,25 @@
+{
+  "maxims": [
+    { "maxim_uuid": "y4vma2ap", "maxim": "Cứng rắn, khoẻ mạnh, ngay ngắn", "visible":  "1" },
+    { "maxim_uuid": "hiso253x", "maxim": "Cứng mạnh trung chính (chỉ đức của nhà vua)", "visible":  "1" },
+    { "maxim_uuid": "xcjkzn5e", "maxim": "Cứng khoẻ ngay ngắn", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "y4vma2ap": [
+      { "uuid": "TCMM", "reference_uuid": "8eszq2lc", "page": "49" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "172" },
+      { "uuid": "VN4", "reference_uuid": "0qynj8k8", "page": "10" }
+    ],
+    "hiso253x": [
+      { "uuid": "TCTT", "reference_uuid": "x2hkl3yi", "page": "48" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "204" },
+      { "uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "840" }
+    ],
+    "xcjkzn5e": [
+      { "uuid": "DNTL3", "reference_uuid": "drq2opmz", "page": "71" },
+      { "uuid": "STTMM", "reference_uuid": "u3yk53j3", "page": "102" }
+    ]
+  }
+}

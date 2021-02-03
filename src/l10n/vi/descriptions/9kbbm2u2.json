@@ -1,0 +1,22 @@
+{
+  "maxims": [
+    { "maxim_uuid": "ag87l4xo", "maxim": "Bốn phương lấy làm khuôn phép", "visible":  "1" },
+    { "maxim_uuid": "8b22mzo1", "maxim": "Làm khuôn phép cho bốn phương", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "ag87l4xo": [
+      { "uuid": "TCMM", "reference_uuid": "8eszq2lc", "page": "49" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "171" },
+      { "uuid": "DNTL3", "reference_uuid": "drq2opmz", "page": "71" },
+      { "uuid": "STTMM", "reference_uuid": "u3yk53j3", "page": "101" },
+      { "uuid": "VN4", "reference_uuid": "0qynj8k8", "page": "10" }
+    ],
+    "8b22mzo1": [
+      { "uuid": "TCTT", "reference_uuid": "x2hkl3yi", "page": "48" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "204" },
+      { "uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "840" }
+    ]
+  }
+}
