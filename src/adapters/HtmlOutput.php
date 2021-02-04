@@ -356,12 +356,14 @@ class HtmlOutput
         return $html;
     }
 
-    public static function coinEmperorReferencesList($references, $images, $lexicon, $articles, $variants): string
+    public static function coinEmperorReferencesList($references, $images, $lexicon, $articles, $variants, $inscriptions): string
     {
         $html = '';
         if (0 < count($images)) {
+            //$inscriptions = (1 <  count($images) ? $inscriptions['obverse'] . ' ' : '') . $inscriptions['reverse'];
             $imagePreviewSize = '128';
             $baseUrl = 'http://img1.tienmyhieu.com/';
+            //$html .= '<h4>' . $inscriptions . '</h4>';
             $html .= "\n\t\t\t" . '<table border="1" cellpadding="2" cellspacing="1">';
             $i = 1;
             foreach ($references as $reference) {

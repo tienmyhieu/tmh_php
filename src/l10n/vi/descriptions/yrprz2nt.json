@@ -1,0 +1,15 @@
+{
+  "maxims": [
+    { "maxim_uuid": "z3c7jr11", "maxim": "Một người có phúc, triệu dân được nhờ", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "z3c7jr11": [
+      { "uuid": "TCTT", "reference_uuid": "x2hkl3yi", "page": "47" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "203" },
+      { "uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "840" },
+      { "uuid": "VN6", "reference_uuid": "gvkepvmm", "page": "12" }
+    ]
+  }
+}

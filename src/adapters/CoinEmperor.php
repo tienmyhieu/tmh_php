@@ -14,7 +14,17 @@ class CoinEmperor extends Marshal
 
     public function get($coinEmperorId, $country='vn')
     {
+        $emperors = $this->emperors();
+        $coinEmperors = $this->coinEmperors();
+        $keyedCoinEmperors = [];
+        foreach($coinEmperors as $coinEmperor) {
+            $keyedCoinEmperors[$coinEmperor['uuid']] = $coinEmperor;
+        }
+        $keyedCoinEmperor = $keyedCoinEmperors[$coinEmperorId];
+        $inscription1 = $this->inscriptions[$emperors[$keyedCoinEmperor['emperor_uuid']]['inscription_uuid']];
+        $inscription2 = $this->inscriptions[$keyedCoinEmperor['inscription_uuid']];
         $coinEmperor = $this->coinEmperor($coinEmperorId);
+        $coinEmperor['inscriptions'] = ['obverse' => $inscription1['inscription'], 'reverse' => $inscription2['inscription']];
         $coinEmperor['images'] = $this->getImages($coinEmperor['reference_specimens'], $coinEmperor['images'], $country);
         $coinEmperor['other_images'] = $this->getImages($coinEmperor['other_specimens'], $coinEmperor['other_images'], $country);
         return $coinEmperor;

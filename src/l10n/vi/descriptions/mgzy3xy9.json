@@ -1,0 +1,24 @@
+{
+  "maxims": [
+    { "maxim_uuid": "ldmgu5u2", "maxim": "Từ trời giúp nhà vua, mọi sự tốt lành, không có điều gì bất lợi", "visible":  "1" },
+    { "maxim_uuid": "fxim1vqu", "maxim": "Từ trời giúp cho, không việc gì không lợi", "visible":  "1" }
+
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "ldmgu5u2": [
+      { "uuid": "TCMM", "reference_uuid": "8eszq2lc", "page": "49" },
+      { "uuid": "TCTD", "reference_uuid": "pjmp6uhz", "page": "62" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "171" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "233" },
+      { "uuid": "VN6", "reference_uuid": "gvkepvmm", "page": "14" }
+    ],
+    "fxim1vqu": [
+      { "uuid": "TCTT", "reference_uuid": "x2hkl3yi", "page": "47" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "203" },
+      { "uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "840" },
+      { "uuid": "VN5", "reference_uuid": "82bjogf2", "page": "6" }
+    ]
+  }
+}
