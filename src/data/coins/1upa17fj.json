@@ -1,0 +1,10 @@
+{
+  "page_image": "23f08e370a50475eb4de5d283d0f3a93-2",
+  "images": [
+    { "image_id": "1", "uuid": "r6swvqmp", "src": "23f08e370a50475eb4de5d283d0f3a93-1.png", "href": "MAAS_9", "copyright": "1", "country": "fr", "year": "2020", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "mpkcciu3", "src": "23f08e370a50475eb4de5d283d0f3a93-2.png", "href": "MAAS_9", "copyright": "1", "country": "fr", "year": "2020", "color": "0", "visible": "1" }
+  ],
+  "emperors": [
+    { "emperor_uuid": "zn6uo1wi", "inscription_uuid": "i85b3b00", "images": ["r6swvqmp", "mpkcciu3"] }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "maxims": [
+    { "maxim_uuid": "yfvx0yiv", "maxim": "Cả nước không có diều lo lắng, lợi truyền dời sau", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "yfvx0yiv": [
+      { "uuid": "TCTD", "reference_uuid": "pjmp6uhz", "page": "62" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "234" }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "maxims": [
+    { "maxim_uuid": "hf9xxx7q", "maxim": "Trời che chở giúp đỡ cho thọ, cho lộc và quyền lực", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "hf9xxx7q": [
+      { "uuid": "TCTD", "reference_uuid": "pjmp6uhz", "page": "62" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "234" },
+      { "uuid": "VN6", "reference_uuid": "gvkepvmm", "page": "13" }
+    ]
+  }
+}

@@ -5,17 +5,17 @@
     { "image_id": "2", "uuid": "2kefo5ug", "src": "1202c02a0ae645eaaf86b3eb5511622e-2.png", "href": "CMVS_423", "copyright": "1", "country": "fr", "year": "2002", "color": "0", "visible": "1" },
     { "image_id": "3", "uuid": "8v3h1lxf", "src": "41945c3bb3cb4da1b562c7f044f67a5a-1.png", "href": "ANZDQ_62", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
     { "image_id": "4", "uuid": "ryesq0w9", "src": "41945c3bb3cb4da1b562c7f044f67a5a-2.png", "href": "ANZDQ_62", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
-    { "image_id": "5", "uuid": "udqboq7p", "src": "cc892c4118284ebab1b9f38cd1ca23d1-1.png", "href": "BTTPHCM_4", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
-    { "image_id": "6", "uuid": "se59fn2s", "src": "cc892c4118284ebab1b9f38cd1ca23d1-2.png", "href": "BTTPHCM_4", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
-    { "image_id": "7", "uuid": "z6dvjg0s", "src": "13270dfbdd8742f8a92fecf73b88d3ab-2.png", "href": "BTTPHCM_4", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
-    { "image_id": "8", "uuid": "dhl8zaml", "src": "82791574240244848dea343933508c56-1.png", "href": "BTTPHCM_4", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" },
-    { "image_id": "9", "uuid": "207boigj", "src": "82791574240244848dea343933508c56-2.png", "href": "BTTPHCM_4", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" },
-    { "image_id": "10", "uuid": "xt8bvenr", "src": "c54e54b4d6b346a4a3d07dc38ec5835d-2.png", "href": "BTTPHCM_4", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
+    { "image_id": "5", "uuid": "1yx4bwb7", "src": "cc892c4118284ebab1b9f38cd1ca23d1-1.png", "href": "BTTPHCM_4", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "6", "uuid": "hpwwx7mp", "src": "cc892c4118284ebab1b9f38cd1ca23d1-2.png", "href": "BTTPHCM_4", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "7", "uuid": "76sgjjd6", "src": "13270dfbdd8742f8a92fecf73b88d3ab-2.png", "href": "BTTPHCM_4", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "8", "uuid": "j6g0p56l", "src": "82791574240244848dea343933508c56-1.png", "href": "BTTPHCM_4", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "9", "uuid": "hakfv6a8", "src": "82791574240244848dea343933508c56-2.png", "href": "BTTPHCM_4", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "10", "uuid": "94ptrz9b", "src": "c54e54b4d6b346a4a3d07dc38ec5835d-2.png", "href": "BTTPHCM_4", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
     { "code": "Thierry 423", "images": ["zd8hm0tx", "2kefo5ug"], "variant": "", "diameter": "52.00", "weight": "28.68", "page": "75", "plate": "", "articles": [], "urls": [] },
     { "code": "大庫隆夫 62", "images": ["8v3h1lxf", "ryesq0w9"], "variant": "", "diameter": "", "weight": "", "page": "82", "plate": "", "articles": [], "urls": [] },
-    { "code": "BTTPHCM 4", "images": ["udqboq7p", "se59fn2s"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "BTTPHCM 4", "images": ["1yx4bwb7", "hpwwx7mp"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },

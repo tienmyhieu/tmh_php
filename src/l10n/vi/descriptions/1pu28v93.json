@@ -1,0 +1,22 @@
+{
+  "maxims": [
+    { "maxim_uuid": "xi3s8jr4", "maxim": "Muôn đời nương tựa", "visible":  "1" },
+    { "maxim_uuid": "uobdifea", "maxim": "Muôn đời nhờ mãi", "visible":  "1" },
+    { "maxim_uuid": "iqsnzhya", "maxim": "Muôn đời được nhờ mãi", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "xi3s8jr4": [
+      { "uuid": "TCMM", "reference_uuid": "8eszq2lc", "page": "49" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "171" }
+    ],
+    "uobdifea": [
+      { "uuid": "TCTT", "reference_uuid": "x2hkl3yi", "page": "48" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "205" }
+    ],
+    "iqsnzhya": [
+      { "uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "840" }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "page_image": "1e0eb7ce617748278b510f1832c3400a-2",
+  "images": [
+    { "image_id": "1", "uuid": "wpy48muq", "src": "1e0eb7ce617748278b510f1832c3400a-1.png", "href": "HCCV_183", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "9cmoli2x", "src": "1e0eb7ce617748278b510f1832c3400a-2.png", "href": "HCCV_183", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "2r1ux40l", "src": "9ac4b346daff4d41aaa526d66b4afd42-1.png", "href": "VN6_TD1", "copyright": "1", "country": "vn", "year": "2018", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "l6nq0sau", "src": "9ac4b346daff4d41aaa526d66b4afd42-2.png", "href": "VN6_TD1", "copyright": "1", "country": "vn", "year": "2018", "color": "0", "visible": "1" }
+  ],
+  "emperors": [
+    { "emperor_uuid": "4n18conu", "inscription_uuid": "atfdj6mk", "images": ["wpy48muq", "9cmoli2x"] },
+    { "emperor_uuid": "zn6uo1wi", "inscription_uuid": "atfdj6mk", "images": ["2r1ux40l", "l6nq0sau"] }
+  ]
+}

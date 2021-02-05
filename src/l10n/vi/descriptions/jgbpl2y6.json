@@ -1,0 +1,19 @@
+{
+  "maxims": [
+    { "maxim_uuid": "4gayug7o", "maxim": "Mọi vật sinh sôi", "visible":  "1" },
+    { "maxim_uuid": "ycagirjd", "maxim": "Muôn vật nhờ được sinh sống", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "4gayug7o": [
+      { "uuid": "TCMM", "reference_uuid": "8eszq2lc", "page": "49" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "171" }
+    ],
+    "ycagirjd": [
+      { "uuid": "TCTT", "reference_uuid": "x2hkl3yi", "page": "48" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "205" },
+      { "uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "840" }
+    ]
+  }
+}
