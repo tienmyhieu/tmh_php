@@ -1,0 +1,13 @@
+{
+  "maxims": [
+    { "maxim_uuid": "mn9b9laq", "maxim": "Nhân dân ca nườc đêu chờ mong", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "mn9b9laq": [
+      { "uuid": "TCTD", "reference_uuid": "pjmp6uhz", "page": "63" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "235" }
+    ]
+  }
+}

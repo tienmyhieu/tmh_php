@@ -1,0 +1,10 @@
+{
+  "page_image": "a7ed1e764ece455da934423d56211730-2",
+  "images": [
+    { "image_id": "1", "uuid": "mu454vcv", "src": "a7ed1e764ece455da934423d56211730-1.png", "href": "CMV_1787", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "uo39js03", "src": "a7ed1e764ece455da934423d56211730-2.png", "href": "CMV_1787", "copyright": "1", "country": "fr", "year": "1988", "color": "0", "visible": "1" }
+  ],
+  "emperors": [
+    { "emperor_uuid": "zn6uo1wi", "inscription_uuid": "pdknzo2s", "images": ["mu454vcv", "uo39js03"] }
+  ]
+}

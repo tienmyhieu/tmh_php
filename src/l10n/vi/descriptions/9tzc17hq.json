@@ -1,0 +1,12 @@
+{
+  "maxims": [
+    { "maxim_uuid": "49j4csop", "maxim": "Tài năng gánh vác trị vì thiên hạ", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "49j4csop": [
+      { "uuid": "VN6", "reference_uuid": "gvkepvmm", "page": "12" }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "page_image": "85f10b01d1034b8aaeff44f2869ee08e-2",
+  "images": [
+    { "image_id": "1", "uuid": "f3gnb90z", "src": "85f10b01d1034b8aaeff44f2869ee08e-2.png", "href": "NA_461", "copyright": "0", "country": "fr", "year": "1900", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "8z02z4gb", "src": "125fd611e9a3401e9d9ef20fe686048e.png", "href": "NONE", "copyright": "0", "country": "", "year": "", "color": "0", "visible": "1" }
+  ],
+  "emperors": [
+    { "emperor_uuid": "zn6uo1wi", "inscription_uuid": "zwf2b1bp", "images": ["8z02z4gb", "f3gnb90z"] }
+  ]
+}

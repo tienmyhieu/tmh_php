@@ -1,0 +1,13 @@
+{
+  "maxims": [
+    { "maxim_uuid": "5rywrx3k", "maxim": "Công và tư đêu phong phú", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "5rywrx3k": [
+      { "uuid": "TCTD", "reference_uuid": "pjmp6uhz", "page": "63" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "235" }
+    ]
+  }
+}

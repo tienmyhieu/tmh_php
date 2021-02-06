@@ -1,0 +1,17 @@
+{
+  "maxims": [
+    { "maxim_uuid": "mrzw2m8g", "maxim": "Trời đất uốn lượn thành, muôn vật khuôn trong cõi", "visible":  "1" },
+    { "maxim_uuid": "q8dwv9vz", "maxim": "Thành tựu trọn vẹn, muôn vật ở trong phạm vi trời đất", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "mrzw2m8g": [
+      { "uuid": "TCTD", "reference_uuid": "pjmp6uhz", "page": "62" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "233" }
+    ],
+    "q8dwv9vz": [
+      { "uuid": "VN6", "reference_uuid": "gvkepvmm", "page": "14" }
+    ]
+  }
+}

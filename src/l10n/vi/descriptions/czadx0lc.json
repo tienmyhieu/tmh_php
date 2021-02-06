@@ -1,0 +1,12 @@
+{
+  "maxims": [
+    { "maxim_uuid": "lgnna1b9", "maxim": "Như ngọc khuê (ngọc trên nhọn, dưới vuông. Thiên tử phong vua cho chư hầu thì ban cho), như ngọc chương (có hinh dáng như nửa ngọc khuê), nghe thấy tiếng khen tốt, nhìn thấy làm điều phải", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "lgnna1b9": [
+      { "uuid": "VN6", "reference_uuid": "gvkepvmm", "page": "13" }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "maxims": [
+    { "maxim_uuid": "id9pqa3x", "maxim": "Phúc lộc đến đây đủ", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "id9pqa3x": [
+      { "uuid": "TCTD", "reference_uuid": "pjmp6uhz", "page": "63" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "235" }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "maxims": [
+    { "maxim_uuid": "sdiyu38m", "maxim": "Muôn vật tốt tươi, trăm họ yên bình", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "sdiyu38m": [
+      { "uuid": "VN6", "reference_uuid": "gvkepvmm", "page": "14" }
+    ]
+  }
+}

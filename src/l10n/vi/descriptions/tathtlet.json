@@ -1,0 +1,12 @@
+{
+  "maxims": [
+    { "maxim_uuid": "c5jnqlbw", "maxim": "Nhận sự giúp đỡ từ trời cao dài lâu", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "c5jnqlbw": [
+      { "uuid": "VN6", "reference_uuid": "gvkepvmm", "page": "14" }
+    ]
+  }
+}

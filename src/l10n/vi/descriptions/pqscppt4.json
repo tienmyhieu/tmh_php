@@ -1,0 +1,13 @@
+{
+  "maxims": [
+    { "maxim_uuid": "o9dqofzf", "maxim": "Chín công đêu dặt trong trật tự", "visible":  "1" }
+  ],
+  "transliterations": [],
+  "inscriptions": [],
+  "reference_maxims": {
+    "o9dqofzf": [
+      { "uuid": "TCTD", "reference_uuid": "pjmp6uhz", "page": "63" },
+      { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "235" }
+    ]
+  }
+}

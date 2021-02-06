@@ -1,0 +1,10 @@
+{
+  "page_image": "0135099469f24b75aa4437b09bf9750d-2",
+  "images": [
+    { "image_id": "1", "uuid": "i4y929xa", "src": "0135099469f24b75aa4437b09bf9750d-1.png", "href": "ANZDQ_81", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
+    { "image_id": "1", "uuid": "jn1ni4yi", "src": "0135099469f24b75aa4437b09bf9750d-2.png", "href": "ANZDQ_81", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" }
+  ],
+  "emperors": [
+    { "emperor_uuid": "zn6uo1wi", "inscription_uuid": "yszs4fdd", "images": ["i4y929xa", "jn1ni4yi"] }
+  ]
+}
