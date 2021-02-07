@@ -25,5 +25,14 @@
     "bo4x0qk7": [
       { "uuid": "VN6", "reference_uuid": "gvkepvmm", "page": "14" }
     ]
-  }
+  },
+  "references": [
+    { "reference_uuid": "8eszq2lc", "page": "48", "plate": "", "identifier": "17", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "x2hkl3yi", "page": "47", "plate": "", "identifier": "12", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "57qxr0k8", "page": "169, 201", "plate": "", "identifier": "173, 252", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "drq2opmz", "page": "70", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "5h4ycj4i", "page": "839", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "u3yk53j3", "page": "86", "plate": "", "identifier": "12", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "gvkepvmm", "page": "14", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] }
+  ]
 }

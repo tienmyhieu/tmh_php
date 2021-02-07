@@ -28,5 +28,15 @@
     "njm6iw9l": [
       { "uuid": "VN4", "reference_uuid": "0qynj8k8", "page": "10" }
     ]
-  }
+  },
+  "references": [
+    { "reference_uuid": "8eszq2lc", "page": "49", "plate": "", "identifier": "34", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "x2hkl3yi", "page": "48", "plate": "", "identifier": "33", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "57qxr0k8", "page": "171, 204", "plate": "", "identifier": "190, 273", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "drq2opmz", "page": "71", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "5h4ycj4i", "page": "840", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "u3yk53j3", "page": "103", "plate": "", "identifier": "29", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "0qynj8k8", "page": "10", "plate": "", "identifier": "VN30-3", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "gvkepvmm", "page": "12", "plate": "", "identifier": "6", "notes": "", "articles": [], "urls": [] }
+  ]
 }

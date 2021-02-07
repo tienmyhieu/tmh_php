@@ -12,7 +12,7 @@
       { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "169" },
       { "uuid": "DNTL3", "reference_uuid": "drq2opmz", "page": "70" },
       { "uuid": "VN4", "reference_uuid": "0qynj8k8", "page": "11" },
-      { "uuid": "VN5", "reference_uuid": "82bjogf2", "page": "6" },
+      { "uuid": "VN5", "reference_uuid": "82bjogf2", "page": "5" },
       { "uuid": "STTMM", "reference_uuid": "u3yk53j3", "page": "90" }
     ],
     "mktmcra2": [
@@ -22,5 +22,15 @@
     "83uo3w3h": [
       { "uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "840" }
     ]
-  }
+  },
+  "references": [
+    { "reference_uuid": "8eszq2lc", "page": "48", "plate": "", "identifier": "21", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "x2hkl3yi", "page": "47", "plate": "", "identifier": "26", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "57qxr0k8", "page": "169, 203", "plate": "", "identifier": "177, 266", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "drq2opmz", "page": "70", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "5h4ycj4i", "page": "839", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "u3yk53j3", "page": "90", "plate": "", "identifier": "16", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "0qynj8k8", "page": "11", "plate": "", "identifier": "VN29-2", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "82bjogf2", "page": "6", "plate": "", "identifier": "VN31-3", "notes": "", "articles": [], "urls": [] }
+  ]
 }

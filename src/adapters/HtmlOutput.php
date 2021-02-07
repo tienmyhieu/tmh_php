@@ -170,9 +170,9 @@ class HtmlOutput
         return $html;
     }
 
-    public static function references($lexicon, $entityReferences, $references): string
+    public static function references($lexicon, $entityReferences, $references, $titleSuffix=''): string
     {
-        $title = self::sectionTitle($lexicon['references'], 3);
+        $title = self::sectionTitle($lexicon['references'] . $titleSuffix, 3);
         $html = $title;
         if (0 < count($entityReferences)) {
             $html .= "\n\t\t\t" . '<table width="100%" border="1" cellpadding="2" cellspacing="1">';
