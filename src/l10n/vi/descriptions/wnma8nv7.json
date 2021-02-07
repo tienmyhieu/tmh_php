@@ -13,5 +13,10 @@
     "q8dwv9vz": [
       { "uuid": "VN6", "reference_uuid": "gvkepvmm", "page": "14" }
     ]
-  }
+  },
+  "references": [
+    { "reference_uuid": "pjmp6uhz", "page": "62", "plate": "", "identifier": "9", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "57qxr0k8", "page": "233", "plate": "", "identifier": "351", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "gvkepvmm", "page": "14", "plate": "", "identifier": "26", "notes": "", "articles": [], "urls": [] }
+  ]
 }

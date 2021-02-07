@@ -8,5 +8,8 @@
     "lgnna1b9": [
       { "uuid": "VN6", "reference_uuid": "gvkepvmm", "page": "13" }
     ]
-  }
+  },
+  "references": [
+    { "reference_uuid": "gvkepvmm", "page": "13", "plate": "", "identifier": "15", "notes": "", "articles": [], "urls": [] }
+  ]
 }

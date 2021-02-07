@@ -8,5 +8,8 @@
     "sdiyu38m": [
       { "uuid": "VN6", "reference_uuid": "gvkepvmm", "page": "14" }
     ]
-  }
+  },
+  "references": [
+    { "reference_uuid": "gvkepvmm", "page": "13", "plate": "", "identifier": "12", "notes": "", "articles": [], "urls": [] }
+  ]
 }

@@ -16,5 +16,12 @@
       { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "205" },
       { "uuid": "DNTL6", "reference_uuid": "5h4ycj4i", "page": "840" }
     ]
-  }
+  },
+  "references": [
+    { "reference_uuid": "8eszq2lc", "page": "49", "plate": "", "identifier": "42", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "x2hkl3yi", "page": "48", "plate": "", "identifier": "42", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "57qxr0k8", "page": "171, 205", "plate": "", "identifier": "198, 282", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "5h4ycj4i", "page": "840", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "82bjogf2", "page": "6", "plate": "", "identifier": "VN32-7", "notes": "", "articles": [], "urls": [] }
+  ]
 }

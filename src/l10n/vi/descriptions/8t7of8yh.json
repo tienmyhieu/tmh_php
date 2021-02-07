@@ -10,5 +10,10 @@
       { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "233" },
       { "uuid": "VN6", "reference_uuid": "gvkepvmm", "page": "13" }
     ]
-  }
+  },
+  "references": [
+    { "reference_uuid": "pjmp6uhz", "page": "62", "plate": "", "identifier": "7", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "57qxr0k8", "page": "233", "plate": "", "identifier": "349", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "gvkepvmm", "page": "13", "plate": "", "identifier": "11", "notes": "", "articles": [], "urls": [] }
+  ]
 }

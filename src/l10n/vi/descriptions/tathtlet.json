@@ -8,5 +8,8 @@
     "c5jnqlbw": [
       { "uuid": "VN6", "reference_uuid": "gvkepvmm", "page": "14" }
     ]
-  }
+  },
+  "references": [
+    { "reference_uuid": "gvkepvmm", "page": "14", "plate": "", "identifier": "21", "notes": "", "articles": [], "urls": [] }
+  ]
 }

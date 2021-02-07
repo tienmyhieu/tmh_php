@@ -8,5 +8,8 @@
     "49j4csop": [
       { "uuid": "VN6", "reference_uuid": "gvkepvmm", "page": "12" }
     ]
-  }
+  },
+  "references": [
+    { "reference_uuid": "gvkepvmm", "page": "12", "plate": "", "identifier": "7", "notes": "", "articles": [], "urls": [] }
+  ]
 }

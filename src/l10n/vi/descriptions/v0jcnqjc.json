@@ -9,5 +9,9 @@
       { "uuid": "TCTD", "reference_uuid": "pjmp6uhz", "page": "63" },
       { "uuid": "TCVN", "reference_uuid": "57qxr0k8", "page": "235" }
     ]
-  }
+  },
+  "references": [
+    { "reference_uuid": "pjmp6uhz", "page": "63", "plate": "", "identifier": "18", "notes": "", "articles": [], "urls": [] },
+    { "reference_uuid": "57qxr0k8", "page": "235", "plate": "", "identifier": "360", "notes": "", "articles": [], "urls": [] }
+  ]
 }
