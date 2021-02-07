@@ -62,11 +62,13 @@ class Output
         $coin['images'] = $images;
         $coin['title'] = $this->getEntity('title');
 
+        $entityReferences = in_array('references', array_keys($descriptions)) ? $descriptions['references'] : [];
         $output = HtmlOutput::twoCellStart();
         $output .= HtmlOutput::coinListTable($coins, $lexicon);
         $output .= HtmlOutput::twoCellMiddle();
         $output .= HtmlOutput::coinEmperors($coin, $emperors, $inscriptions);
         $output .= HtmlOutput::maximsTable($coin, $descriptions, $references, $lexicon);
+        $output .= HtmlOutput::references($lexicon, $entityReferences, $references);
         $output .= HtmlOutput::twoCellEnd();
         return $output;
     }
