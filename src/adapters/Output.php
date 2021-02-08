@@ -106,13 +106,24 @@ class Output
         $output .= HtmlOutput::twoCellMiddle();
         $output .= HtmlOutput::sectionTitle($lexicon['reference_images'], 3, false);
         $output .= HtmlOutput::coinEmperorReferencesList(
-            $coinEmperor['reference_specimens'], $tmpImages, $lexicon, $articles, $variants, $coinEmperor['inscriptions']
+            $coinEmperor['reference_specimens'],
+            $tmpImages,
+            $lexicon,
+            $articles,
+            $variants, $coinEmperor['inscriptions'],
+            $title
         );
         //$output .= HtmlOutput::gallery($coinEmperor['images'], 4, $title, $lexicon);
         $output .= HtmlOutput::coinEmperorReferences($coinEmperor, $references, $lexicon, $articles);
         $output .= HtmlOutput::sectionTitle($lexicon['private_collection_images'], 3);
         $output .= HtmlOutput::coinEmperorReferencesList(
-            $coinEmperor['other_specimens'], $tmpImages2, $lexicon, $articles, $variants, $coinEmperor['inscriptions']
+            $coinEmperor['other_specimens'],
+            $tmpImages2,
+            $lexicon,
+            $articles,
+            $variants,
+            $coinEmperor['inscriptions'],
+            $title
         );
         //$output .= HtmlOutput::gallery($coinEmperor['other_images'], 4, $title, $lexicon);
         $output .= HtmlOutput::coinEmperorReferences2($coinEmperor['collections'], $collections, $lexicon);

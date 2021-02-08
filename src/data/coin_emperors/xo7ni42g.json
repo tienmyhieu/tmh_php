@@ -8,7 +8,7 @@
     { "image_id": "5", "uuid": "xbtqnz9l", "src": "dc519f0ba8e448c580f863776fb3521a-1.png", "href": "ANZDQ_64", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
     { "image_id": "6", "uuid": "1tfr2lqg", "src": "dc519f0ba8e448c580f863776fb3521a-2.png", "href": "ANZDQ_64", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
     { "image_id": "7", "uuid": "wpy48muq", "src": "1e0eb7ce617748278b510f1832c3400a-1.png", "href": "HCCV_183", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },
-    { "image_id": "8", "uuid": "9cmoli2x", "src": "1e0eb7ce617748278b510f1832c3400a-2.png", "href": "HCCV_183", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },
+    { "image_id": "8", "uuid": "lj07raw0", "src": "1e0eb7ce617748278b510f1832c3400a-2.png", "href": "HCCV_183", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },
     { "image_id": "9", "uuid": "j4a2b3mp", "src": "318f03f549a94d2db5bda7be12c560f3-1.png", "href": "HCCV_183", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" },
     { "image_id": "10", "uuid": "q6qpktqu", "src": "318f03f549a94d2db5bda7be12c560f3-2.png", "href": "HCCV_183", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" },
     { "image_id": "11", "uuid": "4vn4js2q", "src": "10b4d5b98cf14ee1a5f682283a90e22f-1.png", "href": "BTTPHCM_8", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
@@ -19,7 +19,7 @@
     { "image_id": "16", "uuid": "kd23pkoo", "src": "3e8193d8029b42af90b21b48ef204cc5-2.png", "href": "BTTPHCM_8", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "Barker 183", "images": ["wpy48muq", "9cmoli2x"], "variant": "", "diameter": "51.73", "weight": "33.41", "page": "299", "plate": "", "articles": [], "urls": [] },
+    { "code": "Barker 183", "images": ["wpy48muq", "lj07raw0"], "variant": "", "diameter": "51.73", "weight": "33.41", "page": "299", "plate": "", "articles": [], "urls": [] },
     { "code": "大庫隆夫 64", "images": ["xbtqnz9l", "1tfr2lqg"], "variant": "", "diameter": "", "weight": "", "page": "83", "plate": "", "articles": [], "urls": [] },
     { "code": "BTTPHCM 8", "images": ["4vn4js2q", "jakp2goc"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],

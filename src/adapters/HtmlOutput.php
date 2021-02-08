@@ -406,7 +406,7 @@ class HtmlOutput
         return $html;
     }
 
-    public static function coinEmperorReferencesList($references, $images, $lexicon, $articles, $variants, $inscriptions): string
+    public static function coinEmperorReferencesList($references, $images, $lexicon, $articles, $variants, $inscriptions, $title): string
     {
         $html = '';
         if (0 < count($images)) {
@@ -457,8 +457,8 @@ class HtmlOutput
                     $image = $images[$imageUuid];
                     $src =  $baseUrl . $imagePreviewSize . '/' . $image['src'];
                     $imageHref = $baseUrl . '1024/' . $image['src'];
-                    $html .= '<a href="' . $imageHref . '" title="' . $imageTitle . '">';
-                    $html .= '<img src="' . $src . '" alt="' . $imageTitle . '" /></a>';
+                    $html .= '<a href="' . $imageHref . '" title="' . $title . '">';
+                    $html .= '<img src="' . $src . '" alt="' . $title . '" /></a>';
                 }
                 $html .= "\n\t\t\t\t\t" . '</td>';
                 $html .= "\n\t\t\t\t" . '</tr>';
