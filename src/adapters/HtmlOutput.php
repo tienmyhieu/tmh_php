@@ -106,6 +106,23 @@ class HtmlOutput
         return $html . "\n";
     }
 
+    public static function emperorImages($emperor, $coins, $title): string
+    {
+        $html = '';
+        $imagePreviewSize = '256';
+        $baseUrl = 'http://img1.tienmyhieu.com/';
+        foreach ($emperor['emperor_images'] as $emperorImage) {
+            $image = $emperor['images'][$emperorImage['image_uuid']];
+            $coin = $coins[$emperorImage['coin_uuid']];
+            $imageTitle = $title . ' ' . $coin['name'];
+            $imageHref = preg_replace('|\s+|', '_', $title) . '_' . $coin['href'];
+            $src = $baseUrl . $imagePreviewSize . '/' . $image['src'];
+            $html .= '<a href="' . $imageHref . '" title="' . $imageTitle . '">';
+            $html .= '<img src="' . $src . '" alt="' . $imageTitle . '" /></a>';
+        }
+        return $html;
+    }
+
     public static function coinEmperorRows($coinEmperors, $emperors): string
     {
         $html = '';
@@ -380,7 +397,7 @@ class HtmlOutput
         foreach ($coins as $coin) {
             $coinTitle = self::linkTitle($coin['href']);
             $html .= "\n\t\t\t\t\t" . '<tr>';
-            $html .= "\n\t\t\t\t\t\t" . '<td><a href="' . $coin['href'] . '" title="' . $coinTitle . '">' . $coin['coin'] . '</a></td>';
+            $html .= "\n\t\t\t\t\t\t" . '<td nowrap="nowrap"><a href="' . $coin['href'] . '" title="' . $coinTitle . '">' . $coin['coin'] . '</a></td>';
             $html .= "\n\t\t\t\t\t\t" . '<td>' . $coin['count'] . '</td>';
             $html .= "\n\t\t\t\t\t" . '</tr>';
         }

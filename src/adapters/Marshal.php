@@ -75,6 +75,19 @@ class Marshal
         return $this->collections;
     }
 
+    public function emperor($emperorId)
+    {
+        $emperor = $this->json->loadSubData('emperors', $emperorId);
+        $images = [];
+        if (in_array('images', array_keys($emperor))) {
+            foreach ($emperor['images'] as $image) {
+                $images[$image['uuid']] = $image;
+            }
+        }
+        $emperor['images'] = $images;
+        return $emperor;
+    }
+
     public function emperors(): array
     {
         return $this->emperors;

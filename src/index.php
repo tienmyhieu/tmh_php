@@ -61,11 +61,12 @@ switch ($template) {
         $output->setEntities($entities);
         break;
     case 'emperor':
-        $emperor = $coinEmperors->getEmperorByName($meta->title());
+        $emperor = $factory->emperor();
         $entities = [
-            'coins' => $coinEmperors->getEmperorList($emperor['uuid']),
-            'emperor' => $emperor,
-            'lexicon' => $referenceEmperors->lexicon()
+            'coins' => $emperor->coins(),
+            'emperor' => $emperor->get($meta->identifier()),
+            'lexicon' => $emperor->lexicon(),
+            'title' => $meta->title(),
         ];
         $output->setEntities($entities);
         break;

@@ -122,16 +122,10 @@ class Output
 
     private function emperor(): string
     {
-        $output = HtmlOutput::twoCellStart();
-        $output .= HtmlOutput::emperorListTable(
-            $this->getEntity('emperor'),
-            $this->getEntity('coins'),
-            $this->getEntity('lexicon')
-        );
-        $output .= HtmlOutput::twoCellMiddle();
-        $output .= 'other stuff';
-        $output .= HtmlOutput::twoCellEnd();
-        return $output;
+        $coins = $this->getEntity('coins');
+        $emperor = $this->getEntity('emperor');
+        $title = $this->getEntity('title');
+        return HtmlOutput::emperorImages($emperor, $coins, $title);
     }
 
     private function getEntity($entity)
