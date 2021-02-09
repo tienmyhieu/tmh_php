@@ -49,5 +49,5 @@
     { "collection_uuid": "p7wm00bk", "date": "2020-04-02", "pdf_url": "", "url_obverse": "https://pic1.chcoin.com/M02/06/0C/wKgBWF6FU12IMAX-AAEmGA7RaQ4AAEh6gIcH-QAASYw961.jpg", "url_reverse": "https://pic1.chcoin.com/M02/06/0C/wKgBWF6FU12IMAX-AAEmGA7RaQ4AAEh6gIcH-QAASYw961.jpg", "identifier": "", "lot_number": "" },
     { "collection_uuid": "p7wm00bk", "date": "2020-04-02", "pdf_url": "", "url_obverse": "https://pic1.chcoin.com/M02/06/0C/wKgBWF6FU12IMAX-AAEmGA7RaQ4AAEh6gIcH-QAASYw961.jpg", "url_reverse": "https://pic1.chcoin.com/M02/06/0C/wKgBWF6FU12IMAX-AAEmGA7RaQ4AAEh6gIcH-QAASYw961.jpg", "identifier": "", "lot_number": "" }
   ],
-  "variant_notes": { "variants": ["28o8xdkb", "q3wrske6"] }
+  "thong_variants": "1"
 }

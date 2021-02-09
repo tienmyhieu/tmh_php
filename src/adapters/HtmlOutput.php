@@ -407,7 +407,7 @@ class HtmlOutput
         return $html;
     }
 
-    public static function coinEmperorReferencesList($references, $images, $lexicon, $articles, $variants, $inscriptions, $title): string
+    public static function coinEmperorReferencesList($references, $images, $lexicon, $articles, $variants, $inscriptions, $title, $hasVariants): string
     {
         $html = '';
         if (0 < count($images)) {
@@ -417,12 +417,15 @@ class HtmlOutput
             //$html .= '<h4>' . $inscriptions . '</h4>';
             $html .= "\n\t\t\t" . '<table border="1" cellpadding="2" cellspacing="1">';
             $i = 1;
+            $withVariants = 0;
             foreach ($references as $reference) {
                 $hasArticle = in_array('articles', array_keys($reference)) && 0 < count($reference['articles']);
                 $hasPage = 0 < strlen($reference['page']);
                 $hasPlate = 0 < strlen($reference['plate']);
                 $hasMeasurements = 0 < strlen($reference['diameter']) || 0 < strlen($reference['weight']);
-                $hasVariant = 0 < strlen($reference['variant']);
+                if (0 < strlen($reference['variant'])) {
+                    $withVariants++;
+                }
                 $html .= "\n\t\t\t\t" . '<tr>';
                 $html .= "\n\t\t\t\t\t" . '<td valign="top">';
                 $html .= $i . '. ' . $reference['code'] . '<br/>';
@@ -466,7 +469,9 @@ class HtmlOutput
                 $i++;
             }
             $html .= "\n\t\t\t" . '</table>';
-            $html .= '<br /> *' . $lexicon['dot_thong_variants'] . '<br />';
+            if ($hasVariants) {
+                $html .= '<br /> *' . $lexicon['dot_thong_variants'] . '<br />';
+            }
         } else {
             $html .= '&nbsp;&nbsp;&nbsp;' . $lexicon['none'] . '<br />';
         }

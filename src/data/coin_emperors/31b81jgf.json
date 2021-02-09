@@ -77,5 +77,5 @@
     { "collection_uuid": "i91nbvi5", "date": "2016-11-11", "pdf_url": "", "url_obverse": "", "url_reverse": "http://blogimg.goo.ne.jp/user_image/79/bd/076659021b57b1d8b5e940caa7f0b392.jpg", "identifier": "", "lot_number": "" },
     { "collection_uuid": "p7wm00bk", "date": "2020-04-02", "pdf_url": "", "url_obverse": "https://pic1.chcoin.com/M02/06/0C/wKgBWF6FU12IULppAADyCRHn4CUAAEh6gIdRhQAAPIh317.jpg", "url_reverse": "https://pic1.chcoin.com/M02/06/0C/wKgBWF6FU12IULppAADyCRHn4CUAAEh6gIdRhQAAPIh317.jpg", "identifier": "", "lot_number": "" }
   ],
-  "variant_notes": { "variants": ["28o8xdkb", "q3wrske6"] }
+  "thong_variants": "1"
 }

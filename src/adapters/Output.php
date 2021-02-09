@@ -85,6 +85,10 @@ class Output
         $references = $this->getEntity('referenceEmperors');
         $title = $this->getEntity('title');
         $variants = $this->getEntity('variants');
+        $hasVariants = false;
+        if (in_array('thong_variants', array_keys($coinEmperor))) {
+            $hasVariants = (bool)$coinEmperor['thong_variants'];
+        }
 
         $tmpImages = [];
         foreach ($coinEmperor['images'] as $image) {
@@ -111,7 +115,8 @@ class Output
             $lexicon,
             $articles,
             $variants, $coinEmperor['inscriptions'],
-            $title
+            $title,
+            $hasVariants
         );
         //$output .= HtmlOutput::gallery($coinEmperor['images'], 4, $title, $lexicon);
         $output .= HtmlOutput::coinEmperorReferences($coinEmperor, $references, $lexicon, $articles);
@@ -123,7 +128,8 @@ class Output
             $articles,
             $variants,
             $coinEmperor['inscriptions'],
-            $title
+            $title,
+            $hasVariants
         );
         //$output .= HtmlOutput::gallery($coinEmperor['other_images'], 4, $title, $lexicon);
         $output .= HtmlOutput::coinEmperorReferences2($coinEmperor['collections'], $collections, $lexicon);
