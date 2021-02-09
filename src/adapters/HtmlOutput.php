@@ -364,6 +364,7 @@ class HtmlOutput
                     $image = $coin['images'][$image];
                     $src = $baseUrl . $imagePreviewSize . '/' . $image['src'];
                     $imageHref = $baseUrl . '1024/' . $image['src'];
+                    $imageHref = $emperor['href'] . '_' . preg_replace('|\s+|', '_', $coin['title']) ;
 
                     $html .= "\n\t\t\t\t\t" . '<td valign="top">';
                     $html .= '<a href="' . $imageHref . '" title="' . $imageTitle . '">';
