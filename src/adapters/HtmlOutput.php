@@ -447,10 +447,10 @@ class HtmlOutput
                     $linksHtml = substr($linksHtml, 0,  -2) . '<br/>';
                     $html .= $linksHtml;
                 }
-                if ($hasVariant) {
-                    $variant = $variants[$reference['variant']]['variant'];
-                    $html .= '&nbsp;&nbsp;&nbsp;' . $lexicon['variant'] . ': ' . $variant . '<br/>';
-                }
+//                if ($hasVariant) {
+//                    $variant = $variants[$reference['variant']]['variant'];
+//                    $html .= '&nbsp;&nbsp;&nbsp;' . $lexicon['variant'] . ': ' . $variant . '<br/>';
+//                }
                 $html .= '</td>';
                 $html .= "\n\t\t\t\t\t" . '<td align="right">';
                 $imageTitle = $reference['code'];
@@ -466,6 +466,7 @@ class HtmlOutput
                 $i++;
             }
             $html .= "\n\t\t\t" . '</table>';
+            $html .= '<br /> *' . $lexicon['dot_thong_variants'] . '<br />';
         } else {
             $html .= '&nbsp;&nbsp;&nbsp;' . $lexicon['none'] . '<br />';
         }

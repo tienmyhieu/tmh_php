@@ -29,12 +29,12 @@
   ],
   "reference_specimens": [
     { "code": "Schroeder 218", "images": ["72b1us4g"], "variant": "", "diameter": "", "weight": "", "page": "444", "plate": "72", "articles": [], "urls": [] },
-    { "code": "Thierry 1602", "images": ["bwiev9h7", "uekcjkwn"], "variant": "28o8xdkb", "diameter": "53.60", "weight": "36.07", "page": "91", "plate": "25", "articles": [], "urls": [] },
-    { "code": "Barker 177", "images": ["yf27t0n1", "tvjdbq2q"], "variant": "28o8xdkb", "diameter": "53.43", "weight": "34.97", "page": "295", "plate": "", "articles": [], "urls": [] },
-    { "code": "大庫隆夫 68", "images": ["m0kx9ycn", "5q3ys859"], "variant": "28o8xdkb", "diameter": "", "weight": "", "page": "86", "plate": "", "articles": [], "urls": [] },
-    { "code": "満泉堂 37", "images": ["wwzrjk5b", "myr9vcmw"], "variant": "28o8xdkb", "diameter": "", "weight": "", "page": "37", "plate": "", "articles": [], "urls": [] },
-    { "code": "BRMU TT4", "images": ["50z35pl9", "uoqlr7ad"], "variant": "q3wrske6", "diameter": "53.00", "weight": "37.26", "page": "", "plate": "", "articles": [], "urls": [] },
-    { "code": "BTTPHCM 6", "images": ["ee6dvfwe", "yh2tq9w1"], "variant": "28o8xdkb", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "Thierry 1602", "images": ["bwiev9h7", "uekcjkwn"], "variant": "", "diameter": "53.60", "weight": "36.07", "page": "91", "plate": "25", "articles": [], "urls": [] },
+    { "code": "Barker 177", "images": ["yf27t0n1", "tvjdbq2q"], "variant": "", "diameter": "53.43", "weight": "34.97", "page": "295", "plate": "", "articles": [], "urls": [] },
+    { "code": "大庫隆夫 68", "images": ["m0kx9ycn", "5q3ys859"], "variant": "", "diameter": "", "weight": "", "page": "86", "plate": "", "articles": [], "urls": [] },
+    { "code": "満泉堂 37", "images": ["wwzrjk5b", "myr9vcmw"], "variant": "", "diameter": "", "weight": "", "page": "37", "plate": "", "articles": [], "urls": [] },
+    { "code": "BRMU TT4", "images": ["50z35pl9", "uoqlr7ad"], "variant": "", "diameter": "53.00", "weight": "37.26", "page": "", "plate": "", "articles": [], "urls": [] },
+    { "code": "BTTPHCM 6", "images": ["ee6dvfwe", "yh2tq9w1"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
@@ -56,9 +56,9 @@
     { "reference_uuid": "knsmgzuq", "page": "", "plate": "", "identifier": "6", "notes": "bttphcm_tt", "articles": [], "urls": [] }
   ],
   "other_specimens": [
-    { "code": "MANT vae14-1156", "images": ["bfjb67yp", "rj36cdk7"], "variant": "28o8xdkb", "diameter": "53.00", "weight": "38.79", "page": "", "plate": "" },
+    { "code": "MANT vae14-1156", "images": ["bfjb67yp", "rj36cdk7"], "variant": "", "diameter": "53.00", "weight": "38.79", "page": "", "plate": "" },
     { "code": "IKAR TT7", "images": ["grblwft1"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" },
-    { "code": "WOYL TT6", "images": ["5sj81blq", "li4xp7zz"], "variant": "28o8xdkb", "diameter": "", "weight": "", "page": "", "plate": "" }
+    { "code": "WOYL TT6", "images": ["5sj81blq", "li4xp7zz"], "variant": "", "diameter": "", "weight": "", "page": "", "plate": "" }
   ],
   "other_images": [
     { "image_id": "26", "uuid": "bfjb67yp", "src": "d0ca216be4474dd08bf3ad226e25af43-1.png", "href": "MANT_TT2", "copyright": "0", "country": "fr", "year": "2013", "color": "0", "visible": "1" },
@@ -76,5 +76,6 @@
     { "collection_uuid": "qzi0xluv", "date": "2013-11-21", "pdf_url": "", "url_obverse": "http://www.monnaiesdantan.com/upload/141001.jpg", "url_reverse": "http://www.monnaiesdantan.com/upload/141001.jpg", "identifier": "", "lot_number": "" },
     { "collection_uuid": "i91nbvi5", "date": "2016-11-11", "pdf_url": "", "url_obverse": "", "url_reverse": "http://blogimg.goo.ne.jp/user_image/79/bd/076659021b57b1d8b5e940caa7f0b392.jpg", "identifier": "", "lot_number": "" },
     { "collection_uuid": "p7wm00bk", "date": "2020-04-02", "pdf_url": "", "url_obverse": "https://pic1.chcoin.com/M02/06/0C/wKgBWF6FU12IULppAADyCRHn4CUAAEh6gIdRhQAAPIh317.jpg", "url_reverse": "https://pic1.chcoin.com/M02/06/0C/wKgBWF6FU12IULppAADyCRHn4CUAAEh6gIdRhQAAPIh317.jpg", "identifier": "", "lot_number": "" }
-  ]
+  ],
+  "variant_notes": { "variants": ["28o8xdkb", "q3wrske6"] }
 }
