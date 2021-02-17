@@ -78,13 +78,7 @@ class Marshal
     public function emperor($emperorId)
     {
         $emperor = $this->json->loadSubData('emperors', $emperorId);
-        $images = [];
-        if (in_array('images', array_keys($emperor))) {
-            foreach ($emperor['images'] as $image) {
-                $images[$image['uuid']] = $image;
-            }
-        }
-        $emperor['images'] = $images;
+        $emperor['images'] = $this->transformEntityCollection($emperor, 'images');
         return $emperor;
     }
 
@@ -113,6 +107,15 @@ class Marshal
     public function descriptions($coinId)
     {
         return $this->json->loadLocalizedSubData('descriptions', $coinId, $this->language);
+    }
+
+    public function reference($referenceId)
+    {
+        $reference = $this->json->loadSubData('references', $referenceId);
+        $reference['images'] = $this->transformEntityCollection($reference, 'images');
+        $reference['original_images'] = $this->transformEntityCollection($reference, 'original_images');
+        $reference['collections'] = $this->transformEntityCollection($reference, 'collections');
+        return $reference;
     }
 
     public function referenceEmperors()
@@ -185,5 +188,16 @@ class Marshal
         }
         unset($transformed['images']);
         return $transformed;
+    }
+
+    private function transformEntityCollection($entity, $collection): array
+    {
+        $images = [];
+        if (in_array($collection, array_keys($entity))) {
+            foreach ($entity[$collection] as $image) {
+                $images[$image['uuid']] = $image;
+            }
+        }
+        return $images;
     }
 }

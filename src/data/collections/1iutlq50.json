@@ -1,0 +1,23 @@
+{
+  "attributes": {
+    "name": "",
+    "coin_emperor_uuid": "eyir4o3m"
+  },
+  "original_images": [],
+  "images": [
+    { "image_id": "bw1", "uuid": "sv5lxw2r", "src": "701a114aabfd4b599b025795263f9291-1.png", "href": "", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "bw2", "uuid": "sdhy44a1", "src": "701a114aabfd4b599b025795263f9291-2.png", "href": "", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "bw3", "uuid": "bggh6xsu", "src": "a25ded88c4f045339ff451e58f19263a-2.png", "href": "", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "br4", "uuid": "lnyde57b", "src": "c98e5fc5d499439b9f8eaaf1633d427a-1.png", "href": "", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "1" },
+    { "image_id": "br5", "uuid": "049vii35", "src": "c98e5fc5d499439b9f8eaaf1633d427a-2.png", "href": "", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "1" },
+    { "image_id": "or6", "uuid": "2412oxqz", "src": "c98e5fc5d499439b9f8eaaf1633d427a-1.png", "href": "", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "1" },
+    { "image_id": "or7", "uuid": "z5a13aad", "src": "c98e5fc5d499439b9f8eaaf1633d427a-2.png", "href": "", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "1" },
+    { "image_id": "or8", "uuid": "1w5yciv1", "src": "05cbe4fe5b3f4bc0b74dd1029308fd32-2.png", "href": "", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "1" }
+  ],
+  "collections": [
+    { "name": "originals", "uuid": "8yrim1ty", "title": "", "expand": "0", "items": "3", "images": [] },
+    { "name": "original_pngs", "uuid": "pilm8k7m", "title": "", "expand": "0", "items": "3", "images": [] },
+    { "name": "brighter_pngs", "uuid": "jtvkynnh", "title": "", "expand": "0", "items": "2", "images": [] },
+    { "name": "black_and_white_pngs", "uuid": "1qberabf", "title": "", "expand": "0", "items": "3", "images": [] }
+  ]
+}

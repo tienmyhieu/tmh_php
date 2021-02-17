@@ -585,6 +585,62 @@ class HtmlOutput
         return $html;
     }
 
+    public static function reference($reference): string
+    {
+        $html = '';
+        foreach ($reference['collections'] as $collection) {
+            if ((bool)$collection['expand']) {
+                $html .= $collection['title'] . '<br /><br />';
+            } else {
+                $html .= HtmlOutput::collectionTable(
+                    $collection,
+                    $reference['images'],
+                    $reference['original_images']
+                );
+            }
+        }
+        $html .= HtmlOutput::embeddedVideo('');
+        return $html;
+    }
+
+    public static function collectionTable($collection, $images, $originalImages): string
+    {
+        $imagePreviewSize = '256';
+        $baseUrl = 'http://img1.tienmyhieu.com/';
+        $html = "\n\t\t\t" . '<table border="1" cellpadding="2" cellspacing="1">';
+        $html .= "\n\t\t\t\t" . '<tr>';
+        foreach ($collection['images'] as $uuid) {
+            $image = $images[$uuid];
+            $imgSrc = $baseUrl . 'uploads/' . $imagePreviewSize . '/' . $image['src'];
+            $aHref = $baseUrl . 'uploads/1024/' . $image['src'];
+            $imgTitle = $image['href'];
+            $html .= "\n\t\t\t\t\t" . '<td>';
+            $html .= "\n\t\t\t\t\t" . HtmlOutput::linkedImage($aHref, $imgTitle, $imgSrc, $imgTitle);
+            $html .= "\n\t\t\t\t\t" . '</td>';
+        }
+        $html .= "\n\t\t\t\t" . '</tr>';
+        $html .= "\n\t\t\t\t" . '</table>';
+        $html .= "\n\t\t\t\t" . '<br />';
+        return $html;
+    }
+
+    public static function embeddedVideo($uuid, $start=0)
+    {
+        $html = '<object width="640" height="385">';
+        $html .= '<param name="movie" value="http://www.youtube.com/v/Ro1LgXquY80&hl=vi_VN&start=640"></param>';
+        $html .= '<param name="allowscriptaccess" value="always"></param>';
+        $html .= '<embed src="http://www.youtube.com/v/Ro1LgXquY80&hl=vi_VN&start=640" type="application/x-shockwave-flash" allowscriptaccess="always" width="640" height="385"></embed>';
+        $html .= '</object>';
+        return $html;
+    }
+
+    public static function linkedImage($aHref, $aTitle, $imgSrc, $imgTitle): string
+    {
+        $html = '<a href="' . $aHref . '" title="' . $aTitle . '">';
+        $html .= '<img src="' . $imgSrc . '" alt="' . $imgTitle . '" /></a>';
+        return $html;
+    }
+
     private static function linkTitle($title)
     {
         return preg_replace('|_|', ' ', $title);

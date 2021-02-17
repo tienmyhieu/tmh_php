@@ -242,5 +242,6 @@
   { "title_id": "000", "uuid": "haq98d96", "title": "安南美號大銭の研究", "href": "安南美號大銭の研究", "template": "reference", "identifier": "jybo2v6v" },
   { "title_id": "000", "uuid": "2cq1p2xr", "title": "Collection numismatique Albert Sallet", "href": "Collection_numismatique_Albert_Sallet", "template": "reference", "identifier": "wy30l8iv" },
   { "title_id": "000", "uuid": "gtk57y51", "title": "Bảo Tàng Thành Phố Hố Chí Minh", "href": "Bảo_Tàng_Thành_Phố_Hố_Chí_Minh", "template": "reference", "identifier": "knsmgzuq" },
-  { "title_id": "000", "uuid": "yieylovr", "title": "The British Museum", "href": "The_British_Museum", "template": "reference", "identifier": "08w1apoy" }
+  { "title_id": "000", "uuid": "yieylovr", "title": "The British Museum", "href": "The_British_Museum", "template": "reference", "identifier": "08w1apoy" },
+  { "title_id": "000", "uuid": "yw7it0uc", "title": "Tiền thưởng thời Tự Đức", "href": "Tiền_thưởng_thời_Tự_Đức", "template": "collection", "identifier": "kxe9auly" }
 ]

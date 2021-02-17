@@ -25,10 +25,12 @@ class Output
             case 'home':
                 $output = $this->home();
                 break;
+            case 'reference':
+                $output = $this->reference();
+                break;
         }
         return $output;
     }
-
 
     public function setEntities($entities)
     {
@@ -172,4 +174,14 @@ class Output
         return $output;
     }
 
+    private function reference(): string
+    {
+        $coinEmperors = $this->getEntity('coinEmperors');
+        $lexicon = $this->getEntity('lexicon');
+        $reference = $this->getEntity('reference');
+//        echo '<pre>';
+//        print_r($reference);
+//        echo '</pre>';
+        return HtmlOutput::reference($reference);
+    }
 }

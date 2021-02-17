@@ -80,6 +80,15 @@ switch ($template) {
         ];
         $output->setEntities($entities);
     break;
+    case 'reference':
+        $reference = $factory->reference();
+        $entities = [
+            'coinEmperors' => $coinEmperors->get(),
+            'lexicon' => $reference->lexicon(),
+            'reference' => $reference->get($meta->identifier()),
+        ];
+        $output->setEntities($entities);
+        break;
 }
 ?>
 <!DOCTYPE html>

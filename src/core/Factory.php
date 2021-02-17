@@ -10,6 +10,7 @@ use adapters\Json;
 use adapters\Language;
 use adapters\Meta;
 use adapters\Output;
+use adapters\Reference;
 use adapters\ReferenceEmperors;
 
 require_once (__DIR__ . '/../adapters/Articles.php');
@@ -21,6 +22,7 @@ require_once (__DIR__ . '/../adapters/Json.php');
 require_once (__DIR__ . '/../adapters/Language.php');
 require_once (__DIR__ . '/../adapters/Meta.php');
 require_once (__DIR__ . '/../adapters/Output.php');
+require_once (__DIR__ . '/../adapters/Reference.php');
 require_once (__DIR__ . '/../adapters/ReferenceEmperors.php');
 
 class Factory
@@ -68,6 +70,11 @@ class Factory
     public function output()
     {
         return new Output();
+    }
+
+    public function reference()
+    {
+        return new Reference($this->json(), $this->language());
     }
 
     public function referenceEmperors()
