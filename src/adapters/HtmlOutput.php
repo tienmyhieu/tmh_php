@@ -590,7 +590,9 @@ class HtmlOutput
         $html = '';
         foreach ($reference['collections'] as $collection) {
             if ((bool)$collection['expand']) {
-                $html .= $collection['title'] . '<br /><br />';
+                $title = preg_replace('|_|', ' ',  $collection['title']);
+                $html .= '<a href="' . $collection['title'] . '" title="' . $title . '">';
+                $html .= $title . '</a><br /><br />';
             } else {
                 $html .= HtmlOutput::collectionTable(
                     $collection,
@@ -599,7 +601,11 @@ class HtmlOutput
                 );
             }
         }
-        $html .= HtmlOutput::embeddedVideo('');
+        if (in_array('videos', array_keys($reference))) {
+            foreach ($reference['videos'] as $video) {
+                $html .= HtmlOutput::embeddedVideo($video);
+            }
+        }
         return $html;
     }
 
@@ -614,6 +620,10 @@ class HtmlOutput
             $imgSrc = $baseUrl . 'uploads/' . $imagePreviewSize . '/' . $image['src'];
             $aHref = $baseUrl . 'uploads/1024/' . $image['src'];
             $imgTitle = $image['href'];
+            if (in_array($uuid, array_keys($originalImages))) {
+                $originalImage = $originalImages[$uuid];
+                $aHref = $baseUrl . 'originals/' . $originalImage['src'];
+            }
             $html .= "\n\t\t\t\t\t" . '<td>';
             $html .= "\n\t\t\t\t\t" . HtmlOutput::linkedImage($aHref, $imgTitle, $imgSrc, $imgTitle);
             $html .= "\n\t\t\t\t\t" . '</td>';
@@ -624,13 +634,17 @@ class HtmlOutput
         return $html;
     }
 
-    public static function embeddedVideo($uuid, $start=0)
+    public static function embeddedVideo($video)
     {
-        $html = '<object width="640" height="385">';
-        $html .= '<param name="movie" value="http://www.youtube.com/v/Ro1LgXquY80&hl=vi_VN&start=640"></param>';
-        $html .= '<param name="allowscriptaccess" value="always"></param>';
-        $html .= '<embed src="http://www.youtube.com/v/Ro1LgXquY80&hl=vi_VN&start=640" type="application/x-shockwave-flash" allowscriptaccess="always" width="640" height="385"></embed>';
-        $html .= '</object>';
+        $embedHref = 'https://www.youtube.com/embed/' . $video['uuid'] . '?hl=' . $video['locale'];
+        $href = 'https://www.youtube.com/watch?v=' . $video['uuid'];
+        if (0 < $video['start']) {
+            $href .= '&t=' . $video['start'] . 's';
+        }
+        $html = '<a href="' . $href . '" target="_blank" style="position:relative; display:inline-block;">';
+        $html .= '<div style="position:absolute; height:100%; width:100%; z-index:1;"></div>';
+        $html .= '<iframe style="z-index: 2;" width="600" height="400" src="' . $embedHref . '" frameborder="0" allowfullscreen></iframe>';
+        $html .= '</a>';
         return $html;
     }
 
