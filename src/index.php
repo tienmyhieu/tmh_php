@@ -60,6 +60,15 @@ switch ($template) {
         ];
         $output->setEntities($entities);
         break;
+    case 'collection':
+        $collection = $factory->collection();
+        $entities = [
+            'coins' => $collection->coins(),
+            'lexicon' => $collection->lexicon(),
+            'collection' => $collection->get($meta->identifier()),
+        ];
+        $output->setEntities($entities);
+        break;
     case 'emperor':
         $emperor = $factory->emperor();
         $entities = [

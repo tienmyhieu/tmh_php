@@ -1,7 +1,10 @@
 {
   "attributes": {
     "name": "",
-    "coin_emperor_uuid": ""
+    "coin_emperor_uuid": "",
+    "coin_uuid": "",
+    "emperor_uuid": "bn3shibu",
+    "lowest_level": "0"
   },
   "original_images": [],
   "images": [],

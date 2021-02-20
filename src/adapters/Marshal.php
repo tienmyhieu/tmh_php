@@ -68,6 +68,31 @@ class Marshal
         return $this->json->loadData('coin_emperors');
     }
 
+    public function collection($collectionId)
+    {
+        return $this->loadCollection($collectionId);
+    }
+
+    private function loadCollection($collectionId)
+    {
+        $collection = $this->json->loadSubData('collections', $collectionId);
+        $collection['images'] = $this->transformEntityCollection($collection, 'images');
+        $collection['original_images'] = $this->transformEntityCollection($collection, 'original_images');
+        $collection['collections'] = $this->transformEntityCollection($collection, 'collections');
+        $tmpCollections = [];
+        foreach ($collection['collections'] as $uuid => $subCollection) {
+            $tmpCollection = $subCollection;
+            if ($subCollection['expand']) {
+                $tmpCollection = $this->loadCollection($uuid);
+            }
+            $tmpCollections[$uuid] = $tmpCollection;
+        }
+        if (0 < count($tmpCollections)) {
+            $collection['collections'] = $tmpCollections;
+        }
+        return $collection;
+    }
+
     public function collections()
     {
         $collections = $this->json->loadData('collections');

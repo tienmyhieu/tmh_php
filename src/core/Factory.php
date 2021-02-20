@@ -5,6 +5,7 @@ use adapters\Articles;
 use adapters\Coin;
 use adapters\CoinEmperor;
 use adapters\CoinEmperors;
+use adapters\Collection;
 use adapters\Emperor;
 use adapters\Json;
 use adapters\Language;
@@ -17,6 +18,7 @@ require_once (__DIR__ . '/../adapters/Articles.php');
 require_once (__DIR__ . '/../adapters/Coin.php');
 require_once (__DIR__ . '/../adapters/CoinEmperor.php');
 require_once (__DIR__ . '/../adapters/CoinEmperors.php');
+require_once (__DIR__ . '/../adapters/Collection.php');
 require_once (__DIR__ . '/../adapters/Emperor.php');
 require_once (__DIR__ . '/../adapters/Json.php');
 require_once (__DIR__ . '/../adapters/Language.php');
@@ -45,6 +47,11 @@ class Factory
     public function coinEmperors()
     {
         return new CoinEmperors($this->json(), $this->language());
+    }
+
+    public function collection()
+    {
+        return new Collection($this->json(), $this->language());
     }
 
     public function emperor()

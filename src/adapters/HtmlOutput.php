@@ -8,9 +8,6 @@ class HtmlOutput
 
     public static function article($article, $lexicon): string
     {
-//        echo '<pre>';
-//        print_r($article);
-//        echo '</pre>';
         $html = '';
         $html .= "\n\t\t\t" . '<table border="1" cellpadding="5" cellspacing="1">';
         $html .= "\n\t\t\t\t" . '<tbody>';
@@ -497,16 +494,6 @@ class HtmlOutput
             $html .= "\n\t\t\t\t\t" . '<td>';
             $html .= '<a href="' . $imageHref . '" title="' . $imageTitle . '">';
             $html .= '<img src="' . $src . '" alt="' . $imageTitle . '" /></a>';
-//            if (!in_array('weight', array_keys($image))) {
-//                echo '<pre>';
-//                echo $image['image_id'] . PHP_EOL;
-//                print_r(array_keys($image));
-//                echo '</pre>';
-//            }
-//            if (in_array('weight', array_keys($image)) && 0 < strlen($image['weight'])) {
-//                $html .= '<br/>' . $image['diameter'] . 'mm - ' . $image['weight'] . $lexicon['grams'] ;
-//            }
-
             $html .= '</td>';
             $i++;
         }
@@ -597,7 +584,9 @@ class HtmlOutput
                 $html .= HtmlOutput::collectionTable(
                     $collection,
                     $reference['images'],
-                    $reference['original_images']
+                    $reference['original_images'],
+                    'uploads',
+                    '256'
                 );
             }
         }
@@ -609,16 +598,22 @@ class HtmlOutput
         return $html;
     }
 
-    public static function collectionTable($collection, $images, $originalImages): string
+    public static function collectionTable($collection, $images, $originalImages, $baseDir, $imgSize): string
     {
         $imagePreviewSize = '256';
         $baseUrl = 'http://img1.tienmyhieu.com/';
         $html = "\n\t\t\t" . '<table border="1" cellpadding="2" cellspacing="1">';
         $html .= "\n\t\t\t\t" . '<tr>';
         foreach ($collection['images'] as $uuid) {
+            $baseDir = '';
             $image = $images[$uuid];
-            $imgSrc = $baseUrl . 'uploads/' . $imagePreviewSize . '/' . $image['src'];
-            $aHref = $baseUrl . 'uploads/1024/' . $image['src'];
+            $isUpload = ($image['image_id'] === 'jpg');
+            if ($isUpload) {
+                $baseDir = 'uploads';
+            }
+            $baseDir .= (0 < strlen($baseDir) ? '/' : '');
+            $imgSrc = $baseUrl . $baseDir . $imgSize . '/' . $image['src'];
+            $aHref = $baseUrl . $baseDir . '1024/' . $image['src'];
             $imgTitle = $image['href'];
             if (in_array($uuid, array_keys($originalImages))) {
                 $originalImage = $originalImages[$uuid];
@@ -652,6 +647,44 @@ class HtmlOutput
     {
         $html = '<a href="' . $aHref . '" title="' . $aTitle . '">';
         $html .= '<img src="' . $imgSrc . '" alt="' . $imgTitle . '" /></a>';
+        return $html;
+    }
+
+    public static function collectionLevel($collection, $uuid, $coins, $lexicon)
+    {
+        $html = '';
+        $continue = !$collection['attributes']['lowest_level'];
+        if ($continue) {
+            foreach ($collection['collections'] as $subLevelUUid => $subLevelCollection) {
+                $html .= HtmlOutput::collectionLevel($subLevelCollection, $subLevelUUid, $coins, $lexicon);
+            }
+        } else {
+            foreach ($collection['collections'] as $subLevelUUid => $subLevelCollection) {
+                if (0 < count($subLevelCollection['images'])) {
+                    $coinUuid = $collection['attributes']['coin_uuid'];
+                    if ($coinUuid) {
+                        $coin = $coins[$coinUuid]['name'];
+                        $html .= $coin;
+                    }
+                    $html .= HtmlOutput::collectionTable(
+                        $subLevelCollection,
+                        $collection['images'],
+                        $collection['original_images'],
+                        '',
+                        '64'
+                    );
+                }
+            }
+        }
+        return $html;
+    }
+
+    public static function collection($collection, $coins, $lexicon)
+    {
+        $html = '';
+        foreach ($collection['collections'] as $levelOneUUid => $levelOneCollection) {
+            $html .= HtmlOutput::collectionLevel($levelOneCollection, $levelOneUUid, $coins, $lexicon);
+        }
         return $html;
     }
 

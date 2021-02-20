@@ -19,6 +19,9 @@ class Output
             case 'coin_emperor':
                 $output = $this->coinEmperor();
                 break;
+            case 'collection':
+                $output = $this->collection();
+                break;
             case 'emperor':
                 $output = $this->emperor();
                 break;
@@ -101,12 +104,6 @@ class Output
         foreach ($coinEmperor['other_images'] as $image) {
             $tmpImages2[$image['uuid']] = $image;
         }
-
-//        echo '<pre>';
-//        print_r($coinEmperor);
-//        echo '</pre>';
-
-        //print_r($coinEmperor['inscriptions']['obverse']);
         $output = HtmlOutput::twoCellStart();
         $output .= HtmlOutput::emperorListTable($emperor, $coins, $lexicon);
         $output .= HtmlOutput::twoCellMiddle();
@@ -137,6 +134,14 @@ class Output
         $output .= HtmlOutput::coinEmperorReferences2($coinEmperor['collections'], $collections, $lexicon);
         $output .= HtmlOutput::twoCellEnd();
         return $output;
+    }
+
+    private function collection(): string
+    {
+        $coins = $this->getEntity('coins');
+        $lexicon = $this->getEntity('lexicon');
+        $collection = $this->getEntity('collection');
+        return HtmlOutput::collection($collection, $coins, $lexicon);
     }
 
     private function emperor(): string
@@ -179,9 +184,6 @@ class Output
         $coinEmperors = $this->getEntity('coinEmperors');
         $lexicon = $this->getEntity('lexicon');
         $reference = $this->getEntity('reference');
-//        echo '<pre>';
-//        print_r($reference);
-//        echo '</pre>';
         return HtmlOutput::reference($reference);
     }
 }

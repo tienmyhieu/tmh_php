@@ -1,11 +1,14 @@
 {
   "attributes": {
     "name": "",
-    "coin_emperor_uuid": ""
+    "coin_emperor_uuid": "",
+    "coin_uuid": "",
+    "emperor_uuid": "syqewlhz",
+    "lowest_level": "0"
   },
   "original_images": [],
   "images": [],
   "collections": [
-    { "name": "bttphcm_td_vtvtvvtt", "uuid": "dqt02j4v", "title": "tien_thuong_tt", "expand": "1", "items": "12", "images": [] }
+    { "name": "bttphcm_tt_vtvtvvtt", "uuid": "dqt02j4v", "title": "tien_thuong_tt", "expand": "1", "items": "12", "images": [] }
   ]
 }
