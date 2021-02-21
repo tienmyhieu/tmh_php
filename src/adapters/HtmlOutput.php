@@ -577,9 +577,11 @@ class HtmlOutput
         $html = '';
         foreach ($reference['collections'] as $collection) {
             if ((bool)$collection['expand']) {
+                $collectionCount = 0 < $collection['items'] ? ' (' . $collection['items'] . ')' : '';
                 $title = preg_replace('|_|', ' ',  $collection['title']);
-                $html .= '<a href="' . $collection['title'] . '" title="' . $title . '">';
-                $html .= $title . '</a><br /><br />';
+                $href = preg_replace('|\s+|', '_', $title);
+                $html .= '<a href="' . $href . '" title="' . $title . '">';
+                $html .= $title . '</a>' . $collectionCount . '<br /><br />';
             } else {
                 $html .= HtmlOutput::collectionTable(
                     $collection,
@@ -605,19 +607,20 @@ class HtmlOutput
         $html = "\n\t\t\t" . '<table border="1" cellpadding="2" cellspacing="1">';
         $html .= "\n\t\t\t\t" . '<tr>';
         foreach ($collection['images'] as $uuid) {
-            $baseDir = '';
             $image = $images[$uuid];
-            $isUpload = ($image['image_id'] === 'jpg');
-            if ($isUpload) {
-                $baseDir = 'uploads';
-            }
             $baseDir .= (0 < strlen($baseDir) ? '/' : '');
             $imgSrc = $baseUrl . $baseDir . $imgSize . '/' . $image['src'];
             $aHref = $baseUrl . $baseDir . '1024/' . $image['src'];
-            $imgTitle = $image['href'];
+            $imgTitle = preg_replace('|_|', ' ', $image['href']);
+            if (in_array('title', array_keys($image))) {
+                if (0 < strlen($image['title'])) {
+                    $imgTitle = $image['title'];
+                }
+            }
             if (in_array($uuid, array_keys($originalImages))) {
                 $originalImage = $originalImages[$uuid];
-                $aHref = $baseUrl . 'originals/' . $originalImage['src'];
+                $aHref = $baseUrl . 'uploads/' . $originalImage['src'];
+                $imgSrc = $baseUrl . 'uploads/' . $imgSize . '/' . $image['src'];
             }
             $html .= "\n\t\t\t\t\t" . '<td>';
             $html .= "\n\t\t\t\t\t" . HtmlOutput::linkedImage($aHref, $imgTitle, $imgSrc, $imgTitle);

@@ -73,12 +73,32 @@ class Marshal
         return $this->loadCollection($collectionId);
     }
 
+    private function titledEntities($entities, $titles): array
+    {
+        $tmpEntities = [];
+        foreach ($entities as $uuid => $entity) {
+            if (in_array('title', array_keys($entity))) {
+                if (0 < strlen($entity['title'])) {
+                    $title = $titles[$entity['title']];
+                    $entity['title'] = $title['title'];
+                }
+                $tmpEntities[$uuid] = $entity;
+            }
+        }
+        return $tmpEntities;
+    }
+
     private function loadCollection($collectionId)
     {
+        $titles = $this->json->loadLocalized($this->language, 'titles');
+        $titles = $this->setKeyedItems($titles);
         $collection = $this->json->loadSubData('collections', $collectionId);
         $collection['images'] = $this->transformEntityCollection($collection, 'images');
+        $collection['images'] = $this->titledEntities($collection['images'], $titles);
         $collection['original_images'] = $this->transformEntityCollection($collection, 'original_images');
+        $collection['original_images'] = $this->titledEntities($collection['original_images'], $titles);
         $collection['collections'] = $this->transformEntityCollection($collection, 'collections');
+        $collection['collections'] = $this->titledEntities($collection['collections'], $titles);
         $tmpCollections = [];
         foreach ($collection['collections'] as $uuid => $subCollection) {
             $tmpCollection = $subCollection;
@@ -89,6 +109,7 @@ class Marshal
         }
         if (0 < count($tmpCollections)) {
             $collection['collections'] = $tmpCollections;
+            //$collection['collections'] = $this->titledEntities($collection['collections'], $titles);
         }
         return $collection;
     }
@@ -136,10 +157,15 @@ class Marshal
 
     public function reference($referenceId)
     {
+        $titles = $this->json->loadLocalized($this->language, 'titles');
+        $titles = $this->setKeyedItems($titles);
         $reference = $this->json->loadSubData('references', $referenceId);
         $reference['images'] = $this->transformEntityCollection($reference, 'images');
+        $reference['images'] = $this->titledEntities($reference['images'], $titles);
         $reference['original_images'] = $this->transformEntityCollection($reference, 'original_images');
+        $reference['original_images'] = $this->titledEntities($reference['original_images'], $titles);
         $reference['collections'] = $this->transformEntityCollection($reference, 'collections');
+        $reference['collections'] = $this->titledEntities($reference['collections'], $titles);
         return $reference;
     }
 
