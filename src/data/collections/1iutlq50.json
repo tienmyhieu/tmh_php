@@ -18,13 +18,15 @@
     { "image_id": "4", "uuid": "sv5lxw2r", "src": "701a114aabfd4b599b025795263f9291-1.png", "href": "", "title": "s2da09qk", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
     { "image_id": "5", "uuid": "sdhy44a1", "src": "701a114aabfd4b599b025795263f9291-2.png", "href": "", "title": "s2da09qk", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
     { "image_id": "6", "uuid": "bggh6xsu", "src": "a25ded88c4f045339ff451e58f19263a-2.png", "href": "", "title": "s2da09qk", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
-    { "image_id": "7", "uuid": "lnyde57b", "src": "c98e5fc5d499439b9f8eaaf1633d427a-1.png", "href": "", "title": "s2da09qk", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "1" },
-    { "image_id": "8", "uuid": "049vii35", "src": "c98e5fc5d499439b9f8eaaf1633d427a-2.png", "href": "", "title": "s2da09qk", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "1" },
+    { "image_id": "7", "uuid": "lnyde57b", "src": "zzz.png", "href": "", "title": "s2da09qk", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "1" },
+    { "image_id": "8", "uuid": "049vii35", "src": "zzz.png", "href": "", "title": "s2da09qk", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "1" },
     { "image_id": "9", "uuid": "2412oxqz", "src": "c98e5fc5d499439b9f8eaaf1633d427a-1.png", "href": "", "title": "s2da09qk", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "1" },
     { "image_id": "10", "uuid": "z5a13aad", "src": "c98e5fc5d499439b9f8eaaf1633d427a-2.png", "href": "", "title": "s2da09qk", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "1" },
     { "image_id": "11", "uuid": "1w5yciv1", "src": "05cbe4fe5b3f4bc0b74dd1029308fd32-2.png", "href": "", "title": "s2da09qk", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "1" }
   ],
   "collections": [
-    { "name": "vtvtvvtt", "uuid": "pilm8k7m", "title": "s2da09qk", "expand": "0", "items": "3", "images": ["7d7ce2o8", "hi1q12hk", "y2jogdgt", "2412oxqz", "z5a13aad", "1w5yciv1", "sv5lxw2r", "sdhy44a1", "bggh6xsu"] }
+    { "name": "vtvtvvtt", "uuid": "pilm8k7m", "title": "s2da09qk", "identifier": "10", "expand": "0", "items": "3", "images": [
+      "7d7ce2o8", "hi1q12hk", "y2jogdgt", "2412oxqz", "z5a13aad", "1w5yciv1", "sv5lxw2r", "sdhy44a1", "bggh6xsu"
+    ] }
   ]
 }

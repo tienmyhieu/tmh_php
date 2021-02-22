@@ -604,7 +604,7 @@ class HtmlOutput
     {
         $imagePreviewSize = '256';
         $baseUrl = 'http://img1.tienmyhieu.com/';
-        $html = "\n\t\t\t" . '<table border="1" cellpadding="2" cellspacing="1">';
+        $html = "\n\t\t\t" . '<table border="1" cellpadding="0" cellspacing="0">';
         $html .= "\n\t\t\t\t" . '<tr>';
         foreach ($collection['images'] as $uuid) {
             $image = $images[$uuid];
@@ -622,9 +622,12 @@ class HtmlOutput
                 $aHref = $baseUrl . 'uploads/' . $originalImage['src'];
                 $imgSrc = $baseUrl . 'uploads/' . $imgSize . '/' . $image['src'];
             }
-            $html .= "\n\t\t\t\t\t" . '<td>';
-            $html .= "\n\t\t\t\t\t" . HtmlOutput::linkedImage($aHref, $imgTitle, $imgSrc, $imgTitle);
-            $html .= "\n\t\t\t\t\t" . '</td>';
+            if ($image['href'] !== 'NONE') {
+                $html .= "\n\t\t\t\t\t" . '<td>' . HtmlOutput::linkedImage($aHref, $imgTitle, $imgSrc, $imgTitle) . '</td>';
+            } else {
+                $html .= "\n\t\t\t\t\t" . '<td>' . HtmlOutput::notLinkedImage($aHref, $imgTitle, $imgSrc, $imgTitle) . '</td>';
+            }
+
         }
         $html .= "\n\t\t\t\t" . '</tr>';
         $html .= "\n\t\t\t\t" . '</table>';
@@ -646,10 +649,15 @@ class HtmlOutput
         return $html;
     }
 
+    public static function notLinkedImage($aHref, $aTitle, $imgSrc, $imgTitle): string
+    {
+        return '<img src="' . $imgSrc . '" alt="' . $imgTitle . '" style="display: block; padding: 0; margin: 0" />';
+    }
+
     public static function linkedImage($aHref, $aTitle, $imgSrc, $imgTitle): string
     {
         $html = '<a href="' . $aHref . '" title="' . $aTitle . '">';
-        $html .= '<img src="' . $imgSrc . '" alt="' . $imgTitle . '" /></a>';
+        $html .= '<img src="' . $imgSrc . '" alt="' . $imgTitle . '" style="display: block; padding: 0; margin: 0" /></a>';
         return $html;
     }
 
@@ -666,8 +674,10 @@ class HtmlOutput
                 if (0 < count($subLevelCollection['images'])) {
                     $coinUuid = $collection['attributes']['coin_uuid'];
                     if ($coinUuid) {
+                        $hasIdentifier = 0 < strlen($subLevelCollection['identifier']);
+                        $identifer = $hasIdentifier ? $subLevelCollection['identifier'] . '. ' : '';
                         $coin = $coins[$coinUuid]['name'];
-                        $html .= $coin;
+                        $html .=  $identifer . $coin;
                     }
                     $html .= HtmlOutput::collectionTable(
                         $subLevelCollection,
