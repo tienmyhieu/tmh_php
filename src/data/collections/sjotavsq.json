@@ -1,0 +1,32 @@
+{
+  "attributes": {
+    "name": "",
+    "coin_emperor_uuid": "84syrfv6",
+    "coin_uuid": "kelpx841",
+    "emperor_uuid": "bn3shibu",
+    "lowest_level": "1"
+  },
+  "original_images": [
+    { "image_id": "1", "uuid": "yampeqzm", "src": "A98A4218.JPG", "href": "", "title": "e1lvgjsx", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "2", "uuid": "5xe6lk5m", "src": "A98A4215.JPG", "href": "", "title": "e1lvgjsx", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "3", "uuid": "hrvk2zqb", "src": "13.jpg", "href": "", "title": "e1lvgjsx", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" }
+  ],
+  "images": [
+    { "image_id": "1", "uuid": "yampeqzm", "src": "a0911047300d467e8ebd8f6706938e73.jpg", "href": "", "title": "e1lvgjsx", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "5xe6lk5m", "src": "9c375848b42540369959b6153fcaa287.jpg", "href": "", "title": "e1lvgjsx", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "hrvk2zqb", "src": "80f12d566b7f42678e5bc63e6fd73489.jpg", "href": "", "title": "e1lvgjsx", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "nw6yyu2z", "src": "de93647644ba450f80ad915c5ecce990-1.png", "href": "", "title": "e1lvgjsx", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "uwrho5y5", "src": "de93647644ba450f80ad915c5ecce990-2.png", "href": "", "title": "e1lvgjsx", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "6", "uuid": "px6eg4yc", "src": "fede5c0462b04c83831b1b62636e7d9d-2.png", "href": "", "title": "e1lvgjsx", "copyright": "1", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "7", "uuid": "lnyde57b", "src": "zzz.png", "href": "", "title": "e1lvgjsx", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "1" },
+    { "image_id": "8", "uuid": "049vii35", "src": "zzz.png", "href": "", "title": "e1lvgjsx", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "1" },
+    { "image_id": "9", "uuid": "bx8gkz92", "src": "3989dad0a42f49ad840376811a5c86bd-1.png", "href": "", "title": "e1lvgjsx", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "1" },
+    { "image_id": "10", "uuid": "0os1tvo2", "src": "3989dad0a42f49ad840376811a5c86bd-2.png", "href": "", "title": "e1lvgjsx", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "1" },
+    { "image_id": "11", "uuid": "xm1qsxt9", "src": "55ecd810cc074ae0963efea66fb61474-2.png", "href": "", "title": "e1lvgjsx", "copyright": "1", "country": "vn", "year": "", "color": "1", "visible": "1" }
+  ],
+  "collections": [
+    { "name": "qpbcnant", "uuid": "n5tlozro", "title": "e1lvgjsx", "identifier": "13", "expand": "0", "items": "3", "images": [
+      "yampeqzm", "5xe6lk5m", "hrvk2zqb", "nw6yyu2z", "uwrho5y5", "px6eg4yc", "bx8gkz92", "0os1tvo2", "xm1qsxt9"
+    ] }
+  ]
+}
