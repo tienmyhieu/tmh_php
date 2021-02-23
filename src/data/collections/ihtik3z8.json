@@ -1,0 +1,16 @@
+{
+  "attributes": {
+    "name": "",
+    "coin_emperor_uuid": "",
+    "coin_uuid": "",
+    "emperor_uuid": "syqewlhz",
+    "lowest_level": "0"
+  },
+  "original_images": [],
+  "images": [],
+  "collections": [
+    { "name": "bttphcm_tt_ddqv", "uuid": "o6mf7ven", "title": "", "identifier": "", "expand": "1", "items": 9, "images": [] },
+    { "name": "bttphcm_tt_vtvl", "uuid": "02i1l6ab", "title": "", "identifier": "", "expand": "1", "items": 9, "images": [] },
+    { "name": "bttphcm_tt_vvts", "uuid": "nuorelwg", "title": "", "identifier": "", "expand": "1", "items": 9, "images": [] }
+  ]
+}
