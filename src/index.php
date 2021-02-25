@@ -8,12 +8,8 @@ use core\Factory;
 
 require_once (__DIR__ . '/adapters/HtmlOutput.php');
 require_once (__DIR__ . '/core/Factory.php');
-
 $factory =  new Factory();
-$articles = $factory->articles();
-$coinEmperors = $factory->coinEmperors();
 $meta = $factory->meta();
-$referenceEmperors = $factory->referenceEmperors();
 $template = $meta->template();
 $output = $factory->output();
 // reference
@@ -22,9 +18,10 @@ $output = $factory->output();
 switch ($template) {
     case 'article':
         $identifier = $meta->identifier();
+        $articles = $factory->articles();
         $entities = [
             'article' => $articles->getArticle($identifier, $meta->language()),
-            'lexicon' => $referenceEmperors->lexicon()
+            'lexicon' => $articles->lexicon()
         ];
         $output->setEntities($entities);
         break;
@@ -44,9 +41,12 @@ switch ($template) {
         $output->setEntities($entities);
         break;
     case 'coin_emperor':
+        $coinEmperors = $factory->coinEmperors();
         $coinEmperor = $factory->coinEmperor();
         $identifier = $meta->identifier();
         $emperor = $coinEmperors->getEmperorByCoinEmperorId($identifier);
+        $referenceEmperors = $factory->referenceEmperors();
+        $articles = $factory->articles();
         $entities = [
             'coinEmperor' => $coinEmperor->get($identifier, 'ca'),
             'coins' => $coinEmperors->getEmperorList($emperor['uuid']),
@@ -80,6 +80,9 @@ switch ($template) {
         $output->setEntities($entities);
         break;
     case 'home':
+        $coinEmperors = $factory->coinEmperors();
+        $referenceEmperors = $factory->referenceEmperors();
+        $articles = $factory->articles();
         $entities = [
             'articles' => $articles->get(),
             'coinEmperors' => $coinEmperors->get(),
@@ -92,8 +95,6 @@ switch ($template) {
     case 'reference':
         $reference = $factory->reference();
         $entities = [
-            'coinEmperors' => $coinEmperors->get(),
-            'lexicon' => $reference->lexicon(),
             'reference' => $reference->get($meta->identifier()),
         ];
         $output->setEntities($entities);

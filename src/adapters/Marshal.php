@@ -12,6 +12,7 @@ class Marshal
     protected $language;
     protected $lexicon;
     protected $references;
+    protected $titles;
     protected $variants;
 
     private $json;
@@ -90,8 +91,7 @@ class Marshal
 
     private function loadCollection($collectionId)
     {
-        $titles = $this->json->loadLocalized($this->language, 'titles');
-        $titles = $this->setKeyedItems($titles);
+        $titles = $this->titles();
         $collection = $this->json->loadSubData('collections', $collectionId);
         $collection['images'] = $this->transformEntityCollection($collection, 'images');
         $collection['images'] = $this->titledEntities($collection['images'], $titles);
@@ -157,8 +157,7 @@ class Marshal
 
     public function reference($referenceId)
     {
-        $titles = $this->json->loadLocalized($this->language, 'titles');
-        $titles = $this->setKeyedItems($titles);
+        $titles = $this->titles();
         $reference = $this->json->loadSubData('references', $referenceId);
         $reference['images'] = $this->transformEntityCollection($reference, 'images');
         $reference['images'] = $this->titledEntities($reference['images'], $titles);
@@ -184,6 +183,15 @@ class Marshal
     public function variants()
     {
         return $this->variants;
+    }
+
+    public function titles()
+    {
+        if (!$this->titles) {
+            $this->titles = $this->json->loadLocalized($this->language, 'titles');
+            $this->titles = $this->setKeyedItems($this->titles);
+        }
+        return $this->titles;
     }
 
     private function itemsKey($items, $key): string

@@ -181,8 +181,6 @@ class Output
 
     private function reference(): string
     {
-        $coinEmperors = $this->getEntity('coinEmperors');
-        $lexicon = $this->getEntity('lexicon');
         $reference = $this->getEntity('reference');
         return HtmlOutput::reference($reference);
     }
