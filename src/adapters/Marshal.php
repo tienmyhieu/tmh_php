@@ -99,6 +99,11 @@ class Marshal
         $collection['original_images'] = $this->titledEntities($collection['original_images'], $titles);
         $collection['collections'] = $this->transformEntityCollection($collection, 'collections');
         $collection['collections'] = $this->titledEntities($collection['collections'], $titles);
+        if (in_array('parent_title', array_keys($collection['attributes']))) {
+            $parentTitle = $titles[$collection['attributes']['parent_title']];
+            $collection['attributes']['parent_title'] = $parentTitle['title'];
+        }
+
         $tmpCollections = [];
         foreach ($collection['collections'] as $uuid => $subCollection) {
             $tmpCollection = $subCollection;

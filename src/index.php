@@ -109,8 +109,7 @@ switch ($template) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body bgcolor="#FFFFFF">
-<h2><?php echo $meta->title(); ?></h2>
-<?php echo $output->get($template); ?>
+<?php echo $output->get($meta->title(), $template); ?>
 </body>
 </html>
 

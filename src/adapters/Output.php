@@ -6,8 +6,10 @@ require_once(__DIR__ . '/HtmlOutput.php');
 class Output
 {
     private $entities;
-    public function get($template): string
+    private $title;
+    public function get($title, $template): string
     {
+        $this->title = $title;
         $output = '';
         switch ($template) {
             case 'article':
@@ -44,7 +46,7 @@ class Output
     {
         $article = $this->getEntity('article');
         $lexicon = $this->getEntity('lexicon');
-        $output = HtmlOutput::article($article, $lexicon);
+        $output = $this->title() . HtmlOutput::article($article, $lexicon);
         return $output;
     }
 
@@ -69,7 +71,7 @@ class Output
 
         $titleSuffix = ' (' . $lexicon['meaning'] . ')';
         $entityReferences = in_array('references', array_keys($descriptions)) ? $descriptions['references'] : [];
-        $output = HtmlOutput::twoCellStart();
+        $output = $this->title() . HtmlOutput::twoCellStart();
         $output .= HtmlOutput::coinListTable($coins, $lexicon);
         $output .= HtmlOutput::twoCellMiddle();
         $output .= HtmlOutput::coinEmperors($coin, $emperors, $inscriptions);
@@ -104,7 +106,7 @@ class Output
         foreach ($coinEmperor['other_images'] as $image) {
             $tmpImages2[$image['uuid']] = $image;
         }
-        $output = HtmlOutput::twoCellStart();
+        $output = $this->title() . HtmlOutput::twoCellStart();
         $output .= HtmlOutput::emperorListTable($emperor, $coins, $lexicon);
         $output .= HtmlOutput::twoCellMiddle();
         $output .= HtmlOutput::sectionTitle($lexicon['reference_images'], 3, false);
@@ -141,7 +143,9 @@ class Output
         $coins = $this->getEntity('coins');
         $lexicon = $this->getEntity('lexicon');
         $collection = $this->getEntity('collection');
-        return HtmlOutput::collection($collection, $coins, $lexicon);
+        return $this->title() .
+            $this->collectionParentTitle($collection, 5) .
+            HtmlOutput::collection($collection, $coins, $lexicon);
     }
 
     private function emperor(): string
@@ -149,7 +153,7 @@ class Output
         $coins = $this->getEntity('coins');
         $emperor = $this->getEntity('emperor');
         $title = $this->getEntity('title');
-        return HtmlOutput::emperorImages($emperor, $coins, $title);
+        return $this->title() . HtmlOutput::emperorImages($emperor, $coins, $title);
     }
 
     private function getEntity($entity)
@@ -166,7 +170,7 @@ class Output
     {
         $emperors = $this->getEntity('emperors');
         $lexicon = $this->getEntity('lexicon');
-        $output = HtmlOutput::coinEmperorTable(
+        $output = $this->title() . HtmlOutput::coinEmperorTable(
             $this->getEntity('coinEmperors'),
             $emperors
         );
@@ -182,6 +186,23 @@ class Output
     private function reference(): string
     {
         $reference = $this->getEntity('reference');
-        return HtmlOutput::reference($reference);
+        return $this->title() . HtmlOutput::reference($reference);
+    }
+
+    private function title()
+    {
+        return '<h2 style="margin: 0">' . $this->title . '</h2>';
+    }
+
+    private function collectionParentTitle($collection, $size)
+    {
+        $parentTitle = '';
+        if (in_array('parent_title', array_keys($collection['attributes']))) {
+            if (0 < strlen($collection['attributes']['parent_title'])) {
+                $title = $collection['attributes']['parent_title'];
+                $parentTitle .= '<h' . $size . ' style="margin: 0;"> - ' . $title . '</h' . $size . '><br />';
+            }
+        }
+        return $parentTitle;
     }
 }
