@@ -9,6 +9,7 @@ class Json
     {
         $contents = '{}';
         if (file_exists($path .  '/' . $file . '.json')) {
+            //echo 'opening ' . $file . '<br />';
             $contents = file_get_contents($path .  '/' . $file . '.json');
         }
         return json_decode($contents, true);

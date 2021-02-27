@@ -96,6 +96,7 @@ switch ($template) {
         $reference = $factory->reference();
         $entities = [
             'reference' => $reference->get($meta->identifier()),
+            'lexicon' => $reference->lexicon(),
         ];
         $output->setEntities($entities);
         break;

@@ -572,9 +572,31 @@ class HtmlOutput
         return $html;
     }
 
+    public static function bibliography($bibliographyFields)
+    {
+        $html = '';
+        if (0 < count($bibliographyFields)) {
+            $html .= '<br />';
+            $html .= "\n\t\t\t" . '<table border="1" cellpadding="2" cellspacing="2">';
+            foreach ($bibliographyFields as $key => $value) {
+                if (is_array($value)) {
+                    $value = implode(', ', $value);
+                }
+                $html .= "\n\t\t\t\t" . '<tr>';
+                $html .= "\n\t\t\t\t\t" . '<td>' . $key . '</td>';
+                $html .= "\n\t\t\t\t\t" . '<td>' . $value . '</td>';
+                $html .= "\n\t\t\t\t" . '</tr>';
+            }
+            $html .= "\n\t\t\t" . '</table>';
+            $html .= '<br />';
+        }
+        return $html;
+    }
+
     public static function reference($reference): string
     {
         $html = '';
+        $html .= HtmlOutput::bibliography($reference['bibliography']);
         foreach ($reference['collections'] as $collection) {
             if ((bool)$collection['expand']) {
                 $collectionCount = 0 < $collection['items'] ? ' (' . $collection['items'] . ')' : '';

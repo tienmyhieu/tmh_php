@@ -1,0 +1,29 @@
+{
+  "attributes": {
+    "name": "Sưu Tập Tiền Minh Mệnh Trong Bảo Tàng Thành Phố Hố Chí Minh"
+  },
+  "bibliography": {
+    "title": "Sưu Tập Tiền Minh Mệnh Trong Bảo Tàng Thành Phố Hố Chí Minh",
+    "author": ["Hoàng Anh Tuấn", "Diệp Minh Cường"],
+    "publisher": "Nhà Xuất Bản Hải Phòng",
+    "year": "2013",
+    "city": "Hải Phòng",
+    "country": "Việt Nam",
+    "language": "Việt"
+  },
+  "original_images": [
+    { "image_id": "1", "uuid": "rdnvpd40", "src": "STTMM_cover.jpg", "href": "", "title": "r1rds3gv", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "ofz30nve", "src": "STTMM_143.jpg", "href": "", "title": "r1rds3gv", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "3ntepi7t", "src": "STTMM_073.jpg", "href": "", "title": "r1rds3gv", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" }
+  ],
+  "images": [
+    { "image_id": "1", "uuid": "rdnvpd40", "src": "3281d459e0f6491b866762e11fb1ec0c.jpg", "href": "", "title": "r1rds3gv", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "ofz30nve", "src": "cb03f767e57f4fdfba700b6c0941ffa2.jpg", "href": "", "title": "r1rds3gv", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "3ntepi7t", "src": "1e00e02d81cd4aa3b0bda07213f118c5.jpg", "href": "", "title": "r1rds3gv", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" }
+  ],
+  "videos": [],
+  "collections": [
+    { "name": "sttmm_pages", "uuid": "i5hwasmy", "title": "", "expand": "0", "items": "3", "coin_emperor": "", "images": ["rdnvpd40", "ofz30nve", "3ntepi7t"] },
+    { "name": "sttmm_hhttllll", "uuid": "mw2x441z", "title": "", "expand": "1", "items": "30", "coin_emperor": "", "images": [] }
+  ]
+}

@@ -70,7 +70,6 @@
   "lexicon" : {
     "meaning": "Nghĩa là",
     "articles": "Bài báo",
-    "author": "Tác giả",
     "diameter": "Đường kình",
     "grams": "gam",
     "btlsqg": "bộ sưu tập: Bảo tàng Lịch sử Quốc gia",
@@ -99,12 +98,17 @@
     "private_collection_images": "Hình ảnh: bộ sưu tập tư nhân",
     "references" : "Tham khảo",
     "reverse": "Lưng tiền",
-    "title": "Tiêu đề",
     "weight": "Trọng lượng",
-    "year": "Năm",
     "none": "Không ai",
     "reference_images": "Hình ảnh: trong sách hoặc viện bảo tàng",
-    "dot_thong_variants": "một và hai dấu chấm giống tồn tại"
+    "dot_thong_variants": "một và hai dấu chấm giống tồn tại",
+    "title": "Tiêu đề",
+    "author": "Tác giả",
+    "publisher": "Nhà xuất bản",
+    "city": "Thành phố",
+    "country": "Quốc gia",
+    "language": "Tiếng",
+    "year": "Năm"
   },
   "article": [
     { "article_id":  "1", "uuid": "hjhgn9na", "date": "2021-01-01", "title": "Schroeder 130 là một đồng tiền của Tự Đức", "href": "Schroeder_130_là_một_đồng_tiền_của_Tự_Đức", "visible": "1" },

@@ -148,6 +148,15 @@ class Output
             HtmlOutput::collection($collection, $coins, $lexicon);
     }
 
+    private function localizeKeys($keyValuePairs, $locales): array
+    {
+        $localized = [];
+        foreach ($keyValuePairs as $key => $value) {
+            $localized[$locales[$key]] = $value;
+        }
+        return $localized;
+    }
+
     private function emperor(): string
     {
         $coins = $this->getEntity('coins');
@@ -185,7 +194,9 @@ class Output
 
     private function reference(): string
     {
+        $lexicon = $this->getEntity('lexicon');
         $reference = $this->getEntity('reference');
+        $reference['bibliography'] = $this->localizeKeys($reference['bibliography'], $lexicon);
         return $this->title() . HtmlOutput::reference($reference);
     }
 
