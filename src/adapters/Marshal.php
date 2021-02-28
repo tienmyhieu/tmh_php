@@ -93,30 +93,43 @@ class Marshal
     {
         $titles = $this->titles();
         $collection = $this->json->loadSubData('collections', $collectionId);
-        $collection['images'] = $this->transformEntityCollection($collection, 'images');
-        $collection['images'] = $this->titledEntities($collection['images'], $titles);
-        $collection['original_images'] = $this->transformEntityCollection($collection, 'original_images');
-        $collection['original_images'] = $this->titledEntities($collection['original_images'], $titles);
-        $collection['collections'] = $this->transformEntityCollection($collection, 'collections');
-        $collection['collections'] = $this->titledEntities($collection['collections'], $titles);
-        if (in_array('parent_title', array_keys($collection['attributes']))) {
-            $parentTitle = $titles[$collection['attributes']['parent_title']];
-            $collection['attributes']['parent_title'] = $parentTitle['title'];
+//        if ('wqgx5hhg' == $collectionId) {
+//            print_r($collection);
+//        }
+        $collection = $this->transformEntityCollections($collection, $titles);
+//        if ('wqgx5hhg' == $collectionId) {
+//            print_r($collection);
+//        }
+        if (in_array('attributes', array_keys($collection))) {
+            if (in_array('parent_title', array_keys($collection['attributes']))) {
+                if (0 < strlen($collection['attributes']['parent_title'])) {
+                    $parentTitle = $titles[$collection['attributes']['parent_title']];
+                    $collection['attributes']['parent_title'] = $parentTitle['title'];
+                }
+            }
         }
+        $collection['collections'] = $this->expandCollections($collection['collections']);
+        return $collection;
+    }
 
-        $tmpCollections = [];
-        foreach ($collection['collections'] as $uuid => $subCollection) {
+    private function expandCollections($collections, $checkTitle=false)
+    {
+        $expandedCollections = [];
+        foreach ($collections as $uuid => $subCollection) {
             $tmpCollection = $subCollection;
             if ($subCollection['expand']) {
-                $tmpCollection = $this->loadCollection($uuid);
+                if ($checkTitle) {
+                    $hasTitle = 0 < strlen($subCollection['title']);
+                    if (!$hasTitle) {
+                        $tmpCollection = $this->loadCollection($uuid);
+                    }
+                } else {
+                    $tmpCollection = $this->loadCollection($uuid);
+                }
             }
-            $tmpCollections[$uuid] = $tmpCollection;
+            $expandedCollections[$uuid] = $tmpCollection;
         }
-        if (0 < count($tmpCollections)) {
-            $collection['collections'] = $tmpCollections;
-            //$collection['collections'] = $this->titledEntities($collection['collections'], $titles);
-        }
-        return $collection;
+        return $expandedCollections;
     }
 
     public function collections()
@@ -164,13 +177,20 @@ class Marshal
     {
         $titles = $this->titles();
         $reference = $this->json->loadSubData('references', $referenceId);
-        $reference['images'] = $this->transformEntityCollection($reference, 'images');
-        $reference['images'] = $this->titledEntities($reference['images'], $titles);
-        $reference['original_images'] = $this->transformEntityCollection($reference, 'original_images');
-        $reference['original_images'] = $this->titledEntities($reference['original_images'], $titles);
-        $reference['collections'] = $this->transformEntityCollection($reference, 'collections');
-        $reference['collections'] = $this->titledEntities($reference['collections'], $titles);
+        $reference = $this->transformEntityCollections($reference, $titles);
+        $reference['expanded_collections'] = $this->expandCollections($reference['collections'], true);
         return $reference;
+    }
+
+    private function transformEntityCollections($entity, $titles)
+    {
+        $entity['images'] = $this->transformEntityCollection($entity, 'images');
+        $entity['images'] = $this->titledEntities($entity['images'], $titles);
+        $entity['original_images'] = $this->transformEntityCollection($entity, 'original_images');
+        $entity['original_images'] = $this->titledEntities($entity['original_images'], $titles);
+        $entity['collections'] = $this->transformEntityCollection($entity, 'collections');
+        $entity['collections'] = $this->titledEntities($entity['collections'], $titles);
+        return $entity;
     }
 
     public function referenceEmperors()
@@ -256,12 +276,14 @@ class Marshal
 
     private function transformEntityCollection($entity, $collection): array
     {
-        $images = [];
-        if (in_array($collection, array_keys($entity))) {
-            foreach ($entity[$collection] as $image) {
-                $images[$image['uuid']] = $image;
+        $collectionItems = [];
+        if (is_array($entity) && 0 < count($entity)) {
+            if (in_array($collection, array_keys($entity))) {
+                foreach ($entity[$collection] as $collectionItem) {
+                    $collectionItems[$collectionItem['uuid']] = $collectionItem;
+                }
             }
         }
-        return $images;
+        return $collectionItems;
     }
 }

@@ -599,11 +599,16 @@ class HtmlOutput
         $html .= HtmlOutput::bibliography($reference['bibliography']);
         foreach ($reference['collections'] as $collection) {
             if ((bool)$collection['expand']) {
-                $collectionCount = 0 < $collection['items'] ? ' (' . $collection['items'] . ')' : '';
-                $title = preg_replace('|_|', ' ',  $collection['title']);
-                $href = preg_replace('|\s+|', '_', $title);
-                $html .= '<a href="' . $href . '" title="' . $title . '">';
-                $html .= $title . '</a>' . $collectionCount . '<br /><br />';
+                if (0 < strlen($collection['title'])) {
+                    $collectionCount = 0 < $collection['items'] ? ' (' . $collection['items'] . ')' : '';
+                    $title = preg_replace('|_|', ' ',  $collection['title']);
+                    $href = preg_replace('|\s+|', '_', $title);
+                    $html .= '<a href="' . $href . '" title="' . $title . '">';
+                    $html .= $title . '</a>' . $collectionCount . '<br /><br />';
+                } else {
+                    $expandedCollection = $reference['expanded_collections'][$collection['uuid']];
+                    //print_r($expandedCollection);
+                }
             } else {
                 $html .= HtmlOutput::collectionTable(
                     $collection,
