@@ -607,7 +607,18 @@ class HtmlOutput
                     $html .= $title . '</a>' . $collectionCount . '<br /><br />';
                 } else {
                     $expandedCollection = $reference['expanded_collections'][$collection['uuid']];
-                    //print_r($expandedCollection);
+                    foreach ($expandedCollection['collections'] as $subLevelCollection) {
+                        $hasIdentifier = 0 < strlen($subLevelCollection['identifier']);
+                        $identifier = $hasIdentifier ? $subLevelCollection['identifier'] . '. ' : '';
+                        $html .= $identifier . $subLevelCollection['title'] . '<br />';
+                        $html .= HtmlOutput::collectionTable(
+                            $subLevelCollection,
+                            $expandedCollection['images'],
+                            $expandedCollection['original_images'],
+                            '',
+                            '64'
+                        );
+                    }
                 }
             } else {
                 $html .= HtmlOutput::collectionTable(
@@ -615,7 +626,7 @@ class HtmlOutput
                     $reference['images'],
                     $reference['original_images'],
                     'uploads',
-                    '256'
+                    '128'
                 );
             }
         }
