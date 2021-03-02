@@ -22,10 +22,10 @@
     { "image_id": "19", "uuid": "z79rqmlw", "src": "235039cc49e94497bf4128f7e81e7518-2.png", "href": "MADP_826", "copyright": "1", "country": "fr", "year": "2011", "color": "1", "visible": "0" },
     { "image_id": "20", "uuid": "s93pkbn1", "src": "a32be0823b584fd282539ee7a0386865-1.png", "href": "AMDK_4", "copyright": "1", "country": "ja", "year": "2012", "color": "0", "visible": "1" },
     { "image_id": "21", "uuid": "y8s266sr", "src": "a32be0823b584fd282539ee7a0386865-2.png", "href": "AMDK_4", "copyright": "1", "country": "ja", "year": "2012", "color": "0", "visible": "1" },
-    { "image_id": "22", "uuid": "lzk8a7rs", "src": "da0963dbe648496c81bc7c0b46f18061-1.png", "href": "STTMM_6", "copyright": "1", "country": "vn", "year": "2013", "color": "0", "visible": "1" },
-    { "image_id": "23", "uuid": "d4swmy3o", "src": "da0963dbe648496c81bc7c0b46f18061-2.png", "href": "STTMM_6", "copyright": "1", "country": "vn", "year": "2013", "color": "0", "visible": "1" },
-    { "image_id": "24", "uuid": "0j75su9f", "src": "3bef2b712ae74a7a83604ae708092ffb-1.png", "href": "STTMM_6", "copyright": "1", "country": "vn", "year": "2013", "color": "1", "visible": "0" },
-    { "image_id": "25", "uuid": "r60u8qm2", "src": "3bef2b712ae74a7a83604ae708092ffb-2.png", "href": "STTMM_6", "copyright": "1", "country": "vn", "year": "2013", "color": "1" , "visible": "0"},
+    { "image_id": "22", "uuid": "x5x83o37", "src": "da0963dbe648496c81bc7c0b46f18061-1.png", "href": "STTMM_6", "copyright": "1", "country": "vn", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "23", "uuid": "auk2nmej", "src": "da0963dbe648496c81bc7c0b46f18061-2.png", "href": "STTMM_6", "copyright": "1", "country": "vn", "year": "2013", "color": "0", "visible": "1" },
+    { "image_id": "24", "uuid": "w1vpud1y", "src": "3bef2b712ae74a7a83604ae708092ffb-1.png", "href": "STTMM_6", "copyright": "1", "country": "vn", "year": "2013", "color": "1", "visible": "0" },
+    { "image_id": "25", "uuid": "4sexdhgf", "src": "3bef2b712ae74a7a83604ae708092ffb-2.png", "href": "STTMM_6", "copyright": "1", "country": "vn", "year": "2013", "color": "1" , "visible": "0"},
     { "image_id": "26", "uuid": "479eq96h", "src": "285f8d141bce4736a9e6212ff3e6e454-1.png", "href": "HCCV_145", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },
     { "image_id": "27", "uuid": "v5zh5uqz", "src": "285f8d141bce4736a9e6212ff3e6e454-2.png", "href": "HCCV_145", "copyright": "0", "country": "cn", "year": "2017", "color": "0", "visible": "1" },
     { "image_id": "28", "uuid": "ls9lysxs", "src": "8359064fbd424963a3112da3d110c869-1.png", "href": "HCCV_145", "copyright": "0", "country": "cn", "year": "2017", "color": "1", "visible": "0" },
@@ -42,7 +42,7 @@
     { "code": "大庫隆夫 11", "images": ["nb0t1wtl", "8dms5y6u"], "variant": "", "diameter": "", "weight": "", "page": "44", "plate": "", "articles": [], "urls": [] },
     { "code": "Joyaux 827", "images": ["rh73ufij", "jfik9y8p"], "variant": "", "diameter": "51.20", "weight": "23.87", "page": "147", "plate": "", "articles": [], "urls": [] },
     { "code": "満泉堂 4", "images": ["s93pkbn1", "y8s266sr"], "variant": "", "diameter": "", "weight": "", "page": "4", "plate": "", "articles": [], "urls": [] },
-    { "code": "STTMM 6", "images": ["lzk8a7rs", "d4swmy3o"], "variant": "", "diameter": "51.50", "weight": "24.70", "page": "80", "plate": "", "articles": [], "urls": [] }
+    { "code": "STTMM 6", "images": ["x5x83o37", "auk2nmej"], "variant": "", "diameter": "51.50", "weight": "24.70", "page": "80", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "59out4lc", "page": "35", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },
