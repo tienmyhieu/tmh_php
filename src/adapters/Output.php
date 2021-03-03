@@ -197,7 +197,7 @@ class Output
         $lexicon = $this->getEntity('lexicon');
         $reference = $this->getEntity('reference');
         $reference['bibliography'] = $this->localizeKeys($reference['bibliography'], $lexicon);
-        return $this->title() . HtmlOutput::reference($reference);
+        return $this->title() . HtmlOutput::reference($reference, $lexicon);
     }
 
     private function title()

@@ -593,7 +593,7 @@ class HtmlOutput
         return $html;
     }
 
-    public static function reference($reference): string
+    public static function reference($reference, $lexicon): string
     {
         $html = '';
         $html .= HtmlOutput::bibliography($reference['bibliography']);
@@ -610,21 +610,29 @@ class HtmlOutput
                     foreach ($expandedCollection['collections'] as $subLevelCollection) {
                         $hasIdentifier = 0 < strlen($subLevelCollection['identifier']);
                         $identifier = $hasIdentifier ? $subLevelCollection['identifier'] . '. ' : '';
+                        $hasSpecimens = in_array('specimens', array_keys($expandedCollection));
+                        $specimens = $hasSpecimens ? $expandedCollection['specimens'] : [];
                         $html .= $identifier . $subLevelCollection['title'] . '<br />';
                         $html .= HtmlOutput::collectionTable(
                             $subLevelCollection,
                             $expandedCollection['images'],
                             $expandedCollection['original_images'],
+                            $specimens,
+                            $lexicon,
                             '',
                             '64'
                         );
                     }
                 }
             } else {
+                $hasSpecimens = in_array('specimens', array_keys($collection));
+                $specimens = $hasSpecimens ? $collection['specimens'] : [];
                 $html .= HtmlOutput::collectionTable(
                     $collection,
                     $reference['images'],
                     $reference['original_images'],
+                    $specimens,
+                    $lexicon,
                     'uploads',
                     '128'
                 );
@@ -638,7 +646,7 @@ class HtmlOutput
         return $html;
     }
 
-    public static function collectionTable($collection, $images, $originalImages, $baseDir, $imgSize): string
+    public static function collectionTable($collection, $images, $originalImages, $specimens, $lexicon, $baseDir, $imgSize): string
     {
         $imagePreviewSize = '256';
         $baseUrl = 'http://img1.tienmyhieu.com/';
@@ -666,6 +674,18 @@ class HtmlOutput
                 $html .= "\n\t\t\t\t\t" . '<td>' . HtmlOutput::notLinkedImage($aHref, $imgTitle, $imgSrc, $imgTitle) . '</td>';
             }
 
+        }
+        if (in_array('specimen_uuid', array_keys($collection))) {
+            if (0 < strlen($collection['specimen_uuid'])) {
+                $specimen = $specimens[$collection['specimen_uuid']];
+                $hasMeasurements = 0 < strlen($specimen['diameter']) || 0 < strlen($specimen['weight']);
+                $html .= "\n\t\t\t\t\t" . '<td valign="top">';
+                if ($hasMeasurements) {
+                    $html .= $lexicon['diameter'] . ': ' . $specimen['diameter'] . '<br/>';
+                    $html .= $lexicon['weight'] . ': ' . $specimen['weight'] . '<br/>';
+                }
+                $html .= "\n\t\t\t\t\t" . '</td>';
+            }
         }
         $html .= "\n\t\t\t\t" . '</tr>';
         $html .= "\n\t\t\t\t" . '</table>';
@@ -717,10 +737,14 @@ class HtmlOutput
                         $coin = $coins[$coinUuid]['name'];
                         $html .=  $identifer . $coin;
                     }
+                    $hasSpecimens = in_array('specimens', array_keys($subLevelCollection));
+                    $specimens = $hasSpecimens ? $subLevelCollection['specimens'] : [];
                     $html .= HtmlOutput::collectionTable(
                         $subLevelCollection,
                         $collection['images'],
                         $collection['original_images'],
+                        $specimens,
+                        $lexicon,
                         '',
                         '64'
                     );

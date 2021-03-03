@@ -93,13 +93,7 @@ class Marshal
     {
         $titles = $this->titles();
         $collection = $this->json->loadSubData('collections', $collectionId);
-//        if ('wqgx5hhg' == $collectionId) {
-//            print_r($collection);
-//        }
         $collection = $this->transformEntityCollections($collection, $titles);
-//        if ('wqgx5hhg' == $collectionId) {
-//            print_r($collection);
-//        }
         if (in_array('attributes', array_keys($collection))) {
             if (in_array('parent_title', array_keys($collection['attributes']))) {
                 if (0 < strlen($collection['attributes']['parent_title'])) {
@@ -190,6 +184,9 @@ class Marshal
         $entity['original_images'] = $this->titledEntities($entity['original_images'], $titles);
         $entity['collections'] = $this->transformEntityCollection($entity, 'collections');
         $entity['collections'] = $this->titledEntities($entity['collections'], $titles);
+        if (in_array('specimens', array_keys($entity))) {
+            $entity['specimens'] = $this->setKeyedItems($entity['specimens']);
+        }
         return $entity;
     }
 
