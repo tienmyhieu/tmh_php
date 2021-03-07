@@ -648,47 +648,62 @@ class HtmlOutput
 
     public static function collectionTable($collection, $images, $originalImages, $specimens, $lexicon, $baseDir, $imgSize): string
     {
-        $imagePreviewSize = '256';
-        $baseUrl = 'http://img1.tienmyhieu.com/';
-        $html = "\n\t\t\t" . '<table border="1" cellpadding="0" cellspacing="0">';
-        $html .= "\n\t\t\t\t" . '<tr>';
-        foreach ($collection['images'] as $uuid) {
-            $image = $images[$uuid];
-            $baseDir .= (0 < strlen($baseDir) ? '/' : '');
-            $imgSrc = $baseUrl . $baseDir . $imgSize . '/' . $image['src'];
-            $aHref = $baseUrl . $baseDir . '1024/' . $image['src'];
-            $imgTitle = preg_replace('|_|', ' ', $image['href']);
-            if (in_array('title', array_keys($image))) {
-                if (0 < strlen($image['title'])) {
-                    $imgTitle = $image['title'];
-                }
-            }
-            if (in_array($uuid, array_keys($originalImages))) {
-                $originalImage = $originalImages[$uuid];
-                $aHref = $baseUrl . 'uploads/' . $originalImage['src'];
-                $imgSrc = $baseUrl . 'uploads/' . $imgSize . '/' . $image['src'];
-            }
-            if ($image['href'] !== 'NONE') {
-                $html .= "\n\t\t\t\t\t" . '<td>' . HtmlOutput::linkedImage($aHref, $imgTitle, $imgSrc, $imgTitle) . '</td>';
-            } else {
-                $html .= "\n\t\t\t\t\t" . '<td>' . HtmlOutput::notLinkedImage($aHref, $imgTitle, $imgSrc, $imgTitle) . '</td>';
-            }
-
-        }
+        $html = '';
+        $identifier = '';
+        $measurements = [];
         if (in_array('specimen_uuid', array_keys($collection))) {
             if (0 < strlen($collection['specimen_uuid'])) {
                 $specimen = $specimens[$collection['specimen_uuid']];
-                $hasMeasurements = 0 < strlen($specimen['diameter']) || 0 < strlen($specimen['weight']);
-                $html .= "\n\t\t\t\t\t" . '<td valign="top">';
-                if ($hasMeasurements) {
-                    $html .= $lexicon['diameter'] . ': ' . $specimen['diameter'] . '<br/>';
-                    $html .= $lexicon['weight'] . ': ' . $specimen['weight'] . '<br/>';
+                $identifier = (0 < strlen($specimen['identifier'])) ? $specimen['identifier'] . ': ': '';
+                if (0 < strlen($specimen['diameter'])) {
+                    $measurements[] = $lexicon['diameter'] . ': ' . $specimen['diameter'];
                 }
-                $html .= "\n\t\t\t\t\t" . '</td>';
+                if (0 < strlen($specimen['weight'])) {
+                    $measurements[] = $lexicon['weight'] . ': ' . $specimen['weight'];
+                }
             }
         }
-        $html .= "\n\t\t\t\t" . '</tr>';
-        $html .= "\n\t\t\t\t" . '</table>';
+        if (0 < count($collection['images'])) {
+            $imagePreviewSize = '256';
+            $baseUrl = 'http://img1.tienmyhieu.com/';
+            $html .= "\n\t\t\t" . '<table border="1" cellpadding="0" cellspacing="0">';
+            $html .= "\n\t\t\t\t" . '<tr>';
+            foreach ($collection['images'] as $uuid) {
+                $image = $images[$uuid];
+                $baseDir .= (0 < strlen($baseDir) ? '/' : '');
+                $imgSrc = $baseUrl . $baseDir . $imgSize . '/' . $image['src'];
+                $aHref = $baseUrl . $baseDir . '1024/' . $image['src'];
+                $imgTitle = preg_replace('|_|', ' ', $image['href']);
+                if (in_array('title', array_keys($image))) {
+                    if (0 < strlen($image['title'])) {
+                        $imgTitle = $image['title'];
+                    }
+                }
+                if (in_array($uuid, array_keys($originalImages))) {
+                    $originalImage = $originalImages[$uuid];
+                    $aHref = $baseUrl . 'uploads/' . $originalImage['src'];
+                    $imgSrc = $baseUrl . 'uploads/' . $imgSize . '/' . $image['src'];
+                }
+                if ($image['href'] !== 'NONE') {
+                    $html .= "\n\t\t\t\t\t" . '<td>' . HtmlOutput::linkedImage($aHref, $imgTitle, $imgSrc, $imgTitle) . '</td>';
+                } else {
+                    $html .= "\n\t\t\t\t\t" . '<td>' . HtmlOutput::notLinkedImage($aHref, $imgTitle, $imgSrc, $imgTitle) . '</td>';
+                }
+
+            }
+            if (0 < count($measurements)) {
+                $html .= "\n\t\t\t\t\t" . '<td valign="top">';
+                $html .= implode('<br />', $measurements);
+                $html .= "\n\t\t\t\t\t" . '</td>';
+            }
+            $html .= "\n\t\t\t\t" . '</tr>';
+            $html .= "\n\t\t\t\t" . '</table>';
+        } else {
+            if (0 < count($measurements)) {
+                $html .= '<small>' . $identifier . implode(', ', $measurements) . '</small>';
+            }
+            $html .= '<br />';
+        }
         $html .= "\n\t\t\t\t" . '<br />';
         return $html;
     }
@@ -733,9 +748,9 @@ class HtmlOutput
                     $coinUuid = $collection['attributes']['coin_uuid'];
                     if ($coinUuid) {
                         $hasIdentifier = 0 < strlen($subLevelCollection['identifier']);
-                        $identifer = $hasIdentifier ? $subLevelCollection['identifier'] . '. ' : '';
+                        $identifier = $hasIdentifier ? $subLevelCollection['identifier'] . '. ' : '';
                         $coin = $coins[$coinUuid]['name'];
-                        $html .=  $identifer . $coin;
+                        $html .=  $identifier . $coin;
                     }
                     $hasSpecimens = in_array('specimens', array_keys($subLevelCollection));
                     $specimens = $hasSpecimens ? $subLevelCollection['specimens'] : [];
