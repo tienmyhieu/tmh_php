@@ -1,0 +1,80 @@
+{
+  "attributes": {
+    "name": "",
+    "coin_emperor_uuid": "",
+    "coin_uuid": "",
+    "emperor_uuid": "4n18conu",
+    "lowest_level": "1",
+    "parent_title": ""
+  },
+  "title": "syqewlhz",
+  "original_images": [],
+  "images": [
+    { "image_id": "1", "uuid": "uro37dzv", "src": "f99033e9158e4458842370d0264d9e7f-1.png", "title": "o6mf7ven", "href": "BRMU_TT1", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "1" },
+    { "image_id": "2", "uuid": "mz4b47pz", "src": "f99033e9158e4458842370d0264d9e7f-2.png", "title": "o6mf7ven", "href": "BRMU_TT1", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "1" },
+    { "image_id": "3", "uuid": "dg2s02iy", "src": "8b4f02d61e7e45f6b6dbe669fa8b3f05-1.png", "title": "o6mf7ven", "href": "BRMU_TT1", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "bvlt4v5s", "src": "8b4f02d61e7e45f6b6dbe669fa8b3f05-2.png", "title": "o6mf7ven", "href": "BRMU_TT1", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+
+    { "image_id": "5", "uuid": "wcnaw571", "src": "dca776a7cd3049b39954d5119cc8af04-1.png", "title": "jnbryp0v", "href": "BRMU_TT2", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "1" },
+    { "image_id": "6", "uuid": "n6ebipo3", "src": "dca776a7cd3049b39954d5119cc8af04-2.png", "title": "jnbryp0v", "href": "BRMU_TT2", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "1" },
+    { "image_id": "7", "uuid": "bj8ihf7u", "src": "c69bc8e1ab354f1a8adbcf403c772623-1.png", "title": "jnbryp0v", "href": "BRMU_TT2", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "8", "uuid": "ehdvspn6", "src": "c69bc8e1ab354f1a8adbcf403c772623-2.png", "title": "jnbryp0v", "href": "BRMU_TT2", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+
+    { "image_id": "9", "uuid": "r0m8p8a0", "src": "04f7feef8cb0457ab26280e5a592fb7b-1.png", "title": "avvd2dn0", "href": "BRMU_TT3", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "1" },
+    { "image_id": "10", "uuid": "wvel5un1", "src": "04f7feef8cb0457ab26280e5a592fb7b-2.png", "title": "avvd2dn0", "href": "BRMU_TT3", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "1" },
+    { "image_id": "11", "uuid": "jye3p5wc", "src": "a9112664682a4983b0f7164fa9121b68-1.png", "title": "avvd2dn0", "href": "BRMU_TT3", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "12", "uuid": "glh5z5fc", "src": "a9112664682a4983b0f7164fa9121b68-2.png", "title": "avvd2dn0", "href": "BRMU_TT3", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+
+    { "image_id": "13", "uuid": "vokro1xi", "src": "fa2358a9e04e4765960b15c2bf186256-1.png", "title": "j5or39g2", "href": "BRMU_TT4", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "1" },
+    { "image_id": "14", "uuid": "py2defue", "src": "fa2358a9e04e4765960b15c2bf186256-2.png", "title": "j5or39g2", "href": "BRMU_TT4", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "1" },
+    { "image_id": "15", "uuid": "rl56b1qo", "src": "d10b5405f59d43149e9ca76b1052d4b1-1.png", "title": "j5or39g2", "href": "BRMU_TT4", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "16", "uuid": "xwspy2hj", "src": "d10b5405f59d43149e9ca76b1052d4b1-2.png", "title": "j5or39g2", "href": "BRMU_TT4", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+
+    { "image_id": "17", "uuid": "qdcdhyhy", "src": "e87c556299904affa1af98689fa46cb2-1.png", "title": "gcbgwjcb", "href": "BRMU_TT5", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "1" },
+    { "image_id": "18", "uuid": "kflkqopn", "src": "e87c556299904affa1af98689fa46cb2-2.png", "title": "gcbgwjcb", "href": "BRMU_TT5", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "1" },
+    { "image_id": "19", "uuid": "50z35pl9", "src": "fee03bc2dd884eeb80ef4c32f6c21a88-1.png", "title": "gcbgwjcb", "href": "BRMU_TT5", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "20", "uuid": "uoqlr7ad", "src": "fee03bc2dd884eeb80ef4c32f6c21a88-2.png", "title": "gcbgwjcb", "href": "BRMU_TT5", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+
+
+    { "image_id": "21", "uuid": "ujp2f3n2", "src": "1ca9ff352d78471c84221c6160dd020d-1.png", "title": "nfqce39s", "href": "BRMU_TT6", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "22", "uuid": "bv9ofj8b", "src": "1ca9ff352d78471c84221c6160dd020d-2.png", "title": "nfqce39s", "href": "BRMU_TT6", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "23", "uuid": "bftxrsl6", "src": "0f9723aa3cc84a5693458fcae6f21e81-1.png", "title": "nfqce39s", "href": "BRMU_TT6", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "24", "uuid": "ldnvyudl", "src": "0f9723aa3cc84a5693458fcae6f21e81-2.png", "title": "nfqce39s", "href": "BRMU_TT6", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" }
+  ],
+  "collections": [
+    { "name": "brmu_tt_ttkcknkt", "uuid": "b9f5z5o9", "title": "tflw2jqz", "identifier": "", "expand": "0", "items": 1, "images": [], "specimen_uuid": "yf5mkgqs" },
+    { "name": "brmu_tt_ddqv", "uuid": "kb55n86h", "title": "o6mf7ven", "identifier": "", "expand": "0", "items": 1, "images": ["uro37dzv", "mz4b47pz", "dg2s02iy", "bvlt4v5s"], "specimen_uuid": "xpvnl5xo" },
+    { "name": "brmu_tt_thvd", "uuid": "bwo78xie", "title": "jnbryp0v", "identifier": "", "expand": "0", "items": 1, "images": ["wcnaw571", "n6ebipo3", "bj8ihf7u", "ehdvspn6"], "specimen_uuid": "wd9gebrt" },
+    { "name": "brmu_tt_cktc", "uuid": "u8z40mnq", "title": "avvd2dn0", "identifier": "", "expand": "0", "items": 1, "images": ["r0m8p8a0", "wvel5un1", "jye3p5wc", "glh5z5fc"], "specimen_uuid": "zia1gw3y" },
+    { "name": "brmu_tt_thccvttc", "uuid": "kk75l8ef", "title": "b6uz8nxa", "identifier": "", "expand": "0", "items": 1, "images": [], "specimen_uuid": "lr30gasi" },
+    { "name": "brmu_tt_tthccvbl", "uuid": "jzcwn6ww", "title": "j5or39g2", "identifier": "", "expand": "0", "items": 1, "images": ["vokro1xi", "py2defue", "rl56b1qo", "xwspy2hj"], "specimen_uuid": "hxz40wee" },
+    { "name": "brmu_tt_nnhktdlc", "uuid": "dij332fu", "title": "34ack7cl", "identifier": "", "expand": "0", "items": 1, "images": [], "specimen_uuid": "99os63b6" },
+    { "name": "brmu_tt_tcdtatvt", "uuid": "ipzt9t7q", "title": "uy8tagiv", "identifier": "", "expand": "0", "items": 1, "images": [], "specimen_uuid": "437x5yr4" },
+    { "name": "brmu_tt_tkvn", "uuid": "dfyoi35t", "title": "gcbgwjcb", "identifier": "", "expand": "0", "items": 1, "images": ["qdcdhyhy", "kflkqopn", "50z35pl9", "uoqlr7ad"], "specimen_uuid": "nk3qqi26" },
+    { "name": "brmu_tt_gupt", "uuid": "c0r2yqux", "title": "nfqce39s", "identifier": "", "expand": "0", "items": 1, "images": ["ujp2f3n2", "bv9ofj8b", "bftxrsl6", "ldnvyudl"], "specimen_uuid": "i5dn88hl" }
+  ],
+  "specimens": [
+    { "uuid": "yf5mkgqs", "diameter": "53.00", "weight": "32.37", "notes": "", "identifier": "1983,0619.260", "urls": ["nl0qor3d"] },
+    { "uuid": "xpvnl5xo", "diameter": "53.00", "weight": "34.87", "notes": "", "identifier": "1983,0619.262", "urls": ["j68axeay"] },
+    { "uuid": "wd9gebrt", "diameter": "53.00", "weight": "40.72", "notes": "", "identifier": "1983,0619.265", "urls": ["9bee2tlk"] },
+    { "uuid": "zia1gw3y", "diameter": "52.00", "weight": "36.67", "notes": "", "identifier": "1983,0619.261", "urls": ["r80gjnjq"] },
+    { "uuid": "lr30gasi", "diameter": "53.00", "weight": "40.69", "notes": "", "identifier": "1984,0718.12", "urls": ["2trfq05s"] },
+    { "uuid": "hxz40wee", "diameter": "52.00", "weight": "33.51", "notes": "", "identifier": "1985,1035.66", "urls": ["ifjfyzpr"] },
+    { "uuid": "99os63b6", "diameter": "51.00", "weight": "41.85", "notes": "", "identifier": "1983,0619.259", "urls": ["wlpeth2u"] },
+    { "uuid": "437x5yr4", "diameter": "51.00", "weight": "35.33", "notes": "", "identifier": "1985,1035.65", "urls": ["ahirannr"] },
+    { "uuid": "nk3qqi26", "diameter": "53.00", "weight": "37.26", "notes": "", "identifier": "1983,0619.264", "urls": ["w3z3a6dn"] },
+    { "uuid": "i5dn88hl", "diameter": "54.00", "weight": "35.17", "notes": "", "identifier": "1983,0619.263", "urls": ["qgr0htk8"] }
+  ],
+  "urls": [
+    { "uuid": "nl0qor3d", "href": "http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=3410843&partId=1" },
+    { "uuid": "j68axeay", "href": "http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=3410828&partId=1" },
+    { "uuid": "9bee2tlk", "href": "http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=3410819&partId=1" },
+    { "uuid": "r80gjnjq", "href": "http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=3410825&partId=1" },
+    { "uuid": "2trfq05s", "href": "http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=3410841&partId=1" },
+    { "uuid": "ifjfyzpr", "href": "http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=3410836&partId=1" },
+    { "uuid": "wlpeth2u", "href": "http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=3410833&partId=1" },
+    { "uuid": "ahirannr", "href": "http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=3410839&partId=1" },
+    { "uuid": "w3z3a6dn", "href": "http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=3410821&partId=1" },
+    { "uuid": "qgr0htk8", "href": "http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=3410823&partId=1" }
+  ]
+}

@@ -5,15 +5,15 @@
     { "image_id": "2", "uuid": "80iwdo8t", "src": "54b328bc32234895941c7f6d2e119602-2.png", "href": "MEO2_V142", "copyright": "1", "country": "fr", "year": "1986", "color": "0", "visible": "1" },
     { "image_id": "3", "uuid": "h40yeyui", "src": "7c8a0c46f8f14a2a9677ac0c1d08dce6-1.png", "href": "ANZDQ_57", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
     { "image_id": "4", "uuid": "foyquv1x", "src": "7c8a0c46f8f14a2a9677ac0c1d08dce6-2.png", "href": "ANZDQ_57", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
-    { "image_id": "5", "uuid": "dg2s02iy", "src": "c69bc8e1ab354f1a8adbcf403c772623-1.png", "href": "BRMU_TT2", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
-    { "image_id": "6", "uuid": "bvlt4v5s", "src": "c69bc8e1ab354f1a8adbcf403c772623-2.png", "href": "BRMU_TT2", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
-    { "image_id": "7", "uuid": "uro37dzv", "src": "dca776a7cd3049b39954d5119cc8af04-1.png", "href": "BRMU_TT2", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" },
-    { "image_id": "8", "uuid": "mz4b47pz", "src": "dca776a7cd3049b39954d5119cc8af04-2.png", "href": "BRMU_TT2", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" }
+    { "image_id": "5", "uuid": "bj8ihf7u", "src": "c69bc8e1ab354f1a8adbcf403c772623-1.png", "href": "BRMU_TT2", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "6", "uuid": "ehdvspn6", "src": "c69bc8e1ab354f1a8adbcf403c772623-2.png", "href": "BRMU_TT2", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "7", "uuid": "wcnaw571", "src": "dca776a7cd3049b39954d5119cc8af04-1.png", "href": "BRMU_TT2", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "8", "uuid": "n6ebipo3", "src": "dca776a7cd3049b39954d5119cc8af04-2.png", "href": "BRMU_TT2", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
     { "code": "Thierry V142", "images": ["b5smwu6v", "80iwdo8t"], "variant": "", "diameter": "51.00", "weight": "29.29", "page": "57", "plate": "36", "articles": [], "urls": [] },
     { "code": "大庫隆夫 57", "images": ["h40yeyui", "foyquv1x"], "variant": "", "diameter": "", "weight": "", "page": "78", "plate": "", "articles": [], "urls": [] },
-    { "code": "BRMU TT2", "images": ["dg2s02iy", "bvlt4v5s"], "variant": "", "diameter": "53.00", "weight": "40.72", "page": "", "plate": "", "articles": [], "urls": [] }
+    { "code": "BRMU TT2", "images": ["bj8ihf7u", "ehdvspn6"], "variant": "", "diameter": "53.00", "weight": "40.72", "page": "", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "x0lizhj8", "page": "515", "plate": "", "identifier": "", "notes": "", "articles": [], "urls": [] },

@@ -7,6 +7,7 @@
   "images": [],
   "videos": [],
   "collections": [
-    { "name": "", "uuid": "eoroma59", "title": "", "expand": "1", "items": "24", "coin_emperor": "mezsdqwu", "images": [] }
+    { "name": "mm", "uuid": "eoroma59", "title": "", "expand": "1", "items": "24", "coin_emperor": "mezsdqwu", "images": [] },
+    { "name": "tt", "uuid": "hxac92z7", "title": "", "expand": "1", "items": "10", "coin_emperor": "4n18conu", "images": [] }
   ]
 }

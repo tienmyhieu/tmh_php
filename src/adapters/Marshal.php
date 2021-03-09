@@ -187,6 +187,12 @@ class Marshal
         if (in_array('specimens', array_keys($entity))) {
             $entity['specimens'] = $this->setKeyedItems($entity['specimens']);
         }
+        if (in_array('urls', array_keys($entity))) {
+            $entity['urls'] = $this->setKeyedItems($entity['urls']);
+        }
+        if (in_array('title', array_keys($entity))) {
+            $entity['title'] = $titles[$entity['title']]['title'];
+        }
         return $entity;
     }
 

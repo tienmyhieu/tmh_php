@@ -607,6 +607,9 @@ class HtmlOutput
                     $html .= $title . '</a>' . $collectionCount . '<br /><br />';
                 } else {
                     $expandedCollection = $reference['expanded_collections'][$collection['uuid']];
+                    if (in_array('title', array_keys($expandedCollection))) {
+                        $html .= '<h3>' . $expandedCollection['title'] . '</h3>';
+                    }
                     foreach ($expandedCollection['collections'] as $subLevelCollection) {
                         $hasIdentifier = 0 < strlen($subLevelCollection['identifier']);
                         $identifier = $hasIdentifier ? $subLevelCollection['identifier'] . '. ' : '';
