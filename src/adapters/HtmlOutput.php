@@ -657,7 +657,12 @@ class HtmlOutput
         if (in_array('specimen_uuid', array_keys($collection))) {
             if (0 < strlen($collection['specimen_uuid'])) {
                 $specimen = $specimens[$collection['specimen_uuid']];
-                $identifier = (0 < strlen($specimen['identifier'])) ? $specimen['identifier'] . ': ': '';
+                $identifier = (0 < strlen($specimen['identifier'])) ? $specimen['identifier'] : '';
+                if (0 < strlen($identifier)) {
+                    if (0 < count($collection['images'])) {
+                        $measurements[] = $identifier;
+                    }
+                }
                 if (0 < strlen($specimen['diameter'])) {
                     $measurements[] = $lexicon['diameter'] . ': ' . $specimen['diameter'];
                 }
@@ -703,7 +708,7 @@ class HtmlOutput
             $html .= "\n\t\t\t\t" . '</table>';
         } else {
             if (0 < count($measurements)) {
-                $html .= '<small>' . $identifier . implode(', ', $measurements) . '</small>';
+                $html .= '<small>' . $identifier . ': ' . implode(', ', $measurements) . '</small>';
             }
             $html .= '<br />';
         }

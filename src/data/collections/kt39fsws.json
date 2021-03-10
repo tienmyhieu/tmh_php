@@ -1,0 +1,51 @@
+{
+  "attributes": {
+    "name": "",
+    "coin_emperor_uuid": "",
+    "coin_uuid": "",
+    "emperor_uuid": "zn6uo1wi",
+    "lowest_level": "1",
+    "parent_title": ""
+  },
+  "title": "bn3shibu",
+  "original_images": [],
+  "images": [
+    { "image_id": "1", "uuid": "8ce5fiq0", "src": "bfed72cbcc4748c1988c3bb0135e18da-1.png", "title": "nz430yue", "href": "BRMU_TD1", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "2", "uuid": "4qm2ab05", "src": "bfed72cbcc4748c1988c3bb0135e18da-2.png", "title": "nz430yue", "href": "BRMU_TD1", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "3", "uuid": "l7o5gin2", "src": "cfcd0011630b4e398ebc4f15afc7e6ff-1.png", "title": "nz430yue", "href": "BRMU_TD1", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "4a7l4bee", "src": "cfcd0011630b4e398ebc4f15afc7e6ff-2.png", "title": "nz430yue", "href": "BRMU_TD1", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "ua6jgqmm", "src": "cbb715bb06ce43d78f045204450aa5e6-1.png", "title": "x0poakuu", "href": "BRMU_TD2", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "6", "uuid": "yrxw3r3o", "src": "cbb715bb06ce43d78f045204450aa5e6-2.png", "title": "x0poakuu", "href": "BRMU_TD2", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "7", "uuid": "aotigz89", "src": "9e37ac2a1c2244f289e7931230de8247-1.png", "title": "x0poakuu", "href": "BRMU_TD2", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "8", "uuid": "cj9ycokq", "src": "9e37ac2a1c2244f289e7931230de8247-2.png", "title": "x0poakuu", "href": "BRMU_TD2", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "9", "uuid": "o8zmrolo", "src": "da98246960684238968be0e6004ebc5d-1.png", "title": "jswt580e", "href": "BRMU_TD3", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "10", "uuid": "fhl8z5vk", "src": "da98246960684238968be0e6004ebc5d-2.png", "title": "jswt580e", "href": "BRMU_TD3", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "11", "uuid": "7yq8kh2h", "src": "eabc8ca05f3045d79e36ec6cf5a4ed5c-1.png", "title": "jswt580e", "href": "BRMU_TD3", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "12", "uuid": "32aoekif", "src": "eabc8ca05f3045d79e36ec6cf5a4ed5c-2.png", "title": "jswt580e", "href": "BRMU_TD3", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "13", "uuid": "zbqc8zls", "src": "8df468f82c2f4353ab44b00d0216b1da-1.png", "title": "yx0dho5z", "href": "BRMU_TD4", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "14", "uuid": "ep4uh8y6", "src": "8df468f82c2f4353ab44b00d0216b1da-2.png", "title": "yx0dho5z", "href": "BRMU_TD4", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" },
+    { "image_id": "15", "uuid": "duix492n", "src": "3450c108cf2b4f2c9c1078de9d453f7a-1.png", "title": "yx0dho5z", "href": "BRMU_TD4", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "16", "uuid": "0g8tpmpb", "src": "3450c108cf2b4f2c9c1078de9d453f7a-2.png", "title": "yx0dho5z", "href": "BRMU_TD4", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" }
+  ],
+  "collections": [
+    { "name": "brmu_td_pndhttns", "uuid": "anauzrq7", "title": "nz430yue", "identifier": "", "expand": "0", "items": 1, "images": ["8ce5fiq0", "4qm2ab05", "l7o5gin2", "4a7l4bee"], "specimen_uuid": "x9quucvm" },
+    { "name": "brmu_td_lptd", "uuid": "9p7gvmnz", "title": "x0poakuu", "identifier": "", "expand": "0", "items": 1, "images": ["ua6jgqmm", "yrxw3r3o", "aotigz89", "cj9ycokq"], "specimen_uuid": "ewyl25jm" },
+    { "name": "brmu_td_cmptbhpd", "uuid": "lxfbjh95", "title": "jswt580e", "identifier": "", "expand": "0", "items": 1, "images": ["o8zmrolo", "fhl8z5vk", "7yq8kh2h", "32aoekif"], "specimen_uuid": "er4ui0o3" },
+    { "name": "brmu_td_tlvtbhmc", "uuid": "jvcyb606", "title": "yx0dho5z", "identifier": "", "expand": "0", "items": 1, "images": ["zbqc8zls", "ep4uh8y6", "duix492n", "0g8tpmpb"], "specimen_uuid": "08qq6892" },
+    { "name": "brmu_td_tlvtbhmc", "uuid": "ioh09t1t", "title": "yx0dho5z", "identifier": "", "expand": "0", "items": 1, "images": [], "specimen_uuid": "beb71nxj" }
+  ],
+  "specimens": [
+    { "uuid": "x9quucvm", "diameter": "50.00", "weight": "35.13", "notes": "", "identifier": "1984,0718.13", "urls": ["wf5ueaao"] },
+    { "uuid": "ewyl25jm", "diameter": "49.00", "weight": "33.10", "notes": "", "identifier": "1984,0718.15", "urls": ["n07mmki3"] },
+    { "uuid": "er4ui0o3", "diameter": "51.00", "weight": "31.63", "notes": "", "identifier": "1985,1035.64", "urls": ["bendxxgn"] },
+    { "uuid": "08qq6892", "diameter": "51.00", "weight": "42.11", "notes": "", "identifier": "1984,0718.14", "urls": ["j96d65rs"] },
+    { "uuid": "beb71nxj", "diameter": "51.00", "weight": "37.76", "notes": "", "identifier": "1992,0227.48", "urls": ["sugmecby"] }
+  ],
+  "urls": [
+    { "uuid": "wf5ueaao", "href": "http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=3410863&partId=1" },
+    { "uuid": "n07mmki3", "href": "http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=3410847&partId=1" },
+    { "uuid": "bendxxgn", "href": "http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=3410865&partId=1" },
+    { "uuid": "j96d65rs", "href": "http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=3410867&partId=1" },
+    { "uuid": "sugmecby", "href": "http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=3410868&partId=1" }
+  ]
+}

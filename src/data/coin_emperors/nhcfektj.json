@@ -15,7 +15,7 @@
     { "image_id": "12", "uuid": "7yq8kh2h", "src": "eabc8ca05f3045d79e36ec6cf5a4ed5c-1.png", "href": "BRMU_TD3", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
     { "image_id": "13", "uuid": "32aoekif", "src": "eabc8ca05f3045d79e36ec6cf5a4ed5c-2.png", "href": "BRMU_TD3", "copyright": "1", "country": "gb", "year": "", "color": "0", "visible": "1" },
     { "image_id": "14", "uuid": "o8zmrolo", "src": "da98246960684238968be0e6004ebc5d-1.png", "href": "BRMU_TD3", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" },
-    { "image_id": "15", "uuid": "o8zmrolo", "src": "da98246960684238968be0e6004ebc5d-2.png", "href": "BRMU_TD3", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" }
+    { "image_id": "15", "uuid": "fhl8z5vk", "src": "da98246960684238968be0e6004ebc5d-2.png", "href": "BRMU_TD3", "copyright": "1", "country": "gb", "year": "", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
     { "code": "Lacroix 474", "images": ["tdc13r5y"], "variant": "", "diameter": "", "weight": "", "page": "191", "plate": "36", "articles": [], "urls": [] },
