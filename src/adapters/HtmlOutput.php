@@ -608,7 +608,13 @@ class HtmlOutput
                 } else {
                     $expandedCollection = $reference['expanded_collections'][$collection['uuid']];
                     if (in_array('title', array_keys($expandedCollection))) {
-                        $html .= '<h3>' . $expandedCollection['title'] . '</h3>';
+                        $hasParentTitleKey = in_array('parent_title', array_keys($expandedCollection['attributes']));
+                        $hasParentTitle = $hasParentTitleKey ? 0 < strlen($expandedCollection['attributes']['parent_title']) : false;
+                        $css = $hasParentTitle ? ' style="padding: 0; margin-bottom:0"' : '';
+                        $html .= '<h3' . $css . '>' . $expandedCollection['title'] . '</h3>';
+                        if (in_array('parent_title', array_keys($expandedCollection['attributes']))) {
+                            $html .= '<small><b>- ' . $expandedCollection['attributes']['parent_title'] . '</b></small><br /><br />';
+                        }
                     }
                     foreach ($expandedCollection['collections'] as $subLevelCollection) {
                         $hasIdentifier = 0 < strlen($subLevelCollection['identifier']);

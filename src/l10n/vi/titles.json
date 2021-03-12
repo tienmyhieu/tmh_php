@@ -245,5 +245,7 @@
   { "title_id": "000", "uuid": "yieylovr", "title": "The British Museum", "href": "The_British_Museum", "template": "reference", "identifier": "08w1apoy" },
   { "title_id": "000", "uuid": "fw0lbt71", "title": "Tiền thưởng thời Minh Mạng", "href": "Tiền_thưởng_thời_Minh_Mạng", "template": "collection", "identifier": "251fbtxd" },
   { "title_id": "000", "uuid": "z9pf1yl8", "title": "Tiền thưởng thời Thiệu Trị", "href": "Tiền_thưởng_thời_Thiệu_Trị", "template": "collection", "identifier": "ihtik3z8" },
-  { "title_id": "000", "uuid": "yw7it0uc", "title": "Tiền thưởng thời Tự Đức", "href": "Tiền_thưởng_thời_Tự_Đức", "template": "collection", "identifier": "dqt02j4v" }
+  { "title_id": "000", "uuid": "yw7it0uc", "title": "Tiền thưởng thời Tự Đức", "href": "Tiền_thưởng_thời_Tự_Đức", "template": "collection", "identifier": "dqt02j4v" },
+  { "title_id": "000", "uuid": "kry2y2hc", "title": "Bảo tàng Lịch sử quốc gia", "href": "Bảo_tàng_Lịch_sử_quốc_gia", "template": "reference", "identifier": "0xhmq1vm" },
+  { "title_id": "000", "uuid": "jxzgt8db", "title": "Tiền thưởng đời vua Minh Mạng", "href": "Tiền_thưởng_đời_vua_Minh_Mạng", "template": "collection", "identifier": "wnyt0ogy" }
 ]
