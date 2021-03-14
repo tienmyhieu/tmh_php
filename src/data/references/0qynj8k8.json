@@ -2,11 +2,29 @@
   "attributes": {
     "name": "Vietnam Numismatics, Tập 4"
   },
-  "bibliography": {},
-  "original_images": [],
-  "images": [],
+  "bibliography": {
+    "title": "Tiền thưởng triều Nguyễn trong bộ sưu tập \"Bảo vật triều Nguyễn\" của Bảo tàng Lịch sử quốc gia. Phần 2: Tiền thưởng đời vua Minh Mạng",
+    "periodical": "Vietnam Numismatics, Tập 4",
+    "author": ["Nguyễn Đình Chiến", "Trương Văn Thắng"],
+    "publisher": "Nhà Xuất Bản Văn Hóa - Văn Nghệ TP.HCM",
+    "year": "2018",
+    "city": "Thành phố Hồ Chí Minh",
+    "country": "Việt Nam",
+    "language": "Việt"
+  },
+  "original_images": [
+    { "image_id": "1", "uuid": "nixuhugo", "src": "VN4-000.jpg", "href": "Vietnam_Numismatics_Tập_4", "title": "7zmqa1e7", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "2", "uuid": "fugmc3nl", "src": "VN4-001.jpg", "href": "Vietnam_Numismatics_Tập_4", "title": "7zmqa1e7", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "3", "uuid": "vcrkt9bh", "src": "VN4-008.jpg", "href": "Vietnam_Numismatics_Tập_4", "title": "7zmqa1e7", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" }
+  ],
+  "images": [
+    { "image_id": "1", "uuid": "nixuhugo", "src": "533e6ee8d9a340f4a034bd144b270905.jpg", "href": "Vietnam_Numismatics_Tập_4", "title": "7zmqa1e7", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "fugmc3nl", "src": "8702a4ee58f245768668434c74b38b40.jpg", "href": "Vietnam_Numismatics_Tập_4", "title": "7zmqa1e7", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "vcrkt9bh", "src": "34ba504ecebc4e98ab0290ed09d4824c.jpg", "href": "Vietnam_Numismatics_Tập_4", "title": "7zmqa1e7", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" }
+  ],
   "videos": [],
   "collections": [
-    { "name": "btlsqg_mm", "uuid": "ehfxpi4p", "title": "", "expand": "1", "items": "99", "coin_emperor": "", "images": [] }
+    { "name": "vn4_pages", "uuid": "of36z78m", "title": "", "expand": "0", "items": "3", "coin_emperor": "", "images": ["nixuhugo", "fugmc3nl", "vcrkt9bh"] },
+    { "name": "btlsqg_mm", "uuid": "ehfxpi4p", "title": "", "expand": "1", "items": "29", "coin_emperor": "", "images": [] }
   ]
 }

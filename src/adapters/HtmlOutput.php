@@ -612,16 +612,25 @@ class HtmlOutput
                         $hasParentTitle = $hasParentTitleKey ? 0 < strlen($expandedCollection['attributes']['parent_title']) : false;
                         $css = $hasParentTitle ? ' style="padding: 0; margin-bottom:0"' : '';
                         $html .= '<h3' . $css . '>' . $expandedCollection['title'] . '</h3>';
-                        if (in_array('parent_title', array_keys($expandedCollection['attributes']))) {
+                        if ($hasParentTitle) {
                             $html .= '<small><b>- ' . $expandedCollection['attributes']['parent_title'] . '</b></small><br /><br />';
                         }
                     }
                     foreach ($expandedCollection['collections'] as $subLevelCollection) {
                         $hasIdentifier = 0 < strlen($subLevelCollection['identifier']);
+                        $hasImages = 0 < count($subLevelCollection['images']);
+                        $titlePrefix = '';
+                        $titleSuffix = '';
+                        if ($hasImages) {
+                            $titlePrefix = $hasIdentifier ? $subLevelCollection['identifier'] . '. ' : '';
+                            $titleSuffix = '<br />';
+                        } else {
+                            $titleSuffix = '<br />' . ($hasIdentifier ? $lexicon['number_abbrev'] . ': ' . $subLevelCollection['identifier']: '');
+                        }
                         $identifier = $hasIdentifier ? $subLevelCollection['identifier'] . '. ' : '';
                         $hasSpecimens = in_array('specimens', array_keys($expandedCollection));
                         $specimens = $hasSpecimens ? $expandedCollection['specimens'] : [];
-                        $html .= $identifier . $subLevelCollection['title'] . '<br />';
+                        $html .= $titlePrefix . $subLevelCollection['title'] . $titleSuffix;
                         $html .= HtmlOutput::collectionTable(
                             $subLevelCollection,
                             $expandedCollection['images'],
@@ -714,7 +723,7 @@ class HtmlOutput
             $html .= "\n\t\t\t\t" . '</table>';
         } else {
             if (0 < count($measurements)) {
-                $html .= '<small>' . $identifier . ': ' . implode(', ', $measurements) . '</small>';
+                $html .= '<small>' . $lexicon['number_abbrev'] . ': ' . $identifier . ', ' . implode(', ', $measurements) . '</small>';
             }
             $html .= '<br />';
         }
@@ -761,6 +770,7 @@ class HtmlOutput
                 if (0 < count($subLevelCollection['images'])) {
                     $coinUuid = $collection['attributes']['coin_uuid'];
                     if ($coinUuid) {
+                        echo '** 1 coin uuid ';
                         $hasIdentifier = 0 < strlen($subLevelCollection['identifier']);
                         $identifier = $hasIdentifier ? $subLevelCollection['identifier'] . '. ' : '';
                         $coin = $coins[$coinUuid]['name'];
