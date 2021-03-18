@@ -1,0 +1,26 @@
+{
+  "attributes": {
+    "name": "",
+    "coin_emperor_uuid": "",
+    "coin_uuid": "",
+    "emperor_uuid": "syqewlhz",
+    "lowest_level": "1",
+    "parent_title": "kry2y2hc"
+  },
+  "title": "7d5kp7lh",
+  "original_images": [],
+  "images": [],
+  "collections": [
+    { "name": "btlsqg_tt_mmhhtttt", "uuid": "7d5kp7lh", "title": "mabtj2ur", "identifier": "VN 32-3", "expand": "0", "items": 1, "images": [], "specimen_uuid": "" },
+    { "name": "btlsqg_tt_tbaddbab", "uuid": "nfj7yaaj", "title": "jcafwu73", "identifier": "VN 31-3", "expand": "0", "items": 1, "images": [], "specimen_uuid": "" },
+    { "name": "btlsqg_tt_tbaddbab", "uuid": "3crburam", "title": "jcafwu73", "identifier": "VN 32-2", "expand": "0", "items": 1, "images": [], "specimen_uuid": "" },
+    { "name": "btlsqg_tt_nnhkvtvc", "uuid": "nke7ex4a", "title": "pn2ifz10", "identifier": "VN 32-5", "expand": "0", "items": 1, "images": [], "specimen_uuid": "" },
+    { "name": "btlsqg_tt_tthccvbl", "uuid": "vgceg3ju", "title": "j5or39g2", "identifier": "VN 31-4", "expand": "0", "items": 1, "images": [], "specimen_uuid": "" },
+    { "name": "btlsqg_tt_tcdtatvt", "uuid": "r00buy7n", "title": "uy8tagiv", "identifier": "VN 32-1", "expand": "0", "items": 1, "images": [], "specimen_uuid": "" },
+    { "name": "btlsqg_tt_tkvn", "uuid": "h7rj69am", "title": "gcbgwjcb", "identifier": "VN 32-4", "expand": "0", "items": 1, "images": [], "specimen_uuid": "" },
+    { "name": "btlsqg_tt_thdd", "uuid": "mjfxsx2n", "title": "r6k0ip08", "identifier": "VN 31-2", "expand": "0", "items": 1, "images": [], "specimen_uuid": "" },
+    { "name": "btlsqg_tt_dqld", "uuid": "mhnyj0bh", "title": "ecpzzsm5", "identifier": "VN 32-7", "expand": "0", "items": 1, "images": [], "specimen_uuid": "" },
+    { "name": "btlsqg_tt_gupt", "uuid": "i23nad3e", "title": "nfqce39s", "identifier": "VN 32-6", "expand": "0", "items": 1, "images": [], "specimen_uuid": "" }
+  ],
+  "specimens": []
+}
