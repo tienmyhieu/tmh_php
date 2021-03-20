@@ -7,16 +7,16 @@
     { "image_id": "4", "uuid": "z60y8d3v", "src": "03bc6c5e83d24746994f8e78bb3a8d67-2.png", "href": "ANZDQ_80", "copyright": "1", "country": "ja", "year": "2010", "color": "0", "visible": "1" },
     { "image_id": "5", "uuid": "mf9eekjk", "src": "09d03bfc711745d2ae334e03ff3798f7-1.png", "href": "AMDK_48", "copyright": "1", "country": "ja", "year": "2012", "color": "0", "visible": "1" },
     { "image_id": "6", "uuid": "b14izi2d", "src": "09d03bfc711745d2ae334e03ff3798f7-2.png", "href": "AMDK_48", "copyright": "1", "country": "ja", "year": "2012", "color": "0", "visible": "1" },
-    { "image_id": "7", "uuid": "v5yn4bsr", "src": "716bfa34da8544b49ee2671592d0718a-1.png", "href": "VN6_TD15", "copyright": "1", "country": "vn", "year": "2018", "color": "0", "visible": "1" },
-    { "image_id": "8", "uuid": "7raqv85e", "src": "716bfa34da8544b49ee2671592d0718a-2.png", "href": "VN6_TD15", "copyright": "1", "country": "vn", "year": "2018", "color": "0", "visible": "1" },
-    { "image_id": "9", "uuid": "kxsx8q4t", "src": "5ac3552bdf904534b0ee547ad46a6fe1-1.png", "href": "VN6_TD15", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" },
-    { "image_id": "10", "uuid": "pmzgprzz", "src": "5ac3552bdf904534b0ee547ad46a6fe1-2.png", "href": "VN6_TD15", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" }
+    { "image_id": "7", "uuid": "1hqvlm7o", "src": "716bfa34da8544b49ee2671592d0718a-1.png", "href": "VN6_TD15", "copyright": "1", "country": "vn", "year": "2018", "color": "0", "visible": "1" },
+    { "image_id": "8", "uuid": "ycdgsk1p", "src": "716bfa34da8544b49ee2671592d0718a-2.png", "href": "VN6_TD15", "copyright": "1", "country": "vn", "year": "2018", "color": "0", "visible": "1" },
+    { "image_id": "9", "uuid": "c65tj1kl", "src": "5ac3552bdf904534b0ee547ad46a6fe1-1.png", "href": "VN6_TD15", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" },
+    { "image_id": "10", "uuid": "awzw1d6h", "src": "5ac3552bdf904534b0ee547ad46a6fe1-2.png", "href": "VN6_TD15", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
     { "code": "Thierry 1", "images": ["yvhjbqb2", "8mmsshz0"], "variant": "", "diameter": "52.00", "weight": "41.00", "page": "270", "plate": "", "articles": [], "urls": [] },
     { "code": "大庫隆夫 80", "images": ["wd7gk6cn", "z60y8d3v"], "variant": "", "diameter": "", "weight": "", "page": "98", "plate": "", "articles": [], "urls": [] },
     { "code": "満泉堂 48", "images": ["mf9eekjk", "b14izi2d"], "variant": "", "diameter": "", "weight": "", "page": "48", "plate": "", "articles": [], "urls": [] },
-    { "code": "VN6 TD15", "images": ["v5yn4bsr", "7raqv85e"], "variant": "", "diameter": "", "weight": "", "page": "13", "plate": "", "articles": [], "urls": [] }
+    { "code": "VN6 TD15", "images": ["1hqvlm7o", "ycdgsk1p"], "variant": "", "diameter": "", "weight": "", "page": "13", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "g280nf48", "page": "270", "plate": "", "identifier": "1", "notes": "", "articles": [], "urls": [] },

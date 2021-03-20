@@ -1,0 +1,30 @@
+{
+  "attributes": {
+    "name": "Vietnam Numismatics, Tập 6"
+  },
+  "bibliography": {
+    "title": "Tiền thưởng triều Nguyễn trong bộ sưu tập \"Bảo vật triều Nguyễn\" của Bảo tàng Lịch sử quốc gia. Phần 4: Tiền thưởng đời vua Tự Đức",
+    "periodical": "Vietnam Numismatics, Tập 6",
+    "author": ["Nguyễn Đình Chiến", "Trương Văn Thắng"],
+    "publisher": "Nhà Xuất Bản Văn Hóa - Văn Nghệ TP.HCM",
+    "year": "2019",
+    "city": "Thành phố Hồ Chí Minh",
+    "country": "Việt Nam",
+    "language": "Việt"
+  },
+  "original_images": [
+    { "image_id": "1", "uuid": "u5t1qz0i", "src": "VN6-000.jpg", "href": "Vietnam_Numismatics_Tập_6", "title": "7xv0l5f6", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "2", "uuid": "qm9pixoa", "src": "VN6-001.jpg", "href": "Vietnam_Numismatics_Tập_6", "title": "7xv0l5f6", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "3", "uuid": "w19fvetj", "src": "VN6-008.jpg", "href": "Vietnam_Numismatics_Tập_6", "title": "7xv0l5f6", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" }
+  ],
+  "images": [
+    { "image_id": "1", "uuid": "u5t1qz0i", "src": "0737906884c6447981e536779c5e8c4d.jpg", "href": "Vietnam_Numismatics_Tập_6", "title": "7xv0l5f6", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "qm9pixoa", "src": "102b7edae83540cc8922f1b00908b7ff.jpg", "href": "Vietnam_Numismatics_Tập_6", "title": "7xv0l5f6", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "w19fvetj", "src": "36722a9bd98e470cb7d1426206428aee.jpg", "href": "Vietnam_Numismatics_Tập_6", "title": "7xv0l5f6", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" }
+  ],
+  "videos": [],
+  "collections": [
+    { "name": "vn6_pages", "uuid": "h8d869mv", "title": "", "expand": "0", "items": "3", "coin_emperor": "", "images": ["u5t1qz0i", "qm9pixoa", "w19fvetj"] },
+    { "name": "btlsqg_td", "uuid": "chkwyz6w", "title": "", "expand": "1", "items": "25", "coin_emperor": "", "images": [] }
+  ]
+}

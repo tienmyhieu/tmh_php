@@ -248,5 +248,6 @@
   { "title_id": "000", "uuid": "yw7it0uc", "title": "Tiền thưởng thời Tự Đức", "href": "Tiền_thưởng_thời_Tự_Đức", "template": "collection", "identifier": "dqt02j4v" },
   { "title_id": "000", "uuid": "kry2y2hc", "title": "Bảo tàng Lịch sử Quốc gia", "href": "Bảo_tàng_Lịch_sử_Quốc_gia", "template": "reference", "identifier": "0xhmq1vm" },
   { "title_id": "000", "uuid": "jxzgt8db", "title": "Tiền thưởng đời vua Minh Mạng", "href": "Tiền_thưởng_đời_vua_Minh_Mạng", "template": "collection", "identifier": "wnyt0ogy" },
-  { "title_id": "000", "uuid": "7d5kp7lh", "title": "Tiền thưởng đời vua Thiệu Trị", "href": "Tiền_thưởng_đời_vua_Thiệu_Trị", "template": "collection", "identifier": "utqc3kvy" }
+  { "title_id": "000", "uuid": "7d5kp7lh", "title": "Tiền thưởng đời vua Thiệu Trị", "href": "Tiền_thưởng_đời_vua_Thiệu_Trị", "template": "collection", "identifier": "utqc3kvy" },
+  { "title_id": "000", "uuid": "lbtf2v8m", "title": "Tiền thưởng đời vua Tự Đức", "href": "Tiền_thưởng_đời_vua_Tự_Đức", "template": "collection", "identifier": "et4zoh7y" }
 ]

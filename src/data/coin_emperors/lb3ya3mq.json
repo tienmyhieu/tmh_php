@@ -1,13 +1,13 @@
 {
   "page_image": "c0538b251dc345fab08d71155f15394e-2",
   "images": [
-    { "image_id": "1", "uuid": "v5yn4bsr", "src": "c0538b251dc345fab08d71155f15394e-1.png", "href": "VN6_TD12", "copyright": "1", "country": "vn", "year": "2018", "color": "0", "visible": "1" },
-    { "image_id": "2", "uuid": "7raqv85e", "src": "c0538b251dc345fab08d71155f15394e-2.png", "href": "VN6_TD12", "copyright": "1", "country": "vn", "year": "2018", "color": "0", "visible": "1" },
-    { "image_id": "3", "uuid": "kxsx8q4t", "src": "23a4799753c2402c8e73c4ba327e3319-1.png", "href": "VN6_TD12", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" },
-    { "image_id": "4", "uuid": "pmzgprzz", "src": "23a4799753c2402c8e73c4ba327e3319-2.png", "href": "VN6_TD12", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" }
+    { "image_id": "1", "uuid": "1jfivnf8", "src": "c0538b251dc345fab08d71155f15394e-1.png", "href": "VN6_TD12", "copyright": "1", "country": "vn", "year": "2018", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "vu4q0p16", "src": "c0538b251dc345fab08d71155f15394e-2.png", "href": "VN6_TD12", "copyright": "1", "country": "vn", "year": "2018", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "uhjjp1ko", "src": "23a4799753c2402c8e73c4ba327e3319-1.png", "href": "VN6_TD12", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" },
+    { "image_id": "4", "uuid": "cdj8cell", "src": "23a4799753c2402c8e73c4ba327e3319-2.png", "href": "VN6_TD12", "copyright": "1", "country": "vn", "year": "2018", "color": "1", "visible": "0" }
   ],
   "reference_specimens": [
-    { "code": "VN6 TD12", "images": ["v5yn4bsr", "7raqv85e"], "variant": "", "diameter": "", "weight": "", "page": "13", "plate": "", "articles": [], "urls": [] }
+    { "code": "VN6 TD12", "images": ["1jfivnf8", "vu4q0p16"], "variant": "", "diameter": "", "weight": "", "page": "13", "plate": "", "articles": [], "urls": [] }
   ],
   "references": [
     { "reference_uuid": "gvkepvmm", "page": "13", "plate": "", "identifier": "12", "notes": "btlsqg", "articles": [], "urls": [] }
