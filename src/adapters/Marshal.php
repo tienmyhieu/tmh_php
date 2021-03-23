@@ -193,6 +193,10 @@ class Marshal
         if (in_array('title', array_keys($entity))) {
             $entity['title'] = $titles[$entity['title']]['title'];
         }
+
+        if (in_array('segments', array_keys($entity))) {
+            $entity['segments'] = $this->setKeyedItems($entity['segments']);
+        }
         return $entity;
     }
 

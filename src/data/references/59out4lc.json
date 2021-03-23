@@ -1,0 +1,69 @@
+{
+  "attributes": {
+    "name": "大南寔錄正編 第二紀 卷六七"
+  },
+  "bibliography": {
+    "title": "大南寔錄正編 第二紀 卷六七",
+    "author": ["Quốc sử quán triều Nguyễn"],
+    "publisher": "Quốc sử quán triều Nguyễn",
+    "year": "1830",
+    "city": "Huế",
+    "country": "Việt Nam",
+    "language": "Việt (chữ Hán)"
+  },
+  "original_images": [
+    { "image_id": "1", "uuid": "7mehuavo", "src": "phathanhtientrieunguyen-003-093325-150319-87-o.jpg", "href": "大南寔錄正編 第二紀 卷六七", "title": "xuei8hyi", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "2", "uuid": "own7xtsa", "src": "ATMHR-069.jpg", "href": "大南寔錄正編 第二紀 卷六七", "title": "xuei8hyi", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" }
+  ],
+  "images": [
+    { "image_id": "1", "uuid": "7mehuavo", "src": "fbe3cd5eb74043c0a4633531518854f0.jpg", "href": "大南寔錄正編 第二紀 卷六七", "title": "xuei8hyi", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "own7xtsa", "src": "2fa79c82e48c41fc98234470127b50bb.jpg", "href": "大南寔錄正編 第二紀 卷六七", "title": "xuei8hyi", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" }
+  ],
+  "videos": [],
+  "collections": [
+    { "name": "dntlcb3_pages", "uuid": "0pz5c0y0", "title": "", "expand": "0", "items": "2", "coin_emperor": "", "images": ["7mehuavo", "own7xtsa"] }
+  ],
+  "segments": [
+    { "uuid": "v022gna8", "segment": "屯堡之兵方與至免竝酌給兵器飫如議行" },
+    { "uuid": "zdbt7vg0", "segment": "以刑部員外郞阮輝霑爲刑部郞中" },
+    { "uuid": "s596sv4j", "segment": "鑄明命通寶美號大銅錢一萬文命戶部侍衞" },
+    { "uuid": "hxanwn3y", "segment": "會同武庫督工照所定字號规武鼓鑄之八字" },
+    { "uuid": "plzxcsgp", "segment": "二十" },
+    { "uuid": "i0t44gae", "segment": "賢賢親親樂樂利利國泰民安風調" },
+    { "uuid": "8zop0sb9", "segment": "雨順葩封三祝天保九如得位得祿得名得" },
+    { "uuid": "fadjhkua", "segment": "壽六府孔修三事允治至公至正無党無偏" },
+    { "uuid": "lqcciyhh", "segment": "萬歳萬歳萬萬歳壽穆穆皇皇擠擠蹌蹌源" },
+    { "uuid": "zufqtedy", "segment": "流順軌年穀豐登親親長長老老幼幼國富" },
+    { "uuid": "lntgb61j", "segment": "兵彊内安外靜如山如川如岡如阜君君臣" },
+    { "uuid": "pbhx6kv9", "segment": "臣父父子子福如東海壽比南山萬壽攸酢" },
+    { "uuid": "053lrbpn", "segment": "萬福攸同天不愛道地不愛寶追琢其章金" },
+    { "uuid": "9i22z7r2", "segment": "大南寔錄正編二紀卷六七" },
+    { "uuid": "t1xqrjc7", "segment": "二十七" },
+    { "uuid": "iksblm9a", "segment": "玉其相王道蕩蕩聖謨洋洋一人有慶萬壽" },
+    { "uuid": "44c8kbsm", "segment": "無疆五辰順撫庶績其凝元四字十亨利" },
+    { "uuid": "0tebuqfz", "segment": "貞福履綏將帝德廣運利用厚生中和位育" },
+    { "uuid": "8jpe7df9", "segment": "斂福錫民四方爲則剛健中正家給人足川" },
+    { "uuid": "igfnyx9r", "segment": "至山" },
+    { "uuid": "gpjroc13", "segment": "增" },
+    { "uuid": "2tnzdbgf", "segment": "" },
+    { "uuid": "8541wm9j", "segment": "大南寔錄正編第二紀卷之六十七止" }
+  ],
+  "text": {
+    "lang": "zh-Hant",
+    "writing_mode": "vertical-rl",
+    "size": "1.5",
+    "segments": [
+      { "segment_uuid": "v022gna8", "pl": "2", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "0", "s": "1.5", "w": "normal" },
+      { "segment_uuid": "zdbt7vg0", "pl": "5", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "1", "s": "1.5", "w": "normal" },
+      { "segment_uuid": "s596sv4j", "pl": "5", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "1", "s": "1.5", "w": "normal" },
+      { "segment_uuid": "hxanwn3y", "pl": "8", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "1", "s": "1.5", "w": "normal" },
+      { "segment_uuid": "plzxcsgp", "pl": "8", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "1", "s": "1.5", "w": "normal" },
+      { "segment_uuid": "2tnzdbgf", "pl": "3", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "0", "s": "1.5", "w": "normal" },
+      { "segment_uuid": "i0t44gae", "pl": "0", "pr": "0", "c": "#000000", "bc": "#CCCCCC", "nl": "0", "s": "1.5", "w": "normal" },
+      { "segment_uuid": "2tnzdbgf", "pl": "8", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "1", "s": "1.5", "w": "normal" },
+      { "segment_uuid": "8zop0sb9", "pl": "0", "pr": "0", "c": "#000000", "bc": "#CCCCCC", "nl": "0", "s": "1.5", "w": "normal" },
+      { "segment_uuid": "2tnzdbgf", "pl": "8", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "1", "s": "1.5", "w": "normal" },
+      { "segment_uuid": "fadjhkua", "pl": "0", "pr": "0", "c": "#000000", "bc": "#CCCCCC", "nl": "0", "s": "1.5", "w": "normal" }
+    ]
+  }
+}
