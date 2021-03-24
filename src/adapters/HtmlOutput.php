@@ -601,6 +601,7 @@ class HtmlOutput
             foreach ($text['segments'] as $textSegment) {
                 $style = 'font-weight: ' . $textSegment['w'] . '; font-size: ' . $textSegment['s'] . 'em;';
                 $style .= ' color: ' .$textSegment['c'] . '; background-color: ' . $textSegment['bc'] . ';';
+                $style .= ' letter-spacing: 0.1em;';
                 $segment = $segments[$textSegment['segment_uuid']]['segment'];
                 $html .= $textSegment['nl'] ? '<br />' : '';
                 $html .= '<span style="' . $style . '">' . HtmlOutput::pad($segment, $textSegment['pl']) . '</span>';
@@ -626,7 +627,6 @@ class HtmlOutput
         $textSegments = in_array('text', array_keys($reference)) ? $reference['text'] : [];
         $segments = in_array('segments', array_keys($reference)) ? $reference['segments'] : [];
         $html .= HtmlOutput::bibliography($bibliography);
-        $html .= HtmlOutput::textSegments($textSegments, $segments);
         foreach ($reference['collections'] as $collection) {
             if ((bool)$collection['expand']) {
                 if (0 < strlen($collection['title'])) {
@@ -691,6 +691,7 @@ class HtmlOutput
                 $html .= HtmlOutput::embeddedVideo($video);
             }
         }
+        $html .= HtmlOutput::textSegments($textSegments, $segments);
         return $html;
     }
 
