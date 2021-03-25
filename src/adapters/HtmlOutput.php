@@ -572,7 +572,7 @@ class HtmlOutput
         return $html;
     }
 
-    public static function bibliography($bibliographyFields)
+    public static function bibliography($bibliographyFields): string
     {
         $html = '';
         if (0 < count($bibliographyFields)) {
@@ -596,17 +596,19 @@ class HtmlOutput
     public static function textSegments($text, $segments): string
     {
         $html = '';
-        if (0 < count($text['segments'])) {
-            $html .= '<div lang="' . $text['lang'] . '" style="display: inline-block; border: 1px solid #000000; padding: 0.2em; writing-mode: '. $text['writing_mode'] . '">';
-            foreach ($text['segments'] as $textSegment) {
-                $style = 'font-weight: ' . $textSegment['w'] . '; font-size: ' . $textSegment['s'] . 'em;';
-                $style .= ' color: ' .$textSegment['c'] . '; background-color: ' . $textSegment['bc'] . ';';
-                $style .= ' letter-spacing: 0.1em;';
-                $segment = $segments[$textSegment['segment_uuid']]['segment'];
-                $html .= $textSegment['nl'] ? '<br />' : '';
-                $html .= '<span style="' . $style . '">' . HtmlOutput::pad($segment, $textSegment['pl']) . '</span>';
+        if (in_array('segments', array_keys($text))) {
+            if (0 < count($text['segments'])) {
+                $html .= '<div lang="' . $text['lang'] . '" style="display: inline-block; border: 1px solid #000000; padding: 0.2em; writing-mode: '. $text['writing_mode'] . '">';
+                foreach ($text['segments'] as $textSegment) {
+                    $style = 'font-weight: ' . $textSegment['w'] . '; font-size: ' . $textSegment['s'] . 'em;';
+                    $style .= ' color: ' .$textSegment['c'] . '; background-color: ' . $textSegment['bc'] . ';';
+                    $style .= ' letter-spacing: 0.1em;';
+                    $segment = $segments[$textSegment['segment_uuid']]['segment'];
+                    $html .= $textSegment['nl'] ? '<br />' : '';
+                    $html .= '<span style="' . $style . '">' . HtmlOutput::pad($segment, $textSegment['pl']) . '</span>';
+                }
+                $html .= '</div><br />';
             }
-            $html .= '</div><br />';
         }
         return $html;
     }
@@ -620,13 +622,34 @@ class HtmlOutput
         return $before ? $padding . $str : $str . $padding;
     }
 
+    public static function referenceLinks($referenceLinks, $lexicon): string
+    {
+        $html = '';
+        if (0 < count($referenceLinks)) {
+            $html .= $lexicon['links'] . '<br />';
+            $html .= "\n\t\t\t" . '<table border="1" cellpadding="2" cellspacing="2">';
+            foreach ($referenceLinks as $referenceLink) {
+                $title = preg_replace('|_|', ' ', $referenceLink['title']);
+                $html .= "\n\t\t\t\t" . '<tr>';
+                $html .= "\n\t\t\t\t\t" . '<td>' . $lexicon[$referenceLink['text']] . '</td>';
+                $html .= "\n\t\t\t\t\t" . '<td>' . '<a href="' .$referenceLink['href'] . '" title="' . $title . '">' . $title .'</a>' . '</td>';
+                $html .= "\n\t\t\t\t" . '</tr>';
+            }
+            $html .= "\n\t\t\t" . '</table>';
+            $html .= '<br />';
+        }
+        return $html;
+    }
+
     public static function reference($reference, $lexicon): string
     {
         $html = '';
         $bibliography = in_array('bibliography', array_keys($reference)) ? $reference['bibliography'] : [];
         $textSegments = in_array('text', array_keys($reference)) ? $reference['text'] : [];
         $segments = in_array('segments', array_keys($reference)) ? $reference['segments'] : [];
+        $referenceLinks = in_array('links', array_keys($reference)) ? $reference['links'] : [];
         $html .= HtmlOutput::bibliography($bibliography);
+        $html .= HtmlOutput::referenceLinks($referenceLinks, $lexicon);
         foreach ($reference['collections'] as $collection) {
             if ((bool)$collection['expand']) {
                 if (0 < strlen($collection['title'])) {
