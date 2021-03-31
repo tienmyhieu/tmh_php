@@ -593,9 +593,12 @@ class HtmlOutput
         return $html;
     }
 
-    public static function textSegments($text, $segments): string
+    public static function textSegments($text, $segments, $lexicon): string
     {
         $html = '';
+        if (in_array('page', array_keys($text)) && 0 < $text['page']) {
+            $html .= $lexicon['page'] . ' ' . $text['page'] . '<br />';
+        }
         if (in_array('segments', array_keys($text))) {
             if (0 < count($text['segments'])) {
                 $html .= '<div lang="' . $text['lang'] . '" style="display: inline-block; border: 1px solid #000000; padding: 0.2em; writing-mode: '. $text['writing_mode'] . '">';
@@ -714,7 +717,7 @@ class HtmlOutput
                 $html .= HtmlOutput::embeddedVideo($video);
             }
         }
-        $html .= HtmlOutput::textSegments($textSegments, $segments);
+        $html .= HtmlOutput::textSegments($textSegments, $segments, $lexicon);
         return $html;
     }
 

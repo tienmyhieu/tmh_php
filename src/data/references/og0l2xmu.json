@@ -1,0 +1,60 @@
+{
+  "attributes": {
+    "name": "Annam and it's Minor Currency"
+  },
+  "bibliography": {
+    "title": "Annam and it's Minor Currency",
+    "periodical": "Journal of the North China Branch of the Royal Asiatic Society",
+    "author": ["Ed. Toda"],
+    "publisher": "Noronha & Sons",
+    "year": "182",
+    "city": "Shanghai",
+    "country": "Shanghai",
+    "language": "English"
+  },
+  "links": [],
+  "original_images": [
+    { "image_id": "1", "uuid": "soxsgzv3", "src": "JNCBRAS.jpg", "href": "Annam and it's Minor Currency", "title": "dy1p0lzx", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "2", "uuid": "vpegxq03", "src": "AMC-001.jpg", "href": "Annam and it's Minor Currency", "title": "dy1p0lzx", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "3", "uuid": "18x67ta2", "src": "AMC-132.jpg", "href": "Annam and it's Minor Currency", "title": "dy1p0lzx", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" }
+  ],
+  "images": [
+    { "image_id": "1", "uuid": "soxsgzv3", "src": "0917a832e8ca41ca9c14cbebedeb5ad3.jpg", "href": "Annam and it's Minor Currency", "title": "dy1p0lzx", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "vpegxq03", "src": "cc0020c591854db69eaf3cc0327f99e6.jpg", "href": "Annam and it's Minor Currency", "title": "dy1p0lzx", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "18x67ta2", "src": "001756968ed44e6cbd055bb023856c84.jpg", "href": "Annam and it's Minor Currency", "title": "dy1p0lzx", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" }
+  ],
+  "videos": [],
+  "collections": [
+    { "name": "amc_pages", "uuid": "7njrc52d", "title": "", "expand": "0", "items": "2", "coin_emperor": "", "images": ["soxsgzv3", "vpegxq03", "18x67ta2"] }
+  ],
+  "segments": [
+    { "uuid": "dq5v4tcy", "segment": "The two above coins were issued by King M" },
+    { "uuid": "o2dtxpsj", "segment": "INH-MANG" },
+    { "uuid": "ls4fota5", "segment": "(1820-1838)." },
+    { "uuid": "2eadt7mb", "segment": "The custom of casting medals with inscrip-" },
+    { "uuid": "he2e8cp5", "segment": "tions on the reverse, such as" },
+    { "uuid": "z0a7wr00", "segment": "金 玉 其 相 追 琢 其 章" },
+    { "uuid": "zha8qvii", "segment": "or" },
+    { "uuid": "3jgafv6s", "segment": "風 調 雨 順 國 泰 民 安" },
+    { "uuid": "3yruv8kj", "segment": "was followed by this king; but they" },
+    { "uuid": "cd1mc3l3", "segment": "never went into circulation." }
+  ],
+  "text": {
+    "lang": "en",
+    "writing_mode": "horizontal-tb",
+    "size": "1.5",
+    "page": "132",
+    "segments": [
+      { "segment_uuid": "dq5v4tcy", "pl": "4", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "0", "s": "0.9", "w": "normal" },
+      { "segment_uuid": "o2dtxpsj", "pl": "0", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "0", "s": "0.7", "w": "normal" },
+      { "segment_uuid": "ls4fota5", "pl": "0", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "1", "s": "0.9", "w": "normal" },
+      { "segment_uuid": "2eadt7mb", "pl": "2", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "0", "s": "0.9", "w": "normal" },
+      { "segment_uuid": "he2e8cp5", "pl": "0", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "1", "s": "0.9", "w": "normal" },
+      { "segment_uuid": "z0a7wr00", "pl": "1", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "0", "s": "0.9", "w": "bold" },
+      { "segment_uuid": "zha8qvii", "pl": "1", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "0", "s": "0.9", "w": "normal" },
+      { "segment_uuid": "3jgafv6s", "pl": "0", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "1", "s": "0.9", "w": "bold" },
+      { "segment_uuid": "3yruv8kj", "pl": "1", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "0", "s": "0.9", "w": "normal" },
+      { "segment_uuid": "cd1mc3l3", "pl": "0", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "1", "s": "0.9", "w": "normal" }
+    ]
+  }
+}
