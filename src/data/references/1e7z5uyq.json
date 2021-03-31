@@ -1,0 +1,55 @@
+{
+  "attributes": {
+    "name": "Notes pour servir à la recherche et au classement des monnaies et médailles de l’Annam et de la Cochinchine française"
+  },
+  "bibliography": {
+    "title": "Notes pour servir à la recherche et au classement des monnaies et médailles de l’Annam et de la Cochinchine française",
+    "author": ["Jules Silvestre"],
+    "publisher": "Imprimerie Nationale",
+    "year": "1883",
+    "city": "Saigon",
+    "country": "Việt Nam",
+    "language": "Français "
+  },
+  "links": [],
+  "original_images": [
+    { "image_id": "1", "uuid": "264q4e5q", "src": "nmma-000.jpg", "href": "", "title": "4kruh0zl", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "2", "uuid": "iukbaq5u", "src": "nmma-106.jpg", "href": "", "title": "4kruh0zl", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" }
+  ],
+  "images": [
+    { "image_id": "1", "uuid": "264q4e5q", "src": "df67a53d6b1f49869fdfa7de096593bd.jpg", "href": "", "title": "4kruh0zl", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "iukbaq5u", "src": "28a63ff3818c442c91ce93363043e5c6.jpg", "href": "", "title": "4kruh0zl", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" }
+  ],
+  "videos": [],
+  "collections": [
+    { "name": "nmma_pages", "uuid": "2t61z5iu", "title": "", "expand": "0", "items": "2", "coin_emperor": "", "images": ["264q4e5q", "iukbaq5u"] }
+  ],
+  "segments": [
+    { "uuid": "wcnfjiyr", "segment": "2º Une pièce de cuivre jaune, au chiffre Minh-mang, ronde," },
+    { "uuid": "xi401zbc", "segment": "portant au revers les caractères" },
+    { "uuid": "ikkpqvpa", "segment": "金玉其相追琢" },
+    { "uuid": "eob2hi7d", "segment": "其章" },
+    { "uuid": "366f7ab9", "segment": "kim ngọc kỳ tương truy trác kỳ chương. « Le métal," },
+    { "uuid": "lheghlvz", "segment": "comme toute chose précieuse, ne brille de son éclat qu'à l'aide" },
+    { "uuid": "59dc9n2x", "segment": "du travail du joaillier, » figure exprimant que les plus belles" },
+    { "uuid": "hgrjeuoc", "segment": "qualités, sans l'éducation, ne sont qu'imparfaites et grossières." },
+    { "uuid": "iqd7j7ht", "segment": "Son diamètre est dé 51 millimètres." }
+  ],
+  "text": {
+    "lang": "fr",
+    "writing_mode": "horizontal-tb",
+    "size": "1.5",
+    "page": "106",
+    "segments": [
+      { "segment_uuid": "wcnfjiyr", "pl": "4", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "0", "s": "0.9", "w": "normal" },
+      { "segment_uuid": "xi401zbc", "pl": "0", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "1", "s": "0.9", "w": "normal" },
+      { "segment_uuid": "ikkpqvpa", "pl": "1", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "0", "s": "1.2", "w": "bold" },
+      { "segment_uuid": "eob2hi7d", "pl": "0", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "1", "s": "1.2", "w": "bold" },
+      { "segment_uuid": "366f7ab9", "pl": "1", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "0", "s": "0.9", "w": "normal" },
+      { "segment_uuid": "lheghlvz", "pl": "0", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "1", "s": "0.9", "w": "normal" },
+      { "segment_uuid": "59dc9n2x", "pl": "0", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "1", "s": "0.9", "w": "normal" },
+      { "segment_uuid": "hgrjeuoc", "pl": "0", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "1", "s": "0.9", "w": "normal" },
+      { "segment_uuid": "iqd7j7ht", "pl": "0", "pr": "0", "c": "#000000", "bc": "#FFFFFF", "nl": "1", "s": "0.9", "w": "normal" }
+    ]
+  }
+}

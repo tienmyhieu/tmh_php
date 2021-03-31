@@ -12,8 +12,6 @@ $factory =  new Factory();
 $meta = $factory->meta();
 $template = $meta->template();
 $output = $factory->output();
-// reference
-// collection
 // plate
 switch ($template) {
     case 'article':
