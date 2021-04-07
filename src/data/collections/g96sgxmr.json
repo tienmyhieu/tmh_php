@@ -1,0 +1,25 @@
+{
+  "attributes": {
+    "name": "",
+    "coin_emperor_uuid": "",
+    "coin_uuid": "",
+    "emperor_uuid": "3fwjkgi2",
+    "lowest_level": "1",
+    "parent_title": ""
+  },
+  "original_images": [],
+  "images": [
+    { "image_id": "1", "uuid": "wj2t65xp", "src": "a62e6a6a23ca498b8847e01856d13000-1.png", "title": "i4y5ri21", "href": "CFE_1319", "copyright": "1", "country": "hk", "year": "1895", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "szeqdjio", "src": "a62e6a6a23ca498b8847e01856d13000-2.png", "title": "i4y5ri21", "href": "CFE_1319", "copyright": "1", "country": "hk", "year": "1895", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "ekejrdto", "src": "bbc82804671d485a86642f22a37769b4-1.png", "title": "4xdhvjmm", "href": "CFE_1318", "copyright": "1", "country": "hk", "year": "1895", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "5b2lu3wf", "src": "bbc82804671d485a86642f22a37769b4-2.png", "title": "4xdhvjmm", "href": "CFE_1318", "copyright": "1", "country": "hk", "year": "1895", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "cb3rqayi", "src": "957923a1ec9344ed87520613ea15caef-1.png", "title": "xzewr2vc", "href": "CFE_1317", "copyright": "1", "country": "hk", "year": "1895", "color": "0", "visible": "1" },
+    { "image_id": "6", "uuid": "jz0rypih", "src": "957923a1ec9344ed87520613ea15caef-2.png", "title": "xzewr2vc", "href": "CFE_1317", "copyright": "1", "country": "hk", "year": "1895", "color": "0", "visible": "1" }
+  ],
+  "collections": [
+    { "name": "cfe_mm_qtdapdvt", "uuid": "tc1y282c", "title": "i4y5ri21", "identifier": "1319", "expand": "0", "items": 1, "images": ["wj2t65xp", "szeqdjio"], "specimen_uuid": "" },
+    { "name": "cfe_mm_tbaddbab", "uuid": "d8is4y3n", "title": "4xdhvjmm", "identifier": "1318", "expand": "0", "items": 1, "images": ["ekejrdto", "5b2lu3wf"], "specimen_uuid": "" },
+    { "name": "cfe_mm_ttkcknkt", "uuid": "278ef4ew", "title": "xzewr2vc", "identifier": "1317", "expand": "0", "items": 1, "images": ["cb3rqayi", "jz0rypih"], "specimen_uuid": "" }
+  ],
+  "specimens": []
+}
