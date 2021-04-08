@@ -1,0 +1,58 @@
+{
+  "attributes": {
+    "name": "東亜銭志 16"
+  },
+  "type": "b1p",
+  "bibliography": {
+    "title": "東亜銭志 16",
+    "author": ["奥平昌洪"],
+    "publisher": "岩波書店",
+    "year": "1938",
+    "city": " 東京",
+    "country": "日本",
+    "language": "日本語"
+  },
+  "links": [
+    { "uuid": "unthswh0", "text": "source", "title": "国立国会図書館デジタルコレクション - 検索結果", "href": "https://dl.ndl.go.jp/search/searchResult?title=%2F%22%E6%9D%B1%E4%BA%9C%E9%8A%AD%E5%BF%97%22%2F&materialTypeList=0%7C1%7C2%7C4%7C5%7C6%7C7%7C8%7C9%7C92%7C13%7CI&viewRestrictedList=0&biblevelSearch=1&detailSearchTypeNo=A&publisher=%2F%22%E5%B2%A9%E6%B3%A2%E6%9B%B8%E5%BA%97%22%2F&__lang=ja" },
+    { "uuid": "z7yzhnvl", "text": "source", "title": "東亜銭志. 第１６ - 国立国会図書館デジタルコレクション", "href": "https://dl.ndl.go.jp/info:ndljp/pid/1446176" }
+  ],
+  "original_images": [
+    { "image_id": "1", "uuid": "co83cdbq", "src": "ts16-000.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "2", "uuid": "8q7c75su", "src": "ts16-057.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "3", "uuid": "0p8gd3r5", "src": "ts16-058.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "4", "uuid": "k87gdrf3", "src": "ts16-059.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "5", "uuid": "vuld0880", "src": "ts16-060.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "6", "uuid": "itaohjsw", "src": "ts16-061.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "7", "uuid": "yrbcblkx", "src": "ts16-062.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "8", "uuid": "ih1i0enr", "src": "ts16-063.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "9", "uuid": "jmguoszs", "src": "ts16-064.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "10", "uuid": "eynmunu1", "src": "ts16-065.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" },
+    { "image_id": "11", "uuid": "i5gksjwv", "src": "ts16-066.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "0" }
+  ],
+  "images": [
+    { "image_id": "1", "uuid": "co83cdbq", "src": "a0d21d6294654efb933cdb5778be2b5f.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "8q7c75su", "src": "91c065e78b22402fa3d37c967b28f7b2.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "0p8gd3r5", "src": "0c272647ab994391a5ba5791142c9b59.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "k87gdrf3", "src": "c7d7fb14589240d38a009be5da70a45a.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "vuld0880", "src": "8fa4b66c59dd4caabe9af7b58e171fe8.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "6", "uuid": "itaohjsw", "src": "0700cba766cc45c4bd1de20ab97bb40f.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "7", "uuid": "yrbcblkx", "src": "9e68a0dc2ba24171bdd0e6359eead689.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "8", "uuid": "ih1i0enr", "src": "e2e24058fd474077a812620d8dab66b8.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "9", "uuid": "jmguoszs", "src": "1b042fde3fb14a1d9dcc479c92747a93.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "10", "uuid": "eynmunu1", "src": "31d0e18890ec48088c8a584b92c64574.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" },
+    { "image_id": "11", "uuid": "i5gksjwv", "src": "c3b706889e0e4758a7abd5f8aa71990f.jpg", "href": "", "title": "v4v7ta4u", "copyright": "0", "country": "vn", "year": "", "color": "0", "visible": "1" }
+  ],
+  "videos": [],
+  "collections": [
+    { "name": "ts16_pages1", "uuid": "om0327u7", "title": "", "expand": "0", "items": "6", "coin_emperor": "", "images": ["co83cdbq", "8q7c75su", "0p8gd3r5", "k87gdrf3"] },
+    { "name": "ts16_pages2", "uuid": "xecdq2jl", "title": "", "expand": "0", "items": "5", "coin_emperor": "", "images": ["vuld0880", "itaohjsw", "yrbcblkx", "ih1i0enr"] },
+    { "name": "ts16_pages3", "uuid": "xvbea08j", "title": "", "expand": "0", "items": "5", "coin_emperor": "", "images": ["jmguoszs", "eynmunu1", "i5gksjwv"] }
+  ],
+  "segments": [],
+  "text": {
+    "lang": "ja",
+    "writing_mode": "vertical-rl",
+    "size": "1.5",
+    "segments": []
+  }
+}
