@@ -1,0 +1,21 @@
+{
+  "attributes": {
+    "name": "",
+    "coin_emperor_uuid": "",
+    "coin_uuid": "",
+    "emperor_uuid": "",
+    "lowest_level": "1",
+    "parent_title": ""
+  },
+  "original_images": [],
+  "images": [
+    { "image_id": "1", "uuid": "l4a8y2xp", "src": "25ddeac4a7f54e25833c3066dcdce306-2.png", "title": "rcobqrcp", "href": "", "copyright": "1", "country": "us", "year": "1967", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "z3ffgqgq", "src": "5a1f3524ee4c4565ab6fbc395551be02-1.png", "title": "yx0dho5z", "href": "", "copyright": "1", "country": "us", "year": "1967", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "oq1e8mlb", "src": "ebf21d18241c497ea0e9640de90c8d52-2.png", "title": "yx0dho5z", "href": "", "copyright": "1", "country": "us", "year": "1967", "color": "0", "visible": "1" }
+  ],
+  "collections": [
+    { "name": "cfe_mm_hltqncpd", "uuid": "q8h2pngy", "title": "rcobqrcp", "identifier": "278g", "expand": "0", "items": 1, "images": ["l4a8y2xp"], "specimen_uuid": "" },
+    { "name": "cfe_td_tlvtbhmc", "uuid": "w57ejmzd", "title": "yx0dho5z", "identifier": "278f", "expand": "0", "items": 1, "images": ["z3ffgqgq", "oq1e8mlb"], "specimen_uuid": "" }
+  ],
+  "specimens": []
+}
