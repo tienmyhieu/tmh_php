@@ -1,0 +1,32 @@
+{
+  "attributes": {
+    "name": "安南泉譜 大銭銀銭部"
+  },
+  "type": "b1p",
+  "bibliography": {
+    "title": "安南泉譜 大銭銀銭部",
+    "author": ["三浦吾泉編"],
+    "publisher": "",
+    "year": "1971",
+    "city": "東京",
+    "country": "日本",
+    "language": "日本語 "
+  },
+  "links": [],
+  "original_images": [],
+  "images": [],
+  "videos": [],
+  "collections": [
+    { "name": "as3_mm", "uuid": "rk2y5wvr", "title": "", "expand": "1", "items": "14", "coin_emperor": "", "images": [] },
+    { "name": "as3_tt", "uuid": "w9j3l7yb", "title": "", "expand": "1", "items": "6", "coin_emperor": "", "images": [] },
+    { "name": "as3_td", "uuid": "2t21lm5d", "title": "", "expand": "1", "items": "4", "coin_emperor": "", "images": [] }
+  ],
+  "segments": [],
+  "text": {
+    "lang": "fr",
+    "writing_mode": "horizontal-tb",
+    "size": "1.5",
+    "page": "",
+    "segments": []
+  }
+}

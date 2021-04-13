@@ -1,0 +1,26 @@
+{
+  "attributes": {
+    "name": "",
+    "coin_emperor_uuid": "",
+    "coin_uuid": "",
+    "emperor_uuid": "bn3shibu",
+    "lowest_level": "1",
+    "parent_title": ""
+  },
+  "original_images": [],
+  "images": [
+    { "image_id": "1", "uuid": "yq4w1mru", "src": "18334579a4c4406da7b34fd92a0208ed-1.png", "title": "80hpqb8q", "href": "AS3_21", "copyright": "1", "country": "ja", "year": "1971", "color": "0", "visible": "1" },
+    { "image_id": "2", "uuid": "9v2hs0ih", "src": "18334579a4c4406da7b34fd92a0208ed-2.png", "title": "80hpqb8q", "href": "AS3_21", "copyright": "1", "country": "ja", "year": "1971", "color": "0", "visible": "1" },
+    { "image_id": "3", "uuid": "1vsci6q0", "src": "05d51ca1a08a45c09b745247784da280-1.png", "title": "7l2gqvq6", "href": "AS3_24", "copyright": "1", "country": "ja", "year": "1971", "color": "0", "visible": "1" },
+    { "image_id": "4", "uuid": "rl6mag69", "src": "05d51ca1a08a45c09b745247784da280-2.png", "title": "7l2gqvq6", "href": "AS3_24", "copyright": "1", "country": "ja", "year": "1971", "color": "0", "visible": "1" },
+    { "image_id": "5", "uuid": "k4ih94lu", "src": "c6c13f8ef63c483a80cae83b6da713de-1.png", "title": "vgs199ep", "href": "AS3_23", "copyright": "1", "country": "ja", "year": "1971", "color": "0", "visible": "1" },
+    { "image_id": "6", "uuid": "ope9bxik", "src": "c6c13f8ef63c483a80cae83b6da713de-2.png", "title": "vgs199ep", "href": "AS3_23", "copyright": "1", "country": "ja", "year": "1971", "color": "0", "visible": "1" }
+  ],
+  "collections": [
+    { "name": "as3_td_lpkttsdt", "uuid": "kxn8ht9y", "title": "80hpqb8q", "identifier": "", "expand": "0", "items": 1, "images": ["yq4w1mru", "9v2hs0ih"], "specimen_uuid": "" },
+    { "name": "as3_td_ttttllaa", "uuid": "y3hlfmah", "title": "hm2raad2", "identifier": "", "expand": "0", "items": 1, "images": [], "specimen_uuid": "" },
+    { "name": "as3_td_ldhs", "uuid": "c77abl3e", "title": "7l2gqvq6", "identifier": "", "expand": "0", "items": 1, "images": ["1vsci6q0", "rl6mag69"], "specimen_uuid": "" },
+    { "name": "as3_td_klth", "uuid": "8whzrzt9", "title": "vgs199ep", "identifier": "", "expand": "0", "items": 1, "images": ["k4ih94lu", "ope9bxik"], "specimen_uuid": "" }
+  ],
+  "specimens": []
+}
