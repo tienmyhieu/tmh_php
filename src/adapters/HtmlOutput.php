@@ -826,12 +826,17 @@ class HtmlOutput
             foreach ($collection['collections'] as $subLevelUUid => $subLevelCollection) {
                 if (0 < count($subLevelCollection['images'])) {
                     $coinUuid = $collection['attributes']['coin_uuid'];
+                    $tableTitle = '';
                     if ($coinUuid) {
-                        echo '** 1 coin uuid ';
                         $hasIdentifier = 0 < strlen($subLevelCollection['identifier']);
                         $identifier = $hasIdentifier ? $subLevelCollection['identifier'] . '. ' : '';
                         $coin = $coins[$coinUuid]['name'];
-                        $html .=  $identifier . $coin;
+                        $tableTitle .=  $identifier . $coin;
+                    } else {
+                        $tableTitle = $subLevelCollection['title'];
+                    }
+                    if (0 < strlen($tableTitle)) {
+                        $html .= $tableTitle;
                     }
                     $hasSpecimens = in_array('specimens', array_keys($subLevelCollection));
                     $specimens = $hasSpecimens ? $subLevelCollection['specimens'] : [];
