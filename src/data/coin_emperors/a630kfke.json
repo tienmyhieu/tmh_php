@@ -84,9 +84,9 @@
     { "image_id": "38", "uuid": "eapawnsy", "src": "49f9b0a9d7bc4209a7e84ee1f04b1dd0-2.png", "href": "IKARU MM4", "copyright": "0", "country": "ja", "year": "2016", "color": "1", "visible": "0" }
   ],
   "collections": [
-    { "collection_uuid": "hzt9wxbt", "date": "2013-04-13", "pdf_url": "", "url_obverse": "https://www.numisbids.com/sales/hosted/baldwin/hk54/image00809.jpg", "url_reverse": "https://www.numisbids.com/sales/hosted/baldwin/hk54/image00809.jpg", "identifier": "", "lot_number": "" },
-    { "collection_uuid": "hzt9wxbt", "date": "2013-08-22", "pdf_url": "", "url_obverse": "", "url_reverse": "https://www.numisbids.com/sales/hosted/baldwin/hk55/image00820.jpg", "identifier": "", "lot_number": "" },
-    { "collection_uuid": "hzt9wxbt", "date": "2014-04-03", "pdf_url": "", "url_obverse": "https://www.numisbids.com/sales/hosted/baldwin/hk56/image00781.jpg", "url_reverse": "https://www.numisbids.com/sales/hosted/baldwin/hk56/image00781.jpg", "identifier": "", "lot_number": "" },
+    { "collection_uuid": "k1dgfc1i", "date": "2013-04-13", "pdf_url": "", "url_obverse": "https://www.numisbids.com/sales/hosted/baldwin/hk54/image00809.jpg", "url_reverse": "https://www.numisbids.com/sales/hosted/baldwin/hk54/image00809.jpg", "identifier": "", "lot_number": "" },
+    { "collection_uuid": "jkcsqqkc", "date": "2013-08-22", "pdf_url": "", "url_obverse": "", "url_reverse": "https://www.numisbids.com/sales/hosted/baldwin/hk55/image00820.jpg", "identifier": "", "lot_number": "" },
+    { "collection_uuid": "1mizp50h", "date": "2014-04-03", "pdf_url": "", "url_obverse": "https://www.numisbids.com/sales/hosted/baldwin/hk56/image00781.jpg", "url_reverse": "https://www.numisbids.com/sales/hosted/baldwin/hk56/image00781.jpg", "identifier": "", "lot_number": "" },
     { "collection_uuid": "i91nbvi5", "date": "2016-11-11", "pdf_url": "", "url_obverse": "", "url_reverse": "http://blogimg.goo.ne.jp/user_image/62/1f/0d4d57055bf2c16f5054f23447f80df3.jpg", "identifier": "", "lot_number": "" }
   ]
 }

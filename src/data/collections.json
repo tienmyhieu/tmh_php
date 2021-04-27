@@ -26,5 +26,10 @@
   { "collection_id": "25", "uuid": "cofwlf05", "acronym": "AXZI", "language": "cn", "title": "阿秀字 采集", "year": "2018-9999", "visible": "1" },
   { "collection_id": "26", "uuid": "qo4mfzee", "acronym": "LMHH", "language": "de", "title": "Leipziger Münzhandlung Auktion", "year": "1990-9999", "visible": "1" },
   { "collection_id": "27", "uuid": "bamh331m", "acronym": "ZNTK", "language": "ja", "title": "ぜにやとくべいこうせん コレクション", "year": "2018-9999", "visible": "1" },
-  { "collection_id": "28", "uuid": "m6k8xok8", "acronym": "WYHU", "language": "cn", "title": "无余话 采集", "year": "2016-9999", "visible": "1" }
+  { "collection_id": "28", "uuid": "m6k8xok8", "acronym": "WYHU", "language": "cn", "title": "无余话 采集", "year": "2016-9999", "visible": "1" },
+  { "collection_id": "29", "uuid": "k1dgfc1i", "acronym": "BMTW54", "language": "en", "title": "Baldwin Ma Tak Wo Hong Kong Coin Auction 54", "year": "2013-2013", "visible": "1" },
+  { "collection_id": "30", "uuid": "jkcsqqkc", "acronym": "BMTW55", "language": "en", "title": "Baldwin Ma Tak Wo Hong Kong Coin Auction 55", "year": "2013-2013", "visible": "1" },
+  { "collection_id": "31", "uuid": "1mizp50h", "acronym": "BMTW56", "language": "en", "title": "Baldwin Ma Tak Wo Hong Kong Coin Auction 57", "year": "2014-2014", "visible": "1" },
+  { "collection_id": "32", "uuid": "5eofwnmz", "acronym": "BMTW58", "language": "en", "title": "Baldwin Ma Tak Wo Hong Kong Coin Auction 58", "year": "2014-2014", "visible": "1" },
+  { "collection_id": "33", "uuid": "92ne9c8o", "acronym": "BMTW59", "language": "en", "title": "Baldwin Ma Tak Wo Hong Kong Coin Auction 59", "year": "2015-2015", "visible": "1" }
 ]
