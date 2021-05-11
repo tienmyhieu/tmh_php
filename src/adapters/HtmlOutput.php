@@ -644,6 +644,82 @@ class HtmlOutput
         return $html;
     }
 
+    public static function referenceTypeTextAndImage($reference, $lexicon): string
+    {
+        $imagePreviewSize = '64';
+        $baseUrl = 'http://img1.tienmyhieu.com/';
+        $transformedDescriptions = [];
+        $transformedMaxims = [];
+        foreach ($reference['descriptions'] as $description) {
+            $transformedDescriptions[$description['uuid']] = $description['segment'];
+        }
+        foreach ($reference['maxims'] as $maxim) {
+            $transformedMaxims[$maxim['uuid']] = $maxim['segment'];
+        }
+        $reference['descriptions'] = $transformedDescriptions;
+        $reference['maxims'] = $transformedMaxims;
+        $html = '';
+        if (0 < count($reference['coin_emperors'])) {
+            foreach ($reference['coin_emperors'] as $coinEmperor) {
+                $rowspan = 3;
+                if (0 < count($coinEmperor['notes'])) {
+                    $rowspan++;
+                }
+                $title = $coinEmperor['title'];
+                $html .= 0 < strlen($title) ? $title : '';
+                $html .= "\n\t\t\t" . '<table border="1" cellpadding="2" cellspacing="2">';
+                $html .= "\n\t\t\t\t\t\t\t" . '<tr>';
+                $html .= "\n\t\t\t\t\t\t\t" . '<td>';
+                $html .= $lexicon['number_abbrev'];
+                $html .= "\n\t\t\t\t\t\t\t" . '</td>';
+                $html .= "\n\t\t\t\t\t\t\t" . '<td>';
+                $html .= $coinEmperor['identifier'];
+                $html .= "\n\t\t\t\t\t\t\t" . '</td>';
+                $html .= "\n\t\t\t\t\t" . '<td valign="top" rowspan="' . $rowspan . '">';
+                foreach ($coinEmperor['images'] as $coinEmperorImage) {
+                    $image = $reference['images'][$coinEmperorImage];
+                    $aHref = $baseUrl . '1024/' . $image['src'];
+                    $imgSrc = $baseUrl . '/' . $imagePreviewSize . '/' . $image['src'];
+                    $html .= HtmlOutput::linkedImage($aHref, $image['title'], $imgSrc, $image['title']);
+                }
+                $html .= '</td>';
+                $html .= "\n\t\t\t\t\t\t\t" . '</tr>';
+                $html .= "\n\t\t\t\t\t\t\t" . '<tr>';
+                $html .= "\n\t\t\t\t\t\t\t" . '<td>';
+                $html .= $lexicon['translation'];
+                $html .= "\n\t\t\t\t\t\t\t" . '</td>';
+                $html .= "\n\t\t\t\t\t\t\t" . '<td>';
+                $html .= $reference['descriptions'][$coinEmperor['description']];
+                $html .= "\n\t\t\t\t\t\t\t" . '</td>';
+                $html .= "\n\t\t\t\t\t\t\t" . '</tr>';
+                $html .= "\n\t\t\t\t\t\t\t" . '<tr>';
+                $html .= "\n\t\t\t\t\t\t\t" . '<td>';
+                $html .= $lexicon['meaning'];
+                $html .= "\n\t\t\t\t\t\t\t" . '</td>';
+                $html .= "\n\t\t\t\t\t\t\t" . '<td>';
+                $html .= $reference['maxims'][$coinEmperor['maxim']];
+                $html .= "\n\t\t\t\t\t\t\t" . '</td>';
+                $html .= "\n\t\t\t\t\t\t\t" . '</tr>';
+                if (0 < count($coinEmperor['notes'])) {
+                    $html .= "\n\t\t\t\t\t\t\t" . '<tr>';
+                    $html .= "\n\t\t\t\t\t\t\t" . '<td>';
+                    $html .= $lexicon['notes'];
+                    $html .= "\n\t\t\t\t\t\t\t" . '</td>';
+                    $html .= "\n\t\t\t\t\t\t\t" . '<td>';
+                    foreach ($coinEmperor['notes'] as $note) {
+                        $html .= $lexicon[$note];
+                    }
+                    $html .= "\n\t\t\t\t\t\t\t" . '</td>';
+                    $html .= "\n\t\t\t\t\t\t\t" . '</tr>';
+                }
+                $html .= "\n\t\t\t" . '</table>';
+                $html .= '<br />';
+            }
+            $html .= '<br />';
+        }
+        return $html;
+    }
+
     public static function reference($reference, $lexicon): string
     {
         $html = '';
@@ -653,6 +729,9 @@ class HtmlOutput
         $referenceLinks = in_array('links', array_keys($reference)) ? $reference['links'] : [];
         $html .= HtmlOutput::bibliography($bibliography);
         $html .= HtmlOutput::referenceLinks($referenceLinks, $lexicon);
+        if ($reference['type'] == "dmil") {
+            $html .= HtmlOutput::referenceTypeTextAndImage($reference, $lexicon);
+        }
         foreach ($reference['collections'] as $collection) {
             if ((bool)$collection['expand']) {
                 if (0 < strlen($collection['title'])) {
@@ -701,13 +780,14 @@ class HtmlOutput
             } else {
                 $hasSpecimens = in_array('specimens', array_keys($collection));
                 $specimens = $hasSpecimens ? $collection['specimens'] : [];
+                $hasOriginals = 0 < count($reference['original_images']);
                 $html .= HtmlOutput::collectionTable(
                     $collection,
                     $reference['images'],
                     $reference['original_images'],
                     $specimens,
                     $lexicon,
-                    'uploads',
+                    $hasOriginals ? 'uploads': '',
                     '128'
                 );
             }
@@ -769,7 +849,6 @@ class HtmlOutput
                 } else {
                     $html .= "\n\t\t\t\t\t" . '<td>' . HtmlOutput::notLinkedImage($aHref, $imgTitle, $imgSrc, $imgTitle) . '</td>';
                 }
-
             }
             if (0 < count($measurements)) {
                 $html .= "\n\t\t\t\t\t" . '<td valign="top">';

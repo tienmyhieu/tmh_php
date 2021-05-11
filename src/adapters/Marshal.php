@@ -193,9 +193,12 @@ class Marshal
         if (in_array('title', array_keys($entity))) {
             $entity['title'] = $titles[$entity['title']]['title'];
         }
-
         if (in_array('segments', array_keys($entity))) {
             $entity['segments'] = $this->setKeyedItems($entity['segments']);
+        }
+        if (in_array('coin_emperors', array_keys($entity))) {
+            $entity['coin_emperors'] = $this->transformEntityCollection($entity, 'coin_emperors');
+            $entity['coin_emperors'] = $this->titledEntities($entity['coin_emperors'], $titles);
         }
         return $entity;
     }
