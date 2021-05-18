@@ -1,0 +1,48 @@
+{
+  "attributes": {
+    "name": "Tiền cổ thời Minh Mệnh"
+  },
+  "type": "dmil",
+  "bibliography": {
+    "title": "Tiền cổ thời Minh Mệnh",
+    "author": ["Đỗ Văn Ninh"],
+    "publisher": "Viện Khoa học Xã hội Việt Nam",
+    "periodical": "Nghiên cứu Lịch sử, Số 208",
+    "year": "1983",
+    "city": "Hà Nội",
+    "country": "Việt Nam",
+    "language": "vi"
+  },
+  "original_images": [],
+  "images": [],
+  "videos": [],
+  "collections": [],
+  "coin_emperors": [
+    { "uuid": "7k3h2pu0", "title": "dcvn5la0", "description": "d95uxnpf", "maxim": "xirky7kh", "images": [], "notes": [], "identifier": "6", "metal": "" },
+    { "uuid": "mad82e7t", "title": "sr2up8sb", "description": "k7y3sukl", "maxim": "8kx265o9", "images": [], "notes": [], "identifier": "7", "metal": "" },
+    { "uuid": "mc1a9cky", "title": "i4y5ri21", "description": "2mtpc315", "maxim": "9ycs18a4", "images": [], "notes": [], "identifier": "8", "metal": "" },
+    { "uuid": "g9p3k8sg", "title": "ouhym074", "description": "xuqg1czz", "maxim": "xuqg1czz", "images": [], "notes": [], "identifier": "9", "metal": "" },
+    { "uuid": "5hd30ohp", "title": "0qqgudfb", "description": "0p8udvfr", "maxim": "bcbsprbh", "images": [], "notes": [], "identifier": "10", "metal": "" }
+ ],
+  "descriptions": [
+    { "uuid": "d95uxnpf", "segment": "Hiền hiền, thân thân, lạc lạc, lợi lợi" },
+    { "uuid": "k7y3sukl", "segment": "Hoa phong tam chúc, Thiên bảo cửu như" },
+    { "uuid": "2mtpc315", "segment": "Quốc thái, dân an, phong điều, vũ thuận" },
+    { "uuid": "xuqg1czz", "segment": "Đắc vị, đắc danh, đắc lộc, đắc thọ" },
+    { "uuid": "0p8udvfr", "segment": "Lục phủ khổng tu, tam sự doãn trị" }
+  ],
+  "maxims": [
+    { "uuid": "xirky7kh", "segment": "Hiền với ngườì hiền, thân với ngựời thân, vui cái vuỉ, lợi cái lợi." },
+    { "uuid": "8kx265o9", "segment": "ngườì giữ phong cương ở Hoa Châu (Hoa Phong) chúc thánh nhân ba điều (giàu, sổng lâu, nhiều con trai). Thơ Thiên bảo chúc phúc nhà vua chín điều (như mặt trời mới mọc, như mặt trăng thường sáng, như núi, như gò, như đồng, như rừng, như nưi Nam Sơn không bao giờ lở, như cây tùng, cây bách, như nước sông mới chảy ra ngày một đầy thèm)." },
+    { "uuid": "9ycs18a4", "segment": "nước thịnh, dân yên, gió hoà, mưa thuận." },
+    { "uuid": "ka3cppwk", "segment": "dược địa vị, dược công danh, dược lộc, dược sống lâu." },
+    { "uuid": "bcbsprbh", "segment": "sáu kho (kim, mộc, thuỷ, hoả, thổ và thóc) đây đủ. Ba việc (chính đức, lợi dụng, hậu sinh) đêu làm." }
+  ],
+  "segments": [],
+  "text": {
+    "lang": "vi",
+    "writing_mode": "horizontal-tb",
+    "size": "1.5",
+    "segments": []
+  }
+}
