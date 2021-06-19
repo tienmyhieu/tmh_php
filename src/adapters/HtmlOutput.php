@@ -729,7 +729,7 @@ class HtmlOutput
         $referenceLinks = in_array('links', array_keys($reference)) ? $reference['links'] : [];
         $html .= HtmlOutput::bibliography($bibliography);
         $html .= HtmlOutput::referenceLinks($referenceLinks, $lexicon);
-        if ($reference['type'] == "dmil") {
+        if (in_array('type', array_keys($reference)) && $reference['type'] == "dmil") {
             $html .= HtmlOutput::referenceTypeTextAndImage($reference, $lexicon);
         }
         foreach ($reference['collections'] as $collection) {
