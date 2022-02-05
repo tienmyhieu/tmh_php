@@ -1,0 +1,10 @@
+[
+  { "uuid": "tienmyhieu.com", "locale": "vi-VN", "native_name": "Tiếng Việt" },
+  { "uuid": "vi.tienmyhieu.com", "locale": "vi-VN", "native_name": "Tiếng Việt" },
+  { "uuid": "www.tienmyhieu.com", "locale": "vi-VN", "native_name": "Tiếng Việt" },
+  { "uuid": "zh.tienmyhieu.com", "locale": "zh-Hans", "native_name": "简体字" },
+  { "uuid": "zh-hans.tienmyhieu.com", "locale": "zh-Hans", "native_name": "简体字" },
+  { "uuid": "ja.tienmyhieu.com", "locale": "ja-JP", "native_name": "日本語" },
+  { "uuid": "en.tienmyhieu.com", "locale": "en-GB", "native_name": "English" },
+  { "uuid": "fr.tienmyhieu.com", "locale": "fr-FR", "native_name": "Français" }
+]

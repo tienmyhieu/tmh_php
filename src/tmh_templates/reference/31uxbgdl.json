@@ -1,0 +1,164 @@
+{
+  "elements": [
+    { "name": "html", "attributes": { "lang": "domain.language" }, "elements":  [
+      { "name": "head", "attributes": {}, "elements":  [
+        { "name": "meta", "attributes": { "charset": "UTF-8" }, "elements":  [], "innerHTML": "", "selfClosing": true },
+        { "name": "title", "attributes": {}, "elements":  [], "innerHTML": "lexicon.DNTLCB_MM", "selfClosing": false },
+        { "name": "meta", "attributes": { "name": "description", "content": "lexicon.tien_my_hieu,lexicon.nguyen_dynasty_reward_money" }, "elements":  [], "innerHTML": "", "selfClosing": true },
+        { "name": "meta", "attributes": { "name": "keywords", "content": "lexicon.money,lexicon.vietnam,lexicon.tien_my_hieu" }, "elements":  [], "innerHTML": "", "selfClosing": true },
+        { "name": "meta", "attributes": { "name": "viewport", "content": "width=device-width, initial-scale=1.0" }, "elements":  [], "innerHTML": "", "selfClosing": true },
+        { "name": "link", "attributes": { "rel": "stylesheet", "href": "__CDN__css/tienmyhieu-domain.language.css" }, "elements":  [], "innerHTML": "", "selfClosing": true },
+        { "name": "link", "attributes": { "rel": "icon", "href": "__IMAGES__favicon.png", "type": "image/png" }, "elements":  [], "innerHTML": "", "selfClosing": true }
+      ], "innerHTML": "", "selfClosing": false },
+      { "name": "body", "attributes": {}, "elements":  [
+        { "name": "div", "attributes": { "class": "tmh_body" }, "elements":  [
+          { "name": "div", "attributes": { "class": "tmh_top_bar" }, "elements":  [
+            { "name": "div", "attributes": { "class": "tmh_navigation" }, "elements":  [
+              { "name": "a", "attributes": { "class": "tmh_a", "href": "HTTP_HOST", "title": "lexicon.tien_my_hieu" }, "elements":  [], "innerHTML": "lexicon.tien_my_hieu", "selfClosing": false },
+              { "name": "span", "attributes": { "class": "tmh_navigation_chevron" }, "elements":  [], "innerHTML": "&raquo;", "selfClosing": false },
+              { "name": "a", "attributes": { "class": "tmh_a", "href": "routes.k3i7zzq0", "title": "lexicon.references" }, "elements":  [], "innerHTML": "lexicon.references", "selfClosing": false }
+            ], "innerHTML": "", "selfClosing": false }
+          ], "innerHTML": "", "selfClosing": false },
+          { "name": "div", "attributes": { "class": "tmh_title" }, "elements":  [
+            { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.DNTLCB_MM", "selfClosing": false }
+          ], "innerHTML": "", "selfClosing": false },
+          { "name": "div", "attributes": { "class": "tmh_elements" }, "elements":  [
+            { "name": "div", "attributes": { "class": "tmh_element_title" }, "elements":  [], "innerHTML": "lexicon.information", "selfClosing": false },
+            { "name": "div", "attributes": { "class": "tmh_references" }, "elements":  [
+              { "name": "div", "attributes": { "class": "tmh_reference" }, "elements":  [
+                { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.authors", "selfClosing": false },
+                { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.authors_qsqtn", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.DNTLCB_MM", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.city", "selfClosing": false },
+                { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.city_hue", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.year", "selfClosing": false },
+                { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.year_1830", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "a", "attributes": { "class": "tmh_a_external", "href": "routes.3549bh2x", "target": "_self", "title": "lexicon.DNTL3" }, "elements":  [], "innerHTML": "lexicon.translated_to_vi", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "a", "attributes": { "class": "tmh_a_external", "href": "https://luutru.gov.vn/cong-bo-gioi-thieu-tai-lieu/phat-hanh-tien-cua-trieu-nguyen-qua-tai-lieu-moc-ban.htm", "target": "_blank", "title": "lexicon.DNTLCB_MM" }, "elements":  [], "innerHTML": "lexicon.written_about", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "a", "attributes": { "class": "tmh_a_img", "href": "__UPLOADS____MAXIMUM_SIZE__/18d1f8c671fd45f39064b194b57e62a3.jpg", "title": "lexicon.DNTLCB_MM" }, "elements":  [
+                  { "name": "img", "attributes": { "alt": "lexicon.DNTLCB_MM", "class": "tmh_img_bordered", "src": "__UPLOADS____PREVIEW_SIZE__/18d1f8c671fd45f39064b194b57e62a3.jpg" }, "elements":  [], "innerHTML": "", "selfClosing": true }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "a", "attributes": { "class": "tmh_a_img", "href": "__UPLOADS____MAXIMUM_SIZE__/4af8c129cdb7440cb547ed3489e6568d.jpg", "title": "lexicon.DNTLCB_MM" }, "elements":  [
+                  { "name": "img", "attributes": { "alt": "lexicon.DNTLCB_MM", "class": "tmh_img_bordered", "src": "__UPLOADS____PREVIEW_SIZE__/4af8c129cdb7440cb547ed3489e6568d.jpg" }, "elements":  [], "innerHTML": "", "selfClosing": true }
+                ], "innerHTML": "", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false }
+            ], "innerHTML": "", "selfClosing": false },
+            { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+            { "name": "div", "attributes": { "class": "tmh_element_title" }, "elements":  [], "innerHTML": "lexicon.chu_nom", "selfClosing": false },
+            { "name": "div", "attributes": { "class": "tmh_references" }, "elements":  [
+              { "name": "div", "attributes": { "class": "tmh_reference" }, "elements":  [
+                { "name": "span", "attributes": { "class": "tmh_inscription" }, "elements":  [], "innerHTML": "屯堡之兵方與至免竝酌給兵器飫如議行", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": { "class": "tmh_inscription" }, "elements":  [], "innerHTML": "以刑部員外郞阮輝霑爲刑部郞中", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": { "class": "tmh_inscription" }, "elements":  [], "innerHTML": "鑄明命通寶美號大銅錢一萬文命戶部侍衞", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": { "class": "tmh_inscription" }, "elements":  [], "innerHTML": "會同武庫督工照所定字號规武鼓鑄之字八", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": { "class": "tmh_inscription" }, "elements":  [], "innerHTML": "二十賢賢親親樂樂利利國泰民安風調", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": { "class": "tmh_inscription" }, "elements":  [], "innerHTML": "雨順葩封三祝天保九如得位得祿得名得", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": { "class": "tmh_inscription" }, "elements":  [], "innerHTML": "壽六府孔修三事允治至公至正無党無偏", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": { "class": "tmh_inscription" }, "elements":  [], "innerHTML": "萬歳萬歳萬萬歳壽穆穆皇皇擠擠蹌蹌源", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": { "class": "tmh_inscription" }, "elements":  [], "innerHTML": "流順軌年穀豐登親親長長老老幼幼國富", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": { "class": "tmh_inscription" }, "elements":  [], "innerHTML": "兵彊内安外靜如山如川如岡如阜君君臣", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": { "class": "tmh_inscription" }, "elements":  [], "innerHTML": "臣父父子子福如東海壽比南山萬壽攸酢", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": { "class": "tmh_inscription" }, "elements":  [], "innerHTML": "萬福攸同天不愛道地不愛寶追琢其章金", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": { "class": "tmh_inscription" }, "elements":  [], "innerHTML": "大南寔錄正編二紀卷六七  二十七", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": { "class": "tmh_inscription" }, "elements":  [], "innerHTML": "玉其相王道蕩蕩聖謨洋洋一人有慶萬壽", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": { "class": "tmh_inscription" }, "elements":  [], "innerHTML": "無疆五辰順撫庶績其凝元四字十亨利", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": { "class": "tmh_inscription" }, "elements":  [], "innerHTML": "貞福履綏將帝德廣運利用厚生中和位育", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": { "class": "tmh_inscription" }, "elements":  [], "innerHTML": "斂福錫民四方爲則剛健中正家給人足川", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": { "class": "tmh_inscription" }, "elements":  [], "innerHTML": "至山", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": { "class": "tmh_inscription" }, "elements":  [], "innerHTML": "增", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": { "class": "tmh_inscription" }, "elements":  [], "innerHTML": "", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": { "class": "tmh_inscription" }, "elements":  [], "innerHTML": "大南寔錄正編第二紀卷之六十七止", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true }
+              ], "innerHTML": "", "selfClosing": false }
+            ], "innerHTML": "", "selfClosing": false }
+          ], "innerHTML": "", "selfClosing": false },
+          { "name": "div", "attributes": { "class": "tmh_elements" }, "elements":  [
+            { "name": "div", "attributes": { "class": "tmh_element_title" }, "elements":  [], "innerHTML": "lexicon.catalog", "selfClosing": false },
+            { "name": "div", "attributes": { "class": "tmh_references" }, "elements":  [
+              { "name": "div", "attributes": { "class": "tmh_element_route" }, "elements":  [
+                { "name": "span", "attributes": { "class": "tmh_list_level_1" }, "elements":  [], "innerHTML": "lexicon.minh_menh", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "div", "attributes": {}, "elements": [
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.7ppbw0ez", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.9nuc5ola", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.bcmu044e", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.4jjs86ka", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.7h00toic", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.2sucsks4", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.oan98rrm", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.j1nnvv92", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.cmkq6g0u", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.z4kvdaqf", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.aw9ggkup", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.yahexrk0", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.dj8quszn", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.unvysn4f", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.peytlpjy", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.mzkxz4zc", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.urapd7qe", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.dfysid7w", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.b0jjmn2s", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.frkd3z4n", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.jvab03qa", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.76otd88r", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.pelb6lrs", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.3a70rupi", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.5ax01tj3", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.4t338xkz", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.k9tk6ykz", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.x8m1abhh", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.arcqqfvk", "selfClosing": false },
+                { "name": "span", "attributes": { "class": "tmh_list_level_2_inscription" }, "elements":  [], "innerHTML": "inscriptions.wjhwfcoz", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+              { "name": "div", "attributes": { "class": "tmh_element_route" }, "elements":  [
+                { "name": "span", "attributes": { "class": "tmh_list_level_1" }, "elements":  [], "innerHTML": "lexicon.thieu_tri", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+              { "name": "div", "attributes": { "class": "tmh_element_route" }, "elements":  [
+                { "name": "span", "attributes": { "class": "tmh_list_level_1" }, "elements":  [], "innerHTML": "lexicon.tu_duc", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false }
+            ], "innerHTML": "", "selfClosing": false },
+            { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+            { "name": "div", "attributes": { "class": "tmh_creative_commons" }, "elements":  [
+              { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.cc_this_image", "selfClosing": false },
+              { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.cc_licensed", "selfClosing": false },
+              { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+              { "name": "div", "attributes": { "class": "tmh_image_route" }, "elements":  [
+                { "name": "a", "attributes": { "class": "tmh_a_external", "href": "lexicon.cc_deed_url", "rel": "license", "target": "_blank", "title": "lexicon.cc_image_alt" }, "elements":  [], "innerHTML": "lexicon.cc_url_text", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false }
+            ], "innerHTML": "", "selfClosing": false }
+          ], "innerHTML": "", "selfClosing": false }
+        ], "innerHTML": "", "selfClosing": false }
+      ], "innerHTML": "", "selfClosing": false }
+    ], "innerHTML": "", "selfClosing": false }
+  ]
+}
