@@ -1,0 +1,97 @@
+{
+  "elements": [
+    { "name": "html", "attributes": { "lang": "domain.language" }, "elements":  [
+      { "name": "head", "attributes": {}, "elements":  [
+        { "name": "meta", "attributes": { "charset": "UTF-8" }, "elements":  [], "innerHTML": "", "selfClosing": true },
+        { "name": "title", "attributes": {}, "elements":  [], "innerHTML": "lexicon.MAJS", "selfClosing": false },
+        { "name": "meta", "attributes": { "name": "description", "content": "lexicon.tien_my_hieu,lexicon.nguyen_dynasty_reward_money" }, "elements":  [], "innerHTML": "", "selfClosing": true },
+        { "name": "meta", "attributes": { "name": "keywords", "content": "lexicon.money,lexicon.vietnam,lexicon.tien_my_hieu" }, "elements":  [], "innerHTML": "", "selfClosing": true },
+        { "name": "meta", "attributes": { "name": "viewport", "content": "width=device-width, initial-scale=1.0" }, "elements":  [], "innerHTML": "", "selfClosing": true },
+        { "name": "link", "attributes": { "rel": "stylesheet", "href": "__CDN__css/tienmyhieu-domain.language.css" }, "elements":  [], "innerHTML": "", "selfClosing": true },
+        { "name": "link", "attributes": { "rel": "icon", "href": "__IMAGES__favicon.png", "type": "image/png" }, "elements":  [], "innerHTML": "", "selfClosing": true }
+      ], "innerHTML": "", "selfClosing": false },
+      { "name": "body", "attributes": {}, "elements":  [
+        { "name": "div", "attributes": { "class": "tmh_body" }, "elements":  [
+          { "name": "div", "attributes": { "class": "tmh_top_bar" }, "elements":  [
+            { "name": "div", "attributes": { "class": "tmh_navigation" }, "elements":  [
+              { "name": "a", "attributes": { "class": "tmh_a", "href": "HTTP_HOST", "title": "lexicon.tien_my_hieu" }, "elements":  [], "innerHTML": "lexicon.tien_my_hieu", "selfClosing": false },
+              { "name": "span", "attributes": { "class": "tmh_navigation_chevron" }, "elements":  [], "innerHTML": "&raquo;", "selfClosing": false },
+              { "name": "a", "attributes": { "class": "tmh_a", "href": "routes.k3i7zzq0", "title": "lexicon.references" }, "elements":  [], "innerHTML": "lexicon.references", "selfClosing": false }
+            ], "innerHTML": "", "selfClosing": false }
+          ], "innerHTML": "", "selfClosing": false },
+          { "name": "div", "attributes": { "class": "tmh_title" }, "elements":  [
+            { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.MAJS", "selfClosing": false }
+          ], "innerHTML": "", "selfClosing": false },
+          { "name": "div", "attributes": { "class": "tmh_elements" }, "elements":  [
+            { "name": "div", "attributes": { "class": "tmh_element_title" }, "elements":  [], "innerHTML": "lexicon.information", "selfClosing": false },
+            { "name": "div", "attributes": { "class": "tmh_references" }, "elements":  [
+              { "name": "div", "attributes": { "class": "tmh_reference" }, "elements":  [
+                { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.author", "selfClosing": false },
+                { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.authors_joyaux", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.MAJS_main_title", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.MAJS_sub_title", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.publisher", "selfClosing": false },
+                { "name": "a", "attributes": { "class": "tmh_a_external", "href": "https://sites.google.com/site/societedenumismatiqueasiatique", "target": "_blank", "title": "lexicon.MAAS_organization" }, "elements":  [], "innerHTML": "lexicon.MAAS_organization", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.city", "selfClosing": false },
+                { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.city_nantes", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.year", "selfClosing": false },
+                { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.year_2012", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.identifier", "selfClosing": false },
+                { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.MAJS_acronym", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "a", "attributes": { "class": "tmh_a_img", "href": "__UPLOADS____MAXIMUM_SIZE__/77183b5da2d741e4a33b7aabadc8b71c.jpg", "title": "lexicon.MAJS" }, "elements":  [
+                  { "name": "img", "attributes": { "alt": "lexicon.MAJS", "class": "tmh_img_bordered", "src": "__UPLOADS____PREVIEW_SIZE__/77183b5da2d741e4a33b7aabadc8b71c.jpg" }, "elements":  [], "innerHTML": "", "selfClosing": true }
+                ], "innerHTML": "", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false }
+            ], "innerHTML": "", "selfClosing": false },
+            { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+            { "name": "div", "attributes": { "class": "tmh_element_title" }, "elements":  [], "innerHTML": "lexicon.notes", "selfClosing": false },
+            { "name": "div", "attributes": { "class": "tmh_references" }, "elements":  [
+              { "name": "div", "attributes": { "class": "tmh_reference" }, "elements":  [
+                { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.uses_images", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+                { "name": "div", "attributes": { "class": "tmh_element_route" }, "elements":  [
+                  { "name": "a", "attributes": { "class": "tmh_a", "href": "routes.e398l7jm", "title": "lexicon.MDEO2" }, "elements":  [], "innerHTML": "lexicon.MDEO2", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true }
+              ], "innerHTML": "", "selfClosing": false }
+            ], "innerHTML": "", "selfClosing": false }
+          ], "innerHTML": "", "selfClosing": false },
+          { "name": "div", "attributes": { "class": "tmh_elements" }, "elements":  [
+            { "name": "div", "attributes": { "class": "tmh_element_title" }, "elements":  [], "innerHTML": "lexicon.catalog", "selfClosing": false },
+            { "name": "div", "attributes": { "class": "tmh_references" }, "elements":  [
+              { "name": "div", "attributes": { "class": "tmh_element_route" }, "elements":  [
+                { "name": "span", "attributes": { "class": "tmh_list_level_1" }, "elements":  [], "innerHTML": "lexicon.minh_menh", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "div", "attributes": { "class": "tmh_element_sub_route" }, "elements":  [
+                { "name": "a", "attributes": { "class": "tmh_a", "href": "routes.kgy32q95", "title": "lexicon.mm_ttkcknkt", "id": "0002" }, "elements":  [], "innerHTML": "lexicon.ttkcknkt", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "div", "attributes": { "class": "tmh_element_sub_route" }, "elements":  [
+                { "name": "a", "attributes": { "class": "tmh_a", "href": "routes.m4cpbxwr", "title": "lexicon.mm_gcnt", "id": "V336" }, "elements":  [], "innerHTML": "lexicon.gcnt", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "div", "attributes": { "class": "tmh_element_sub_route" }, "elements":  [
+                { "name": "a", "attributes": { "class": "tmh_a", "href": "routes.unsmrvci", "title": "lexicon.mm_qpbcnant", "id": "V337" }, "elements":  [], "innerHTML": "lexicon.qpbcnant", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+              { "name": "div", "attributes": { "class": "tmh_element_route" }, "elements":  [
+                { "name": "span", "attributes": { "class": "tmh_list_level_1" }, "elements":  [], "innerHTML": "lexicon.thieu_tri", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+              { "name": "div", "attributes": { "class": "tmh_element_route" }, "elements":  [
+                { "name": "span", "attributes": { "class": "tmh_list_level_1" }, "elements":  [], "innerHTML": "lexicon.tu_duc", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false }
+             ], "innerHTML": "", "selfClosing": false }
+          ], "innerHTML": "", "selfClosing": false }
+        ], "innerHTML": "", "selfClosing": false }
+      ], "innerHTML": "", "selfClosing": false }
+    ], "innerHTML": "", "selfClosing": false }
+  ]
+}

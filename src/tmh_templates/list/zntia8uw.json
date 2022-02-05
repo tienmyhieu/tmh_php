@@ -1,0 +1,285 @@
+{
+  "elements": [
+    { "name": "html", "attributes": { "lang": "domain.language" }, "elements":  [
+      { "name": "head", "attributes": {}, "elements":  [
+        { "name": "meta", "attributes": { "charset": "UTF-8" }, "elements":  [], "innerHTML": "", "selfClosing": true },
+        { "name": "title", "attributes": {}, "elements":  [], "innerHTML": "lexicon.differences", "selfClosing": false },
+        { "name": "meta", "attributes": { "name": "description", "content": "lexicon.tien_my_hieu,lexicon.nguyen_dynasty_reward_money" }, "elements":  [], "innerHTML": "", "selfClosing": true },
+        { "name": "meta", "attributes": { "name": "keywords", "content": "lexicon.money,lexicon.vietnam,lexicon.tien_my_hieu" }, "elements":  [], "innerHTML": "", "selfClosing": true },
+        { "name": "meta", "attributes": { "name": "viewport", "content": "width=device-width, initial-scale=1.0" }, "elements":  [], "innerHTML": "", "selfClosing": true },
+        { "name": "link", "attributes": { "rel": "stylesheet", "href": "__CDN__css/tienmyhieu-domain.language.css" }, "elements":  [], "innerHTML": "", "selfClosing": true },
+        { "name": "link", "attributes": { "rel": "icon", "href": "__IMAGES__favicon.png", "type": "image/png" }, "elements":  [], "innerHTML": "", "selfClosing": true }
+      ], "innerHTML": "", "selfClosing": false },
+      { "name": "body", "attributes": {}, "elements":  [
+        { "name": "div", "attributes": { "class": "tmh_body" }, "elements":  [
+          { "name": "div", "attributes": { "class": "tmh_top_bar" }, "elements":  [
+            { "name": "div", "attributes": { "class": "tmh_navigation" }, "elements":  [
+              { "name": "a", "attributes": { "class": "tmh_a", "href": "HTTP_HOST", "title": "lexicon.tien_my_hieu" }, "elements":  [], "innerHTML": "lexicon.tien_my_hieu", "selfClosing": false },
+              { "name": "span", "attributes": { "class": "tmh_navigation_chevron" }, "elements":  [], "innerHTML": "&raquo;", "selfClosing": false },
+              { "name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.differences", "selfClosing": false }
+            ], "innerHTML": "", "selfClosing": false }
+          ], "innerHTML": "", "selfClosing": false },
+          { "name": "div", "attributes": { "class": "tmh_title" }, "elements":  [], "innerHTML": "lexicon.differences", "selfClosing": false },
+          { "name": "div", "attributes": { "class": "tmh_elements" }, "elements":  [
+            { "name": "div", "attributes": { "class": "tmh_element_title" }, "elements":  [], "innerHTML": "lexicon.large_copper", "selfClosing": false },
+            { "name": "br", "attributes": {}, "elements":  [], "innerHTML": "", "selfClosing": true },
+            { "name": "table", "attributes": { "class": "tmh_table" }, "elements":  [
+              { "name": "tr", "attributes": { "class": "tmh_table_row" }, "elements":  [
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.obverse_all", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.minh_menh_emperor", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.bao", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": { "class": "tmh_large_ideograph" }, "elements":  [], "innerHTML": "寶", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "tr", "attributes": { "class": "tmh_table_row" }, "elements":  [
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.obverse_all", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.thieu_tri_emperor", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.bao", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": { "class": "tmh_large_ideograph" }, "elements":  [], "innerHTML": "寶", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "tr", "attributes": { "class": "tmh_table_row" }, "elements":  [
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.obverse_all", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.tu_duc_emperor", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.bao", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": { "class": "tmh_large_ideograph" }, "elements":  [], "innerHTML": "寳", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "tr", "attributes": { "class": "tmh_table_row" }, "elements":  [
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.hhttllll", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.minh_menh_emperor", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.hien", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": { "class": "tmh_large_ideograph" }, "elements":  [], "innerHTML": "贒", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "tr", "attributes": { "class": "tmh_table_row" }, "elements":  [
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.hhttllll", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.thieu_tri_emperor", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.hien", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": { "class": "tmh_large_ideograph" }, "elements":  [], "innerHTML": "賢", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "tr", "attributes": { "class": "tmh_table_row" }, "elements":  [
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.hhttllll", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.tu_duc_emperor", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.hien", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": { "class": "tmh_large_ideograph" }, "elements":  [], "innerHTML": "賢", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "tr", "attributes": { "class": "tmh_table_row" }, "elements":  [
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.qpbcnant", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.minh_menh_emperor", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.cuong1", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": { "class": "tmh_large_ideograph" }, "elements":  [], "innerHTML": "彊", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "tr", "attributes": { "class": "tmh_table_row" }, "elements":  [
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.qpbcnant", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.thieu_tri_emperor", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.cuong1", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": { "class": "tmh_large_ideograph" }, "elements":  [], "innerHTML": "彊", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "tr", "attributes": { "class": "tmh_table_row" }, "elements":  [
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.qpbcnant", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.tu_duc_emperor", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.cuong1", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": { "class": "tmh_large_ideograph" }, "elements":  [], "innerHTML": "強", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "tr", "attributes": { "class": "tmh_table_row" }, "elements":  [
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.nsnxncnp", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.minh_menh_emperor", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.cuong2", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": { "class": "tmh_large_ideograph" }, "elements":  [], "innerHTML": "岡", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "tr", "attributes": { "class": "tmh_table_row" }, "elements":  [
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.nsnxncnp", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.thieu_tri_emperor", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.cuong2", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": { "class": "tmh_large_ideograph" }, "elements":  [], "innerHTML": "崗", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "tr", "attributes": { "class": "tmh_table_row" }, "elements":  [
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.nsnxncnp", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.tu_duc_emperor", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.cuong2", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": { "class": "tmh_large_ideograph" }, "elements":  [], "innerHTML": "崗", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "tr", "attributes": { "class": "tmh_table_row" }, "elements":  [
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.tbaddbab", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.minh_menh_emperor", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.bao", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": { "class": "tmh_large_ideograph" }, "elements":  [], "innerHTML": "寶", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "tr", "attributes": { "class": "tmh_table_row" }, "elements":  [
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.tbaddbab", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.thieu_tri_emperor", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.bao", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": { "class": "tmh_large_ideograph" }, "elements":  [], "innerHTML": "寶", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "tr", "attributes": { "class": "tmh_table_row" }, "elements":  [
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.tbaddbab", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.tu_duc_emperor", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.bao", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": { "class": "tmh_large_ideograph" }, "elements":  [], "innerHTML": "寳", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "tr", "attributes": { "class": "tmh_table_row" }, "elements":  [
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.cktc", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.minh_menh_emperor", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.kien", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": { "class": "tmh_large_ideograph" }, "elements":  [], "innerHTML": "健", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "tr", "attributes": { "class": "tmh_table_row" }, "elements":  [
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.cktc", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.thieu_tri_emperor", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.kien", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": { "class": "tmh_large_ideograph" }, "elements":  [], "innerHTML": "徤", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false },
+              { "name": "tr", "attributes": { "class": "tmh_table_row" }, "elements":  [
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.cktc", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.tu_duc_emperor", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": {}, "elements":  [], "innerHTML": "lexicon.kien", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false },
+                { "name": "td", "attributes": { "class": "tmh_table_column" }, "elements":  [
+                  {"name": "span", "attributes": { "class": "tmh_large_ideograph" }, "elements":  [], "innerHTML": "徤", "selfClosing": false }
+                ], "innerHTML": "", "selfClosing": false }
+              ], "innerHTML": "", "selfClosing": false }
+            ], "innerHTML": "", "selfClosing": false }
+          ], "innerHTML": "", "selfClosing": false }
+        ], "innerHTML": "", "selfClosing": false }
+      ], "innerHTML": "", "selfClosing": false }
+    ], "innerHTML": "", "selfClosing": false }
+  ]
+}
